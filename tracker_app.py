@@ -1,22 +1,28 @@
 import streamlit as st
-import pandas as pd
+import gspread
+from google.oauth2.service_account import Credentials
 from datetime import datetime
-import os
+import pandas as pd
 
-# CSV file path
-CSV_FILE = "entry_log.csv"
+# Authenticate using secrets
+scope = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive"
+]
+creds = Credentials.from_service_account_info(
+    st.secrets["gcp_service_account"],
+    scopes=scope
+)
+client = gspread.authorize(creds)
 
-# Ensure the CSV file exists with headers
-if not os.path.exists(CSV_FILE):
-    df = pd.DataFrame(columns=["timestamp", "building", "direction", "count"])
-    df.to_csv(CSV_FILE, index=False)
+# Open the Google Sheet by name
+sheet = client.open("entry_log").sheet1  # Replace with your actual sheet name
 
 # Function to log entry
 def log_event(building, direction):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    new_row = {"timestamp": timestamp, "building": building, "direction": direction, "count": 1}
-    df = pd.DataFrame([new_row])
-    df.to_csv(CSV_FILE, mode='a', header=False, index=False)
+    row = [timestamp, building, direction, 1]
+    sheet.append_row(row)
     st.success(f"{direction} recorded for {building} at {timestamp}")
 
 # Streamlit UI
@@ -42,5 +48,6 @@ with col4:
 
 # Optional: Display the log
 if st.checkbox("Show Log"):
-    df = pd.read_csv(CSV_FILE)
+    data = sheet.get_all_records()
+    df = pd.DataFrame(data)
     st.dataframe(df)
