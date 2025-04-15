@@ -1,0 +1,4 @@
+timestamp,building,direction,count
+2025-04-15 15:45:21,close,in,1
+2025-04-15 15:45:26,close,out,1
+2025-04-15 15:45:32,far,in,1
