@@ -16,7 +16,8 @@ creds = Credentials.from_service_account_info(
 client = gspread.authorize(creds)
 
 # Open the Google Sheet by name
-sheet = client.open("entry_log").sheet1  # Replace with your actual sheet name
+sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/1nHXbWjyq4crK10V2VWH79DDhrUW-AuYbgiJMgrZQJS0/edit").sheet1
+
 
 # Function to log entry
 def log_event(building, direction):
