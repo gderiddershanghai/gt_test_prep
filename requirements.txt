@@ -3,4 +3,5 @@ python-dotenv
 streamlit
 pandas
 networkx
-gspread
+gspread==5.12.0
+oauth2client
