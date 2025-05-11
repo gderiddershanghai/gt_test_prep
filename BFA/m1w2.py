@@ -644,6 +644,173 @@ financial_accounting_week2_q18 = {
 }
 
 
+old_financial_accounting_week2_q1 = {
+    'question': "The balance in the Account for Bad Debts before the recognition of the 2021 expense is USD 1,100. Using the data shown below, calculate the bad debt expense for 2021:\n\n"
+                "| Age Group | Amount Receivable | Estimated Percent Uncollectible |\n"
+                "|-----------|-------------------|----------------------------------|\n"
+                "| Not yet due | USD 48,000 | 5% |\n"
+                "| 0–30 days past due | USD 18,000 | 15% |\n"
+                "| 21–90 days past due | USD 10,000 | 40% |\n"
+                "| More than 90 days past due | USD 4,000 | 80% |\n"
+                "| Total | USD 80,000 | |",
+    'options_list': [
+        'USD 13,400',
+        'USD 12,300',
+        'USD 4,000',
+        'USD 11,200',
+        'USD 80,000'
+    ],
+    'correct_answer': 'USD 11,200',
+    'explanation': (
+        "Estimated uncollectibles = 2,400 + 2,700 + 4,000 + 3,200 = 12,300. "
+        "Bad Debt Expense = 12,300 – 1,100 = **USD 11,200**."
+    ),
+    'chapter_information': 'old financial accounting week 2 self assessment questions'
+}
+
+old_financial_accounting_week2_q2 = {
+    'question': "Using LIFO, what is the cost of sales if 1,500 units are sold in March?\n\n"
+                "| Date | Transaction | Units | Unit Cost |\n"
+                "|------|-------------|--------|-----------|\n"
+                "| March 1 | Beginning inventory | 1,000 | USD 7.20 |\n"
+                "| March 10 | Purchase | 600 | USD 7.25 |\n"
+                "| March 16 | Purchase | 800 | USD 7.30 |\n"
+                "| March 23 | Purchase | 600 | USD 7.35 |",
+    'options_list': [
+        'USD 10,850',
+        'USD 10,975',
+        'USD 10,905',
+        'USD 21,800',
+        'USD 15,205'
+    ],
+    'correct_answer': 'USD 10,975',
+    'explanation': (
+        "LIFO: 600×7.35 + 800×7.30 + 100×7.25 = 4,410 + 5,840 + 725 = **USD 10,975**."
+    ),
+    'chapter_information': 'old financial accounting week 2 self assessment questions'
+}
+
+old_financial_accounting_week2_q3 = {
+    'question': "Using Weighted Average, what is the cost of sales if 1,500 units are sold in March?\n\n"
+                "(Same inventory data as previous question)",
+    'options_list': [
+        'USD 10,850',
+        'USD 10,975',
+        'USD 10,905',
+        'USD 21,800',
+        'USD 15,205'
+    ],
+    'correct_answer': 'USD 10,900',
+    'explanation': (
+        "Weighted average unit cost = (7.20×1000 + 7.25×600 + 7.30×800 + 7.35×600)/3000 = 7.2667. "
+        "COGS = 1,500 × 7.2667 ≈ **USD 10,900**."
+    ),
+    'chapter_information': 'old financial accounting week 2 self assessment questions'
+}
+
+old_financial_accounting_week2_q4 = {
+    'question': "Using FIFO, what is the value of the ending inventory if 1,500 units are sold in March?",
+    'options_list': [
+        'USD 10,975',
+        'USD 10,825',
+        'USD 10,905',
+        'USD 21,800',
+        'USD 6,605'
+    ],
+    'correct_answer': 'USD 10,825',
+    'explanation': (
+        "FIFO: Remaining inventory includes newer purchases. Ending inventory = 3000 – 1500 = 1500 units. "
+        "Use the most recent purchase layers to value the 1500 units. Total = **USD 10,825**."
+    ),
+    'chapter_information': 'old financial accounting week 2 self assessment questions'
+}
+
+old_financial_accounting_week2_q5 = {
+    'question': "Jacob Inc. bought a truck for USD 48,000 (8 years, USD 8,000 salvage) and sold it after 3 years for USD 30,000. What is the gain or loss?",
+    'options_list': [
+        'USD 6,000 gain',
+        'USD 3,000 loss',
+        'USD 3,000 gain',
+        'USD 6,000 loss',
+        'USD 18,000 loss'
+    ],
+    'correct_answer': 'USD 3,000 loss',
+    'explanation': (
+        "Depreciation = (48,000 – 8,000) / 8 = 5,000/year. After 3 years → 15,000 depreciation → Book value = 33,000. "
+        "Sold for 30,000 → **USD 3,000 loss**."
+    ),
+    'chapter_information': 'old financial accounting week 2 self assessment questions'
+}
+
+old_financial_accounting_week2_q6 = {
+    'question': "Cann Corp. retired USD 100,000 bonds for USD 125,000. Carrying value = USD 118,000. What is the gain or loss?",
+    'options_list': [
+        'USD 0 — no gain or loss recognized on the retirement of bonds',
+        'USD 7,000 loss',
+        'USD 25,000 loss',
+        'USD 25,000 gain',
+        'USD 18,000 loss'
+    ],
+    'correct_answer': 'USD 7,000 loss',
+    'explanation': "125,000 (paid) – 118,000 (carrying value) = **USD 7,000 loss** on retirement.",
+    'chapter_information': 'old financial accounting week 2 self assessment questions'
+}
+
+old_financial_accounting_week2_q7 = {
+    'question': "Preferred dividend calculation: 1,000 shares of 8%, USD 50 par preferred stock. USD 3,000 dividend in 2020, USD 12,000 in 2021.",
+    'options_list': [
+        'USD 5,000',
+        'USD 4,000',
+        'USD 8,000',
+        'USD 0'
+    ],
+    'correct_answer': 'USD 5,000',
+    'explanation': (
+        "Annual preferred dividend = 1,000 × 50 × 8% = 4,000. In 2020, only 3,000 paid → 1,000 carried forward. "
+        "In 2021, preferred shareholders get 4,000 + 1,000 = **USD 5,000**."
+    ),
+    'chapter_information': 'old financial accounting week 2 self assessment questions'
+}
+
+old_financial_accounting_week2_q8 = {
+    'question': "Calculate total stockholders’ equity from:\n"
+                "- Common Stock: 500,000\n- Paid-in Capital: 40,000\n- Retained Earnings: 190,000\n- Treasury Stock: 20,000",
+    'options_list': [
+        'USD 710,000',
+        'USD 500,000',
+        'USD 540,000',
+        'USD 750,000',
+        'USD 730,000'
+    ],
+    'correct_answer': 'USD 710,000',
+    'explanation': (
+        "Stockholders’ Equity = 500,000 + 40,000 + 190,000 – 20,000 = **USD 710,000**."
+    ),
+    'chapter_information': 'old financial accounting week 2 self assessment questions'
+}
+
+old_financial_accounting_week2_q9 = {
+    'question': (
+        "New Harvest Bakery buys Red Rock Bakery for USD 68,000. Fair values:\n"
+        "- Assets = 30,000 + 56,000 + 6,000 = 92,000\n"
+        "- Liabilities = 16,000 + 22,000 = 38,000\n\n"
+        "What is the goodwill recorded?"
+    ),
+    'options_list': [
+        'USD 14,000',
+        'USD 32,000',
+        'USD 16,000',
+        'USD 0 – No Goodwill recognized on the acquisition of Red Rock Bakery'
+    ],
+    'correct_answer': 'USD 14,000',
+    'explanation': (
+        "Net identifiable assets = 92,000 – 38,000 = 54,000. Goodwill = 68,000 – 54,000 = **USD 14,000**."
+    ),
+    'chapter_information': 'old financial accounting week 2 self assessment questions'
+}
+
+
+
 
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
