@@ -2,7 +2,7 @@ import numpy as np
 from .m1w1 import BFA_M1W1_MPC
 from .m1w2 import BFA_M1W2_MPC
 from .m1w3 import BFA_M1W3_MPC
-
+from .m1_extra import BFA_M1_EXTRA_MPC
 
 # Questions Dictionary
 questions_dictionary = {
@@ -18,7 +18,8 @@ REVIEW_SETS = {
     'M1W1': BFA_M1W1_MPC, 
     'M1W2': BFA_M1W2_MPC, 
     'M1W3': BFA_M1W3_MPC, 
-    "FINANCIAL ACCOUNTING": ['M1W1', 'M1W2', 'M1W3'],
+    'M1_EXTRA': BFA_M1_EXTRA_MPC,
+    "FINANCIAL ACCOUNTING": ['M1W1', 'M1W2', 'M1W3', "M1_EXTRA"],
 
 
 }
