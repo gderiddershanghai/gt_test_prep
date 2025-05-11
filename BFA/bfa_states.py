@@ -1,7 +1,7 @@
 import numpy as np
-from m1w1 import BFA_M1W1_MPC
-from m1w2 import BFA_M1W2_MPC
-from m1w3 import BFA_M1W3_MPC
+from .m1w1 import BFA_M1W1_MPC
+from .m1w2 import BFA_M1W2_MPC
+from .m1w3 import BFA_M1W3_MPC
 
 
 # Questions Dictionary
@@ -15,6 +15,9 @@ questions_dictionary = {
 # Updated Review Sets
 REVIEW_SETS = {
 
+    'M1W1': BFA_M1W1_MPC, 
+    'M1W2': BFA_M1W2_MPC, 
+    'M1W3': BFA_M1W3_MPC, 
     "FINANCIAL ACCOUNTING": ['M1W1', 'M1W2', 'M1W3'],
 
 
@@ -27,38 +30,84 @@ class Token:
         self.mpc_questions = []
         self.num_questions = 10
         self.chapters_to_review = []
-
+        
+        
+        
     def initialize_mpc_questions(self):
-        # Validate the STATE
+        print(self.__dict__, '------------')
+
         if self.STATE not in REVIEW_SETS:
             print(f"Error: Invalid STATE '{self.STATE}' passed to Token. Check REVIEW_SETS definition.")
             return
 
-        self.chapters_to_review = REVIEW_SETS[self.STATE]
+        review_entry = REVIEW_SETS[self.STATE]
 
-        if not self.chapters_to_review:
+        if not review_entry:
             print(f"Error: chapters_to_review not set for STATE: {self.STATE}")
             return
 
-        # Generate Questions
-        self.mpc_questions = []
-        while len(self.mpc_questions) < self.num_questions:
-            chapters = np.random.choice(self.chapters_to_review, size=len(self.chapters_to_review), replace=False)
-            for chapter in chapters:
-                try:
-                    review_questions = questions_dictionary[chapter]
-                    if not review_questions:
-                        print(f'Warning: Chapter {chapter} is empty.')
-                        continue
+        # Case 1: Direct list of questions (single chapter review)
+        if isinstance(review_entry[0], dict):
+            self.mpc_questions = list(np.random.choice(
+                review_entry,
+                size=min(self.num_questions, len(review_entry)),
+                replace=False
+            ))
+            return
 
-                    # Add Random Questions
-                    mpc_idx = np.random.choice(range(len(review_questions)), size=1, replace=False)
-                    self.mpc_questions.append(review_questions[int(mpc_idx)])
+        # Case 2: List of chapter keys (multi-chapter review)
+        self.chapters_to_review = review_entry
+        question_pool = []
+        for chapter in self.chapters_to_review:
+            try:
+                question_pool.extend(questions_dictionary[chapter])
+            except KeyError:
+                print(f"Error: Chapter {chapter} not found in questions dictionary.")
 
-                    if len(self.mpc_questions) >= self.num_questions:
-                        break
-                except KeyError:
-                    print(f"Error: Chapter {chapter} not found in questions dictionary.")
+        if not question_pool:
+            print(f"Error: No questions found for STATE: {self.STATE}")
+            return
+
+        self.mpc_questions = list(np.random.choice(
+            question_pool,
+            size=min(self.num_questions, len(question_pool)),
+            replace=False
+        ))
+
+
+    # def initialize_mpc_questions(self):
+        
+    #     print(self.__dict__, '------------')
+    #     # Validate the STATE
+    #     if self.STATE not in REVIEW_SETS:
+    #         print(f"Error: Invalid STATE '{self.STATE}' passed to Token. Check REVIEW_SETS definition.")
+    #         return
+
+    #     self.chapters_to_review = REVIEW_SETS[self.STATE]
+
+    #     if not self.chapters_to_review:
+    #         print(f"Error: chapters_to_review not set for STATE: {self.STATE}")
+    #         return
+
+    #     # Generate Questions
+    #     self.mpc_questions = []
+    #     while len(self.mpc_questions) < self.num_questions:
+    #         chapters = np.random.choice(self.chapters_to_review, size=len(self.chapters_to_review), replace=False)
+    #         for chapter in chapters:
+    #             try:
+    #                 review_questions = questions_dictionary[chapter]
+    #                 if not review_questions:
+    #                     print(f'Warning: Chapter {chapter} is empty.')
+    #                     continue
+
+    #                 # Add Random Questions
+    #                 mpc_idx = np.random.choice(range(len(review_questions)), size=1, replace=False)
+    #                 self.mpc_questions.append(review_questions[int(mpc_idx)])
+
+    #                 if len(self.mpc_questions) >= self.num_questions:
+    #                     break
+    #             except KeyError:
+    #                 print(f"Error: Chapter {chapter} not found in questions dictionary.")
 
 if __name__ == "__main__":
     token = Token('Final')
