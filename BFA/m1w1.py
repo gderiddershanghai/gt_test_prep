@@ -678,6 +678,256 @@ fa_ch1_assets_q10 = {
 
 
 
+##########################################
+
+financial_accounting_week1_balance_sheet_q1 = {
+    'question': (
+        "Delta Inc. – Balance Sheet Preparation\n\n"
+        "Using the following account balances, prepare a balance sheet for Delta Inc. at December 31, 2024:\n\n"
+        "| Account             | Amount |\n"
+        "|---------------------|--------|\n"
+        "| Cash                | $90    |\n"
+        "| Accounts Receivable | $30    |\n"
+        "| Inventory           | $80    |\n"
+        "| Land                | $300   |\n"
+        "| Equipment           | $200   |\n"
+        "| Accounts Payable    | $75    |\n"
+        "| Notes Payable       | $125   |\n"
+        "| Capital Stock       | $400   |\n"
+        "| Retained Earnings   | $100   |\n"
+        "| Net Income          | $50    |\n\n"
+        "*Note: Retained earnings already include net income.*"
+    ),
+    'options_list': ['Prepare the classified balance sheet.'],
+    'correct_answer': (
+        "**Delta Inc.**\n"
+        "**Balance Sheet – December 31, 2024**\n\n"
+        "**Assets:**\n"
+        "- Cash: $90\n"
+        "- Accounts Receivable: $30\n"
+        "- Inventory: $80\n"
+        "- Land: $300\n"
+        "- Equipment: $200\n"
+        "**Total Assets = $700**\n\n"
+        "**Liabilities:**\n"
+        "- Accounts Payable: $75\n"
+        "- Notes Payable: $125\n"
+        "**Total Liabilities = $200**\n\n"
+        "**Equity:**\n"
+        "- Capital Stock: $400\n"
+        "- Retained Earnings: $100\n"
+        "**Total Equity = $500**\n\n"
+        "**Total Liabilities and Equity = $700**"
+    ),
+    'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
+}
+
+financial_accounting_week1_balance_sheet_q2 = {
+    'question': (
+        "Zeta LLC – Balance Sheet Preparation\n\n"
+        "Using the following account balances, prepare a balance sheet for Zeta LLC at December 31, 2024:\n\n"
+        "| Account             | Amount |\n"
+        "|---------------------|--------|\n"
+        "| Cash                | $50    |\n"
+        "| Accounts Receivable | $20    |\n"
+        "| Inventory           | $40    |\n"
+        "| Building            | $500   |\n"
+        "| Accounts Payable    | $60    |\n"
+        "| Notes Payable       | $90    |\n"
+        "| Capital Stock       | $400   |\n"
+        "| Retained Earnings   | $60    |\n"
+        "| Net Income          | $30    |\n\n"
+        "*Note: Retained earnings already include net income.*"
+    ),
+    'options_list': ['Prepare the classified balance sheet.'],
+    'correct_answer': (
+        "**Zeta LLC**\n"
+        "**Balance Sheet – December 31, 2024**\n\n"
+        "**Assets:**\n"
+        "- Cash: $50\n"
+        "- Accounts Receivable: $20\n"
+        "- Inventory: $40\n"
+        "- Building: $500\n"
+        "**Total Assets = $610**\n\n"
+        "**Liabilities:**\n"
+        "- Accounts Payable: $60\n"
+        "- Notes Payable: $90\n"
+        "**Total Liabilities = $150**\n\n"
+        "**Equity:**\n"
+        "- Capital Stock: $400\n"
+        "- Retained Earnings: $60\n"
+        "**Total Equity = $460**\n\n"
+        "**Total Liabilities and Equity = $610**"
+    ),
+    'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
+}
+
+financial_accounting_week1_balance_sheet_q3 = {
+    'question': (
+        "Sigma Co. – Balance Sheet Preparation\n\n"
+        "Using the following account balances, prepare a balance sheet for Sigma Co. at December 31, 2024:\n\n"
+        "| Account             | Amount |\n"
+        "|---------------------|--------|\n"
+        "| Cash                | $110   |\n"
+        "| Accounts Receivable | $45    |\n"
+        "| Inventory           | $70    |\n"
+        "| Equipment           | $250   |\n"
+        "| Accounts Payable    | $60    |\n"
+        "| Notes Payable       | $140   |\n"
+        "| Capital Stock       | $300   |\n"
+        "| Retained Earnings   | $75    |\n"
+        "| Net Income          | $35    |\n\n"
+        "*Note: Retained earnings already include net income.*"
+    ),
+    'options_list': ['Prepare the classified balance sheet.'],
+    'correct_answer': (
+        "**Sigma Co.**\n"
+        "**Balance Sheet – December 31, 2024**\n\n"
+        "**Assets:**\n"
+        "- Cash: $110\n"
+        "- Accounts Receivable: $45\n"
+        "- Inventory: $70\n"
+        "- Equipment: $250\n"
+        "**Total Assets = $475**\n\n"
+        "**Liabilities:**\n"
+        "- Accounts Payable: $60\n"
+        "- Notes Payable: $140\n"
+        "**Total Liabilities = $200**\n\n"
+        "**Equity:**\n"
+        "- Capital Stock: $300\n"
+        "- Retained Earnings: $75\n"
+        "**Total Equity = $375**\n\n"
+        "**Total Liabilities and Equity = $475**"
+    ),
+    'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
+}
+
+financial_accounting_week1_balance_sheet_q4 = {
+    'question': (
+        "Orion Ltd. – Balance Sheet Preparation\n\n"
+        "Using the following account balances, prepare a balance sheet for Orion Ltd. at December 31, 2024:\n\n"
+        "| Account             | Amount |\n"
+        "|---------------------|--------|\n"
+        "| Cash                | $60    |\n"
+        "| Accounts Receivable | $35    |\n"
+        "| Inventory           | $65    |\n"
+        "| Land                | $150   |\n"
+        "| Equipment           | $300   |\n"
+        "| Accounts Payable    | $80    |\n"
+        "| Notes Payable       | $120   |\n"
+        "| Capital Stock       | $350   |\n"
+        "| Retained Earnings   | $60    |\n"
+        "| Net Income          | $40    |\n\n"
+        "*Note: Retained earnings already include net income.*"
+    ),
+    'options_list': ['Prepare the classified balance sheet.'],
+    'correct_answer': (
+        "**Orion Ltd.**\n"
+        "**Balance Sheet – December 31, 2024**\n\n"
+        "**Assets:**\n"
+        "- Cash: $60\n"
+        "- Accounts Receivable: $35\n"
+        "- Inventory: $65\n"
+        "- Land: $150\n"
+        "- Equipment: $300\n"
+        "**Total Assets = $610**\n\n"
+        "**Liabilities:**\n"
+        "- Accounts Payable: $80\n"
+        "- Notes Payable: $120\n"
+        "**Total Liabilities = $200**\n\n"
+        "**Equity:**\n"
+        "- Capital Stock: $350\n"
+        "- Retained Earnings: $60\n"
+        "**Total Equity = $410**\n\n"
+        "**Total Liabilities and Equity = $610**"
+    ),
+    'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
+}
+
+financial_accounting_week1_income_statement_q1 = {
+    'question': (
+        "ABC Corp – Income Statement Preparation (Practice 1)\n\n"
+        "Use the following figures to construct a complete income statement for the year ended December 31, 2024:\n\n"
+        "- Sales Revenue: $3,200\n"
+        "- Cost of Goods Sold: $1,400\n"
+        "- Utilities Expense: $150\n"
+        "- Depreciation Expense: $300\n"
+        "- Bad Debt Expense: $100\n"
+        "- Wage Expense: $500\n"
+        "- Other Expenses: $125\n"
+        "- Loss on Sale of Asset: $25\n"
+        "- Interest Expense: $250\n"
+        "- Income Tax Expense: $70\n"
+        "- Shares Outstanding: 2,000"
+    ),
+    'options_list': ['Prepare the income statement and compute earnings per share.'],
+    'correct_answer': (
+        "**ABC Corp – Income Statement**\n"
+        "**For the Year Ended December 31, 2024**\n\n"
+        "Sales Revenue: $3,200\n"
+        "Cost of Goods Sold: $1,400\n"
+        "Gross Profit: $1,800\n\n"
+        "**Operating Expenses:**\n"
+        "- Utilities: $150\n"
+        "- Depreciation: $300\n"
+        "- Bad Debt: $100\n"
+        "- Wages: $500\n"
+        "- Other: $125\n"
+        "Total Operating Expenses: $1,175\n"
+        "Operating Income: $625\n\n"
+        "**Non-Operating Items:**\n"
+        "- Loss on Sale: $25\n"
+        "- Interest Expense: $250\n"
+        "Income Before Taxes: $350\n"
+        "Income Tax Expense: $70\n"
+        "**Net Income: $280**\n\n"
+        "EPS = $280 / 2,000 = **$0.14**"
+    ),
+    'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
+}
+
+financial_accounting_week1_income_statement_q2 = {
+    'question': (
+        "ABC Corp – Income Statement Preparation (Practice 2)\n\n"
+        "Use the following figures to construct a complete income statement for the year ended December 31, 2024:\n\n"
+        "- Sales Revenue: $4,500\n"
+        "- Cost of Goods Sold: $2,200\n"
+        "- Utilities Expense: $200\n"
+        "- Depreciation Expense: $500\n"
+        "- Bad Debt Expense: $100\n"
+        "- Wage Expense: $800\n"
+        "- Other Expenses: $150\n"
+        "- Loss on Sale of Equipment: $30\n"
+        "- Interest Expense: $400\n"
+        "- Income Tax Expense: $30\n"
+        "- Shares Outstanding: 1,800"
+    ),
+    'options_list': ['Prepare the income statement and compute earnings per share.'],
+    'correct_answer': (
+        "**ABC Corp – Income Statement**\n"
+        "**For the Year Ended December 31, 2024**\n\n"
+        "Sales Revenue: $4,500\n"
+        "Cost of Goods Sold: $2,200\n"
+        "Gross Profit: $2,300\n\n"
+        "**Operating Expenses:**\n"
+        "- Utilities: $200\n"
+        "- Depreciation: $500\n"
+        "- Bad Debt: $100\n"
+        "- Wages: $800\n"
+        "- Other: $150\n"
+        "Total Operating Expenses: $1,750\n"
+        "Operating Income: $550\n\n"
+        "**Non-Operating Items:**\n"
+        "- Loss on Sale: $30\n"
+        "- Interest Expense: $400\n"
+        "Income Before Taxes: $120\n"
+        "Income Tax Expense: $30\n"
+        "**Net Income: $90**\n\n"
+        "EPS = $90 / 1,800 = **$0.05**"
+    ),
+    'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
+}
+
 
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
