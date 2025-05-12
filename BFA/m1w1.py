@@ -1,5 +1,7 @@
+# Financial Accounting - Week 1 Quiz (GPT‑generated, revised May 2025)
+
 financial_accounting_week1_question_1 = {
-    'question': "Which of the following would not be considered a primary user of financial accounting information?",
+    'question': "Which of the following is NOT an external user of a company's financial accounting information?",
     'options_list': [
         'Shareholder',
         'Creditor',
@@ -8,43 +10,43 @@ financial_accounting_week1_question_1 = {
     ],
     'correct_answer': 'Internal Manager',
     'explanation': (
-        "Internal managers have access to richer internal data (managerial accounting) and are not considered primary users of external financial accounting."
+        "Internal managers rely primarily on internal (managerial) reports; external financial statements are designed for users outside the organisation."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 1 ‑ GPT revised'
 }
 
 financial_accounting_week1_question_2 = {
-    'question': "Which of the following best distinguishes an asset from revenue?",
+    'question': "Which statement best distinguishes an asset from revenue?",
     'options_list': [
+        'Assets are economic resources controlled by the entity; revenue represents increases in those resources during the period.',
         'Assets are recorded only when cash is received; revenue is not.',
-        'Revenue is the inflow of economic resources; assets are outflows.',
-        'Revenue is a change in financial position; assets are static resources.',
+        'Revenue is an outflow of economic resources; assets are inflows.',
         'Assets are always tangible; revenue is intangible.'
     ],
-    'correct_answer': 'Revenue is a change in financial position; assets are static resources.',
+    'correct_answer': 'Assets are economic resources controlled by the entity; revenue represents increases in those resources during the period.',
     'explanation': (
-        "Revenue represents an increase in economic resources during a period, while assets are existing stocks of resources, not flows."
+        "Assets are stocks of future economic benefits at a point in time, while revenue is a flow that increases those assets (and equity) during a reporting period."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 1 ‑ GPT revised'
 }
 
 financial_accounting_week1_question_3 = {
-    'question': "Which of the following would not appear on the balance sheet of a company?",
+    'question': "Which of the following would NOT appear on a company's balance sheet?",
     'options_list': [
         'Inventory',
         'Retained Earnings',
-        'Sales Revenue',
+        'Revenue',
         'Notes Payable'
     ],
-    'correct_answer': 'Sales Revenue',
+    'correct_answer': 'Revenue',
     'explanation': (
-        "Sales revenue is part of the income statement. All others are elements of the balance sheet: inventory (asset), retained earnings (equity), notes payable (liability)."
+        "Revenue is reported on the income statement. The other items are balance‑sheet elements: inventory (asset), retained earnings (equity), and notes payable (liability)."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 1 ‑ GPT revised'
 }
 
 financial_accounting_week1_question_4 = {
-    'question': "What measurement basis is most likely to be used for long-term equipment on the balance sheet?",
+    'question': "Which measurement basis is most commonly used to report property, plant and equipment (long‑term equipment) on the balance sheet?",
     'options_list': [
         'Fair value',
         'Replacement cost',
@@ -53,13 +55,13 @@ financial_accounting_week1_question_4 = {
     ],
     'correct_answer': 'Historical cost',
     'explanation': (
-        "Long-term equipment is typically reported at historical cost due to its objectivity and faithful representation."
+        "PPE is initially recorded at historical cost (and shown net of accumulated depreciation) because this basis is objective and verifiable."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 1 ‑ GPT revised'
 }
 
 financial_accounting_week1_question_5 = {
-    'question': "Which of the following would most likely be excluded from the balance sheet due to measurement constraints?",
+    'question': "Which of the following would most likely be excluded from the balance sheet because of measurement constraints?",
     'options_list': [
         'Accounts receivable',
         'Strong brand reputation',
@@ -68,43 +70,43 @@ financial_accounting_week1_question_5 = {
     ],
     'correct_answer': 'Strong brand reputation',
     'explanation': (
-        "Intangible assets like brand reputation are not recorded unless acquired in a transaction, because they can't be reliably measured."
+        "Internally generated intangibles such as brand reputation are not recognised unless acquired in a transaction, because they cannot be measured reliably at cost."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 1 ‑ GPT revised'
 }
 
 financial_accounting_week1_question_6 = {
-    'question': "Which of the following best describes the relationship represented in the accounting equation?",
+    'question': "Which of the following best describes the relationship captured by the fundamental accounting equation?",
     'options_list': [
-        'Net income = revenues – liabilities',
+        'Net income = revenues – expenses',
         'Assets = liabilities + shareholders’ equity',
         'Revenues = expenses + dividends',
         'Assets + liabilities = equity'
     ],
     'correct_answer': 'Assets = liabilities + shareholders’ equity',
     'explanation': (
-        "This is the fundamental accounting equation defining the balance sheet structure."
+        "This equation underpins the double‑entry system and defines the structure of the balance sheet."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 1 ‑ GPT revised'
 }
 
 financial_accounting_week1_question_7 = {
-    'question': "A company sells a piece of equipment used in operations and reports a loss on the sale. How is this reported on the income statement?",
+    'question': "A company sells a piece of equipment used in operations and reports a loss on the sale. How is this loss presented on a multi‑step income statement?",
     'options_list': [
         'As part of cost of goods sold',
         'As a reduction to revenue',
-        'As a non-operating item under losses',
+        'As a non‑operating item within other income (expense)',
         'It does not appear on the income statement'
     ],
-    'correct_answer': 'As a non-operating item under losses',
+    'correct_answer': 'As a non‑operating item within other income (expense)',
     'explanation': (
-        "This is a non-operating loss and is shown separately below operating income."
+        "Gains or losses on disposal of fixed assets are classified below operating income in the Other income (expense) section."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 1 ‑ GPT revised'
 }
 
 financial_accounting_week1_question_8 = {
-    'question': "Which of the following would increase both assets and shareholders’ equity on the balance sheet?",
+    'question': "Which of the following transactions would increase both total assets and total shareholders’ equity?",
     'options_list': [
         'Borrowing from a bank',
         'Paying off a supplier',
@@ -113,58 +115,64 @@ financial_accounting_week1_question_8 = {
     ],
     'correct_answer': 'Earning revenue on account',
     'explanation': (
-        "Revenue earned increases assets (accounts receivable) and equity (retained earnings via net income)."
+        "Recognising revenue on account increases assets (accounts receivable) and, through net income, increases retained earnings, a component of equity."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 1 ‑ GPT revised'
 }
 
 financial_accounting_week1_question_9 = {
-    'question': "Why is the income statement not a reliable measure of cash performance?",
+    'question': "Why is net income on the income statement often NOT a good proxy for cash generated during the period?",
     'options_list': [
         'It excludes depreciation and amortization',
         'It does not include gains or losses',
-        'It uses accrual accounting, not cash basis',
+        'It is prepared under accrual accounting, not a cash basis',
         'It measures only operating activities'
     ],
-    'correct_answer': 'It uses accrual accounting, not cash basis',
+    'correct_answer': 'It is prepared under accrual accounting, not a cash basis',
     'explanation': (
-        "The income statement reflects accruals, which can differ substantially from actual cash received or paid."
+        "Accrual accounting recognises revenues when earned and expenses when incurred, regardless of cash timing, so net income can differ substantially from cash flows."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 1 ‑ GPT revised'
 }
 
 financial_accounting_week1_question_10 = {
-    'question': "Which of the following is the best argument for the societal importance of financial accounting?",
+    'question': "Which of the following is the strongest argument for the societal importance of high‑quality financial accounting?",
     'options_list': [
-        'It ensures all companies pay taxes.',
-        'It helps allocate capital to the most efficient users.',
-        'It reduces wage disparities through transparency.',
-        'It mandates that companies produce earnings.'
+        'It ensures all companies pay taxes',
+        'It helps allocate capital to the most efficient users',
+        'It reduces wage disparities through transparency',
+        'It mandates that companies produce earnings'
     ],
-    'correct_answer': 'It helps allocate capital to the most efficient users.',
+    'correct_answer': 'It helps allocate capital to the most efficient users',
     'explanation': (
-        "Accurate, reliable accounting improves capital allocation—allowing investors to direct funds to firms that generate value, which supports a healthy economy."
+        "Reliable, comparable information enables investors and creditors to direct funds toward businesses that create the most economic value."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 1 ‑ GPT revised'
 }
 
+
+
+####################################################################
+
+# Financial Accounting – Week 2 Quiz (GPT‑revised May 2025)
+
 financial_accounting_week2_question_1 = {
-    'question': "Which of the following is not typically found in the financing activities section of the statement of cash flows?",
+    'question': "Which of the following transactions would NOT be classified as a financing activity on the statement of cash flows?",
     'options_list': [
         'Issuance of common stock',
         'Payment of dividends',
-        'Repurchase of inventory',
-        'Repayment of bank loan'
+        'Purchase of inventory for resale',
+        'Repayment of a bank loan'
     ],
-    'correct_answer': 'Repurchase of inventory',
+    'correct_answer': 'Purchase of inventory for resale',
     'explanation': (
-        "Repurchase of inventory is an operating activity. Financing activities involve transactions with creditors or shareholders."
+        "Buying inventory is an operating cash outflow (it relates to core revenue‑generating activities). Financing activities involve cash transactions with the firm’s owners or long‑term creditors."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 2 – GPT revised'
 }
 
 financial_accounting_week2_question_2 = {
-    'question': "Under the indirect method, the starting point in the operating section is:",
+    'question': "Under the indirect method, the operating section of the statement of cash flows starts with:",
     'options_list': [
         'Cash collected from customers',
         'Net income',
@@ -173,28 +181,28 @@ financial_accounting_week2_question_2 = {
     ],
     'correct_answer': 'Net income',
     'explanation': (
-        "The indirect method begins with net income and adjusts for non-cash items and working capital changes."
+        "The indirect method reconciles accrual‑basis net income to operating cash flow by adding back non‑cash items and adjusting for changes in working capital accounts."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 2 – GPT revised'
 }
 
 financial_accounting_week2_question_3 = {
-    'question': "Which of the following would appear as an investing activity cash inflow?",
+    'question': "Which of the following would be reported as an investing‑activity cash inflow?",
     'options_list': [
-        'Sale of company bonds',
+        'Issuance of company bonds',
         'Sale of equipment',
         'Collection from customers',
         'Interest paid on loans'
     ],
     'correct_answer': 'Sale of equipment',
     'explanation': (
-        "Sale of equipment (PPE) is an investing activity. Bonds are financing, collections are operating, interest paid is financing."
+        "Cash received from selling property, plant and equipment appears in the investing section. The issuance of bonds is a financing inflow; customer collections are operating inflows; interest paid is an operating cash outflow under US GAAP (financing under IFRS)."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 2 – GPT revised'
 }
 
 financial_accounting_week2_question_4 = {
-    'question': "Treasury stock appears in which financial statement?",
+    'question': "Changes in the treasury‑stock account are detailed in which financial statement?",
     'options_list': [
         'Balance Sheet',
         'Income Statement',
@@ -203,13 +211,13 @@ financial_accounting_week2_question_4 = {
     ],
     'correct_answer': 'Statement of Shareholders’ Equity',
     'explanation': (
-        "Treasury stock (repurchased shares) is tracked in the statement of shareholders’ equity."
+        "While treasury stock is presented as a contra‑equity line on the balance sheet, the purchases and re‑issuances of those shares are *reconciled* in the Statement of Shareholders’ Equity."
     ),
-    'chapter_information': 'Financial Accounting Week 1- GPT generated'
+    'chapter_information': 'Financial Accounting Week 2 – GPT revised'
 }
 
 financial_accounting_week2_question_5 = {
-    'question': "Which of the following links the income statement and balance sheet?",
+    'question': "Which account provides the formal link between the income statement and the balance sheet?",
     'options_list': [
         'Change in cash',
         'Revenue',
@@ -218,43 +226,43 @@ financial_accounting_week2_question_5 = {
     ],
     'correct_answer': 'Retained earnings',
     'explanation': (
-        "Net income from the income statement is added to retained earnings on the balance sheet."
+        "After the closing process, the period’s net income (or loss) is added to retained earnings, connecting the performance reported on the income statement with owners’ equity on the balance sheet."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 2 – GPT revised'
 }
 
 financial_accounting_week2_question_6 = {
-    'question': "A company pays $100 in dividends during the year. Where will this be recorded?",
+    'question': "A company pays $100 in dividends during the year. Where is this event reported?",
     'options_list': [
         'Operating cash flow',
-        'Retained earnings and financing cash flow',
+        'Retained earnings and the financing section of the statement of cash flows',
         'Income statement',
         'Investing activities and retained earnings'
     ],
-    'correct_answer': 'Retained earnings and financing cash flow',
+    'correct_answer': 'Retained earnings and the financing section of the statement of cash flows',
     'explanation': (
-        "Dividends reduce retained earnings and appear in the financing section of the cash flow statement."
+        "Dividends are *not* expenses, so they bypass the income statement. They reduce retained earnings (reported in the Statement of Shareholders’ Equity) and appear as a financing cash outflow."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 2 – GPT revised'
 }
 
 financial_accounting_week2_question_7 = {
-    'question': "Which of the following will increase retained earnings?",
+    'question': "Which of the following will increase retained earnings, assuming no prior‑period adjustments?",
     'options_list': [
-        'Issuance of capital stock',
+        'Issuance of additional capital stock',
         'Purchase of equipment',
-        'Net income',
+        'Net income for the period',
         'Payment of dividends'
     ],
-    'correct_answer': 'Net income',
+    'correct_answer': 'Net income for the period',
     'explanation': (
-        "Net income increases retained earnings. The others either don't affect RE or decrease it."
+        "Retained earnings grow when the company earns net income and shrink when dividends are declared or net losses occur. Capital stock issuances and equipment purchases do not affect retained earnings."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 2 – GPT revised'
 }
 
 financial_accounting_week2_question_8 = {
-    'question': "Which method in the statement of cash flows gives a cash-based income statement view?",
+    'question': "Which presentation of the operating section of the statement of cash flows most closely resembles a *cash‑basis* income statement?",
     'options_list': [
         'Indirect method',
         'Modified accrual method',
@@ -263,196 +271,191 @@ financial_accounting_week2_question_8 = {
     ],
     'correct_answer': 'Direct method',
     'explanation': (
-        "The direct method lists actual cash inflows and outflows by type (e.g., customer collections, payments)."
+        "The direct method lists actual cash receipts from customers and cash payments to suppliers, employees, etc., effectively converting the income statement to a cash basis."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 2 – GPT revised'
 }
 
 financial_accounting_week2_question_9 = {
-    'question': "If a firm starts the year with $80 in cash and ends with $97, what must the total net cash flow be?",
+    'question': "A firm begins the year with \$80 in cash and ends with \$97. What is the net change in cash for the year?",
     'options_list': [
         '$17 inflow',
         '$17 outflow',
-        'Impossible to determine without revenues',
+        'Impossible to determine without revenue data',
         '$80 inflow'
     ],
     'correct_answer': '$17 inflow',
     'explanation': (
-        "Ending cash – beginning cash = $97 – $80 = $17 inflow."
+        "Net change in cash = ending cash – beginning cash = $97 – $80 = $17 increase (inflow)."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 2 – GPT revised'
 }
 
 financial_accounting_week2_question_10 = {
-    'question': "The statement of shareholders’ equity is primarily used to track:",
+    'question': "The Statement of Shareholders’ Equity is primarily used to track:",
     'options_list': [
         'Profitability from operations',
         'Working capital changes',
-        'Changes in owners’ claims',
+        'Changes in owners’ residual claims',
         'Market value of equity'
     ],
-    'correct_answer': 'Changes in owners’ claims',
+    'correct_answer': 'Changes in owners’ residual claims',
     'explanation': (
-        "It reconciles beginning and ending balances of capital stock, retained earnings, treasury stock, etc."
+        "The statement reconciles each equity account (common stock, additional paid‑in capital, retained earnings, treasury stock, accumulated other comprehensive income) from the beginning to the end of the period."
     ),
-    'chapter_information': 'Financial Accounting Week 1 - GPT generated'
+    'chapter_information': 'Financial Accounting Week 2 – GPT revised'
 }
 
-old_financial_accounting_week1_question_6 = {
-    'question': "A firm's balance sheet provides a representation of the current market value for the company. (True/False)",
+######################################################################
+
+# Financial Accounting – Week 1 Additional Quiz Items (GPT‑revised May 2025)
+
+financial_accounting_week1_question_11 = {
+    'question': "True or False: A company's balance sheet reports the company's current *market* value.",
     'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': (
-        "A balance sheet measures the financial position of a firm at a point in time. "
-        "It does not represent the actual market value of the company."
+        "The balance sheet presents book values based on historical cost (adjusted for depreciation, amortisation, etc.). "
+        "These amounts rarely equal the firm's market capitalisation or the fair values of all its assets and liabilities."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-old_financial_accounting_week1_question_7 = {
-    'question': "A Balance Sheet dated December 31 2021 represents the financial position of the firm:",
+financial_accounting_week1_question_12 = {
+    'question': "A balance sheet dated 31 December 2021 reports the company's financial position _____.",
     'options_list': [
-        'From January 1, 2021 to December 31, 2021',
-        'Only for December 31, 2021',
-        'From the time the firm began business to December 31, 2021',
-        'None of the above are correct'
+        'for the year then ended (1 January – 31 December 2021)',
+        'only as of 31 December 2021',
+        'from the company’s inception through 31 December 2021',
+        'None of the above'
     ],
-    'correct_answer': 'Only for December 31, 2021',
+    'correct_answer': 'only as of 31 December 2021',
     'explanation': (
-        "A balance sheet measures the financial position of a firm at a point in time. "
-        "In this case, it is a single day. See video 1.2 Financial Statements."
+        "A balance sheet is a *point‑in‑time* statement—often called a snapshot—of assets, liabilities and equity on a specific date."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-old_financial_accounting_week1_question_8 = {
-    'question': "Which statement best describes the accounting equation?",
+financial_accounting_week1_question_13 = {
+    'question': "Which statement best expresses the fundamental accounting equation?",
     'options_list': [
-        "Resources of the firm equal the creditor’s and owner's claim to those resources.",
-        'The change in retained earnings equals net income less dividends',
+        "Assets = Liabilities + Owner’s Equity (creditors’ and owners’ claims)",
+        'The change in retained earnings equals net income minus dividends',
         'Revenue and expense transactions must equal over time',
-        'Financing activities equal investing and operating activities',
-        'Assets equals liabilities minus owners equity'
+        'Financing activities equal investing plus operating activities'
     ],
-    'correct_answer': "Resources of the firm equal the creditor’s and owner's claim to those resources.",
+    'correct_answer': "Assets = Liabilities + Owner’s Equity (creditors’ and owners’ claims)",
     'explanation': (
-        "Assets = Liabilities + Owner’s Equity. The left side represents resources (assets), "
-        "and the right side represents claims: liabilities from creditors and equity from owners."
+        "The equation states that the firm’s economic resources are financed by creditors (liabilities) and owners (equity)."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-old_financial_accounting_week1_question_9 = {
-    'question': "In accrual basis accounting:",
+financial_accounting_week1_question_14 = {
+    'question': "Under *accrual‑basis* accounting:",
     'options_list': [
-        'Revenues are recognized when earned rather than when the cash is collected',
-        'Expenses are recognized when paid rather than when incurred',
-        'Frequently revenues are earned or recognized when merchandise is acquired for resale by paying the cost',
-        'Cash collected less cash distributed equals net income',
-        'None of the above are correct'
+        'Revenues are recognised when earned, regardless of when cash is collected',
+        'Expenses are recognised only when paid in cash',
+        'Revenues are recognised when inventory is purchased',
+        'Cash collected minus cash distributed equals net income'
     ],
-    'correct_answer': 'Revenues are recognized when earned rather than when the cash is collected',
+    'correct_answer': 'Revenues are recognised when earned, regardless of when cash is collected',
     'explanation': (
-        "This is the definition of accrual accounting. See video 1.5 Cash Basis vs. Accrual Accounting."
+        "Accrual accounting matches revenues with the periods in which they are earned and expenses with the periods in which they are incurred, not with cash receipts or payments."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-old_financial_accounting_week1_question_10 = {
-    'question': "The income statement represents a snapshot of the firm's account balances at a point in time. (True/False)",
+financial_accounting_week1_question_15 = {
+    'question': "True or False: The income statement presents the firm’s account balances at a single point in time.",
     'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': (
-        "The income statement shows results over a period of time, not a snapshot. "
-        "The balance sheet provides a point-in-time snapshot. See video 1.2 and video 1.6."
+        "The income statement covers a *period* (e.g., a quarter or year) and summarises performance over that span. The *balance sheet* provides the point‑in‑time snapshot."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-old_financial_accounting_week1_question_11 = {
-    'question': "The assumption that a business has perpetual existence is recognized by:",
+financial_accounting_week1_question_16 = {
+    'question': "The assumption that a business will continue operating into the foreseeable future is known as the _______ assumption.",
     'options_list': [
-        'Valid existence',
-        'Steady business',
         'Going concern',
-        'Future viability'
+        'Continuity',
+        'Steady business',
+        'Perpetual equity'
     ],
     'correct_answer': 'Going concern',
     'explanation': (
-        "Going concern is the assumption that the company will continue to operate and not go out of business. "
-        "See video 1.1 Introduction to Financial Accounting."
+        "Under the going‑concern assumption, financial statements are prepared on the basis that the entity will not be forced to liquidate or significantly curtail operations in the near term."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-old_financial_accounting_week1_question_12 = {
-    'question': "The effect of payment of a liability is what?",
+financial_accounting_week1_question_17 = {
+    'question': "What immediate effect does paying a liability with cash have on the accounting equation?",
     'options_list': [
-        'Increases assets and increases liabilities',
-        'Decreases assets and increases liabilities',
-        'Decreases liabilities and increases equity',
-        'Decreases assets and decreases liabilities'
+        'Increase assets and increase liabilities',
+        'Decrease assets and decrease liabilities',
+        'Decrease liabilities and increase equity',
+        'No effect on total assets or liabilities'
     ],
-    'correct_answer': 'Decreases assets and decreases liabilities',
+    'correct_answer': 'Decrease assets and decrease liabilities',
     'explanation': (
-        "Paying a liability uses an asset (cash), reducing both liabilities and assets. Equity is unaffected. "
-        "See video 1.4 and TA Tutorial #1, slide 10."
+        "The cash payment reduces an asset (cash) and simultaneously extinguishes the liability, leaving equity unchanged."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-old_financial_accounting_week1_question_1 = {
-    'question': "A Balance Sheet shows:",
+financial_accounting_week1_question_18 = {
+    'question': "A balance sheet primarily shows:",
     'options_list': [
-        'Dividends distributed to stockholders',
+        'Dividends distributed during the period',
         'Operating expenses for the period',
-        'Earnings per share for the period',
-        'Claims owners have against the assets of the firm',
-        'Sales revenue'
+        'Earnings per share',
+        'Owners’ and creditors’ claims on the company’s assets',
+        'Sales revenue for the period'
     ],
-    'correct_answer': 'Claims owners have against the assets of the firm',
+    'correct_answer': 'Owners’ and creditors’ claims on the company’s assets',
     'explanation': (
-        "The balance sheet shows the accounting equation: Assets = Liabilities + Owner’s Equity. "
-        "Owner’s Equity is the owners’ claim on the firm’s assets. See lecture 1.6 Income Statement."
+        "The balance sheet sets out assets and the claims against those assets: liabilities (creditors) and shareholders’ equity (owners)."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-old_financial_accounting_week1_question_2 = {
-    'question': "Which of the following would NOT be a liability on a Balance Sheet?",
+financial_accounting_week1_question_19 = {
+    'question': "Which of the following items is *NOT* reported as a liability on the balance sheet?",
     'options_list': [
-        'Depreciation',
         'Deferred revenue',
         'Accounts payable',
         'Wages payable',
-        'Dividends payable'
+        'Dividends payable',
+        'Accumulated depreciation'
     ],
-    'correct_answer': 'Depreciation',
+    'correct_answer': 'Accumulated depreciation',
     'explanation': (
-        "Depreciation is a long-term contra-asset that reduces asset value over time. "
-        "It is not a liability. See video 2.7 Depreciation."
+        "Accumulated depreciation is a *contra‑asset* account that offsets the cost of long‑lived assets; it is not an obligation to pay cash in the future."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-old_financial_accounting_week1_question_3 = {
-    'question': "Which one of the following is NOT an example of a current asset?",
+financial_accounting_week1_question_20 = {
+    'question': "Which one of the following is *NOT* considered a current asset?",
     'options_list': [
-        'Intangible assets',
-        'Pre-paid expenses',
+        'Prepaid expenses',
         'Cash',
         'Marketable securities',
-        'Accounts receivable'
+        'Accounts receivable',
+        'Patents'
     ],
-    'correct_answer': 'Intangible assets',
+    'correct_answer': 'Patents',
     'explanation': (
-        "Intangible assets like patents and trade names are long-term assets, not current ones. "
-        "See video 2.8 Intangible Assets."
+        "Patents are long‑term (non‑current) intangible assets that provide benefits over multiple years, whereas the other options are typically realised or consumed within one year."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-old_financial_accounting_week1_question_4 = {
+########################################################
+old_financial_accounting_week1_question_41 = {
     'question': "Which one of the following is NOT included as an expense on the Income Statement?",
     'options_list': [
         'Dividend expense',
@@ -463,19 +466,21 @@ old_financial_accounting_week1_question_4 = {
     ],
     'correct_answer': 'Dividend expense',
     'explanation': (
-        "Dividend expense is not included on the income statement. It represents a distribution of earnings to shareholders. "
-        "Dividends payable are liabilities, not expenses. See video 1.6 Income Statement."
+        "Dividend expense is not included on the income statement. Dividends represent a distribution of equity, "
+        "not an expense incurred in generating revenue. Dividends payable are recorded as liabilities—not expenses. "
+        "See video 1.6 Income Statement."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-old_financial_accounting_week1_question_5 = {
+
+old_financial_accounting_week1_question_52 = {
     'question': (
         "A firm reports the following income statement items for FY2021: "
         "sales of $60,550,000; income tax of $1,744,000; operating expenses of $10,115,000; "
         "cost of goods sold of $34,025,000; and interest expense of $750,000. "
         "The firm also declared and paid $947,250 in dividends in FY2021. "
-        "What is the amount of the firm's Net Income Before Interest and Taxes?"
+        "What is the amount of the firm's Earnings Before Interest and Taxes (EBIT)?"
     ),
     'options_list': [
         '$16,410,000',
@@ -486,14 +491,16 @@ old_financial_accounting_week1_question_5 = {
     ],
     'correct_answer': '$16,410,000',
     'explanation': (
-        "Net Income Before Interest and Taxes (NIBIT) is calculated as: "
-        "Sales – Operating Expenses – Cost of Goods Sold = $60,550,000 – $10,115,000 – $34,025,000 = $16,410,000. "
-        "Dividends and interest are excluded from this calculation. See video 1.6 Income Statement."
+        "EBIT = Sales – Operating Expenses – Cost of Goods Sold = "
+        "$60,550,000 – $10,115,000 – $34,025,000 = $16,410,000. "
+        "Interest and taxes are excluded from EBIT, and dividends are not part of income calculation. "
+        "See video 1.6 Income Statement."
     ),
     'chapter_information': 'old financial accounting week 1 self assessment questions'
 }
 
-financial_accounting_extra_question_1 = {
+
+financial_accounting_extra_question_13 = {
     'question': "Which of the following transactions will *not* affect total shareholders’ equity?",
     'options_list': [
         'Issuing additional common stock for cash',
@@ -503,13 +510,15 @@ financial_accounting_extra_question_1 = {
     ],
     'correct_answer': 'Paying an accounts payable balance with cash',
     'explanation': (
-        "Paying a liability with cash decreases assets and liabilities by the same amount, leaving equity unchanged. "
-        "The other choices all increase or decrease equity through contributed capital (stock issue) or retained earnings (revenue, dividend declaration)."
+        "Paying a liability with cash reduces both a current asset and a current liability, "
+        "leaving shareholders’ equity unchanged. Working capital shrinks, but equity stays flat. "
+        "The other options affect either retained earnings or contributed capital."
     ),
     'chapter_information': 'Financial Accounting – extra practice (GPT-generated)'
 }
 
-financial_accounting_extra_question_2 = {
+
+financial_accounting_extra_question_24 = {
     'question': "Which qualitative characteristic of accounting information is *primarily* enhanced by the use of historical cost for property, plant, and equipment?",
     'options_list': [
         'Relevance',
@@ -519,13 +528,14 @@ financial_accounting_extra_question_2 = {
     ],
     'correct_answer': 'Faithful representation',
     'explanation': (
-        "Historical cost is objective and verifiable, strengthening faithful representation (reliability). "
-        "It can reduce relevance when market values diverge sharply from cost, but reliability usually dominates for long-lived assets."
+        "Historical cost is objective and verifiable, strengthening faithful representation (also known as reliability). "
+        "While comparability is enhanced too, the FASB associates verifiability and bias avoidance primarily with faithful representation."
     ),
     'chapter_information': 'Financial Accounting – extra practice (GPT-generated)'
 }
 
-financial_accounting_extra_question_3 = {
+
+financial_accounting_extra_question_35 = {
     'question': "Under the *direct* method of presenting operating cash flows, which of the following would **not** appear as a line item?",
     'options_list': [
         'Cash received from customers',
@@ -541,7 +551,7 @@ financial_accounting_extra_question_3 = {
     'chapter_information': 'Financial Accounting – extra practice (GPT-generated)'
 }
 
-financial_accounting_extra_question_4 = {
+financial_accounting_extra_question_46 = {
     'question': "If a firm wants to boost *current ratio* without changing net income, which action would accomplish that goal most directly?",
     'options_list': [
         'Refinance a short-term note with a new five-year loan',
@@ -551,13 +561,15 @@ financial_accounting_extra_question_4 = {
     ],
     'correct_answer': 'Refinance a short-term note with a new five-year loan',
     'explanation': (
-        "Replacing a current liability with a non-current liability lowers current liabilities, raising the current ratio, while leaving income unchanged. "
-        "Collecting receivables simply swaps one current asset for another; declaring a dividend reduces equity and current assets; buying inventory on account increases both current assets and current liabilities, leaving the ratio mixed."
+        "Refinancing reduces current liabilities (current liabilities ↓), with current assets unchanged. "
+        "This improves the current ratio without affecting income. "
+        "Other choices either leave the ratio unchanged or reduce equity or assets."
     ),
     'chapter_information': 'Financial Accounting – extra practice (GPT-generated)'
 }
 
-financial_accounting_extra_question_5 = {
+
+financial_accounting_extra_question_57 = {
     'question': "According to accrual accounting, *unearned revenue* on 12-31-2025 most likely arose because the company:",
     'options_list': [
         'Collected cash in 2025 for services it will provide in 2026',
@@ -567,10 +579,101 @@ financial_accounting_extra_question_5 = {
     ],
     'correct_answer': 'Collected cash in 2025 for services it will provide in 2026',
     'explanation': (
-        "Unearned (deferred) revenue is a liability created when cash is received *before* the related performance obligation is satisfied. "
-        "Revenue recognition is deferred until the service is delivered or the goods are transferred."
+        "Unearned revenue is a liability that arises when cash is collected *before* revenue is earned. "
+        "It is deferred until the company performs its service or delivers goods."
     ),
     'chapter_information': 'Financial Accounting – extra practice (GPT-generated)'
+}
+
+
+fa_ch1_assets_q18 = {
+    'question': "(NOT GEORGIA TECH CONTENT) BOC sells USD 100,000 of merchandise to a customer that promises to pay cash within 60 days. Is this an asset or a liability?",
+    'options_list': ['Asset', 'Liability', 'Neither'],
+    'correct_answer': 'Asset',
+    'explanation': "Accounts receivable is a current asset because it represents a future economic benefit.",
+    'chapter_information': 'Financial Accounting, Chapter 1 https://www.coursera.org/learn/wharton-accounting'
+}
+
+fa_ch1_assets_q29 = {
+    'question': "(NOT GEORGIA TECH CONTENT) BOC buys USD 100,000 of chemicals for production and pays in cash, receiving a 2% discount. Is this an asset or a liability?",
+    'options_list': ['Asset', 'Liability', 'Neither'],
+    'correct_answer': 'Asset',
+    'explanation': "The chemicals are inventory—a current asset. The 2% discount is applied under the *net method*, so the purchase is recorded at USD 98,000.",
+    'chapter_information': 'Financial Accounting, Chapter 1'
+}
+
+
+fa_ch1_assets_q310 = {
+    'question': "(NOT GEORGIA TECH CONTENT) BOC pays USD 12 million for annual rent and has already used one month. Is the remaining amount an asset or a liability?",
+    'options_list': ['Asset', 'Liability', 'Neither'],
+    'correct_answer': 'Asset',
+    'explanation': "Prepaid rent for future months is a current asset until consumed.",
+    'chapter_information': 'Financial Accounting, Chapter 1 https://www.coursera.org/learn/wharton-accounting'
+}
+
+
+
+
+#############################################
+
+fa_ch1_assets_q4 = {
+    'question': "(NOT GEORGIA TECH CONTENT) BOC buys a piece of land for USD 100,000, though it's estimated to be worth USD 150,000. Is this an asset or a liability?",
+    'options_list': ['Asset', 'Liability', 'Neither'],
+    'correct_answer': 'Asset',
+    'explanation': "Land is a long-term asset recorded at historical cost—USD 100,000 in this case—not market value.",
+    'chapter_information': 'Financial Accounting, Chapter 1 https://www.coursera.org/learn/wharton-accounting'
+}
+
+
+fa_ch1_assets_q5 = {
+    'question': "(NOT GEORGIA TECH CONTENT) A marketing firm estimates BOC’s brand is worth USD 63 million. Is this an asset?",
+    'options_list': ['Asset', 'Liability', 'Neither'],
+    'correct_answer': 'Neither',
+    'explanation': "Internally generated brand value is not recognized as an asset due to measurability limitations. Only purchased brands (e.g., via acquisition) can be recognized as identifiable intangible assets.",
+    'chapter_information': 'Financial Accounting, Chapter 1 https://www.coursera.org/learn/wharton-accounting'
+}
+
+
+fa_ch1_assets_q6 = {
+    'question': "(NOT GEORGIA TECH CONTENT) If total noncash assets = 70, total liabilities = 60, and total stockholders’ equity = 30, what is the value of cash?",
+    'options_list': ['10', '20', '30', 'Cash is a liability', 'Cannot determine'],
+    'correct_answer': '20',
+    'explanation': "Assets = Liabilities + Equity → Total assets = 60 + 30 = 90. Noncash assets = 70, so Cash = 90 − 70 = 20.",
+    'chapter_information': 'Financial Accounting, Chapter 1 https://www.coursera.org/learn/wharton-accounting'
+}
+
+
+fa_ch1_assets_q7 = {
+    'question': "(NOT GEORGIA TECH CONTENT) Cash decreases by 10 and noncash assets increase by 15. What is the change in liabilities?",
+    'options_list': ['Asset', 'Liability', 'Cannot determine'],
+    'correct_answer': 'Cannot determine',
+    'explanation': "Without information about equity, the change in liabilities cannot be isolated.",
+     'chapter_information': 'Financial Accounting, Chapter 1 https://www.coursera.org/learn/wharton-accounting'
+}
+
+fa_ch1_assets_q8 = {
+    'question': "(NOT GEORGIA TECH CONTENT) Retained earnings increase by 100, and dividends were 50. What is net income?",
+    'options_list': ['Asset', 'Liability', 'Net income = 150'],
+    'correct_answer': 'Net income = 150',
+    'explanation': "Net income = Change in retained earnings + Dividends = 100 + 50 = 150.",
+     'chapter_information': 'Financial Accounting, Chapter 1 https://www.coursera.org/learn/wharton-accounting'
+}
+
+fa_ch1_assets_q9 = {
+    'question': "(NOT GEORGIA TECH CONTENT) Revenue increases by 100, and no other categories change except assets. What is the change in assets?",
+    'options_list': ['Increase by 100', 'Decrease by 100', 'No change', 'Cannot determine'],
+    'correct_answer': 'Increase by 100',
+    'explanation': "Revenue increases retained earnings, and if all other accounts remain unchanged, the offsetting entry is an increase in assets—usually Cash or Accounts Receivable.",
+    'chapter_information': 'Financial Accounting, Chapter 1 https://www.coursera.org/learn/wharton-accounting'
+}
+
+
+fa_ch1_assets_q10 = {
+    'question': "(NOT GEORGIA TECH CONTENT) Expenses increase by 60, and the only other change is to cash. What is the change in cash?",
+    'options_list': ['Increase by 60', 'Decrease by 60', 'No change', 'Cannot determine'],
+    'correct_answer': 'Decrease by 60',
+    'explanation': "Expenses reduce retained earnings and, if paid immediately, reduce cash as well. So Cash decreases by 60.",
+    'chapter_information': 'Financial Accounting, Chapter 1 https://www.coursera.org/learn/wharton-accounting'
 }
 
 

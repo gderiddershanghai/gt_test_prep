@@ -13,7 +13,7 @@ def apply_custom_css():
     st.markdown(custom_css, unsafe_allow_html=True)
 
 def question_generator(label, options, question_key):
-    return st.radio(label='Please select the correct answer', options=options, key=question_key)
+    return st.radio(label='_', options=options, key=question_key)
 
 
 def review_questions():
