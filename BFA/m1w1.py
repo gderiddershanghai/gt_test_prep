@@ -929,6 +929,92 @@ financial_accounting_week1_income_statement_q2 = {
 }
 
 
+
+financial_accounting_week1_income_statement_q4 = {
+    'question': (
+        "ABC Corp – Income Statement Preparation (Practice 4)\n\n"
+        "Use the following figures to construct a complete income statement for the year ended December 31, 2024:\n\n"
+        "- Sales Revenue: $3,000\n"
+        "- Cost of Goods Sold: $1,800\n"
+        "- Utilities Expense: $120\n"
+        "- Depreciation Expense: $250\n"
+        "- Bad Debt Expense: $75\n"
+        "- Wage Expense: $450\n"
+        "- Other Expenses: $110\n"
+        "- Loss on Sale of Equipment: $20\n"
+        "- Interest Expense: $150\n"
+        "- Income Tax Expense: $5\n"
+        "- Shares Outstanding: 800"
+    ),
+    'options_list': ['Prepare the income statement and compute earnings per share.'],
+    'correct_answer': (
+        "**ABC Corp – Income Statement**\n"
+        "**For the Year Ended December 31, 2024**\n\n"
+        "Sales Revenue: $3,000\n"
+        "Cost of Goods Sold: $1,800\n"
+        "Gross Profit: $1,200\n\n"
+        "**Operating Expenses:**\n"
+        "- Utilities: $120\n"
+        "- Depreciation: $250\n"
+        "- Bad Debt: $75\n"
+        "- Wages: $450\n"
+        "- Other: $110\n"
+        "Total Operating Expenses: $1,005\n"
+        "Operating Income: $195\n\n"
+        "**Non-Operating Items:**\n"
+        "- Loss on Sale: $20\n"
+        "- Interest Expense: $150\n"
+        "Income Before Taxes: $25\n"
+        "Income Tax Expense: $5\n"
+        "**Net Income: $20**\n\n"
+        "EPS = $20 / 800 = **$0.025**"
+    ),
+    'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
+}
+
+financial_accounting_week1_income_statement_q3 = {
+    'question': (
+        "ABC Corp – Income Statement Preparation (Practice 3)\n\n"
+        "Use the following figures to construct a complete income statement for the year ended December 31, 2024:\n\n"
+        "- Sales Revenue: $1,800\n"
+        "- Cost of Goods Sold: $800\n"
+        "- Utilities Expense: $90\n"
+        "- Depreciation Expense: $150\n"
+        "- Bad Debt Expense: $40\n"
+        "- Wage Expense: $300\n"
+        "- Other Expenses: $70\n"
+        "- Loss on Sale of Land: $15\n"
+        "- Interest Expense: $100\n"
+        "- Income Tax Expense: $60\n"
+        "- Shares Outstanding: 1,400"
+    ),
+    'options_list': ['Prepare the income statement and compute earnings per share.'],
+    'correct_answer': (
+        "**ABC Corp – Income Statement**\n"
+        "**For the Year Ended December 31, 2024**\n\n"
+        "Sales Revenue: $1,800\n"
+        "Cost of Goods Sold: $800\n"
+        "Gross Profit: $1,000\n\n"
+        "**Operating Expenses:**\n"
+        "- Utilities: $90\n"
+        "- Depreciation: $150\n"
+        "- Bad Debt: $40\n"
+        "- Wages: $300\n"
+        "- Other: $70\n"
+        "Total Operating Expenses: $650\n"
+        "Operating Income: $350\n\n"
+        "**Non-Operating Items:**\n"
+        "- Loss on Sale: $15\n"
+        "- Interest Expense: $100\n"
+        "Income Before Taxes: $235\n"
+        "Income Tax Expense: $60\n"
+        "**Net Income: $175**\n\n"
+        "EPS = $175 / 1,400 = **$0.125**"
+    ),
+    'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
+}
+
+
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
 # print(global_items)
