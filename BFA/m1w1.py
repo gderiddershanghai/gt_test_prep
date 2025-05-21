@@ -1179,6 +1179,148 @@ finance_healthcare_week1_question_12 = {
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
 }
 
+hcd_financial_summary_question_1 = {
+    'question': "How much are HCD's total assets at the end of year 20x2? (in millions)\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) $24,701',
+        'B) $21,226',
+        'C) $23,682',
+        'D) $716'
+    ],
+    'correct_answer': 'A) $24,701',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+hcd_financial_summary_question_2 = {
+    'question': "HCD's largest asset is Property and Equipment, which represents their buildings, etc. What is their second largest asset at the end of year 20x2?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) Other Intangible Assets',
+        'B) Long-term Debt',
+        'C) Goodwill',
+        'D) Accounts Receivable'
+    ],
+    'correct_answer': 'C) Goodwill',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+hcd_financial_summary_question_3 = {
+    'question': "What business activity causes Goodwill to be recognized on a balance sheet?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) Charitable Contributions',
+        'B) Treating Customers Well',
+        'C) Profitable Operations',
+        'D) Acquisitions of other Businesses'
+    ],
+    'correct_answer': 'D) Acquisitions of other Businesses',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+hcd_financial_summary_question_4 = {
+    'question': "What is HCD's largest liability on their balance sheet at the end of year 20x2?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) Long-Term Debt',
+        'B) Accounts Payable',
+        'C) Property and Equipment',
+        'D) Additional Paid in Capital'
+    ],
+    'correct_answer': 'A) Long-Term Debt',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+hcd_financial_summary_question_5 = {
+    'question': "LCD's Shareholders' Equity is far smaller than their Liabilities. The Shareholders' Equity section includes a line item called \"Accumulated Deficit.\" What is the interpretation of this line item?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) HCD has overdrawn its bank account',
+        'B) HCD has been incurring more losses than profits over its lifetime',
+        'C) HCD is bankrupt',
+        'D) HCD owes a lot of back taxes'
+    ],
+    'correct_answer': 'B) HCD has been incurring more losses than profits over its lifetime',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+hcd_financial_summary_question_6 = {
+    'question': "How much was HCD's Net Income for year 20x2? (in millions)\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) $76',
+        'B) $1219',
+        'C) $176',
+        'D) $181'
+    ],
+    'correct_answer': 'C) $176',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+hcd_financial_summary_question_7 = {
+    'question': "What is HCD's largest Operating Expense during year 20x2?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) Salaries, wages, and benefits',
+        'B) Supplies',
+        'C) Depreciation and amortization',
+        'D) Interest Expense'
+    ],
+    'correct_answer': 'A) Salaries, wages, and benefits',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+hcd_financial_summary_question_8 = {
+    'question': "Which of the following is true about HCD’s line item \"Net Operating Revenues before provision for doubtful accounts?\" (Check all that apply)\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) Revenue in 20x2 was 21,070',
+        'B) Revenues have been growing over time',
+        'C) Revenue in 20x2 was 19,611',
+        'D) Some of these revenues probably won’t be collected'
+    ],
+    'correct_answer': ['A) Revenue in 20x2 was 21,070', 'D) Some of these revenues probably won’t be collected'],
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+hcd_financial_summary_question_9 = {
+    'question': "In HCD’s footnotes, which customer group generated the highest revenue in 20x2?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) Indemnity, self-pay, and other',
+        'B) Managed Care',
+        'C) Medicare',
+        'D) Medicaid'
+    ],
+    'correct_answer': 'D) Medicaid',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+hcd_financial_summary_question_10 = {
+    'question': "What percent of the top line on the income statement is HCD’s provision for doubtful accounts in 20x2?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) 10.0%',
+        'B) 7.4%',
+        'C) 0%',
+        'D) 6.9%'
+    ],
+    'correct_answer': 'D) 6.9%',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+hcd_financial_summary_question_11 = {
+    'question': "Which customer group has given HCD the biggest collection difficulties?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) Medicaid',
+        'B) Managed Care',
+        'C) Self-pay uninsured',
+        'D) Medicare'
+    ],
+    'correct_answer': 'C) Self-pay uninsured',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
 
 
 

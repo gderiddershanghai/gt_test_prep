@@ -623,6 +623,366 @@ financial_accounting_week2_q18 = {
 }
 
 
+finance_healthcare_week2_question_1 = {
+    'question': "How would you classify the payment of accounts payable? (O = Operating, I = Investing, F = Financing)",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'A) Operating',
+    'explanation': "This is a routine business activity affecting current liabilities, classified as Operating.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_2 = {
+    'question': "How would you classify proceeds from issuing common stock? (O = Operating, I = Investing, F = Financing)",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'C) Financing',
+    'explanation': "Issuing equity is a financing activity as it raises capital from investors.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_3 = {
+    'question': "How would you classify the collection of accounts receivable? (O = Operating, I = Investing, F = Financing)",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'A) Operating',
+    'explanation': "Cash collected from customers is part of operating cash flows.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_4 = {
+    'question': "How would you classify payment of interest on debt? (O = Operating, I = Investing, F = Financing)",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'A) Operating',
+    'explanation': "Interest is classified as Operating under GAAP, though some analysts move it to Financing.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_5 = {
+    'question': "How would you classify purchase of land? (O = Operating, I = Investing, F = Financing)",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'B) Investing',
+    'explanation': "Land purchases involve long-term asset acquisition and are Investing activities.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_6 = {
+    'question': "How would you classify issuing common stock to acquire land? (O = Operating, I = Investing, F = Financing)",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing',
+        'D) Non-cash activity disclosed in footnotes'
+    ],
+    'correct_answer': 'D) Non-cash activity disclosed in footnotes',
+    'explanation': "This is a non-cash transaction and must be disclosed separately in the financial footnotes.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_7 = {
+    'question': "How should the transaction 'a) Issue Shares' be classified in the cash flow statement (direct method)?",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'C) Financing',
+    'explanation': "Issuing shares increases cash and is a financing activity.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_8 = {
+    'question': "How should the transaction 'b) Purchase Plant' be classified in the cash flow statement (direct method)?",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'B) Investing',
+    'explanation': "Purchasing a plant is a long-term asset acquisition and thus investing.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_9 = {
+    'question': "How should the transaction 'e) Cash Sale' be classified in the cash flow statement (direct method)?",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'A) Operating',
+    'explanation': "Cash sales are part of core operating revenues.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_10 = {
+    'question': "How should the transaction 'f) Pay Supplier' be classified in the cash flow statement (direct method)?",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'A) Operating',
+    'explanation': "Paying suppliers is part of day-to-day operations.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_11 = {
+    'question': "How should the transaction 'g) Partial Cash Sale' be classified in the cash flow statement (direct method)?",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'A) Operating',
+    'explanation': "Partial cash sales generate operating cash inflow.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_12 = {
+    'question': "How should the transaction 'h) Collect Receivable' be classified in the cash flow statement (direct method)?",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'A) Operating',
+    'explanation': "Collection of receivables reflects operational cash inflow.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_13 = {
+    'question': "How should the transaction 'j) Pay Dividend' be classified in the cash flow statement (direct method)?",
+    'options_list': [
+        'A) Operating',
+        'B) Investing',
+        'C) Financing'
+    ],
+    'correct_answer': 'C) Financing',
+    'explanation': "Paying dividends is a financing outflow to shareholders.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_14 = {
+    'question': "Which of the following activities would affect the OPERATING section of the cash flow statement this year? (Check all that apply)",
+    'options_list': [
+        'A) Paying back debt',
+        'B) Buying a machine on credit',
+        'C) Buying inventory for cash',
+        'D) Selling some products for cash',
+        'E) Issuing shares of stock'
+    ],
+    'correct_answer': ['C) Buying inventory for cash', 'D) Selling some products for cash'],
+    'explanation': "Operating activities include day-to-day transactions like buying inventory and selling products. Financing (e.g., issuing stock or debt repayment) and investing (e.g., asset purchases) belong in other sections.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_15 = {
+    'question': "Which of the following activities would affect the INVESTING section of the cash flow statement this year? (Check all that apply)",
+    'options_list': [
+        'A) Paying a dividend',
+        'B) Buying back some of your own shares',
+        'C) Buying a machine for cash',
+        'D) Spending cash on R&D',
+        'E) Depreciating a long-term asset'
+    ],
+    'correct_answer': ['C) Buying a machine for cash'],
+    'explanation': "Investing activities include the acquisition or sale of long-term assets like machinery. R&D is an operating expense. Depreciation is a non-cash adjustment in operating activities.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_16 = {
+    'question': "Which of the following activities would affect the FINANCING section of the cash flow statement? (Check all that apply)",
+    'options_list': [
+        'A) Paying your income taxes',
+        'B) Buying another company for cash',
+        'C) Receive cash from selling a product',
+        'D) Paying a dividend',
+        'E) Issuing long-term debt'
+    ],
+    'correct_answer': ['D) Paying a dividend', 'E) Issuing long-term debt'],
+    'explanation': "Financing activities relate to equity and debt changes — issuing debt or equity, paying dividends. Taxes and operations are part of operating; acquisitions are investing.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_17 = {
+    'question': "Which of the following would likely be true about the cash flow statement of a startup company? (Check all that apply)",
+    'options_list': [
+        'A) Its operating cash flow is insufficient to cover its investing cash flows',
+        'B) Its financing cash flows are positive',
+        'C) Its operating cash flow is highly positive',
+        'D) It pays a lot of dividends'
+    ],
+    'correct_answer': ['A) Its operating cash flow is insufficient to cover its investing cash flows', 'B) Its financing cash flows are positive'],
+    'explanation': "Startups typically burn cash in operations and investment, funded by external financing. They rarely pay dividends and seldom generate strong operating cash flow early on.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_18 = {
+    'question': "Suppose a firm recognizes sales revenue of $100 on its income statement for a period. Of this amount, $80 was for cash and $20 was on credit. What is the overall impact on the operating section of this information? (Ignore the cost side of the sale)",
+    'options_list': [
+        'A) Cash from Operations goes up by 80',
+        'B) Cash from Operations goes down by 20',
+        'C) Cash from Operations goes up by 100',
+        'D) Cash from Operations goes up by 20'
+    ],
+    'correct_answer': 'A) Cash from Operations goes up by 80',
+    'explanation': "Only cash sales affect the cash flow statement directly. Credit sales increase accounts receivable and do not generate cash.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_19 = {
+    'question': "Suppose a firm recognizes sales revenue of $200 on its income statement for a period. Of this amount, $150 was for cash and $50 was on credit. How would this be shown on a cash flow statement that uses the INDIRECT method? (Ignore the cost side of things)",
+    'options_list': [
+        'A) Net Income is $150 and there are no adjustments necessary on the cash flow statement',
+        'B) Net Income is $150 and there is an adjustment downward of $50 related to receivables',
+        'C) Net Income is $200 and there is an adjustment downward of $50 related to receivables',
+        'D) Net Income is $200 and there is an adjustment downward of $150 related to receivables'
+    ],
+    'correct_answer': 'C) Net Income is $200 and there is an adjustment downward of $50 related to receivables',
+    'explanation': "Income statement reflects full $200. Cash flow statement adjusts net income by subtracting the $50 increase in receivables to get to cash.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_20 = {
+    'question': "Suppose we are looking at a cash flow statement constructed using the INDIRECT method. We see a positive adjustment in the operating section of $1000 for Depreciation. Which of the following are correct interpretations of this? (Check all that apply)",
+    'options_list': [
+        'A) Depreciation provided cash of $1000',
+        'B) Income was lower by $1000 because of Depreciation expense',
+        'C) The firm sold long-term assets for $1000',
+        'D) The firm invested $1000 of cash in long-term assets'
+    ],
+    'correct_answer': ['B) Income was lower by $1000 because of Depreciation expense'],
+    'explanation': "Depreciation reduces accounting income but not cash. It’s added back in the indirect method to reconcile net income to cash from operations.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_21 = {
+    'question': "Suppose we are looking at a cash flow statement constructed using the INDIRECT method. We see a NEGATIVE adjustment of $5000 related to Accounts Payable. Which of the following are correct interpretations of this? (Check all that apply)",
+    'options_list': [
+        'A) The firm received $5000 from customers this year',
+        'B) The firm paid $5000 to suppliers this year',
+        'C) The firm paid $5000 more to suppliers than they had recorded as expense on the income statement this year',
+        'D) The firm paid $5000 less to suppliers than they had recorded as expense on the income statement this year'
+    ],
+    'correct_answer': ['C) The firm paid $5000 more to suppliers than they had recorded as expense on the income statement this year'],
+    'explanation': "A negative change in Accounts Payable means the company reduced its payables — it paid more to suppliers than it expensed, reducing cash.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_22 = {
+    'question': "According to the Cash Flow Statement, what was the change in HCD’s cash balance during the year 20x2? (in millions)\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) Cash went up by 716',
+        'B) Cash went up by 356',
+        'C) Cash went up by 360',
+        'D) Cash went up by 176'
+    ],
+    'correct_answer': 'C) Cash went up by 360',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_23 = {
+    'question': "What was the HCD’s Financing Cash Flow in 20x2?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) A net outflow of 232',
+        'B) A net outflow of 430',
+        'C) A net inflow of 232',
+        'D) A net inflow of 430'
+    ],
+    'correct_answer': 'C) A net inflow of 232',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_24 = {
+    'question': "What was HCD’s primary SOURCE of financing activities over the period 20x0 to 20x2?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) Depreciation and Amortization',
+        'B) Proceeds from Other Borrowings',
+        'C) Repayments of Borrowings Under Credit Facilities',
+        'D) Sales of facilities and other assets'
+    ],
+    'correct_answer': 'B) Proceeds from Other Borrowings',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_25 = {
+    'question': "What caused HCD’s investment outflows of cash to be highest in 20x1 relative to the other years?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) They bought more inventory than they sold relative to other years',
+        'B) They spent more on property and equipment than in the other years',
+        'C) They repaid the most borrowings under credit facilities than in the other years',
+        'D) They spent more on acquisitions of other businesses than in the other years'
+    ],
+    'correct_answer': 'D) They spent more on acquisitions of other businesses than in the other years',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_26 = {
+    'question': "In which year was the operating cash flows the highest for HCD?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) 20x0',
+        'B) All the years were the same',
+        'C) 20x1',
+        'D) 20x2'
+    ],
+    'correct_answer': 'C) 20x1',
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_27 = {
+    'question': "Refer to the adjusting entry for “Depreciation and Amortization” of +850 in the Operating Section of the Cash Flow Statement. What is the interpretation of this? (Check all that apply)\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) Depreciation expense lowered net income during the year by 850 so the +850 on the cash flow statement offsets that to show there is no net change in cash attributable to depreciation',
+        'B) The firm sold equipment for 850 in cash',
+        'C) Depreciation provided 850 of cash',
+        'D) Depreciation provided 850 of cash because it lowers your tax bill by that amount'
+    ],
+    'correct_answer': ['A) Depreciation expense lowered net income during the year by 850 so the +850 on the cash flow statement offsets that to show there is no net change in cash attributable to depreciation'],
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+finance_healthcare_week2_question_28 = {
+    'question': "Refer to the adjusting entry for “Accounts Receivable” of -1,604 in the Operating Section of the Cash Flow Statement. What is the interpretation of this? (Check all that apply)\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'options_list': [
+        'A) HCD paid suppliers more than they recorded as expenses during the year',
+        'B) Accounts Receivable went up during the year',
+        'C) HCD’s sales revenue was higher than their cash collections from customers',
+        'D) HCD paid dividends of 1604 during the year'
+    ],
+    'correct_answer': [
+        'B) Accounts Receivable went up during the year',
+        'C) HCD’s sales revenue was higher than their cash collections from customers'
+    ],
+    'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
+}
+
+
+
 # old_financial_accounting_week2_q1 = {
 #     'question': "The balance in the Account for Bad Debts before the recognition of the 2021 expense is USD 1,100. Using the data shown below, calculate the bad debt expense for 2021:\n\n"
 #                 "| Age Group | Amount Receivable | Estimated Percent Uncollectible |\n"
