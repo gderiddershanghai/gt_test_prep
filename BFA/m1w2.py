@@ -981,6 +981,146 @@ finance_healthcare_week2_question_28 = {
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 2'
 }
 
+wharton_accounting_week3_question_1 = {
+    'question': "Which of the following would be a cash flow from operating activities? (check all that apply)\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Purchases of equipment',
+        'B) Payments for salaries and wages',
+        'C) Amortization of a patent',
+        'D) Loss on sale of equipment',
+        'E) Collections from customers'
+    ],
+    'correct_answer': ['B) Payments for salaries and wages', 'E) Collections from customers'],
+    'explanation': "Operating activities include actual cash inflows and outflows related to revenues and expenses. Non-cash items like amortization or losses are not cash flows.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_question_2 = {
+    'question': "Which of the following would be a cash flow from financing activities? (check all that apply)\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Payments to suppliers',
+        'B) Proceeds from selling equipment',
+        'C) Payments to acquire a company',
+        'D) Proceeds from issuing stock',
+        'E) Repayments of principal portion of debt'
+    ],
+    'correct_answer': ['D) Proceeds from issuing stock', 'E) Repayments of principal portion of debt'],
+    'explanation': "Financing activities relate to debt and equity—raising capital and paying it back. Supplier payments are operating. Equipment sales and acquisitions are investing.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_question_3 = {
+    'question': "A company has the following cash flows:\n- Cash from operations: (30)\n- Cash from investing activities: (45)\n- Cash from financing activities: 90\nWhich growth stage best describes this pattern of cash flows?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Decline',
+        'B) Early growth',
+        'C) Mature',
+        'D) Start-up',
+        'E) Fossilized'
+    ],
+    'correct_answer': 'D) Start-up',
+    'explanation': "Start-ups typically burn cash in operations and investments, relying on external financing. Early growth would show improving or positive operating cash flows.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_question_4 = {
+    'question': "A company bought $50,000 of inventory for $20,000 cash, with the balance due to the supplier in 30 days. What is the operating cash flow in this transaction?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) $0',
+        'B) ($20,000)',
+        'C) ($30,000)',
+        'D) ($50,000)',
+        'E) ($70,000)'
+    ],
+    'correct_answer': 'B) ($20,000)',
+    'explanation': "Only the $20,000 cash payment reduces operating cash. The credit portion doesn’t affect cash flow yet.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_question_5 = {
+    'question': "Which of the following would be shown as a negative number in the Operating section of the SCF under the indirect method? (check all that apply)\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Gain on sale of equipment',
+        'B) Capital expenditures',
+        'C) Depreciation on a building',
+        'D) Decrease in Accounts Payable',
+        'E) Decrease in Accounts Receivable'
+    ],
+    'correct_answer': ['A) Gain on sale of equipment', 'D) Decrease in Accounts Payable'],
+    'explanation': "A gain is subtracted from net income because it’s non-operating. A decrease in A/P means cash was used to pay obligations. Depreciation is a non-cash add-back. Decrease in A/R is positive for cash.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_question_6 = {
+    'question': "What was the company’s Cash Flow from Operating Activities?\nInputs:\n- Net Income: $10\n- Depreciation: $2\n- A/R increase: (25 − 20) = -5\n- A/P decrease: (5 − 15) = -10\n- Inventory decrease: (12 − 7) = +5\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) $12',
+        'B) $7',
+        'C) $2',
+        'D) ($2)',
+        'E) $22'
+    ],
+    'correct_answer': 'C) $2',
+    'explanation': "Net income adjusted by non-cash depreciation and working capital changes.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_question_7 = {
+    'question': "A company put together a preliminary version of its financial statements. Net Income: $200, Depreciation Expense: $40, Cash Flow from Operations: $90. Depreciation should have been $50. What is CFO after correction?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) $250',
+        'B) $0',
+        'C) $90',
+        'D) $100',
+        'E) $80'
+    ],
+    'correct_answer': 'C) $90',
+    'explanation': "Net Income drops by $10, depreciation add-back increases by $10. Net effect = 0. CFO remains unchanged.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_question_8 = {
+    'question': "A company sold PP&E for $200 cash. Book value was $240. Loss on sale = $40. What is the operating cash flow in this transaction?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) $160',
+        'B) $200',
+        'C) $240',
+        'D) $0',
+        'E) $40'
+    ],
+    'correct_answer': 'D) $0',
+    'explanation': "The $200 is an investing cash inflow. The $40 loss appears in net income and is added back in operating cash flows, resulting in no net effect on operating activities.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_question_9 = {
+    'question': "During the year, which inventory transactions would show up in the operating section of the SCF? (check all that apply)\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Purchased $100 of inventory for cash',
+        'B) Paid $400 to suppliers for inventory previously purchased on account',
+        'C) Acquired $75 of inventory from another company in an acquisition',
+        'D) Inventory value increase from FX translation by $25',
+        'E) Sold $500 of inventory'
+    ],
+    'correct_answer': ['A) Purchased $100 of inventory for cash', 'B) Paid $400 to suppliers for inventory previously purchased on account', 'E) Sold $500 of inventory'],
+    'explanation': "Only cash purchases, payments, and sales of inventory relate to operations. Acquisition and FX translation are non-operating.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+# wharton_accounting_week3_question_10 = {
+#     'question': "A company had EBITDA: $1000, Depreciation/Amortization: $100, Interest Expense: $100, Tax Expense: $50. What was Net Income?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+#     'options_list': [
+#         'A) $1250',
+#         'B) ($750)',
+#         'C) $950',
+#         'D) $1000',
+#         'E) $750'
+#     ],
+#     'correct_answer': 'E) $750',
+#     'explanation': "EBITDA − Depreciation = 900 (EBIT); 900 − Interest = 800; 800 − Tax = 750 (Net Income).",
+#     'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+# }
+
 
 
 # old_financial_accounting_week2_q1 = {
