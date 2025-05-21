@@ -1015,6 +1015,173 @@ financial_accounting_week1_income_statement_q3 = {
 }
 
 
+finance_healthcare_week1_question_1 = {
+    'question': "Which of the following does a balance sheet do? (Check all that apply)",
+    'options_list': [
+        'A) Measures the activities of the firm over a period of time (e.g. a year)',
+        'B) Shows how much debt a firm has',
+        'C) Shows the assets of a firm',
+        'D) Measures the financial position of the firm at a point in time',
+        'E) Shows the revenues of a firm'
+    ],
+    'correct_answer': ['B) Shows how much debt a firm has', 'C) Shows the assets of a firm', 'D) Measures the financial position of the firm at a point in time'],
+    'explanation': "A balance sheet shows the firm’s financial position at a specific point in time, including assets and liabilities (e.g. debt). It does not measure performance over time or include revenue.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+finance_healthcare_week1_question_2 = {
+    'question': "Which of the following are on a Balance Sheet? (Check all that apply)",
+    'options_list': [
+        'A) Retained Earnings',
+        'B) Sales Revenue',
+        'C) Depreciation Expense',
+        'D) Accounts Payable',
+        'E) Property, Plant, and Equipment'
+    ],
+    'correct_answer': ['A) Retained Earnings', 'D) Accounts Payable', 'E) Property, Plant, and Equipment'],
+    'explanation': "The balance sheet includes items related to financial position such as assets (PPE), liabilities (Accounts Payable), and equity (Retained Earnings). Sales and expenses are on the income statement.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+finance_healthcare_week1_question_3 = {
+    'question': "Suppose Current Assets for a firm are $50, Long-Term Assets are $100, and Total Liabilities are $30. How much is the firm's total Owners' Equity?",
+    'options_list': [
+        'A) $120',
+        'B) $180',
+        'C) $70',
+        'D) $150'
+    ],
+    'correct_answer': 'A) $120',
+    'explanation': "Assets = Liabilities + Equity ⇒ $150 = $30 + Equity ⇒ Equity = $120.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+finance_healthcare_week1_question_4 = {
+    'question': "Suppose Net Income for a firm is $200 for the year and Dividends paid are $60. How much does Retained Earnings on the Balance Sheet change during the year?",
+    'options_list': [
+        'A) Goes up by $140',
+        'B) Goes up by $260',
+        'C) Does not change',
+        'D) Goes up by $200'
+    ],
+    'correct_answer': 'A) Goes up by $140',
+    'explanation': "Retained Earnings increase by the portion of Net Income not paid out as dividends: $200 – $60 = $140.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+finance_healthcare_week1_question_5 = {
+    'question': "Which of the following are on an Income Statement? (Check all that apply)",
+    'options_list': [
+        'A) Long-Term Debt',
+        'B) Interest Expense',
+        'C) Selling, General, and Administrative Expense',
+        'D) Accounts Receivable',
+        'E) Cost of Goods Sold'
+    ],
+    'correct_answer': ['B) Interest Expense', 'C) Selling, General, and Administrative Expense', 'E) Cost of Goods Sold'],
+    'explanation': "These are operational and financial expenses that affect profitability. Long-term debt and accounts receivable are balance sheet items.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+finance_healthcare_week1_question_6 = {
+    'question': "Given the following information, what is Net Income?\n- Sales Revenue = $5000\n- Dividends Paid = $200\n- Cash = $100\n- SG&A Expense = $400\n- Cost of Goods Sold = $1600",
+    'options_list': [
+        'A) $3000',
+        'B) $4800',
+        'C) $3100',
+        'D) $2800',
+        'E) $3300'
+    ],
+    'correct_answer': 'A) $3000',
+    'explanation': "Net Income = Revenue – COGS – SG&A = $5000 – $1600 – $400 = $3000. Dividends and cash do not affect net income directly.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+finance_healthcare_week1_question_7 = {
+    'question': "Which of the following will impact income THIS year?",
+    'options_list': [
+        'A) Spend $100 on purchases of equipment',
+        'B) Spend $100 on research and development',
+        'C) Spend $100 on purchases of inventory that is still not sold at the end of the year',
+        'D) Spend $100 to pay off short-term debt'
+    ],
+    'correct_answer': 'B) Spend $100 on research and development',
+    'explanation': "R&D is expensed immediately. Equipment and inventory are capitalized, and debt repayment affects only the balance sheet.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+finance_healthcare_week1_question_8 = {
+    'question': "Which of the following will result in the firm recognizing revenue this year? (Check all that apply)",
+    'options_list': [
+        'A) Receiving an advance deposit in cash from a customer',
+        'B) A customer places an order for a new product',
+        'C) Receiving cash for a product delivered in a prior year',
+        'D) Delivering a service for which you had been paid in a prior year',
+        'E) Selling a product on credit'
+    ],
+    'correct_answer': ['D) Delivering a service for which you had been paid in a prior year', 'E) Selling a product on credit'],
+    'explanation': "Revenue is recognized when earned (goods delivered or services performed), regardless of when payment is received.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+finance_healthcare_week1_question_9 = {
+    'question': "A firm issues long-term debt and receives $50,000 in cash. What happens to the various sections of the balance sheet?",
+    'options_list': [
+        'A) Short-Term Assets go up by $50,000 and Long-Term Liabilities go up by $50,000',
+        'B) Short-Term Assets go up by $50,000 and Owners’ Equity goes up by $50,000',
+        'C) Short-Term Assets go up by $50,000 and Long-Term Liabilities go down by $50,000',
+        'D) Short-Term Assets go up by $50,000 and Owners’ Equity goes down by $50,000',
+        'E) Short-Term Assets go up by $50,000 and Long-Term Assets go down by $50,000'
+    ],
+    'correct_answer': 'A) Short-Term Assets go up by $50,000 and Long-Term Liabilities go up by $50,000',
+    'explanation': "Issuing debt increases cash (a short-term asset) and increases long-term liabilities.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+finance_healthcare_week1_question_10 = {
+    'question': "A firm sells inventory that had cost $100 for $150. Of the $150 of sales, $120 is cash and $30 is credit. Which effects on the balance sheet are correct? (Check all that apply)",
+    'options_list': [
+        'A) Accounts Payable goes up by $120',
+        'B) Accounts Receivable goes up by $30',
+        'C) Inventory goes up by $100',
+        'D) Cash goes up by $150',
+        'E) Retained Earnings goes up by $50'
+    ],
+    'correct_answer': ['B) Accounts Receivable goes up by $30', 'E) Retained Earnings goes up by $50'],
+    'explanation': "$30 on credit → Accounts Receivable increases. Profit = $150 – $100 = $50 → Retained Earnings increases. Inventory decreases, not increases. Cash increases by $120, not $150.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+finance_healthcare_week1_question_11 = {
+    'question': "You buy a machine for $300,000 that is expected to last for 10 years, with no salvage value. If using straight-line depreciation, what’s the annual depreciation expense?",
+    'options_list': [
+        'A) $300,000',
+        'B) $0',
+        'C) $30,000',
+        'D) $10'
+    ],
+    'correct_answer': 'C) $30,000',
+    'explanation': "Depreciation = $300,000 / 10 = $30,000 per year.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+finance_healthcare_week1_question_12 = {
+    'question': "We generate $100,000 in sales: $80,000 cash, $20,000 credit. Expect 10% of credit won’t be collected. How much income is recognized?",
+    'options_list': [
+        'A) $90,000',
+        'B) $80,000',
+        'C) $98,000',
+        'D) $100,000',
+        'E) $82,000'
+    ],
+    'correct_answer': 'C) $98,000',
+    'explanation': "Expected uncollectible = 10% × $20,000 = $2,000. Recognized revenue = $100,000 – $2,000 = $98,000.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
+}
+
+
+
+
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
 # print(global_items)
