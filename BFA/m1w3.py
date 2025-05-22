@@ -476,6 +476,123 @@ finance_healthcare_week3_question_8 = {
 }
 
 
+accounting_analytics_week1_question_1 = {
+    'question': "Which of the following ratios use de-levered net income? (Check all that apply)\n[Refer to source: https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1]\n\n| Option               | Correct? |\n|----------------------|----------|\n| Financial Leverage   | ❌       |\n| Asset Turnover       | ❌       |\n| Return on Sales      | ✅       |\n| Return on Equity     | ❌       |\n| Return on Assets     | ✅       |",
+    'options_list': [
+        'A) Financial Leverage',
+        'B) Asset Turnover',
+        'C) Return on Sales',
+        'D) Return on Equity',
+        'E) Return on Assets'
+    ],
+    'correct_answer': ['C) Return on Sales', 'E) Return on Assets'],
+    'explanation': "Return on Sales and Return on Assets can be calculated using de-levered net income (e.g., NOPAT). ROE and Financial Leverage incorporate effects of leverage.",
+    'chapter_information': 'https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1'
+}
+
+accounting_analytics_week1_question_2 = {
+    'question': "Which company has achieved its level of Return on Equity primarily through a high reliance on debt financing?\n[Refer to source: https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1]\n\n| Company            | ROE   | ROA   | Financial Leverage |\n|--------------------|-------|-------|---------------------|\n| Dog Nation         | 0.177 | 0.060 | 3.740               |\n| Dog Shoe Warehouse | 0.178 | 0.119 | 1.501               |\n| Hound Smart        | 0.177 | 0.112 | 1.762               |\n| Paw Locker         | 0.177 | 0.126 | 1.430               |\n| Pooch Mart         | 0.177 | 0.111 | 1.639               |",
+    'options_list': [
+        'A) Dog Nation',
+        'B) Dog Shoe Warehouse',
+        'C) Hound Smart',
+        'D) Paw Locker',
+        'E) Pooch Mart'
+    ],
+    'correct_answer': 'A) Dog Nation',
+    'explanation': "Dog Nation has low ROA and very high leverage, indicating ROE is inflated via debt.",
+    'chapter_information': 'https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1'
+}
+
+accounting_analytics_week1_question_3 = {
+    'question': "Paw Locker has the highest Return on Assets. What could be a secret to its success? (Check all that apply)\n[Refer to source: https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1]\n\n| Company            | ROE   | ROA   | Leverage | ROS   | Asset Turnover |\n|--------------------|-------|-------|----------|-------|----------------|\n| Dog Nation         | 0.177 | 0.060 | 3.740    | 0.026 | 2.338          |\n| Dog Shoe Warehouse | 0.178 | 0.119 | 1.501    | 0.065 | 1.828          |\n| Hound Smart        | 0.177 | 0.112 | 1.762    | 0.038 | 2.930          |\n| Paw Locker         | 0.177 | 0.126 | 1.430    | 0.065 | 1.927          |\n| Pooch Mart         | 0.177 | 0.111 | 1.639    | 0.057 | 1.938          |\n\n| Option                                                   | Correct? |\n|-----------------------------------------------------------|----------|\n| Uses more equity financing than Dog Nation               | ✅       |\n| Pays less interest expense than Pooch Mart               | ❌       |\n| Holds lower inventory levels than Dog Shoe Warehouse     | ❌       |\n| Uses less debt financing than Hound Smart                | ✅       |\n| Able to charge a higher price than Pooch Mart            | ✅       |",
+    'options_list': [
+        'A) Uses more equity financing than Dog Nation',
+        'B) Pays less interest expense than Pooch Mart',
+        'C) Holds lower inventory levels than Dog Shoe Warehouse',
+        'D) Uses less debt financing than Hound Smart',
+        'E) Able to charge a higher price than Pooch Mart'
+    ],
+    'correct_answer': [
+        'A) Uses more equity financing than Dog Nation',
+        'D) Uses less debt financing than Hound Smart',
+        'E) Able to charge a higher price than Pooch Mart'
+    ],
+    'explanation': "High ROA supported by strong pricing power and lower leverage compared to peers.",
+    'chapter_information': 'https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1'
+}
+
+accounting_analytics_week1_question_4 = {
+    'question': "Which of the following companies has the lowest Return on Assets?\n[Refer to source: https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1]\n\n| Company            | Return on Sales | Asset Turnover | ROA (calculated) |\n|--------------------|------------------|----------------|------------------|\n| Advanced Puppy     | 0.066            | 1.501          | 0.099            |\n| Dog Shoe Warehouse | 0.065            | 1.828          | 0.119            |\n| Dogtail Holdings   | 0.066            | 1.082          | 0.071            |\n| Lassie Corp        | 0.065            | 1.742          | 0.113            |\n| Paw Locker         | 0.065            | 1.927          | 0.126            |",
+    'options_list': [
+        'A) Advanced Puppy',
+        'B) Dog Shoe Warehouse',
+        'C) Dogtail Holdings',
+        'D) Lassie Corp',
+        'E) Paw Locker'
+    ],
+    'correct_answer': 'C) Dogtail Holdings',
+    'explanation': "Dogtail Holdings has the lowest ROA (0.071), based on ROS × Asset Turnover.",
+    'chapter_information': 'https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1'
+}
+
+accounting_analytics_week1_question_5 = {
+    'question': "Dogwell decides to pay suppliers earlier to get a discount. Which ratios are affected? (Check all that apply)\n[Refer to source: https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1]\n\n| Option             | Correct? |\n|--------------------|----------|\n| Effective tax rate | ❌       |\n| SG&A-to-sales      | ❌       |\n| Days payable       | ✅       |\n| Gross margin       | ✅       |\n| Days receivable    | ❌       |",
+    'options_list': [
+        'A) Effective tax rate',
+        'B) SG&A-to-sales',
+        'C) Days payable',
+        'D) Gross margin',
+        'E) Days receivable'
+    ],
+    'correct_answer': ['C) Days payable', 'D) Gross margin'],
+    'explanation': "Paying early reduces COGS → improves gross margin; also lowers days payable. Other metrics are unaffected.",
+    'chapter_information': 'https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1'
+}
+
+accounting_analytics_week1_question_6 = {
+    'question': "Which company has a strategy of high SG&A to build a brand and charge more?\n[Refer to source: https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1]\n\n| Company            | ROS   | Gross Margin | SG&A/Sales | Operating Margin |\n|--------------------|-------|---------------|------------|------------------|\n| Advanced Puppy     | 0.066 | 0.530         | 0.393      | 0.106            |\n| Dog Shoe Warehouse | 0.065 | 0.347         | 0.212      | 0.109            |\n| Dogtail Holdings   | 0.066 | 0.343         | 0.215      | 0.117            |\n| Lassie Corp        | 0.065 | 0.384         | 0.259      | 0.101            |\n| Paw Locker         | 0.065 | 0.329         | 0.209      | 0.101            |",
+    'options_list': [
+        'A) Advanced Puppy',
+        'B) Dog Shoe Warehouse',
+        'C) Dogtail Holdings',
+        'D) Lassie Corp',
+        'E) Paw Locker'
+    ],
+    'correct_answer': 'A) Advanced Puppy',
+    'explanation': "Advanced Puppy shows highest SG&A-to-sales and highest gross margin, indicating branding strategy.",
+    'chapter_information': 'https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1'
+}
+
+accounting_analytics_week1_question_7 = {
+    'question': "Which company has the highest Net Trade Cycle?\n[Refer to source: https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1]\n\n| Company        | Days Receivable | Days Inventory | Days Payable | Net Trade Cycle |\n|----------------|------------------|----------------|---------------|------------------|\n| BowWow Center | 7.811            | 65.486         | 10.494        | 62.803           |\n| Dogstrom       | 62.526           | 65.359         | 48.768        | 79.117           |\n| Mutt Max       | 12.237           | 206.248        | 8.208         | 210.277          |\n| Rex Retail     | 3.385            | 111.218        | 48.291        | 66.312           |\n| Trans Pup      | 4.254            | 221.326        | 125.969       | 99.611           |",
+    'options_list': [
+        'A) BowWow Center',
+        'B) Dogstrom',
+        'C) Mutt Max',
+        'D) Rex Retail',
+        'E) Trans Pup'
+    ],
+    'correct_answer': 'C) Mutt Max',
+    'explanation': "Mutt Max has highest Net Trade Cycle at 210.277 days.",
+    'chapter_information': 'https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1'
+}
+
+accounting_analytics_week1_question_8 = {
+    'question': "Which company has the strongest short-term liquidity position?\n[Refer to source: https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1]\n\n| Company            | Current Ratio | Quick Ratio | Debt-to-Equity | Long-Term Debt/Equity |\n|--------------------|----------------|-------------|----------------|------------------------|\n| Bow-Wow Stores     | 1.6988         | 0.082       | 13.7750        | 8.8690                 |\n| Destination Kennel | 2.1415         | 0.2119      | 0.5256         | 0.0000                 |\n| Dog Orange Group   | 1.2649         | 0.2948      | 3.1246         | 2.6663                 |\n| Ren Inc            | 2.3944         | 0.4173      | 0.5006         | 0.0342                 |\n| Spartan Dog        | 1.0683         | 0.3476      | 1.3526         | 0.4588                 |",
+    'options_list': [
+        'A) Bow-Wow Stores',
+        'B) Destination Kennel',
+        'C) Dog Orange Group',
+        'D) Ren Inc',
+        'E) Spartan Dog'
+    ],
+    'correct_answer': 'D) Ren Inc',
+    'explanation': "Ren Inc has highest current and quick ratios and lowest debt, indicating best liquidity position.",
+    'chapter_information': 'https://www.coursera.org/learn/accounting-analytics?specialization=business-analytics Week 1'
+}
+
+
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
 # print(global_items)

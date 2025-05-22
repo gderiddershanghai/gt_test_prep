@@ -10,19 +10,19 @@ questions_dictionary = {
     'M1W1': BFA_M1W1_MPC, 
     'M1W2': BFA_M1W2_MPC, 
     'M1W3': BFA_M1W3_MPC, 
+    "M1_EXTRA": BFA_M1_EXTRA_MPC,
 }
 
 # Updated Review Sets
 REVIEW_SETS = {
-
     'M1W1': BFA_M1W1_MPC, 
     'M1W2': BFA_M1W2_MPC, 
     'M1W3': BFA_M1W3_MPC, 
     'M1_EXTRA': BFA_M1_EXTRA_MPC,
     "FINANCIAL ACCOUNTING": ['M1W1', 'M1W2', 'M1W3', "M1_EXTRA"],
-
-
 }
+
+
 
 # Token Class
 class Token:
@@ -31,8 +31,10 @@ class Token:
         self.mpc_questions = []
         self.num_questions = 10
         self.chapters_to_review = []
-        
-        
+        # print('-----------------------------')
+        # print('-----', sum([len(questions_dictionary[question_list]) for question_list in REVIEW_SETS["FINANCIAL ACCOUNTING"]]))
+        # print('-----------------------------')
+        # print('TOTAL QUESTIONS:', sum([len(v) for k,v in REVIEW_SETS["FINANCIAL ACCOUNTING"]]))
         
     def initialize_mpc_questions(self):
         print(self.__dict__, '------------')
