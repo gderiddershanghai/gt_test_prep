@@ -370,6 +370,112 @@ financial_accounting_week3_q19 = {
 }
 
 
+finance_healthcare_week3_question_1 = {
+    'question': "Which of the following would affect the Current Ratio (defined as Current Assets / Current Liabilities)? (Check all that apply)\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
+    'options_list': [
+        'A) Buy inventory with cash',
+        'B) Collect on a receivable',
+        'C) Buy a machine with cash',
+        'D) Issue shares to pay down long-term debt'
+    ],
+    'correct_answer': ['C) Buy a machine with cash'],
+    'explanation': "Buying a machine reduces current assets (cash), while the asset gained is non-current — this lowers the current ratio. Other transactions have no net effect on current assets/liabilities.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 3'
+}
+
+finance_healthcare_week3_question_2 = {
+    'question': "Which of the following are true about interpreting the Current Ratio? (Check all that apply)\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
+    'options_list': [
+        'A) A high current ratio means you can’t go bankrupt',
+        'B) A higher current ratio is better',
+        'C) A higher current ratio means more safety in the short term',
+        'D) Too high a current ratio means you may have too much invested in short-term assets, which may hurt your long-term profitability'
+    ],
+    'correct_answer': ['B) A higher current ratio is better', 'C) A higher current ratio means more safety in the short term', 'D) Too high a current ratio means you may have too much invested in short-term assets, which may hurt your long-term profitability'],
+    'explanation': "Higher current ratio = more liquidity = lower short-term risk, but excess idle assets could imply inefficiency. High ratio ≠ zero bankruptcy risk.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 3'
+}
+
+finance_healthcare_week3_question_3 = {
+    'question': "Which of the following is a reason why Diluted Earnings Per Share is less than Basic Earnings Per Share? (Check all that apply)\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
+    'options_list': [
+        'A) Because the firm bought back shares during the year',
+        'B) Because the firm pays dividends',
+        'C) Because the firm has employee stock options that can turn into shares',
+        'D) Because the firm has debt and can take advantage of leverage'
+    ],
+    'correct_answer': ['C) Because the firm has employee stock options that can turn into shares'],
+    'explanation': "Diluted EPS includes the impact of potential shares (from options, convertibles, etc.) that could reduce EPS if exercised. Buybacks reduce basic/diluted equally; dividends and leverage are unrelated to EPS dilution.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 3'
+}
+
+finance_healthcare_week3_question_4 = {
+    'question': "Which of the following will affect a firm’s Leverage Ratio (Total Liabilities / Total Stockholders’ Equity)? (Check all that apply)\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
+    'options_list': [
+        'A) Generating Positive Net Income',
+        'B) Buying back shares with cash',
+        'C) Paying a dividend to Shareholders',
+        'D) Issuing Long-Term Debt for cash'
+    ],
+    'correct_answer': ['A) Generating Positive Net Income', 'B) Buying back shares with cash', 'C) Paying a dividend to Shareholders', 'D) Issuing Long-Term Debt for cash'],
+    'explanation': "Buybacks reduce equity, increasing leverage. Issuing debt increases liabilities. Net income increases retained earnings (equity), which can reduce leverage. Dividends reduce equity; effect is less direct.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 3'
+}
+
+finance_healthcare_week3_question_5 = {
+    'question': "Why don’t firms increase their leverage as much as possible? (Check all that apply)\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
+    'options_list': [
+        'A) Having too much debt increases the interest rate firms have to pay on their loans',
+        'B) It will increase their risk of bankruptcy',
+        'C) It will slow down the collection of receivables',
+        'D) It will increase their tax bill'
+    ],
+    'correct_answer': ['A) Having too much debt increases the interest rate firms have to pay on their loans', 'B) It will increase their risk of bankruptcy'],
+    'explanation': "Higher leverage raises risk and cost of borrowing. It actually reduces taxes (interest is deductible). Receivable collections are unrelated.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 3'
+}
+
+finance_healthcare_week3_question_6 = {
+    'question': "Which of the following will increase a firm’s Return on Equity (ROE)? (Check all that apply)\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
+    'options_list': [
+        'A) Increasing leverage (assuming the firm is earning a higher return than what it pays out on debt)',
+        'B) Aggressive accounting methods',
+        'C) Increasing Return on Assets',
+        'D) Decreasing Profit Margins'
+    ],
+    'correct_answer': ['A) Increasing leverage (assuming the firm is earning a higher return than what it pays out on debt)', 'B) Aggressive accounting methods', 'C) Increasing Return on Assets'],
+    'explanation': "Higher ROA = higher ROE (via DuPont). Leverage magnifies ROE if ROA > cost of debt. Aggressive accounting inflates earnings (artificially raises ROE). Lower profit margins reduce ROE.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 3'
+}
+
+finance_healthcare_week3_question_7 = {
+    'question': "Suppose Net Income = $500, Total Assets = $2000, Total Liabilities = $500, Total Equity = $1500. What is Return on Equity (ROE)?\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
+    'options_list': [
+        'A) 0%',
+        'B) 40%',
+        'C) 100%',
+        'D) 33%'
+    ],
+    'correct_answer': 'D) 33%',
+    'explanation': "ROE = Net Income / Equity = 500 / 1500 = 33%",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 3'
+}
+
+finance_healthcare_week3_question_8 = {
+    'question': "Sales = $1200, Average Receivables = $200. What is Accounts Receivable Turnover Ratio in days?\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
+    'options_list': [
+        'A) 90 days',
+        'B) 6 days',
+        'C) 0 days',
+        'D) 61 days',
+        'E) 30 days'
+    ],
+    'correct_answer': 'D) 61 days',
+    'explanation': "Receivables Turnover = 1200 / 200 = 6. Days = 365 / 6 ≈ 61 days.",
+    'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 3'
+}
+
+
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
 # print(global_items)

@@ -800,6 +800,175 @@ old_financial_accounting_week2_q34 = {
     'chapter_information': 'old financial accounting week 2 self assessment questions'
 }
 
+wharton_accounting_week3_final_question_1 = {
+    'question': "A company delivered $10,000 of goods to a customer that agreed to pay cash within 30 days. The goods had cost $8,000 to manufacture.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Cost of Goods Sold',
+        'B) Accounts Payable',
+        'C) Cash from Operations',
+        'D) Current Assets',
+        'E) Revenue'
+    ],
+    'correct_answer': ['A) Cost of Goods Sold', 'D) Current Assets', 'E) Revenue'],
+    'explanation': "Revenue increases because the sale is recognized. Cost of Goods Sold increases due to the expense of inventory sold. Current Assets increase via Accounts Receivable. Cash from Operations is unaffected since cash hasn’t been received.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_final_question_2 = {
+    'question': "A company took delivery of $50,000 of new inventory and agreed to pay cash to the supplier within 30 days.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Total Stockholders’ Equity',
+        'B) Current Liabilities',
+        'C) Inventory',
+        'D) Cash from Operations',
+        'E) Cost of Goods Sold'
+    ],
+    'correct_answer': ['B) Current Liabilities', 'C) Inventory'],
+    'explanation': "Inventory (a current asset) increases. Current Liabilities (Accounts Payable) increase due to delayed payment. Other items are not affected at this point.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_final_question_3 = {
+    'question': "A company collected $100,000 cash from a customer who both received and was billed for the goods last quarter.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Accounts Receivable',
+        'B) Cash from Operations',
+        'C) Cash',
+        'D) Revenue',
+        'E) Current Assets'
+    ],
+    'correct_answer': ['B) Cash from Operations', 'C) Cash'],
+    'explanation': "Cash increases. Cash from Operations increases (it's an operating inflow). Accounts Receivable decreases, so Current Assets net effect = 0.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_final_question_4 = {
+    'question': "A company collected $10,000 cash from a customer as a deposit for goods that will be shipped next quarter.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Revenue',
+        'B) Total Assets',
+        'C) Total Liabilities',
+        'D) Accounts Receivable',
+        'E) Cash from Operations'
+    ],
+    'correct_answer': ['B) Total Assets', 'C) Total Liabilities', 'E) Cash from Operations'],
+    'explanation': "Cash (asset) and Unearned Revenue (liability) increase. No revenue is recognized yet.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_final_question_5 = {
+    'question': "A company received $100,000 cash from issuing 10,000 shares of $4 par value stock.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Cash from Operations',
+        'B) Additional Paid in Capital',
+        'C) Revenue',
+        'D) Total Liabilities',
+        'E) Total Assets'
+    ],
+    'correct_answer': ['B) Additional Paid in Capital', 'E) Total Assets'],
+    'explanation': "Cash (asset) and Additional Paid-in Capital (equity) increase. Not an operating activity.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_final_question_6 = {
+    'question': "A company received $75,000 cash from a bank loan that must be repaid in three years.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Interest Expense',
+        'B) Cash from Financing',
+        'C) Interest Payable',
+        'D) Total Liabilities',
+        'E) Total Assets'
+    ],
+    'correct_answer': ['B) Cash from Financing', 'D) Total Liabilities', 'E) Total Assets'],
+    'explanation': "Long-term liabilities and cash increase. Cash from Financing is affected, not operations.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_final_question_7 = {
+    'question': "A company declared $500,000 of dividends that will be paid two months from now.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Dividends Payable',
+        'B) Cash from Operations',
+        'C) Net Income',
+        'D) Current Assets',
+        'E) Dividend Expenses'
+    ],
+    'correct_answer': ['A) Dividends Payable'],
+    'explanation': "Dividends Payable, a liability, increases. No immediate cash or income statement impact.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_final_question_8 = {
+    'question': "A company paid $50,000 to its insurance company for fire insurance coverage over the next year.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Current Assets',
+        'B) Unearned Revenue',
+        'C) Insurance Expense',
+        'D) Prepaid Insurance',
+        'E) Total Stockholders’ Equity'
+    ],
+    'correct_answer': ['A) Current Assets', 'D) Prepaid Insurance'],
+    'explanation': "Prepaid Insurance is a current asset. No expense yet since coverage is for the future.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_final_question_9 = {
+    'question': "A company did an adjusting entry to record that $1,000 of Prepaid Advertising was used up during the quarter.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Cost of Goods Sold',
+        'B) Prepaid Advertising',
+        'C) Total Liabilities',
+        'D) Cash from Operations',
+        'E) Advertising Expense'
+    ],
+    'correct_answer': ['E) Advertising Expense'],
+    'explanation': "An expense is recognized. Prepaid asset decreases, no cash flow impact.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_final_question_10 = {
+    'question': "A company borrowed $500,000 cash from a bank and used it to purchase $500,000 of manufacturing equipment.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Cash from Investing',
+        'B) Total Liabilities',
+        'C) Cash from Financing',
+        'D) Equipment',
+        'E) Depreciation'
+    ],
+    'correct_answer': ['B) Total Liabilities', 'C) Cash from Financing', 'D) Equipment'],
+    'explanation': "Equipment and liabilities increase. Cash from Financing increases (not investing, which is a cash outflow here). Depreciation comes later, not at purchase.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_final_question_11 = {
+    'question': "A company recorded $5,000 of depreciation on vehicles used by the sales force.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Retained Earnings',
+        'B) Cash from Operations',
+        'C) Cost of Goods Sold',
+        'D) Total Assets',
+        'E) Depreciation Expense'
+    ],
+    'correct_answer': ['E) Depreciation Expense'],
+    'explanation': "A non-cash expense is recorded, reducing net income. No cash or asset increase.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+wharton_accounting_week3_final_question_12 = {
+    'question': "A company sold manufacturing equipment for $30,000 cash. The book value was $25,000; gain = $5,000.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'options_list': [
+        'A) Cash from Operations',
+        'B) Retained Earnings',
+        'C) Cost of Goods Sold',
+        'D) Cash from Financing',
+        'E) Cash from Investing'
+    ],
+    'correct_answer': ['B) Retained Earnings', 'E) Cash from Investing'],
+    'explanation': "Cash from Investing increases by $30,000. Retained Earnings increases by $5,000 gain. Not part of operations or financing.",
+    'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
+}
+
+
 
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
