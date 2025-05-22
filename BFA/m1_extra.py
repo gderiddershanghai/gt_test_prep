@@ -293,7 +293,7 @@ old_financial_accounting_week2_q18 = {
         'Not enough data provided to determine the ending inventory amount'
     ],
     'correct_answer': 'USD 2,500',
-    'explanation': "FIFO leaves the latest purchases in ending inventory. 5,000 units × $0.50 (Sep 1 cost) = **USD 2,500**.",
+    'explanation': "FIFO leaves the latest purchases in ending inventory. 5,000 units × \$0.50 (Sep 1 cost) = **USD 2,500**.",
     'chapter_information': 'old financial accounting week 2 self assessment questions'
 }
 
@@ -301,47 +301,47 @@ frozone_question_19 = {
     'question': (
         "The Frozone Ice Emporium Company – Fiscal Year End 2021\n\n"
         "**Chart of Accounts**\n"
-        "| Account                                   | $$$       | Category               |\n"
+        "| Account                                   | \$\$\$       | Category               |\n"
         "|-------------------------------------------|-----------|------------------------|\n"
-        "| Accounts Payable                          | $45,340   | Current Liability      |\n"
-        "| Bonds Payable                             | $338,000  | Long Term Liability    |\n"
-        "| Salaries Payable                          | $9,415    | Current Liability      |\n"
-        "| Accounts Receivable                       | $90,950   | Current Asset          |\n"
-        "| Advertising Expense                       | $54,000   | Expense                |\n"
-        "| Cash                                      | $383,100  | Current Asset          |\n"
-        "| Concession Revenues                       | $21,050   | Revenue                |\n"
-        "| Taxes Payable                             | $172,400  | Current Liability      |\n"
-        "| Income Tax Expense                        | $312,500  | Expense                |\n"
-        "| Supplies Expense                          | $355      | Expense                |\n"
-        "| Rent Expense                              | $49,300   | Expense                |\n"
-        "| Cost of Goods Sold                        | $32,000   | Expense                |\n"
-        "| Prepaid Expenses                          | $8,950    | Current Asset          |\n"
-        "| Deferred Revenue                          | $1,920    | Current Liability      |\n"
-        "| Common Stock                              | $51,000   | Equity                 |\n"
-        "| Notes Payable                             | $11,000   | Long Term Liability    |\n"
-        "| Utilities Expense                         | $950      | Expense                |\n"
-        "| Accumulated Depreciation                  | $377,100  | Long Term Contra Asset |\n"
-        "| Depreciation Expense                      | $54,100   | Expense                |\n"
-        "| Salaries Expense                          | $86,200   | Expense                |\n"
-        "| Land                                      | $740,000  | Long Term Asset        |\n"
-        "| Net Franchising Revenues                  | $1,520,000| Revenue                |\n"
-        "| Interest Revenues                         | $1,700    | Revenue                |\n"
-        "| Discount on Bonds Payable                 | $19,700   | Long Term Contra Liab. |\n"
-        "| Merchandising Sales Revenues              | $56,145   | Revenue                |\n"
-        "| Marketable Securities                     | $90,640   | Current Asset          |\n"
-        "| Interest Expense                          | $92,900   | Expense                |\n"
-        "| Merchandise Sales Returns                 | $3,200    | Contra Revenue         |\n"
-        "| Treasury Stock                            | $2,200    | Contra Equity          |\n"
-        "| Equipment                                 | $329,300  | Long Term Asset        |\n"
-        "| Marketing Expenses                        | $117,000  | Expense                |\n"
-        "| Allowance for Doubtful Accounts           | $7,320    | Current Contra Asset   |\n"
-        "| Buildings                                 | $1,220,000| Long Term Asset        |\n"
-        "| Current Portion Mortgages Payable         | $22,000   | Current Liability      |\n"
-        "| Current Portion Bonds Payable             | $16,200   | Current Liability      |\n"
-        "| Dividends Declared                        | $9,000    | No Matching Category   |\n"
-        "| Mortgage Payable                          | $620,000  | Long Term Liability    |\n"
-        "| Ending Retained Earnings (2021)           | $1,306,390| Equity                 |\n"
-        "| Merchandise Inventory                     | $93,245   | Current Asset          |\n\n"
+        "| Accounts Payable                          | \$45,340   | Current Liability      |\n"
+        "| Bonds Payable                             | \$338,000  | Long Term Liability    |\n"
+        "| Salaries Payable                          | \$9,415    | Current Liability      |\n"
+        "| Accounts Receivable                       | \$90,950   | Current Asset          |\n"
+        "| Advertising Expense                       | \$54,000   | Expense                |\n"
+        "| Cash                                      | \$383,100  | Current Asset          |\n"
+        "| Concession Revenues                       | \$21,050   | Revenue                |\n"
+        "| Taxes Payable                             | \$172,400  | Current Liability      |\n"
+        "| Income Tax Expense                        | \$312,500  | Expense                |\n"
+        "| Supplies Expense                          | \$355      | Expense                |\n"
+        "| Rent Expense                              | \$49,300   | Expense                |\n"
+        "| Cost of Goods Sold                        | \$32,000   | Expense                |\n"
+        "| Prepaid Expenses                          | \$8,950    | Current Asset          |\n"
+        "| Deferred Revenue                          | \$1,920    | Current Liability      |\n"
+        "| Common Stock                              | \$51,000   | Equity                 |\n"
+        "| Notes Payable                             | \$11,000   | Long Term Liability    |\n"
+        "| Utilities Expense                         | \$950      | Expense                |\n"
+        "| Accumulated Depreciation                  | \$377,100  | Long Term Contra Asset |\n"
+        "| Depreciation Expense                      | \$54,100   | Expense                |\n"
+        "| Salaries Expense                          | \$86,200   | Expense                |\n"
+        "| Land                                      | \$740,000  | Long Term Asset        |\n"
+        "| Net Franchising Revenues                  | \$1,520,000| Revenue                |\n"
+        "| Interest Revenues                         | \$1,700    | Revenue                |\n"
+        "| Discount on Bonds Payable                 | \$19,700   | Long Term Contra Liab. |\n"
+        "| Merchandising Sales Revenues              | \$56,145   | Revenue                |\n"
+        "| Marketable Securities                     | \$90,640   | Current Asset          |\n"
+        "| Interest Expense                          | \$92,900   | Expense                |\n"
+        "| Merchandise Sales Returns                 | \$3,200    | Contra Revenue         |\n"
+        "| Treasury Stock                            | \$2,200    | Contra Equity          |\n"
+        "| Equipment                                 | \$329,300  | Long Term Asset        |\n"
+        "| Marketing Expenses                        | \$117,000  | Expense                |\n"
+        "| Allowance for Doubtful Accounts           | \$7,320    | Current Contra Asset   |\n"
+        "| Buildings                                 | \$1,220,000| Long Term Asset        |\n"
+        "| Current Portion Mortgages Payable         | \$22,000   | Current Liability      |\n"
+        "| Current Portion Bonds Payable             | \$16,200   | Current Liability      |\n"
+        "| Dividends Declared                        | \$9,000    | No Matching Category   |\n"
+        "| Mortgage Payable                          | \$620,000  | Long Term Liability    |\n"
+        "| Ending Retained Earnings (2021)           | \$1,306,390| Equity                 |\n"
+        "| Merchandise Inventory                     | \$93,245   | Current Asset          |\n\n"
         "**Question:**\n"
         "What is the Net Income (after interest and taxes) for The Frozone Ice Emporium Company?"
     ),
@@ -367,47 +367,47 @@ frozone_question_20 = {
     'question': (
         "The Frozone Ice Emporium Company – Fiscal Year End 2021\n\n"
         "**Chart of Accounts**\n"
-        "| Account                                   | $$$       | Category               |\n"
+        "| Account                                   | \$\$\$       | Category               |\n"
         "|-------------------------------------------|-----------|------------------------|\n"
-        "| Accounts Payable                          | $45,340   | Current Liability      |\n"
-        "| Bonds Payable                             | $338,000  | Long Term Liability    |\n"
-        "| Salaries Payable                          | $9,415    | Current Liability      |\n"
-        "| Accounts Receivable                       | $90,950   | Current Asset          |\n"
-        "| Advertising Expense                       | $54,000   | Expense                |\n"
-        "| Cash                                      | $383,100  | Current Asset          |\n"
-        "| Concession Revenues                       | $21,050   | Revenue                |\n"
-        "| Taxes Payable                             | $172,400  | Current Liability      |\n"
-        "| Income Tax Expense                        | $312,500  | Expense                |\n"
-        "| Supplies Expense                          | $355      | Expense                |\n"
-        "| Rent Expense                              | $49,300   | Expense                |\n"
-        "| Cost of Goods Sold                        | $32,000   | Expense                |\n"
-        "| Prepaid Expenses                          | $8,950    | Current Asset          |\n"
-        "| Deferred Revenue                          | $1,920    | Current Liability      |\n"
-        "| Common Stock                              | $51,000   | Equity                 |\n"
-        "| Notes Payable                             | $11,000   | Long Term Liability    |\n"
-        "| Utilities Expense                         | $950      | Expense                |\n"
-        "| Accumulated Depreciation                  | $377,100  | Long Term Contra Asset |\n"
-        "| Depreciation Expense                      | $54,100   | Expense                |\n"
-        "| Salaries Expense                          | $86,200   | Expense                |\n"
-        "| Land                                      | $740,000  | Long Term Asset        |\n"
-        "| Net Franchising Revenues                  | $1,520,000| Revenue                |\n"
-        "| Interest Revenues                         | $1,700    | Revenue                |\n"
-        "| Discount on Bonds Payable                 | $19,700   | Long Term Contra Liab. |\n"
-        "| Merchandising Sales Revenues              | $56,145   | Revenue                |\n"
-        "| Marketable Securities                     | $90,640   | Current Asset          |\n"
-        "| Interest Expense                          | $92,900   | Expense                |\n"
-        "| Merchandise Sales Returns                 | $3,200    | Contra Revenue         |\n"
-        "| Treasury Stock                            | $2,200    | Contra Equity          |\n"
-        "| Equipment                                 | $329,300  | Long Term Asset        |\n"
-        "| Marketing Expenses                        | $117,000  | Expense                |\n"
-        "| Allowance for Doubtful Accounts           | $7,320    | Current Contra Asset   |\n"
-        "| Buildings                                 | $1,220,000| Long Term Asset        |\n"
-        "| Current Portion Mortgages Payable         | $22,000   | Current Liability      |\n"
-        "| Current Portion Bonds Payable             | $16,200   | Current Liability      |\n"
-        "| Dividends Declared                        | $9,000    | No Matching Category   |\n"
-        "| Mortgage Payable                          | $620,000  | Long Term Liability    |\n"
-        "| Ending Retained Earnings (2021)           | $1,306,390| Equity                 |\n"
-        "| Merchandise Inventory                     | $93,245   | Current Asset          |\n\n"
+        "| Accounts Payable                          | \$45,340   | Current Liability      |\n"
+        "| Bonds Payable                             | \$338,000  | Long Term Liability    |\n"
+        "| Salaries Payable                          | \$9,415    | Current Liability      |\n"
+        "| Accounts Receivable                       | \$90,950   | Current Asset          |\n"
+        "| Advertising Expense                       | \$54,000   | Expense                |\n"
+        "| Cash                                      | \$383,100  | Current Asset          |\n"
+        "| Concession Revenues                       | \$21,050   | Revenue                |\n"
+        "| Taxes Payable                             | \$172,400  | Current Liability      |\n"
+        "| Income Tax Expense                        | \$312,500  | Expense                |\n"
+        "| Supplies Expense                          | \$355      | Expense                |\n"
+        "| Rent Expense                              | \$49,300   | Expense                |\n"
+        "| Cost of Goods Sold                        | \$32,000   | Expense                |\n"
+        "| Prepaid Expenses                          | \$8,950    | Current Asset          |\n"
+        "| Deferred Revenue                          | \$1,920    | Current Liability      |\n"
+        "| Common Stock                              | \$51,000   | Equity                 |\n"
+        "| Notes Payable                             | \$11,000   | Long Term Liability    |\n"
+        "| Utilities Expense                         | \$950      | Expense                |\n"
+        "| Accumulated Depreciation                  | \$377,100  | Long Term Contra Asset |\n"
+        "| Depreciation Expense                      | \$54,100   | Expense                |\n"
+        "| Salaries Expense                          | \$86,200   | Expense                |\n"
+        "| Land                                      | \$740,000  | Long Term Asset        |\n"
+        "| Net Franchising Revenues                  | \$1,520,000| Revenue                |\n"
+        "| Interest Revenues                         | \$1,700    | Revenue                |\n"
+        "| Discount on Bonds Payable                 | \$19,700   | Long Term Contra Liab. |\n"
+        "| Merchandising Sales Revenues              | \$56,145   | Revenue                |\n"
+        "| Marketable Securities                     | \$90,640   | Current Asset          |\n"
+        "| Interest Expense                          | \$92,900   | Expense                |\n"
+        "| Merchandise Sales Returns                 | \$3,200    | Contra Revenue         |\n"
+        "| Treasury Stock                            | \$2,200    | Contra Equity          |\n"
+        "| Equipment                                 | \$329,300  | Long Term Asset        |\n"
+        "| Marketing Expenses                        | \$117,000  | Expense                |\n"
+        "| Allowance for Doubtful Accounts           | \$7,320    | Current Contra Asset   |\n"
+        "| Buildings                                 | \$1,220,000| Long Term Asset        |\n"
+        "| Current Portion Mortgages Payable         | \$22,000   | Current Liability      |\n"
+        "| Current Portion Bonds Payable             | \$16,200   | Current Liability      |\n"
+        "| Dividends Declared                        | \$9,000    | No Matching Category   |\n"
+        "| Mortgage Payable                          | \$620,000  | Long Term Liability    |\n"
+        "| Ending Retained Earnings (2021)           | \$1,306,390| Equity                 |\n"
+        "| Merchandise Inventory                     | \$93,245   | Current Asset          |\n\n"
         "**Question:**\n"
         "What is the total amount of **Current Liabilities**?"
     ),
@@ -432,47 +432,47 @@ frozone_question_21 = {
     'question': (
         "The Frozone Ice Emporium Company – Fiscal Year End 2021\n\n"
         "**Chart of Accounts**\n"
-        "| Account                                   | $$$       | Category               |\n"
+        "| Account                                   | \$\$\$       | Category               |\n"
         "|-------------------------------------------|-----------|------------------------|\n"
-        "| Accounts Payable                          | $45,340   | Current Liability      |\n"
-        "| Bonds Payable                             | $338,000  | Long Term Liability    |\n"
-        "| Salaries Payable                          | $9,415    | Current Liability      |\n"
-        "| Accounts Receivable                       | $90,950   | Current Asset          |\n"
-        "| Advertising Expense                       | $54,000   | Expense                |\n"
-        "| Cash                                      | $383,100  | Current Asset          |\n"
-        "| Concession Revenues                       | $21,050   | Revenue                |\n"
-        "| Taxes Payable                             | $172,400  | Current Liability      |\n"
-        "| Income Tax Expense                        | $312,500  | Expense                |\n"
-        "| Supplies Expense                          | $355      | Expense                |\n"
-        "| Rent Expense                              | $49,300   | Expense                |\n"
-        "| Cost of Goods Sold                        | $32,000   | Expense                |\n"
-        "| Prepaid Expenses                          | $8,950    | Current Asset          |\n"
-        "| Deferred Revenue                          | $1,920    | Current Liability      |\n"
-        "| Common Stock                              | $51,000   | Equity                 |\n"
-        "| Notes Payable                             | $11,000   | Long Term Liability    |\n"
-        "| Utilities Expense                         | $950      | Expense                |\n"
-        "| Accumulated Depreciation                  | $377,100  | Long Term Contra Asset |\n"
-        "| Depreciation Expense                      | $54,100   | Expense                |\n"
-        "| Salaries Expense                          | $86,200   | Expense                |\n"
-        "| Land                                      | $740,000  | Long Term Asset        |\n"
-        "| Net Franchising Revenues                  | $1,520,000| Revenue                |\n"
-        "| Interest Revenues                         | $1,700    | Revenue                |\n"
-        "| Discount on Bonds Payable                 | $19,700   | Long Term Contra Liab. |\n"
-        "| Merchandising Sales Revenues              | $56,145   | Revenue                |\n"
-        "| Marketable Securities                     | $90,640   | Current Asset          |\n"
-        "| Interest Expense                          | $92,900   | Expense                |\n"
-        "| Merchandise Sales Returns                 | $3,200    | Contra Revenue         |\n"
-        "| Treasury Stock                            | $2,200    | Contra Equity          |\n"
-        "| Equipment                                 | $329,300  | Long Term Asset        |\n"
-        "| Marketing Expenses                        | $117,000  | Expense                |\n"
-        "| Allowance for Doubtful Accounts           | $7,320    | Current Contra Asset   |\n"
-        "| Buildings                                 | $1,220,000| Long Term Asset        |\n"
-        "| Current Portion Mortgages Payable         | $22,000   | Current Liability      |\n"
-        "| Current Portion Bonds Payable             | $16,200   | Current Liability      |\n"
-        "| Dividends Declared                        | $9,000    | No Matching Category   |\n"
-        "| Mortgage Payable                          | $620,000  | Long Term Liability    |\n"
-        "| Ending Retained Earnings (2021)           | $1,306,390| Equity                 |\n"
-        "| Merchandise Inventory                     | $93,245   | Current Asset          |\n\n"
+        "| Accounts Payable                          | \$45,340   | Current Liability      |\n"
+        "| Bonds Payable                             | \$338,000  | Long Term Liability    |\n"
+        "| Salaries Payable                          | \$9,415    | Current Liability      |\n"
+        "| Accounts Receivable                       | \$90,950   | Current Asset          |\n"
+        "| Advertising Expense                       | \$54,000   | Expense                |\n"
+        "| Cash                                      | \$383,100  | Current Asset          |\n"
+        "| Concession Revenues                       | \$21,050   | Revenue                |\n"
+        "| Taxes Payable                             | \$172,400  | Current Liability      |\n"
+        "| Income Tax Expense                        | \$312,500  | Expense                |\n"
+        "| Supplies Expense                          | \$355      | Expense                |\n"
+        "| Rent Expense                              | \$49,300   | Expense                |\n"
+        "| Cost of Goods Sold                        | \$32,000   | Expense                |\n"
+        "| Prepaid Expenses                          | \$8,950    | Current Asset          |\n"
+        "| Deferred Revenue                          | \$1,920    | Current Liability      |\n"
+        "| Common Stock                              | \$51,000   | Equity                 |\n"
+        "| Notes Payable                             | \$11,000   | Long Term Liability    |\n"
+        "| Utilities Expense                         | \$950      | Expense                |\n"
+        "| Accumulated Depreciation                  | \$377,100  | Long Term Contra Asset |\n"
+        "| Depreciation Expense                      | \$54,100   | Expense                |\n"
+        "| Salaries Expense                          | \$86,200   | Expense                |\n"
+        "| Land                                      | \$740,000  | Long Term Asset        |\n"
+        "| Net Franchising Revenues                  | \$1,520,000| Revenue                |\n"
+        "| Interest Revenues                         | \$1,700    | Revenue                |\n"
+        "| Discount on Bonds Payable                 | \$19,700   | Long Term Contra Liab. |\n"
+        "| Merchandising Sales Revenues              | \$56,145   | Revenue                |\n"
+        "| Marketable Securities                     | \$90,640   | Current Asset          |\n"
+        "| Interest Expense                          | \$92,900   | Expense                |\n"
+        "| Merchandise Sales Returns                 | \$3,200    | Contra Revenue         |\n"
+        "| Treasury Stock                            | \$2,200    | Contra Equity          |\n"
+        "| Equipment                                 | \$329,300  | Long Term Asset        |\n"
+        "| Marketing Expenses                        | \$117,000  | Expense                |\n"
+        "| Allowance for Doubtful Accounts           | \$7,320    | Current Contra Asset   |\n"
+        "| Buildings                                 | \$1,220,000| Long Term Asset        |\n"
+        "| Current Portion Mortgages Payable         | \$22,000   | Current Liability      |\n"
+        "| Current Portion Bonds Payable             | \$16,200   | Current Liability      |\n"
+        "| Dividends Declared                        | \$9,000    | No Matching Category   |\n"
+        "| Mortgage Payable                          | \$620,000  | Long Term Liability    |\n"
+        "| Ending Retained Earnings (2021)           | \$1,306,390| Equity                 |\n"
+        "| Merchandise Inventory                     | \$93,245   | Current Asset          |\n\n"
         "**Question:**\n"
         "What is the total amount of **Long-Term Debt**?"
     ),
@@ -495,47 +495,47 @@ frozone_question_22 = {
     'question': (
         "The Frozone Ice Emporium Company – Fiscal Year End 2021\n\n"
         "**Chart of Accounts**\n"
-        "| Account                                   | $$$       | Category               |\n"
+        "| Account                                   | \$\$\$       | Category               |\n"
         "|-------------------------------------------|-----------|------------------------|\n"
-        "| Accounts Payable                          | $45,340   | Current Liability      |\n"
-        "| Bonds Payable                             | $338,000  | Long Term Liability    |\n"
-        "| Salaries Payable                          | $9,415    | Current Liability      |\n"
-        "| Accounts Receivable                       | $90,950   | Current Asset          |\n"
-        "| Advertising Expense                       | $54,000   | Expense                |\n"
-        "| Cash                                      | $383,100  | Current Asset          |\n"
-        "| Concession Revenues                       | $21,050   | Revenue                |\n"
-        "| Taxes Payable                             | $172,400  | Current Liability      |\n"
-        "| Income Tax Expense                        | $312,500  | Expense                |\n"
-        "| Supplies Expense                          | $355      | Expense                |\n"
-        "| Rent Expense                              | $49,300   | Expense                |\n"
-        "| Cost of Goods Sold                        | $32,000   | Expense                |\n"
-        "| Prepaid Expenses                          | $8,950    | Current Asset          |\n"
-        "| Deferred Revenue                          | $1,920    | Current Liability      |\n"
-        "| Common Stock                              | $51,000   | Equity                 |\n"
-        "| Notes Payable                             | $11,000   | Long Term Liability    |\n"
-        "| Utilities Expense                         | $950      | Expense                |\n"
-        "| Accumulated Depreciation                  | $377,100  | Long Term Contra Asset |\n"
-        "| Depreciation Expense                      | $54,100   | Expense                |\n"
-        "| Salaries Expense                          | $86,200   | Expense                |\n"
-        "| Land                                      | $740,000  | Long Term Asset        |\n"
-        "| Net Franchising Revenues                  | $1,520,000| Revenue                |\n"
-        "| Interest Revenues                         | $1,700    | Revenue                |\n"
-        "| Discount on Bonds Payable                 | $19,700   | Long Term Contra Liab. |\n"
-        "| Merchandising Sales Revenues              | $56,145   | Revenue                |\n"
-        "| Marketable Securities                     | $90,640   | Current Asset          |\n"
-        "| Interest Expense                          | $92,900   | Expense                |\n"
-        "| Merchandise Sales Returns                 | $3,200    | Contra Revenue         |\n"
-        "| Treasury Stock                            | $2,200    | Contra Equity          |\n"
-        "| Equipment                                 | $329,300  | Long Term Asset        |\n"
-        "| Marketing Expenses                        | $117,000  | Expense                |\n"
-        "| Allowance for Doubtful Accounts           | $7,320    | Current Contra Asset   |\n"
-        "| Buildings                                 | $1,220,000| Long Term Asset        |\n"
-        "| Current Portion Mortgages Payable         | $22,000   | Current Liability      |\n"
-        "| Current Portion Bonds Payable             | $16,200   | Current Liability      |\n"
-        "| Dividends Declared                        | $9,000    | No Matching Category   |\n"
-        "| Mortgage Payable                          | $620,000  | Long Term Liability    |\n"
-        "| Ending Retained Earnings (2021)           | $1,306,390| Equity                 |\n"
-        "| Merchandise Inventory                     | $93,245   | Current Asset          |\n\n"
+        "| Accounts Payable                          | \$45,340   | Current Liability      |\n"
+        "| Bonds Payable                             | \$338,000  | Long Term Liability    |\n"
+        "| Salaries Payable                          | \$9,415    | Current Liability      |\n"
+        "| Accounts Receivable                       | \$90,950   | Current Asset          |\n"
+        "| Advertising Expense                       | \$54,000   | Expense                |\n"
+        "| Cash                                      | \$383,100  | Current Asset          |\n"
+        "| Concession Revenues                       | \$21,050   | Revenue                |\n"
+        "| Taxes Payable                             | \$172,400  | Current Liability      |\n"
+        "| Income Tax Expense                        | \$312,500  | Expense                |\n"
+        "| Supplies Expense                          | \$355      | Expense                |\n"
+        "| Rent Expense                              | \$49,300   | Expense                |\n"
+        "| Cost of Goods Sold                        | \$32,000   | Expense                |\n"
+        "| Prepaid Expenses                          | \$8,950    | Current Asset          |\n"
+        "| Deferred Revenue                          | \$1,920    | Current Liability      |\n"
+        "| Common Stock                              | \$51,000   | Equity                 |\n"
+        "| Notes Payable                             | \$11,000   | Long Term Liability    |\n"
+        "| Utilities Expense                         | \$950      | Expense                |\n"
+        "| Accumulated Depreciation                  | \$377,100  | Long Term Contra Asset |\n"
+        "| Depreciation Expense                      | \$54,100   | Expense                |\n"
+        "| Salaries Expense                          | \$86,200   | Expense                |\n"
+        "| Land                                      | \$740,000  | Long Term Asset        |\n"
+        "| Net Franchising Revenues                  | \$1,520,000| Revenue                |\n"
+        "| Interest Revenues                         | \$1,700    | Revenue                |\n"
+        "| Discount on Bonds Payable                 | \$19,700   | Long Term Contra Liab. |\n"
+        "| Merchandising Sales Revenues              | \$56,145   | Revenue                |\n"
+        "| Marketable Securities                     | \$90,640   | Current Asset          |\n"
+        "| Interest Expense                          | \$92,900   | Expense                |\n"
+        "| Merchandise Sales Returns                 | \$3,200    | Contra Revenue         |\n"
+        "| Treasury Stock                            | \$2,200    | Contra Equity          |\n"
+        "| Equipment                                 | \$329,300  | Long Term Asset        |\n"
+        "| Marketing Expenses                        | \$117,000  | Expense                |\n"
+        "| Allowance for Doubtful Accounts           | \$7,320    | Current Contra Asset   |\n"
+        "| Buildings                                 | \$1,220,000| Long Term Asset        |\n"
+        "| Current Portion Mortgages Payable         | \$22,000   | Current Liability      |\n"
+        "| Current Portion Bonds Payable             | \$16,200   | Current Liability      |\n"
+        "| Dividends Declared                        | \$9,000    | No Matching Category   |\n"
+        "| Mortgage Payable                          | \$620,000  | Long Term Liability    |\n"
+        "| Ending Retained Earnings (2021)           | \$1,306,390| Equity                 |\n"
+        "| Merchandise Inventory                     | \$93,245   | Current Asset          |\n\n"
         "**Question:**\n"
         "What is the total balance of **Owner’s Equity**?"
     ),
@@ -558,47 +558,47 @@ frozone_question_23 = {
     'question': (
         "The Frozone Ice Emporium Company – Fiscal Year End 2021\n\n"
         "**Chart of Accounts**\n"
-        "| Account                                   | $$$       | Category               |\n"
+        "| Account                                   | \$\$\$       | Category               |\n"
         "|-------------------------------------------|-----------|------------------------|\n"
-        "| Accounts Payable                          | $45,340   | Current Liability      |\n"
-        "| Bonds Payable                             | $338,000  | Long Term Liability    |\n"
-        "| Salaries Payable                          | $9,415    | Current Liability      |\n"
-        "| Accounts Receivable                       | $90,950   | Current Asset          |\n"
-        "| Advertising Expense                       | $54,000   | Expense                |\n"
-        "| Cash                                      | $383,100  | Current Asset          |\n"
-        "| Concession Revenues                       | $21,050   | Revenue                |\n"
-        "| Taxes Payable                             | $172,400  | Current Liability      |\n"
-        "| Income Tax Expense                        | $312,500  | Expense                |\n"
-        "| Supplies Expense                          | $355      | Expense                |\n"
-        "| Rent Expense                              | $49,300   | Expense                |\n"
-        "| Cost of Goods Sold                        | $32,000   | Expense                |\n"
-        "| Prepaid Expenses                          | $8,950    | Current Asset          |\n"
-        "| Deferred Revenue                          | $1,920    | Current Liability      |\n"
-        "| Common Stock                              | $51,000   | Equity                 |\n"
-        "| Notes Payable                             | $11,000   | Long Term Liability    |\n"
-        "| Utilities Expense                         | $950      | Expense                |\n"
-        "| Accumulated Depreciation                  | $377,100  | Long Term Contra Asset |\n"
-        "| Depreciation Expense                      | $54,100   | Expense                |\n"
-        "| Salaries Expense                          | $86,200   | Expense                |\n"
-        "| Land                                      | $740,000  | Long Term Asset        |\n"
-        "| Net Franchising Revenues                  | $1,520,000| Revenue                |\n"
-        "| Interest Revenues                         | $1,700    | Revenue                |\n"
-        "| Discount on Bonds Payable                 | $19,700   | Long Term Contra Liab. |\n"
-        "| Merchandising Sales Revenues              | $56,145   | Revenue                |\n"
-        "| Marketable Securities                     | $90,640   | Current Asset          |\n"
-        "| Interest Expense                          | $92,900   | Expense                |\n"
-        "| Merchandise Sales Returns                 | $3,200    | Contra Revenue         |\n"
-        "| Treasury Stock                            | $2,200    | Contra Equity          |\n"
-        "| Equipment                                 | $329,300  | Long Term Asset        |\n"
-        "| Marketing Expenses                        | $117,000  | Expense                |\n"
-        "| Allowance for Doubtful Accounts           | $7,320    | Current Contra Asset   |\n"
-        "| Buildings                                 | $1,220,000| Long Term Asset        |\n"
-        "| Current Portion Mortgages Payable         | $22,000   | Current Liability      |\n"
-        "| Current Portion Bonds Payable             | $16,200   | Current Liability      |\n"
-        "| Dividends Declared                        | $9,000    | No Matching Category   |\n"
-        "| Mortgage Payable                          | $620,000  | Long Term Liability    |\n"
-        "| Ending Retained Earnings (2021)           | $1,306,390| Equity                 |\n"
-        "| Merchandise Inventory                     | $93,245   | Current Asset          |\n\n"
+        "| Accounts Payable                          | \$45,340   | Current Liability      |\n"
+        "| Bonds Payable                             | \$338,000  | Long Term Liability    |\n"
+        "| Salaries Payable                          | \$9,415    | Current Liability      |\n"
+        "| Accounts Receivable                       | \$90,950   | Current Asset          |\n"
+        "| Advertising Expense                       | \$54,000   | Expense                |\n"
+        "| Cash                                      | \$383,100  | Current Asset          |\n"
+        "| Concession Revenues                       | \$21,050   | Revenue                |\n"
+        "| Taxes Payable                             | \$172,400  | Current Liability      |\n"
+        "| Income Tax Expense                        | \$312,500  | Expense                |\n"
+        "| Supplies Expense                          | \$355      | Expense                |\n"
+        "| Rent Expense                              | \$49,300   | Expense                |\n"
+        "| Cost of Goods Sold                        | \$32,000   | Expense                |\n"
+        "| Prepaid Expenses                          | \$8,950    | Current Asset          |\n"
+        "| Deferred Revenue                          | \$1,920    | Current Liability      |\n"
+        "| Common Stock                              | \$51,000   | Equity                 |\n"
+        "| Notes Payable                             | \$11,000   | Long Term Liability    |\n"
+        "| Utilities Expense                         | \$950      | Expense                |\n"
+        "| Accumulated Depreciation                  | \$377,100  | Long Term Contra Asset |\n"
+        "| Depreciation Expense                      | \$54,100   | Expense                |\n"
+        "| Salaries Expense                          | \$86,200   | Expense                |\n"
+        "| Land                                      | \$740,000  | Long Term Asset        |\n"
+        "| Net Franchising Revenues                  | \$1,520,000| Revenue                |\n"
+        "| Interest Revenues                         | \$1,700    | Revenue                |\n"
+        "| Discount on Bonds Payable                 | \$19,700   | Long Term Contra Liab. |\n"
+        "| Merchandising Sales Revenues              | \$56,145   | Revenue                |\n"
+        "| Marketable Securities                     | \$90,640   | Current Asset          |\n"
+        "| Interest Expense                          | \$92,900   | Expense                |\n"
+        "| Merchandise Sales Returns                 | \$3,200    | Contra Revenue         |\n"
+        "| Treasury Stock                            | \$2,200    | Contra Equity          |\n"
+        "| Equipment                                 | \$329,300  | Long Term Asset        |\n"
+        "| Marketing Expenses                        | \$117,000  | Expense                |\n"
+        "| Allowance for Doubtful Accounts           | \$7,320    | Current Contra Asset   |\n"
+        "| Buildings                                 | \$1,220,000| Long Term Asset        |\n"
+        "| Current Portion Mortgages Payable         | \$22,000   | Current Liability      |\n"
+        "| Current Portion Bonds Payable             | \$16,200   | Current Liability      |\n"
+        "| Dividends Declared                        | \$9,000    | No Matching Category   |\n"
+        "| Mortgage Payable                          | \$620,000  | Long Term Liability    |\n"
+        "| Ending Retained Earnings (2021)           | \$1,306,390| Equity                 |\n"
+        "| Merchandise Inventory                     | \$93,245   | Current Asset          |\n\n"
         "**Question:**\n"
         "What is the balance of **Total Fixed Assets (long-term assets)**?"
     ),
@@ -695,18 +695,18 @@ old_financial_accounting_week2_q28 = {
         'USD 100,000'
     ],
     'correct_answer': 'USD 600,000',
-    'explanation': "Dividends are only paid on shares outstanding, not treasury shares. 600,000 × $1 = USD 600,000.",
+    'explanation': "Dividends are only paid on shares outstanding, not treasury shares. 600,000 × \$1 = USD 600,000.",
     'chapter_information': 'old financial accounting week 2 self assessment questions'
 }
 
 old_financial_accounting_week2_q29 = {
     'question': (
         "Tony Stark Enterprises has:\n"
-        "- 8% Cumulative preferred stock, par $20, value $1,500,000\n"
-        "- Preferred dividend/year = $120,000\n"
-        "- Common stock par $0.01 = $200,000\n"
-        "- Common stock paid-in capital = $312,570,000\n"
-        "- Dividends paid: 2021 = $1,000,000, 2020 = $100,000, 2019 = $0\n\n"
+        "- 8% Cumulative preferred stock, par \$20, value \$1,500,000\n"
+        "- Preferred dividend/year = \$120,000\n"
+        "- Common stock par \$0.01 = \$200,000\n"
+        "- Common stock paid-in capital = \$312,570,000\n"
+        "- Dividends paid: 2021 = \$1,000,000, 2020 = \$100,000, 2019 = \$0\n\n"
         "What amount of 2021 dividends were paid to **common shareholders**?"
     ),
     'options_list': [
@@ -717,7 +717,7 @@ old_financial_accounting_week2_q29 = {
         'USD 808,000'
     ],
     'correct_answer': 'USD 740,000',
-    'explanation': "Preferred dividends for 3 years = 3 × $120,000 = $360,000. 2021 payout = $1,000,000 → common gets $1,000,000 − $260,000 (arrears) = USD 740,000.",
+    'explanation': "Preferred dividends for 3 years = 3 × \$120,000 = \$360,000. 2021 payout = \$1,000,000 → common gets \$1,000,000 − \$260,000 (arrears) = USD 740,000.",
     'chapter_information': 'old financial accounting week 2 self assessment questions'
 }
 
@@ -801,7 +801,7 @@ old_financial_accounting_week2_q34 = {
 }
 
 wharton_accounting_week3_final_question_1 = {
-    'question': "A company delivered $10,000 of goods to a customer that agreed to pay cash within 30 days. The goods had cost $8,000 to manufacture.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company delivered \$10,000 of goods to a customer that agreed to pay cash within 30 days. The goods had cost \$8,000 to manufacture.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Cost of Goods Sold',
         'B) Accounts Payable',
@@ -815,7 +815,7 @@ wharton_accounting_week3_final_question_1 = {
 }
 
 wharton_accounting_week3_final_question_2 = {
-    'question': "A company took delivery of $50,000 of new inventory and agreed to pay cash to the supplier within 30 days.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company took delivery of \$50,000 of new inventory and agreed to pay cash to the supplier within 30 days.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Total Stockholders’ Equity',
         'B) Current Liabilities',
@@ -829,7 +829,7 @@ wharton_accounting_week3_final_question_2 = {
 }
 
 wharton_accounting_week3_final_question_3 = {
-    'question': "A company collected $100,000 cash from a customer who both received and was billed for the goods last quarter.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company collected \$100,000 cash from a customer who both received and was billed for the goods last quarter.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Accounts Receivable',
         'B) Cash from Operations',
@@ -843,7 +843,7 @@ wharton_accounting_week3_final_question_3 = {
 }
 
 wharton_accounting_week3_final_question_4 = {
-    'question': "A company collected $10,000 cash from a customer as a deposit for goods that will be shipped next quarter.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company collected \$10,000 cash from a customer as a deposit for goods that will be shipped next quarter.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Revenue',
         'B) Total Assets',
@@ -857,7 +857,7 @@ wharton_accounting_week3_final_question_4 = {
 }
 
 wharton_accounting_week3_final_question_5 = {
-    'question': "A company received $100,000 cash from issuing 10,000 shares of $4 par value stock.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company received \$100,000 cash from issuing 10,000 shares of \$4 par value stock.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Cash from Operations',
         'B) Additional Paid in Capital',
@@ -871,7 +871,7 @@ wharton_accounting_week3_final_question_5 = {
 }
 
 wharton_accounting_week3_final_question_6 = {
-    'question': "A company received $75,000 cash from a bank loan that must be repaid in three years.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company received \$75,000 cash from a bank loan that must be repaid in three years.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Interest Expense',
         'B) Cash from Financing',
@@ -885,7 +885,7 @@ wharton_accounting_week3_final_question_6 = {
 }
 
 wharton_accounting_week3_final_question_7 = {
-    'question': "A company declared $500,000 of dividends that will be paid two months from now.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company declared \$500,000 of dividends that will be paid two months from now.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Dividends Payable',
         'B) Cash from Operations',
@@ -899,7 +899,7 @@ wharton_accounting_week3_final_question_7 = {
 }
 
 wharton_accounting_week3_final_question_8 = {
-    'question': "A company paid $50,000 to its insurance company for fire insurance coverage over the next year.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company paid \$50,000 to its insurance company for fire insurance coverage over the next year.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Current Assets',
         'B) Unearned Revenue',
@@ -913,7 +913,7 @@ wharton_accounting_week3_final_question_8 = {
 }
 
 wharton_accounting_week3_final_question_9 = {
-    'question': "A company did an adjusting entry to record that $1,000 of Prepaid Advertising was used up during the quarter.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company did an adjusting entry to record that \$1,000 of Prepaid Advertising was used up during the quarter.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Cost of Goods Sold',
         'B) Prepaid Advertising',
@@ -927,7 +927,7 @@ wharton_accounting_week3_final_question_9 = {
 }
 
 wharton_accounting_week3_final_question_10 = {
-    'question': "A company borrowed $500,000 cash from a bank and used it to purchase $500,000 of manufacturing equipment.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company borrowed \$500,000 cash from a bank and used it to purchase \$500,000 of manufacturing equipment.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Cash from Investing',
         'B) Total Liabilities',
@@ -941,7 +941,7 @@ wharton_accounting_week3_final_question_10 = {
 }
 
 wharton_accounting_week3_final_question_11 = {
-    'question': "A company recorded $5,000 of depreciation on vehicles used by the sales force.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company recorded \$5,000 of depreciation on vehicles used by the sales force.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Retained Earnings',
         'B) Cash from Operations',
@@ -955,7 +955,7 @@ wharton_accounting_week3_final_question_11 = {
 }
 
 wharton_accounting_week3_final_question_12 = {
-    'question': "A company sold manufacturing equipment for $30,000 cash. The book value was $25,000; gain = $5,000.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
+    'question': "A company sold manufacturing equipment for \$30,000 cash. The book value was \$25,000; gain = \$5,000.\nWhich of the following items would be increased?\n[Refer to source: https://www.coursera.org/learn/wharton-accounting Week 3]",
     'options_list': [
         'A) Cash from Operations',
         'B) Retained Earnings',
@@ -964,7 +964,7 @@ wharton_accounting_week3_final_question_12 = {
         'E) Cash from Investing'
     ],
     'correct_answer': ['B) Retained Earnings', 'E) Cash from Investing'],
-    'explanation': "Cash from Investing increases by $30,000. Retained Earnings increases by $5,000 gain. Not part of operations or financing.",
+    'explanation': "Cash from Investing increases by \$30,000. Retained Earnings increases by \$5,000 gain. Not part of operations or financing.",
     'chapter_information': 'https://www.coursera.org/learn/wharton-accounting Week 3'
 }
 

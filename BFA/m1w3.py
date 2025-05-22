@@ -159,9 +159,9 @@ financial_accounting_week3_q10 = {
     'question': (
         "Profit Margin Intuition\n\n"
         "A company reports:\n"
-        "- Net Income = $10M\n"
-        "- Sales Revenue = $100M\n"
-        "- Total Assets = $500M\n\n"
+        "- Net Income = \$10M\n"
+        "- Sales Revenue = \$100M\n"
+        "- Total Assets = \$500M\n\n"
         "Which of the following best describes the company’s profit margin and asset turnover?"
     ),
     'options_list': [
@@ -172,8 +172,8 @@ financial_accounting_week3_q10 = {
     ],
     'correct_answer': 'High margin, low turnover',
     'explanation': (
-        "Profit Margin = $10M / $100M = 10% → Reasonably high\n"
-        "Asset Turnover = $100M / $500M = 0.2 → Very low\n"
+        "Profit Margin = \$10M / \$100M = 10% → Reasonably high\n"
+        "Asset Turnover = \$100M / \$500M = 0.2 → Very low\n"
         "So the company has high margin, low turnover."
     ),
     'chapter_information': 'Financial Accounting – Week 3 - (GPT-generated)'
@@ -309,8 +309,8 @@ financial_accounting_week3_q17 = {
     'question': (
         "Inventory Efficiency\n\n"
         "A company reports:\n"
-        "- COGS = $730M\n"
-        "- Average Inventory = $100M\n\n"
+        "- COGS = \$730M\n"
+        "- Average Inventory = \$100M\n\n"
         "What is their days in inventory, and what does it imply?"
     ),
     'options_list': [
@@ -449,7 +449,7 @@ finance_healthcare_week3_question_6 = {
 }
 
 finance_healthcare_week3_question_7 = {
-    'question': "Suppose Net Income = $500, Total Assets = $2000, Total Liabilities = $500, Total Equity = $1500. What is Return on Equity (ROE)?\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
+    'question': "Suppose Net Income = \$500, Total Assets = \$2000, Total Liabilities = \$500, Total Equity = \$1500. What is Return on Equity (ROE)?\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
     'options_list': [
         'A) 0%',
         'B) 40%',
@@ -462,7 +462,7 @@ finance_healthcare_week3_question_7 = {
 }
 
 finance_healthcare_week3_question_8 = {
-    'question': "Sales = $1200, Average Receivables = $200. What is Accounts Receivable Turnover Ratio in days?\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
+    'question': "Sales = \$1200, Average Receivables = \$200. What is Accounts Receivable Turnover Ratio in days?\n[Refer to source: https://www.coursera.org/learn/finance-healthcare-managers Week 3]",
     'options_list': [
         'A) 90 days',
         'B) 6 days',

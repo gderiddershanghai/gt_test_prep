@@ -232,7 +232,7 @@ financial_accounting_week2_question_5 = {
 }
 
 financial_accounting_week2_question_6 = {
-    'question': "A company pays $100 in dividends during the year. Where is this event reported?",
+    'question': "A company pays \\$100 in dividends during the year. Where is this event reported?",
     'options_list': [
         'Operating cash flow',
         'Retained earnings and the financing section of the statement of cash flows',
@@ -277,16 +277,16 @@ financial_accounting_week2_question_8 = {
 }
 
 financial_accounting_week2_question_9 = {
-    'question': "A firm begins the year with \$80 in cash and ends with \$97. What is the net change in cash for the year?",
+    'question': "A firm begins the year with \\$80 in cash and ends with \\$97. What is the net change in cash for the year?",
     'options_list': [
-        '$17 inflow',
-        '$17 outflow',
+        '\$17 inflow',
+        '\$17 outflow',
         'Impossible to determine without revenue data',
-        '$80 inflow'
+        '\$80 inflow'
     ],
-    'correct_answer': '$17 inflow',
+    'correct_answer': '\$17 inflow',
     'explanation': (
-        "Net change in cash = ending cash – beginning cash = $97 – $80 = $17 increase (inflow)."
+        "Net change in cash = ending cash – beginning cash = \$97 – \$80 = \$17 increase (inflow)."
     ),
     'chapter_information': 'Financial Accounting Week 2 – GPT revised'
 }
@@ -477,22 +477,22 @@ old_financial_accounting_week1_question_41 = {
 old_financial_accounting_week1_question_52 = {
     'question': (
         "A firm reports the following income statement items for FY2021: "
-        "sales of $60,550,000; income tax of $1,744,000; operating expenses of $10,115,000; "
-        "cost of goods sold of $34,025,000; and interest expense of $750,000. "
-        "The firm also declared and paid $947,250 in dividends in FY2021. "
+        "sales of \$60,550,000; income tax of \$1,744,000; operating expenses of \$10,115,000; "
+        "cost of goods sold of \$34,025,000; and interest expense of \$750,000. "
+        "The firm also declared and paid \$947,250 in dividends in FY2021. "
         "What is the amount of the firm's Earnings Before Interest and Taxes (EBIT)?"
     ),
     'options_list': [
-        '$16,410,000',
-        '$18,154,000',
-        '$14,935,000',
-        '$7,775,000',
-        '$15,462,750'
+        '\$16,410,000',
+        '\$18,154,000',
+        '\$14,935,000',
+        '\$7,775,000',
+        '\$15,462,750'
     ],
-    'correct_answer': '$16,410,000',
+    'correct_answer': '\$16,410,000',
     'explanation': (
         "EBIT = Sales – Operating Expenses – Cost of Goods Sold = "
-        "$60,550,000 – $10,115,000 – $34,025,000 = $16,410,000. "
+        "\$60,550,000 – \$10,115,000 – \$34,025,000 = \$16,410,000. "
         "Interest and taxes are excluded from EBIT, and dividends are not part of income calculation. "
         "See video 1.6 Income Statement."
     ),
@@ -686,16 +686,16 @@ financial_accounting_week1_balance_sheet_q1 = {
         "Using the following account balances, prepare a balance sheet for Delta Inc. at December 31, 2024:\n\n"
         "| Account             | Amount |\n"
         "|---------------------|--------|\n"
-        "| Cash                | $90    |\n"
-        "| Accounts Receivable | $30    |\n"
-        "| Inventory           | $80    |\n"
-        "| Land                | $300   |\n"
-        "| Equipment           | $200   |\n"
-        "| Accounts Payable    | $75    |\n"
-        "| Notes Payable       | $125   |\n"
-        "| Capital Stock       | $400   |\n"
-        "| Retained Earnings   | $100   |\n"
-        "| Net Income          | $50    |\n\n"
+        "| Cash                | \$90    |\n"
+        "| Accounts Receivable | \$30    |\n"
+        "| Inventory           | \$80    |\n"
+        "| Land                | \$300   |\n"
+        "| Equipment           | \$200   |\n"
+        "| Accounts Payable    | \$75    |\n"
+        "| Notes Payable       | \$125   |\n"
+        "| Capital Stock       | \$400   |\n"
+        "| Retained Earnings   | \$100   |\n"
+        "| Net Income          | \$50    |\n\n"
         "*Note: Retained earnings already include net income.*"
     ),
     'options_list': ['Prepare the classified balance sheet.'],
@@ -703,21 +703,21 @@ financial_accounting_week1_balance_sheet_q1 = {
         "**Delta Inc.**\n"
         "**Balance Sheet – December 31, 2024**\n\n"
         "**Assets:**\n"
-        "- Cash: $90\n"
-        "- Accounts Receivable: $30\n"
-        "- Inventory: $80\n"
-        "- Land: $300\n"
-        "- Equipment: $200\n"
-        "**Total Assets = $700**\n\n"
+        "- Cash: \$90\n"
+        "- Accounts Receivable: \$30\n"
+        "- Inventory: \$80\n"
+        "- Land: \$300\n"
+        "- Equipment: \$200\n"
+        "**Total Assets = \$700**\n\n"
         "**Liabilities:**\n"
-        "- Accounts Payable: $75\n"
-        "- Notes Payable: $125\n"
-        "**Total Liabilities = $200**\n\n"
+        "- Accounts Payable: \$75\n"
+        "- Notes Payable: \$125\n"
+        "**Total Liabilities = \$200**\n\n"
         "**Equity:**\n"
-        "- Capital Stock: $400\n"
-        "- Retained Earnings: $100\n"
-        "**Total Equity = $500**\n\n"
-        "**Total Liabilities and Equity = $700**"
+        "- Capital Stock: \$400\n"
+        "- Retained Earnings: \$100\n"
+        "**Total Equity = \$500**\n\n"
+        "**Total Liabilities and Equity = \$700**"
     ),
     'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
 }
@@ -728,15 +728,15 @@ financial_accounting_week1_balance_sheet_q2 = {
         "Using the following account balances, prepare a balance sheet for Zeta LLC at December 31, 2024:\n\n"
         "| Account             | Amount |\n"
         "|---------------------|--------|\n"
-        "| Cash                | $50    |\n"
-        "| Accounts Receivable | $20    |\n"
-        "| Inventory           | $40    |\n"
-        "| Building            | $500   |\n"
-        "| Accounts Payable    | $60    |\n"
-        "| Notes Payable       | $90    |\n"
-        "| Capital Stock       | $400   |\n"
-        "| Retained Earnings   | $60    |\n"
-        "| Net Income          | $30    |\n\n"
+        "| Cash                | \$50    |\n"
+        "| Accounts Receivable | \$20    |\n"
+        "| Inventory           | \$40    |\n"
+        "| Building            | \$500   |\n"
+        "| Accounts Payable    | \$60    |\n"
+        "| Notes Payable       | \$90    |\n"
+        "| Capital Stock       | \$400   |\n"
+        "| Retained Earnings   | \$60    |\n"
+        "| Net Income          | \$30    |\n\n"
         "*Note: Retained earnings already include net income.*"
     ),
     'options_list': ['Prepare the classified balance sheet.'],
@@ -744,20 +744,20 @@ financial_accounting_week1_balance_sheet_q2 = {
         "**Zeta LLC**\n"
         "**Balance Sheet – December 31, 2024**\n\n"
         "**Assets:**\n"
-        "- Cash: $50\n"
-        "- Accounts Receivable: $20\n"
-        "- Inventory: $40\n"
-        "- Building: $500\n"
-        "**Total Assets = $610**\n\n"
+        "- Cash: \$50\n"
+        "- Accounts Receivable: \$20\n"
+        "- Inventory: \$40\n"
+        "- Building: \$500\n"
+        "**Total Assets = \$610**\n\n"
         "**Liabilities:**\n"
-        "- Accounts Payable: $60\n"
-        "- Notes Payable: $90\n"
-        "**Total Liabilities = $150**\n\n"
+        "- Accounts Payable: \$60\n"
+        "- Notes Payable: \$90\n"
+        "**Total Liabilities = \$150**\n\n"
         "**Equity:**\n"
-        "- Capital Stock: $400\n"
-        "- Retained Earnings: $60\n"
-        "**Total Equity = $460**\n\n"
-        "**Total Liabilities and Equity = $610**"
+        "- Capital Stock: \$400\n"
+        "- Retained Earnings: \$60\n"
+        "**Total Equity = \$460**\n\n"
+        "**Total Liabilities and Equity = \$610**"
     ),
     'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
 }
@@ -768,15 +768,15 @@ financial_accounting_week1_balance_sheet_q3 = {
         "Using the following account balances, prepare a balance sheet for Sigma Co. at December 31, 2024:\n\n"
         "| Account             | Amount |\n"
         "|---------------------|--------|\n"
-        "| Cash                | $110   |\n"
-        "| Accounts Receivable | $45    |\n"
-        "| Inventory           | $70    |\n"
-        "| Equipment           | $250   |\n"
-        "| Accounts Payable    | $60    |\n"
-        "| Notes Payable       | $140   |\n"
-        "| Capital Stock       | $300   |\n"
-        "| Retained Earnings   | $75    |\n"
-        "| Net Income          | $35    |\n\n"
+        "| Cash                | \$110   |\n"
+        "| Accounts Receivable | \$45    |\n"
+        "| Inventory           | \$70    |\n"
+        "| Equipment           | \$250   |\n"
+        "| Accounts Payable    | \$60    |\n"
+        "| Notes Payable       | \$140   |\n"
+        "| Capital Stock       | \$300   |\n"
+        "| Retained Earnings   | \$75    |\n"
+        "| Net Income          | \$35    |\n\n"
         "*Note: Retained earnings already include net income.*"
     ),
     'options_list': ['Prepare the classified balance sheet.'],
@@ -784,20 +784,20 @@ financial_accounting_week1_balance_sheet_q3 = {
         "**Sigma Co.**\n"
         "**Balance Sheet – December 31, 2024**\n\n"
         "**Assets:**\n"
-        "- Cash: $110\n"
-        "- Accounts Receivable: $45\n"
-        "- Inventory: $70\n"
-        "- Equipment: $250\n"
-        "**Total Assets = $475**\n\n"
+        "- Cash: \$110\n"
+        "- Accounts Receivable: \$45\n"
+        "- Inventory: \$70\n"
+        "- Equipment: \$250\n"
+        "**Total Assets = \$475**\n\n"
         "**Liabilities:**\n"
-        "- Accounts Payable: $60\n"
-        "- Notes Payable: $140\n"
-        "**Total Liabilities = $200**\n\n"
+        "- Accounts Payable: \$60\n"
+        "- Notes Payable: \$140\n"
+        "**Total Liabilities = \$200**\n\n"
         "**Equity:**\n"
-        "- Capital Stock: $300\n"
-        "- Retained Earnings: $75\n"
-        "**Total Equity = $375**\n\n"
-        "**Total Liabilities and Equity = $475**"
+        "- Capital Stock: \$300\n"
+        "- Retained Earnings: \$75\n"
+        "**Total Equity = \$375**\n\n"
+        "**Total Liabilities and Equity = \$475**"
     ),
     'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
 }
@@ -808,16 +808,16 @@ financial_accounting_week1_balance_sheet_q4 = {
         "Using the following account balances, prepare a balance sheet for Orion Ltd. at December 31, 2024:\n\n"
         "| Account             | Amount |\n"
         "|---------------------|--------|\n"
-        "| Cash                | $60    |\n"
-        "| Accounts Receivable | $35    |\n"
-        "| Inventory           | $65    |\n"
-        "| Land                | $150   |\n"
-        "| Equipment           | $300   |\n"
-        "| Accounts Payable    | $80    |\n"
-        "| Notes Payable       | $120   |\n"
-        "| Capital Stock       | $350   |\n"
-        "| Retained Earnings   | $60    |\n"
-        "| Net Income          | $40    |\n\n"
+        "| Cash                | \$60    |\n"
+        "| Accounts Receivable | \$35    |\n"
+        "| Inventory           | \$65    |\n"
+        "| Land                | \$150   |\n"
+        "| Equipment           | \$300   |\n"
+        "| Accounts Payable    | \$80    |\n"
+        "| Notes Payable       | \$120   |\n"
+        "| Capital Stock       | \$350   |\n"
+        "| Retained Earnings   | \$60    |\n"
+        "| Net Income          | \$40    |\n\n"
         "*Note: Retained earnings already include net income.*"
     ),
     'options_list': ['Prepare the classified balance sheet.'],
@@ -825,21 +825,21 @@ financial_accounting_week1_balance_sheet_q4 = {
         "**Orion Ltd.**\n"
         "**Balance Sheet – December 31, 2024**\n\n"
         "**Assets:**\n"
-        "- Cash: $60\n"
-        "- Accounts Receivable: $35\n"
-        "- Inventory: $65\n"
-        "- Land: $150\n"
-        "- Equipment: $300\n"
-        "**Total Assets = $610**\n\n"
+        "- Cash: \$60\n"
+        "- Accounts Receivable: \$35\n"
+        "- Inventory: \$65\n"
+        "- Land: \$150\n"
+        "- Equipment: \$300\n"
+        "**Total Assets = \$610**\n\n"
         "**Liabilities:**\n"
-        "- Accounts Payable: $80\n"
-        "- Notes Payable: $120\n"
-        "**Total Liabilities = $200**\n\n"
+        "- Accounts Payable: \$80\n"
+        "- Notes Payable: \$120\n"
+        "**Total Liabilities = \$200**\n\n"
         "**Equity:**\n"
-        "- Capital Stock: $350\n"
-        "- Retained Earnings: $60\n"
-        "**Total Equity = $410**\n\n"
-        "**Total Liabilities and Equity = $610**"
+        "- Capital Stock: \$350\n"
+        "- Retained Earnings: \$60\n"
+        "**Total Equity = \$410**\n\n"
+        "**Total Liabilities and Equity = \$610**"
     ),
     'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
 }
@@ -848,40 +848,40 @@ financial_accounting_week1_income_statement_q1 = {
     'question': (
         "ABC Corp – Income Statement Preparation (Practice 1)\n\n"
         "Use the following figures to construct a complete income statement for the year ended December 31, 2024:\n\n"
-        "- Sales Revenue: $3,200\n"
-        "- Cost of Goods Sold: $1,400\n"
-        "- Utilities Expense: $150\n"
-        "- Depreciation Expense: $300\n"
-        "- Bad Debt Expense: $100\n"
-        "- Wage Expense: $500\n"
-        "- Other Expenses: $125\n"
-        "- Loss on Sale of Asset: $25\n"
-        "- Interest Expense: $250\n"
-        "- Income Tax Expense: $70\n"
+        "- Sales Revenue: \$3,200\n"
+        "- Cost of Goods Sold: \$1,400\n"
+        "- Utilities Expense: \$150\n"
+        "- Depreciation Expense: \$300\n"
+        "- Bad Debt Expense: \$100\n"
+        "- Wage Expense: \$500\n"
+        "- Other Expenses: \$125\n"
+        "- Loss on Sale of Asset: \$25\n"
+        "- Interest Expense: \$250\n"
+        "- Income Tax Expense: \$70\n"
         "- Shares Outstanding: 2,000"
     ),
     'options_list': ['Prepare the income statement and compute earnings per share.'],
     'correct_answer': (
         "**ABC Corp – Income Statement**\n"
         "**For the Year Ended December 31, 2024**\n\n"
-        "Sales Revenue: $3,200\n"
-        "Cost of Goods Sold: $1,400\n"
-        "Gross Profit: $1,800\n\n"
+        "Sales Revenue: \$3,200\n"
+        "Cost of Goods Sold: \$1,400\n"
+        "Gross Profit: \$1,800\n\n"
         "**Operating Expenses:**\n"
-        "- Utilities: $150\n"
-        "- Depreciation: $300\n"
-        "- Bad Debt: $100\n"
-        "- Wages: $500\n"
-        "- Other: $125\n"
-        "Total Operating Expenses: $1,175\n"
-        "Operating Income: $625\n\n"
+        "- Utilities: \$150\n"
+        "- Depreciation: \$300\n"
+        "- Bad Debt: \$100\n"
+        "- Wages: \$500\n"
+        "- Other: \$125\n"
+        "Total Operating Expenses: \$1,175\n"
+        "Operating Income: \$625\n\n"
         "**Non-Operating Items:**\n"
-        "- Loss on Sale: $25\n"
-        "- Interest Expense: $250\n"
-        "Income Before Taxes: $350\n"
-        "Income Tax Expense: $70\n"
-        "**Net Income: $280**\n\n"
-        "EPS = $280 / 2,000 = **$0.14**"
+        "- Loss on Sale: \$25\n"
+        "- Interest Expense: \$250\n"
+        "Income Before Taxes: \$350\n"
+        "Income Tax Expense: \$70\n"
+        "**Net Income: \$280**\n\n"
+        "EPS = \$280 / 2,000 = **\$0.14**"
     ),
     'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
 }
@@ -890,40 +890,40 @@ financial_accounting_week1_income_statement_q2 = {
     'question': (
         "ABC Corp – Income Statement Preparation (Practice 2)\n\n"
         "Use the following figures to construct a complete income statement for the year ended December 31, 2024:\n\n"
-        "- Sales Revenue: $4,500\n"
-        "- Cost of Goods Sold: $2,200\n"
-        "- Utilities Expense: $200\n"
-        "- Depreciation Expense: $500\n"
-        "- Bad Debt Expense: $100\n"
-        "- Wage Expense: $800\n"
-        "- Other Expenses: $150\n"
-        "- Loss on Sale of Equipment: $30\n"
-        "- Interest Expense: $400\n"
-        "- Income Tax Expense: $30\n"
+        "- Sales Revenue: \$4,500\n"
+        "- Cost of Goods Sold: \$2,200\n"
+        "- Utilities Expense: \$200\n"
+        "- Depreciation Expense: \$500\n"
+        "- Bad Debt Expense: \$100\n"
+        "- Wage Expense: \$800\n"
+        "- Other Expenses: \$150\n"
+        "- Loss on Sale of Equipment: \$30\n"
+        "- Interest Expense: \$400\n"
+        "- Income Tax Expense: \$30\n"
         "- Shares Outstanding: 1,800"
     ),
     'options_list': ['Prepare the income statement and compute earnings per share.'],
     'correct_answer': (
         "**ABC Corp – Income Statement**\n"
         "**For the Year Ended December 31, 2024**\n\n"
-        "Sales Revenue: $4,500\n"
-        "Cost of Goods Sold: $2,200\n"
-        "Gross Profit: $2,300\n\n"
+        "Sales Revenue: \$4,500\n"
+        "Cost of Goods Sold: \$2,200\n"
+        "Gross Profit: \$2,300\n\n"
         "**Operating Expenses:**\n"
-        "- Utilities: $200\n"
-        "- Depreciation: $500\n"
-        "- Bad Debt: $100\n"
-        "- Wages: $800\n"
-        "- Other: $150\n"
-        "Total Operating Expenses: $1,750\n"
-        "Operating Income: $550\n\n"
+        "- Utilities: \$200\n"
+        "- Depreciation: \$500\n"
+        "- Bad Debt: \$100\n"
+        "- Wages: \$800\n"
+        "- Other: \$150\n"
+        "Total Operating Expenses: \$1,750\n"
+        "Operating Income: \$550\n\n"
         "**Non-Operating Items:**\n"
-        "- Loss on Sale: $30\n"
-        "- Interest Expense: $400\n"
-        "Income Before Taxes: $120\n"
-        "Income Tax Expense: $30\n"
-        "**Net Income: $90**\n\n"
-        "EPS = $90 / 1,800 = **$0.05**"
+        "- Loss on Sale: \$30\n"
+        "- Interest Expense: \$400\n"
+        "Income Before Taxes: \$120\n"
+        "Income Tax Expense: \$30\n"
+        "**Net Income: \$90**\n\n"
+        "EPS = \$90 / 1,800 = **\$0.05**"
     ),
     'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
 }
@@ -934,40 +934,40 @@ financial_accounting_week1_income_statement_q4 = {
     'question': (
         "ABC Corp – Income Statement Preparation (Practice 4)\n\n"
         "Use the following figures to construct a complete income statement for the year ended December 31, 2024:\n\n"
-        "- Sales Revenue: $3,000\n"
-        "- Cost of Goods Sold: $1,800\n"
-        "- Utilities Expense: $120\n"
-        "- Depreciation Expense: $250\n"
-        "- Bad Debt Expense: $75\n"
-        "- Wage Expense: $450\n"
-        "- Other Expenses: $110\n"
-        "- Loss on Sale of Equipment: $20\n"
-        "- Interest Expense: $150\n"
-        "- Income Tax Expense: $5\n"
+        "- Sales Revenue: \$3,000\n"
+        "- Cost of Goods Sold: \$1,800\n"
+        "- Utilities Expense: \$120\n"
+        "- Depreciation Expense: \$250\n"
+        "- Bad Debt Expense: \$75\n"
+        "- Wage Expense: \$450\n"
+        "- Other Expenses: \$110\n"
+        "- Loss on Sale of Equipment: \$20\n"
+        "- Interest Expense: \$150\n"
+        "- Income Tax Expense: \$5\n"
         "- Shares Outstanding: 800"
     ),
     'options_list': ['Prepare the income statement and compute earnings per share.'],
     'correct_answer': (
         "**ABC Corp – Income Statement**\n"
         "**For the Year Ended December 31, 2024**\n\n"
-        "Sales Revenue: $3,000\n"
-        "Cost of Goods Sold: $1,800\n"
-        "Gross Profit: $1,200\n\n"
+        "Sales Revenue: \$3,000\n"
+        "Cost of Goods Sold: \$1,800\n"
+        "Gross Profit: \$1,200\n\n"
         "**Operating Expenses:**\n"
-        "- Utilities: $120\n"
-        "- Depreciation: $250\n"
-        "- Bad Debt: $75\n"
-        "- Wages: $450\n"
-        "- Other: $110\n"
-        "Total Operating Expenses: $1,005\n"
-        "Operating Income: $195\n\n"
+        "- Utilities: \$120\n"
+        "- Depreciation: \$250\n"
+        "- Bad Debt: \$75\n"
+        "- Wages: \$450\n"
+        "- Other: \$110\n"
+        "Total Operating Expenses: \$1,005\n"
+        "Operating Income: \$195\n\n"
         "**Non-Operating Items:**\n"
-        "- Loss on Sale: $20\n"
-        "- Interest Expense: $150\n"
-        "Income Before Taxes: $25\n"
-        "Income Tax Expense: $5\n"
-        "**Net Income: $20**\n\n"
-        "EPS = $20 / 800 = **$0.025**"
+        "- Loss on Sale: \$20\n"
+        "- Interest Expense: \$150\n"
+        "Income Before Taxes: \$25\n"
+        "Income Tax Expense: \$5\n"
+        "**Net Income: \$20**\n\n"
+        "EPS = \$20 / 800 = **\$0.025**"
     ),
     'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
 }
@@ -976,40 +976,40 @@ financial_accounting_week1_income_statement_q3 = {
     'question': (
         "ABC Corp – Income Statement Preparation (Practice 3)\n\n"
         "Use the following figures to construct a complete income statement for the year ended December 31, 2024:\n\n"
-        "- Sales Revenue: $1,800\n"
-        "- Cost of Goods Sold: $800\n"
-        "- Utilities Expense: $90\n"
-        "- Depreciation Expense: $150\n"
-        "- Bad Debt Expense: $40\n"
-        "- Wage Expense: $300\n"
-        "- Other Expenses: $70\n"
-        "- Loss on Sale of Land: $15\n"
-        "- Interest Expense: $100\n"
-        "- Income Tax Expense: $60\n"
+        "- Sales Revenue: \$1,800\n"
+        "- Cost of Goods Sold: \$800\n"
+        "- Utilities Expense: \$90\n"
+        "- Depreciation Expense: \$150\n"
+        "- Bad Debt Expense: \$40\n"
+        "- Wage Expense: \$300\n"
+        "- Other Expenses: \$70\n"
+        "- Loss on Sale of Land: \$15\n"
+        "- Interest Expense: \$100\n"
+        "- Income Tax Expense: \$60\n"
         "- Shares Outstanding: 1,400"
     ),
     'options_list': ['Prepare the income statement and compute earnings per share.'],
     'correct_answer': (
         "**ABC Corp – Income Statement**\n"
         "**For the Year Ended December 31, 2024**\n\n"
-        "Sales Revenue: $1,800\n"
-        "Cost of Goods Sold: $800\n"
-        "Gross Profit: $1,000\n\n"
+        "Sales Revenue: \$1,800\n"
+        "Cost of Goods Sold: \$800\n"
+        "Gross Profit: \$1,000\n\n"
         "**Operating Expenses:**\n"
-        "- Utilities: $90\n"
-        "- Depreciation: $150\n"
-        "- Bad Debt: $40\n"
-        "- Wages: $300\n"
-        "- Other: $70\n"
-        "Total Operating Expenses: $650\n"
-        "Operating Income: $350\n\n"
+        "- Utilities: \$90\n"
+        "- Depreciation: \$150\n"
+        "- Bad Debt: \$40\n"
+        "- Wages: \$300\n"
+        "- Other: \$70\n"
+        "Total Operating Expenses: \$650\n"
+        "Operating Income: \$350\n\n"
         "**Non-Operating Items:**\n"
-        "- Loss on Sale: $15\n"
-        "- Interest Expense: $100\n"
-        "Income Before Taxes: $235\n"
-        "Income Tax Expense: $60\n"
-        "**Net Income: $175**\n\n"
-        "EPS = $175 / 1,400 = **$0.125**"
+        "- Loss on Sale: \$15\n"
+        "- Interest Expense: \$100\n"
+        "Income Before Taxes: \$235\n"
+        "Income Tax Expense: \$60\n"
+        "**Net Income: \$175**\n\n"
+        "EPS = \$175 / 1,400 = **\$0.125**"
     ),
     'chapter_information': 'Financial Accounting Week 1 - GPT Generated'
 }
@@ -1044,28 +1044,28 @@ finance_healthcare_week1_question_2 = {
 }
 
 finance_healthcare_week1_question_3 = {
-    'question': "Suppose Current Assets for a firm are $50, Long-Term Assets are $100, and Total Liabilities are $30. How much is the firm's total Owners' Equity?",
+    'question': "Suppose Current Assets for a firm are \$50, Long-Term Assets are \$100, and Total Liabilities are \$30. How much is the firm's total Owners' Equity?",
     'options_list': [
-        'A) $120',
-        'B) $180',
-        'C) $70',
-        'D) $150'
+        'A) \$120',
+        'B) \$180',
+        'C) \$70',
+        'D) \$150'
     ],
-    'correct_answer': 'A) $120',
-    'explanation': "Assets = Liabilities + Equity ⇒ $150 = $30 + Equity ⇒ Equity = $120.",
+    'correct_answer': 'A) \$120',
+    'explanation': "Assets = Liabilities + Equity ⇒ \$150 = \$30 + Equity ⇒ Equity = \$120.",
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
 }
 
 finance_healthcare_week1_question_4 = {
-    'question': "Suppose Net Income for a firm is $200 for the year and Dividends paid are $60. How much does Retained Earnings on the Balance Sheet change during the year?",
+    'question': "Suppose Net Income for a firm is \$200 for the year and Dividends paid are \$60. How much does Retained Earnings on the Balance Sheet change during the year?",
     'options_list': [
-        'A) Goes up by $140',
-        'B) Goes up by $260',
+        'A) Goes up by \$140',
+        'B) Goes up by \$260',
         'C) Does not change',
-        'D) Goes up by $200'
+        'D) Goes up by \$200'
     ],
-    'correct_answer': 'A) Goes up by $140',
-    'explanation': "Retained Earnings increase by the portion of Net Income not paid out as dividends: $200 – $60 = $140.",
+    'correct_answer': 'A) Goes up by \$140',
+    'explanation': "Retained Earnings increase by the portion of Net Income not paid out as dividends: \$200 – \$60 = \$140.",
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
 }
 
@@ -1084,28 +1084,28 @@ finance_healthcare_week1_question_5 = {
 }
 
 finance_healthcare_week1_question_6 = {
-    'question': "Given the following information, what is Net Income?\n- Sales Revenue = $5000\n- Dividends Paid = $200\n- Cash = $100\n- SG&A Expense = $400\n- Cost of Goods Sold = $1600",
+    'question': "Given the following information, what is Net Income?\n- Sales Revenue = \$5000\n- Dividends Paid = \$200\n- Cash = \$100\n- SG&A Expense = \$400\n- Cost of Goods Sold = \$1600",
     'options_list': [
-        'A) $3000',
-        'B) $4800',
-        'C) $3100',
-        'D) $2800',
-        'E) $3300'
+        'A) \$3000',
+        'B) \$4800',
+        'C) \$3100',
+        'D) \$2800',
+        'E) \$3300'
     ],
-    'correct_answer': 'A) $3000',
-    'explanation': "Net Income = Revenue – COGS – SG&A = $5000 – $1600 – $400 = $3000. Dividends and cash do not affect net income directly.",
+    'correct_answer': 'A) \$3000',
+    'explanation': "Net Income = Revenue – COGS – SG&A = \$5000 – \$1600 – \$400 = \$3000. Dividends and cash do not affect net income directly.",
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
 }
 
 finance_healthcare_week1_question_7 = {
     'question': "Which of the following will impact income THIS year?",
     'options_list': [
-        'A) Spend $100 on purchases of equipment',
-        'B) Spend $100 on research and development',
-        'C) Spend $100 on purchases of inventory that is still not sold at the end of the year',
-        'D) Spend $100 to pay off short-term debt'
+        'A) Spend \$100 on purchases of equipment',
+        'B) Spend \$100 on research and development',
+        'C) Spend \$100 on purchases of inventory that is still not sold at the end of the year',
+        'D) Spend \$100 to pay off short-term debt'
     ],
-    'correct_answer': 'B) Spend $100 on research and development',
+    'correct_answer': 'B) Spend \$100 on research and development',
     'explanation': "R&D is expensed immediately. Equipment and inventory are capitalized, and debt repayment affects only the balance sheet.",
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
 }
@@ -1125,69 +1125,69 @@ finance_healthcare_week1_question_8 = {
 }
 
 finance_healthcare_week1_question_9 = {
-    'question': "A firm issues long-term debt and receives $50,000 in cash. What happens to the various sections of the balance sheet?",
+    'question': "A firm issues long-term debt and receives \$50,000 in cash. What happens to the various sections of the balance sheet?",
     'options_list': [
-        'A) Short-Term Assets go up by $50,000 and Long-Term Liabilities go up by $50,000',
-        'B) Short-Term Assets go up by $50,000 and Owners’ Equity goes up by $50,000',
-        'C) Short-Term Assets go up by $50,000 and Long-Term Liabilities go down by $50,000',
-        'D) Short-Term Assets go up by $50,000 and Owners’ Equity goes down by $50,000',
-        'E) Short-Term Assets go up by $50,000 and Long-Term Assets go down by $50,000'
+        'A) Short-Term Assets go up by \$50,000 and Long-Term Liabilities go up by \$50,000',
+        'B) Short-Term Assets go up by \$50,000 and Owners’ Equity goes up by \$50,000',
+        'C) Short-Term Assets go up by \$50,000 and Long-Term Liabilities go down by \$50,000',
+        'D) Short-Term Assets go up by \$50,000 and Owners’ Equity goes down by \$50,000',
+        'E) Short-Term Assets go up by \$50,000 and Long-Term Assets go down by \$50,000'
     ],
-    'correct_answer': 'A) Short-Term Assets go up by $50,000 and Long-Term Liabilities go up by $50,000',
+    'correct_answer': 'A) Short-Term Assets go up by \$50,000 and Long-Term Liabilities go up by \$50,000',
     'explanation': "Issuing debt increases cash (a short-term asset) and increases long-term liabilities.",
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
 }
 
 finance_healthcare_week1_question_10 = {
-    'question': "A firm sells inventory that had cost $100 for $150. Of the $150 of sales, $120 is cash and $30 is credit. Which effects on the balance sheet are correct? (Check all that apply)",
+    'question': "A firm sells inventory that had cost \$100 for \$150. Of the \$150 of sales, \$120 is cash and \$30 is credit. Which effects on the balance sheet are correct? (Check all that apply)",
     'options_list': [
-        'A) Accounts Payable goes up by $120',
-        'B) Accounts Receivable goes up by $30',
-        'C) Inventory goes up by $100',
-        'D) Cash goes up by $150',
-        'E) Retained Earnings goes up by $50'
+        'A) Accounts Payable goes up by \$120',
+        'B) Accounts Receivable goes up by \$30',
+        'C) Inventory goes up by \$100',
+        'D) Cash goes up by \$150',
+        'E) Retained Earnings goes up by \$50'
     ],
-    'correct_answer': ['B) Accounts Receivable goes up by $30', 'E) Retained Earnings goes up by $50'],
-    'explanation': "$30 on credit → Accounts Receivable increases. Profit = $150 – $100 = $50 → Retained Earnings increases. Inventory decreases, not increases. Cash increases by $120, not $150.",
+    'correct_answer': ['B) Accounts Receivable goes up by \$30', 'E) Retained Earnings goes up by \$50'],
+    'explanation': "\$30 on credit → Accounts Receivable increases. Profit = \$150 – \$100 = \$50 → Retained Earnings increases. Inventory decreases, not increases. Cash increases by \$120, not \$150.",
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
 }
 
 finance_healthcare_week1_question_11 = {
-    'question': "You buy a machine for $300,000 that is expected to last for 10 years, with no salvage value. If using straight-line depreciation, what’s the annual depreciation expense?",
+    'question': "You buy a machine for \$300,000 that is expected to last for 10 years, with no salvage value. If using straight-line depreciation, what’s the annual depreciation expense?",
     'options_list': [
-        'A) $300,000',
-        'B) $0',
-        'C) $30,000',
-        'D) $10'
+        'A) \$300,000',
+        'B) \$0',
+        'C) \$30,000',
+        'D) \$10'
     ],
-    'correct_answer': 'C) $30,000',
-    'explanation': "Depreciation = $300,000 / 10 = $30,000 per year.",
+    'correct_answer': 'C) \$30,000',
+    'explanation': "Depreciation = \$300,000 / 10 = \$30,000 per year.",
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
 }
 
 finance_healthcare_week1_question_12 = {
-    'question': "We generate $100,000 in sales: $80,000 cash, $20,000 credit. Expect 10% of credit won’t be collected. How much income is recognized?",
+    'question': "We generate \$100,000 in sales: \$80,000 cash, \$20,000 credit. Expect 10% of credit won’t be collected. How much income is recognized?",
     'options_list': [
-        'A) $90,000',
-        'B) $80,000',
-        'C) $98,000',
-        'D) $100,000',
-        'E) $82,000'
+        'A) \$90,000',
+        'B) \$80,000',
+        'C) \$98,000',
+        'D) \$100,000',
+        'E) \$82,000'
     ],
-    'correct_answer': 'C) $98,000',
-    'explanation': "Expected uncollectible = 10% × $20,000 = $2,000. Recognized revenue = $100,000 – $2,000 = $98,000.",
+    'correct_answer': 'C) \$98,000',
+    'explanation': "Expected uncollectible = 10% × \$20,000 = \$2,000. Recognized revenue = \$100,000 – \$2,000 = \$98,000.",
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
 }
 
 hcd_financial_summary_question_1 = {
     'question': "How much are HCD's total assets at the end of year 20x2? (in millions)\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
     'options_list': [
-        'A) $24,701',
-        'B) $21,226',
-        'C) $23,682',
-        'D) $716'
+        'A) \$24,701',
+        'B) \$21,226',
+        'C) \$23,682',
+        'D) \$716'
     ],
-    'correct_answer': 'A) $24,701',
+    'correct_answer': 'A) \$24,701',
     'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
 }
@@ -1247,12 +1247,12 @@ hcd_financial_summary_question_5 = {
 hcd_financial_summary_question_6 = {
     'question': "How much was HCD's Net Income for year 20x2? (in millions)\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
     'options_list': [
-        'A) $76',
-        'B) $1219',
-        'C) $176',
-        'D) $181'
+        'A) \$76',
+        'B) \$1219',
+        'C) \$176',
+        'D) \$181'
     ],
-    'correct_answer': 'C) $176',
+    'correct_answer': 'C) \$176',
     'explanation': "See the link, click the link: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing",
     'chapter_information': 'https://www.coursera.org/learn/finance-healthcare-managers Week 1'
 }
