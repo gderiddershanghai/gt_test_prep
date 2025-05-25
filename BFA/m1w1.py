@@ -1232,7 +1232,7 @@ hcd_financial_summary_question_4 = {
 }
 
 hcd_financial_summary_question_5 = {
-    'question': "LCD's Shareholders' Equity is far smaller than their Liabilities. The Shareholders' Equity section includes a line item called \"Accumulated Deficit.\" What is the interpretation of this line item?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
+    'question': "HCD's Shareholders' Equity is far smaller than their Liabilities. The Shareholders' Equity section includes a line item called \"Accumulated Deficit.\" What is the interpretation of this line item?\n[Refer to income statement: https://drive.google.com/file/d/1rJGl7zkPMZdnWi2XX1asLYIA4VJK_oa4/view?usp=sharing]",
     'options_list': [
         'A) HCD has overdrawn its bank account',
         'B) HCD has been incurring more losses than profits over its lifetime',
