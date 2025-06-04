@@ -856,8 +856,259 @@ finance_week1_q47 = {
 }
 
 
+finance_week1_q35 = {
+    'question': (
+        "Ray’s Restaurants is evaluating multiple projects for future investment.\n\n"
+        "- **Project A**: Remodel of upscale Taqueria concept with estimated IRR of **22%**\n"
+        "- **Project B**: Creation of a new dining concept (Latin-Canadian Fusion) with estimated IRR of **18%**\n\n"
+        "If Ray’s decides to invest in **both projects**, the expected IRR on the **combined investment** would be:"
+    ),
+    'options_list': [
+        'less than 18%',
+        'between 18% and 22%',
+        'exactly 18%',
+        'exactly 22%',
+        'more than 22%'
+    ],
+    'correct_answer': 'between 18% and 22%',
+    'explanation': (
+        "When combining two projects with different IRRs, the IRR of the combined investment will lie between the two individual IRRs, "
+        "provided both projects have positive cash flows and similar scale. Thus, the combined IRR is between 18% and 22%."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week1_q36 = {
+    'question': (
+        "Which ONE of the following is **NOT** a technique for evaluating and selecting projects from a pool of investment proposals?"
+    ),
+    'options_list': [
+        'replacement investment',
+        'discounted payback period',
+        'internal rate of return',
+        'net present value'
+    ],
+    'correct_answer': 'replacement investment',
+    'explanation': (
+        "Replacement investment is a **type** of project, not an evaluation method. The other options are standard techniques "
+        "used to assess project desirability."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week1_q37 = {
+    'question': (
+        "The method that is focused on identifying projects that create the most **economic value**, and Dr. Jayaraman’s preferred approach "
+        "for evaluating and selecting projects for long-term investment, is:"
+    ),
+    'options_list': [
+        'discounted payback period',
+        'net present value',
+        'internal rate of return',
+        'payback period'
+    ],
+    'correct_answer': 'net present value',
+    'explanation': (
+        "Net Present Value (NPV) directly measures the dollar value added by a project and is the most robust method for evaluating investment decisions. "
+        "Dr. Jayaraman emphasizes NPV as the preferred approach."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week1_q38 = {
+    'question': (
+        "If capital projects with **conventional cash flows** are ________, the NPV and the IRR methods should result in ________ \"accept\" or \"reject\" decisions."
+    ),
+    'options_list': [
+        'independent, consistent',
+        'mutually exclusive, consistent',
+        'neither statement above is a true statement'
+    ],
+    'correct_answer': 'independent, consistent',
+    'explanation': (
+        "When projects are **independent** and have **conventional cash flows**, both NPV and IRR will generally provide the same accept/reject outcome. "
+        "Consistency breaks down mainly when comparing **mutually exclusive** options."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week1_q39 = {
+    'question': (
+        "Emily is evaluating two project alternatives with the following characteristics:\n\n"
+        "| Project        | Initial Investment | Year 1 CF | Year 2 CF | Year 3 CF | IRR   |\n"
+        "|----------------|--------------------|-----------|-----------|-----------|--------|\n"
+        "| Project X      | $100,000           | $20,000   | $30,000   | $120,000  | ?      |\n"
+        "| Project Y      | $100,000           | $90,000   | $20,000   | $5,000    | ?      |\n\n"
+        "Assume a cost of capital of **10%** and **mutually exclusive** projects. Which method is most appropriate to evaluate these projects?"
+    ),
+    'options_list': [
+        'Payback Period',
+        'Internal Rate of Return (IRR)',
+        'Net Present Value (NPV)',
+        'Profitability Index'
+    ],
+    'correct_answer': 'Net Present Value (NPV)',
+    'explanation': (
+        "For mutually exclusive projects, NPV is the most reliable method. IRR can give misleading results due to timing and scale differences "
+        "between projects, even when all cash flows are conventional."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week1_q40 = {
+    'question': (
+        "A project has the following cash flows and a cost of capital of 8%:\n\n"
+        "| Year | Cash Flow |\n"
+        "|------|-----------|\n"
+        "| 0    | -$50,000  |\n"
+        "| 1    | $10,000   |\n"
+        "| 2    | $15,000   |\n"
+        "| 3    | $20,000   |\n"
+        "| 4    | $25,000   |\n\n"
+        "What is the **NPV** of this project at an 8% discount rate? (Round to the nearest dollar)"
+    ),
+    'options_list': [
+        '$13,489',
+        '$11,152',
+        '$15,215',
+        '$8,744'
+    ],
+    'correct_answer': '$13,489',
+    'explanation': (
+        "NPV is calculated using the formula:\n\n"
+        "$\\text{NPV} = \\sum_{t=1}^4 \\frac{CF_t}{(1 + 0.08)^t} - 50,000$\n\n"
+        "NPV ≈ $13,489"
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week1_q41 = {
+    'question': (
+        "Which of the following best explains **why NPV is superior to IRR** in ranking mutually exclusive projects?"
+    ),
+    'options_list': [
+        "IRR assumes reinvestment at the project's IRR; NPV assumes reinvestment at the cost of capital",
+        "NPV does not consider the time value of money, but IRR does",
+        "NPV ignores project scale while IRR includes it",
+        "IRR is easier to calculate using Excel, so it's more reliable"
+    ],
+    'correct_answer': "IRR assumes reinvestment at the project's IRR; NPV assumes reinvestment at the cost of capital",
+    'explanation': (
+        "One key weakness of IRR is its assumption that intermediate cash flows are reinvested at the IRR, which may be unrealistic. "
+        "NPV instead assumes reinvestment at the firm's cost of capital, making it more accurate."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
 
 
+finance_week1_q42 = {
+    'question': (
+        "Delta Airlines is considering two mutually exclusive fleet upgrade projects:\n\n"
+        "| Project       | Initial Cost | Year 1 | Year 2 | Year 3 | IRR  |\n"
+        "|---------------|--------------|--------|--------|--------|------|\n"
+        "| Airbus Fleet  | $10,000,000  | $4M    | $4M    | $4M    | 16%  |\n"
+        "| Boeing Fleet  | $10,000,000  | $2M    | $5M    | $6M    | 18%  |\n\n"
+        "Assume a cost of capital of 12%. Which project should Delta choose based on **NPV** as the preferred method?"
+    ),
+    'options_list': [
+        'Airbus Fleet',
+        'Boeing Fleet',
+        'Neither – both have negative NPV',
+        'Both – if they are not mutually exclusive'
+    ],
+    'correct_answer': 'Boeing Fleet',
+    'explanation': (
+        "Although both projects have IRRs above the 12% hurdle rate, for mutually exclusive decisions, we compare **NPV**. "
+        "Boeing Fleet yields a higher NPV based on its more back-loaded and larger cash flows, making it the better investment."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week1_q43 = {
+    'question': (
+        "A mining company is evaluating a project with the following cash flows:\n\n"
+        "| Year | Cash Flow  |\n"
+        "|------|------------|\n"
+        "| 0    | -$3,000,000|\n"
+        "| 1    | $1,500,000 |\n"
+        "| 2    | $2,500,000 |\n"
+        "| 3    | -$1,200,000|\n\n"
+        "This project is likely to have:"
+    ),
+    'options_list': [
+        'No internal rate of return',
+        'Multiple internal rates of return',
+        'A single IRR that equals the NPV',
+        'An IRR equal to the cost of capital'
+    ],
+    'correct_answer': 'Multiple internal rates of return',
+    'explanation': (
+        "When project cash flows change signs more than once (e.g., from negative to positive and back to negative), "
+        "this leads to multiple IRRs. The NPV rule should be used in such cases."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week1_q44 = {
+    'question': (
+        "Project Alpha and Project Beta are mutually exclusive. Their cash flows are:\n\n"
+        "| Year | Alpha | Beta  |\n"
+        "|------|-------|--------|\n"
+        "| 0    | -$1M  | -$1M   |\n"
+        "| 1    | $900K | $200K  |\n"
+        "| 2    | $200K | $900K  |\n\n"
+        "Assume the cost of capital is 10%. The **crossover rate** is best described as:"
+    ),
+    'options_list': [
+        "The discount rate where Alpha and Beta have the same IRR",
+        "The IRR of the difference in cash flows between Alpha and Beta",
+        "The discount rate at which the NPVs of Alpha and Beta are equal",
+        "The rate at which both projects are acceptable"
+    ],
+    'correct_answer': "The discount rate at which the NPVs of Alpha and Beta are equal",
+    'explanation': (
+        "The crossover rate is the discount rate where the NPV profiles of two projects intersect—i.e., they yield the same NPV. "
+        "It is calculated by finding the IRR of the difference in project cash flows (Alpha - Beta)."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week1_q45 = {
+    'question': (
+        "A project requires a $50,000 investment today and promises annual payments of $12,000 for 5 years. "
+        "Using the IRR method, what type of Excel function should you use to compute the IRR of the cash flows?"
+    ),
+    'options_list': [
+        'NPV(rate, values)',
+        'PMT(rate, nper, pv)',
+        'IRR(values)',
+        'FV(rate, nper, pmt)'
+    ],
+    'correct_answer': 'IRR(values)',
+    'explanation': (
+        "The `IRR(values)` function in Excel determines the rate of return that sets the NPV of a series of cash flows to zero. "
+        "You input the full array of cash flows, including the initial investment as a negative value."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week1_q46 = {
+    'question': (
+        "Which of the following correctly describes a **scale problem** in the context of IRR vs. NPV?"
+    ),
+    'options_list': [
+        "Two projects with different IRRs but equal NPVs",
+        "One project generates larger total cash flows, but a lower IRR",
+        "NPV and IRR disagree due to non-conventional cash flows",
+        "Project durations differ but initial investments are the same"
+    ],
+    'correct_answer': "One project generates larger total cash flows, but a lower IRR",
+    'explanation': (
+        "A scale problem occurs when one project has a lower IRR but a higher NPV because of a larger investment and payoff. "
+        "IRR favors smaller projects with higher percentages, even if total dollar value added is lower."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
 
 
 
