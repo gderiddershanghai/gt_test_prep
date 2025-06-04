@@ -554,7 +554,7 @@ finance_week1_q33 = {
     'chapter_information': 'Finance Module - Week 1 - SA'
 }
 
-finance_week1_q34 = {
+finance_wee123k1_q34 = {
     'question': (
         "If you want to determine the amount of **capital expenditures** a company made during the previous year, "
         "you should find the company's most current _________ and look under the caption ________."
@@ -573,7 +573,7 @@ finance_week1_q34 = {
     'chapter_information': 'Finance Module - Week 1 - SA'
 }
 
-finance_week1_q35 = {
+finance_w123eek1_q35 = {
     'question': (
         "Ray’s Restaurants is evaluating multiple projects for future investment.\n\n"
         "- **Project A**: Remodel of upscale Taqueria concept with estimated IRR of **22%**\n"
@@ -595,7 +595,7 @@ finance_week1_q35 = {
     'chapter_information': 'Finance Module - Week 1 - SA'
 }
 
-finance_week1_q36 = {
+finance_w123eek1_q36 = {
     'question': (
         "Which ONE of the following is **NOT** a technique for evaluating and selecting projects from a pool of investment proposals?"
     ),
@@ -613,7 +613,7 @@ finance_week1_q36 = {
     'chapter_information': 'Finance Module - Week 1 - SA'
 }
 
-finance_week1_q37 = {
+finance_we123ek1_q37 = {
     'question': (
         "The method that is focused on identifying projects that create the most **economic value**, and Dr. Jayaraman’s preferred approach "
         "for evaluating and selecting projects for long-term investment, is:"
@@ -632,7 +632,7 @@ finance_week1_q37 = {
     'chapter_information': 'Finance Module - Week 1 - SA'
 }
 
-finance_week1_q38 = {
+finance_wee123k1_q38 = {
     'question': (
         "If capital projects with **conventional cash flows** are ________, the NPV and the IRR methods should result in ________ \"accept\" or \"reject\" decisions."
     ),
@@ -650,7 +650,7 @@ finance_week1_q38 = {
 }
 
 
-finance_week1_q39 = {
+finance_we123ek1_q39 = {
     'question': (
         "Emily is getting married and has two options from her father:\n\n"
         "- Take \$105,000 now to pay for her share of the wedding.\n"
@@ -669,7 +669,7 @@ finance_week1_q39 = {
     'chapter_information': 'Finance Module - Week 1 - SA'
 }
 
-finance_week1_q40 = {
+finance_w23eek1_q40 = {
     'question': (
         "Emily is considering her father's offer again. She asks her financial advisor: "
         "what **annual rate of return** would she need to earn on \$105,000 today to match the \$150,000 condo value in 3 years?\n\n"
@@ -690,7 +690,7 @@ finance_week1_q40 = {
     'chapter_information': 'Finance Module - Week 1 - SA'
 }
 
-finance_week1_q41 = {
+finance_week1231_q41 = {
     'question': (
         "Michael receives a 5-year contract at \$7,000,000 per year.\n"
         "Bert receives a 2-year contract at \$16,000,000 per year.\n\n"
@@ -713,7 +713,7 @@ finance_week1_q41 = {
     'chapter_information': 'Finance Module - Week 1 - SA'
 }
 
-finance_week1_q42 = {
+finance_wee32k1_q42 = {
     'question': (
         "You invest \$50,000 into a 30-year CD with an annual compound interest rate of **2.7%**.\n\n"
         "What is the future lump sum payment when the CD matures?"
@@ -733,7 +733,7 @@ finance_week1_q42 = {
     'chapter_information': 'Finance Module - Week 1 - SA'
 }
 
-finance_week1_q43 = {
+finance_we22ek1_q43 = {
     'question': (
         "Carly deposits \$20,000 immediately into a savings account and plans to add \$6,000 annually for the next 15 years. "
         "The interest rate is assumed to be constant at **3.2%** annually.\n\n"
@@ -753,7 +753,7 @@ finance_week1_q43 = {
     'chapter_information': 'Finance Module - Week 1 - SA'
 }
 
-finance_week1_q44 = {
+finance_wee11k1_q44 = {
     'question': (
         "You win the lottery: total prize \$2,350,500, paid in **15 annual installments of \$156,700**.\n\n"
         "If your cost of capital is **4%**, what is the **present value** of your winnings?\n\n"
@@ -773,7 +773,7 @@ finance_week1_q44 = {
     'chapter_information': 'Finance Module - Week 1 - SA'
 }
 
-finance_week1_q45 = {
+finance_1week1_q45 = {
     'question': (
         "Consider the following potential projects for **Southern Eco Adventures**, which is evaluating two **mutually exclusive** eco-tourism investments. "
         "The required rate of return is **12%**.\n\n"
@@ -805,7 +805,7 @@ finance_week1_q45 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q46 = {
+finance_week1f1_q46 = {
     'question': (
         "Using the cash flows from **Southern Eco Adventures** shown below, if the decision rule is to choose the project with the higher **IRR**, "
         "which project should be selected?\n\n"
@@ -829,7 +829,7 @@ finance_week1_q46 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q47 = {
+finance_weef3k1_q47 = {
     'question': (
         "Using the same cash flows from **Southern Eco Adventures**, calculate the **Internal Rate of Return (IRR)** for the **Rainforest Canopy Tour** project. "
         "Which answer below is closest to your result? (Round to the nearest whole number)\n\n"
@@ -856,7 +856,7 @@ finance_week1_q47 = {
 }
 
 
-finance_week1_q35 = {
+finance_wef3ek1_q35 = {
     'question': (
         "Ray’s Restaurants is evaluating multiple projects for future investment.\n\n"
         "- **Project A**: Remodel of upscale Taqueria concept with estimated IRR of **22%**\n"
@@ -878,7 +878,7 @@ finance_week1_q35 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q36 = {
+finance_weef3k1_q36 = {
     'question': (
         "Which ONE of the following is **NOT** a technique for evaluating and selecting projects from a pool of investment proposals?"
     ),
@@ -896,7 +896,7 @@ finance_week1_q36 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q37 = {
+finance_weef3k1_q37 = {
     'question': (
         "The method that is focused on identifying projects that create the most **economic value**, and Dr. Jayaraman’s preferred approach "
         "for evaluating and selecting projects for long-term investment, is:"
@@ -915,7 +915,7 @@ finance_week1_q37 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q38 = {
+finance_weekfd1_q38 = {
     'question': (
         "If capital projects with **conventional cash flows** are ________, the NPV and the IRR methods should result in ________ \"accept\" or \"reject\" decisions."
     ),
@@ -932,7 +932,7 @@ finance_week1_q38 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q39 = {
+finance_fweek1_q39 = {
     'question': (
         "Emily is evaluating two project alternatives with the following characteristics:\n\n"
         "| Project        | Initial Investment | Year 1 CF | Year 2 CF | Year 3 CF | IRR   |\n"
@@ -955,7 +955,7 @@ finance_week1_q39 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q40 = {
+finance_weekd1_q40 = {
     'question': (
         "A project has the following cash flows and a cost of capital of 8%:\n\n"
         "| Year | Cash Flow |\n"
@@ -982,7 +982,7 @@ finance_week1_q40 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q41 = {
+finance_sweek1_q41 = {
     'question': (
         "Which of the following best explains **why NPV is superior to IRR** in ranking mutually exclusive projects?"
     ),
@@ -1001,7 +1001,7 @@ finance_week1_q41 = {
 }
 
 
-finance_week1_q42 = {
+financed_week1_q42 = {
     'question': (
         "Delta Airlines is considering two mutually exclusive fleet upgrade projects:\n\n"
         "| Project       | Initial Cost | Year 1 | Year 2 | Year 3 | IRR  |\n"
@@ -1024,7 +1024,7 @@ finance_week1_q42 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q43 = {
+finanwce_week1_q43 = {
     'question': (
         "A mining company is evaluating a project with the following cash flows:\n\n"
         "| Year | Cash Flow  |\n"
@@ -1049,7 +1049,7 @@ finance_week1_q43 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q44 = {
+finan2ce_week1_q44 = {
     'question': (
         "Project Alpha and Project Beta are mutually exclusive. Their cash flows are:\n\n"
         "| Year | Alpha | Beta  |\n"
@@ -1073,7 +1073,7 @@ finance_week1_q44 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q45 = {
+finan2ce_week1_q45 = {
     'question': (
         "A project requires a $50,000 investment today and promises annual payments of $12,000 for 5 years. "
         "Using the IRR method, what type of Excel function should you use to compute the IRR of the cash flows?"
@@ -1092,7 +1092,7 @@ finance_week1_q45 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week1_q46 = {
+fin2ance_week1_q46 = {
     'question': (
         "Which of the following correctly describes a **scale problem** in the context of IRR vs. NPV?"
     ),
@@ -1106,6 +1106,212 @@ finance_week1_q46 = {
     'explanation': (
         "A scale problem occurs when one project has a lower IRR but a higher NPV because of a larger investment and payoff. "
         "IRR favors smaller projects with higher percentages, even if total dollar value added is lower."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+fin2ance_week1_q39 = {
+    'question': (
+        "Emily is getting married and has two options from her father:\n\n"
+        "- Take $105,000 now to pay for her share of the wedding.\n"
+        "- Wait 3 years and receive a condo expected to be worth $150,000 at that time (currently rented).\n\n"
+        "Assuming Emily's cost of capital is **8%**, which option has the greater financial value?"
+    ),
+    'options_list': [
+        'take the $105,000 now',
+        'wait three years for the condo'
+    ],
+    'correct_answer': 'wait three years for the condo',
+    'explanation': (
+        "Present Value of condo = $150,000 / (1 + 0.08)^3 = $119,075.\n"
+        "Since $119,075 > $105,000, Emily should wait for the condo."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week11_q40 = {
+    'question': (
+        "Emily is considering her father's offer again. She asks her financial advisor: "
+        "what **annual rate of return** would she need to earn on $105,000 today to match the $150,000 condo value in 3 years?\n\n"
+        "Choose the closest answer."
+    ),
+    'options_list': [
+        '12.62%',
+        '11.49%',
+        '9.37%',
+        '15.67%',
+        '8.24%'
+    ],
+    'correct_answer': '12.62%',
+    'explanation': (
+        "Use the future value formula: $150,000 = $105,000 × (1 + r)^3\n"
+        "Solving: (1 + r)^3 = 150,000 / 105,000 = 1.42857 → r ≈ 12.62%"
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_wee1k1_q41 = {
+    'question': (
+        "Michael receives a 5-year contract at $7,000,000 per year.\n"
+        "Bert receives a 2-year contract at $16,000,000 per year.\n\n"
+        "Assume these are ordinary annuities and the discount rate is **6%**.\n\n"
+        "Who has the greater **present value**?"
+    ),
+    'options_list': [
+        'Bert = $29,334,283',
+        'Bert = $39,459,651',
+        'Michael = $39,743,196',
+        'Michael = $29,486,547'
+    ],
+    'correct_answer': 'Michael = $29,486,547',
+    'explanation': (
+        "Using the present value of annuity formula:\n"
+        "Michael: =PV(0.06, 5, 7,000,000) = $29,486,547\n"
+        "Bert: =PV(0.06, 2, 16,000,000) = $29,334,283\n"
+        "Michael's contract has a slightly higher present value."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_wee1k1_q42 = {
+    'question': (
+        "You invest $50,000 into a 30-year CD with an annual compound interest rate of **2.7%**.\n\n"
+        "What is the future lump sum payment when the CD matures?"
+    ),
+    'options_list': [
+        '$54,878',
+        '$104,878',
+        '$40,389,678',
+        '$78,878',
+        '$111,195'
+    ],
+    'correct_answer': '$111,195',
+    'explanation': (
+        "Future value = $50,000 × (1 + 0.027)^30 = $111,195\n"
+        "This is compound interest applied annually over 30 years."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+financ2e_week1_q43 = {
+    'question': (
+        "Carly deposits $20,000 immediately into a savings account and plans to add $6,000 annually for the next 15 years. "
+        "The interest rate is assumed to be constant at **3.2%** annually.\n\n"
+        "What is the total amount Carly can expect in the account after 15 years? (Round to nearest dollar)"
+    ),
+    'options_list': [
+        '145,323',
+        '132,000',
+        '159,878',
+        '142,250'
+    ],
+    'correct_answer': '145,323',
+    'explanation': (
+        "Future Value = FV of lump sum + FV of annuity\n"
+        "FV = 20,000 × (1 + 0.032)^15 + 6,000 × [(1 + 0.032)^15 – 1] / 0.032 = $145,323"
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_1week1_q44 = {
+    'question': (
+        "You win the lottery: total prize $2,350,500, paid in **15 annual installments of $156,700**.\n\n"
+        "If your cost of capital is **4%**, what is the **present value** of your winnings?\n\n"
+        "Round to the nearest dollar."
+    ),
+    'options_list': [
+        '$2,350,500',
+        '$389,232',
+        '$3,137,696',
+        '$1,742,251',
+        '$1,305,181'
+    ],
+    'correct_answer': '$1,742,251',
+    'explanation': (
+        "Use annuity present value formula: PV = $156,700 × [1 – (1 + 0.04)^-15] / 0.04 = $1,742,251"
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+
+finance_week1_q45 = {
+    'question': (
+        "Consider the following potential projects for **Southern Eco Adventures**, which is evaluating two **mutually exclusive** eco-tourism investments. "
+        "The required rate of return is **12%**.\n\n"
+        "| Year | Mountain Zipline | Rainforest Canopy Tour |\n"
+        "|------|------------------|-------------------------|\n"
+        "| 0    | ($500,000)      | ($800,000)             |\n"
+        "| 1    | $200,000        | $300,000               |\n"
+        "| 2    | $210,000        | $320,000               |\n"
+        "| 3    | $240,000        | $340,000               |\n"
+        "| 4    | $150,000        | $260,000               |\n\n"
+        "As a financial analyst, calculate the **undiscounted payback period** for the **Mountain Zipline** project. Which of the following best matches your result?"
+    ),
+    'options_list': [
+        '2.75 years',
+        '3.05 years',
+        '2.21 years',
+        '2.58 years'
+    ],
+    'correct_answer': '2.58 years',
+    'explanation': (
+        "Cumulative cash inflows for Mountain Zipline:\n"
+        "Year 1: $200,000\n"
+        "Year 2: $410,000\n"
+        "Year 3: $650,000 (exceeds $500,000)\n"
+        "Remaining amount to recover after Year 2: $90,000\n"
+        "Fraction of Year 3 needed: $90,000 / $240,000 ≈ 0.375\n"
+        "Payback Period ≈ 2 + 0.375 = **2.58 years**"
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week12_q46 = {
+    'question': (
+        "Using the cash flows from **Southern Eco Adventures** shown below, if the decision rule is to choose the project with the higher **IRR**, "
+        "which project should be selected?\n\n"
+        "| Year | Mountain Zipline | Rainforest Canopy Tour |\n"
+        "|------|------------------|-------------------------|\n"
+        "| 0    | ($500,000)      | ($800,000)             |\n"
+        "| 1    | $200,000        | $300,000               |\n"
+        "| 2    | $210,000        | $320,000               |\n"
+        "| 3    | $240,000        | $340,000               |\n"
+        "| 4    | $150,000        | $260,000               |"
+    ),
+    'options_list': [
+        'Mountain Zipline',
+        'Rainforest Canopy Tour'
+    ],
+    'correct_answer': 'Rainforest Canopy Tour',
+    'explanation': (
+        "Using IRR calculations, the Rainforest Canopy Tour generates a higher internal rate of return than the Mountain Zipline. "
+        "Under the IRR rule for mutually exclusive projects, it should be selected."
+    ),
+    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+}
+
+finance_week21_q47 = {
+    'question': (
+        "Using the same cash flows from **Southern Eco Adventures**, calculate the **Internal Rate of Return (IRR)** for the **Rainforest Canopy Tour** project. "
+        "Which answer below is closest to your result? (Round to the nearest whole number)\n\n"
+        "| Year | Rainforest Canopy Tour |\n"
+        "|------|-------------------------|\n"
+        "| 0    | ($800,000)             |\n"
+        "| 1    | $300,000               |\n"
+        "| 2    | $320,000               |\n"
+        "| 3    | $340,000               |\n"
+        "| 4    | $260,000               |"
+    ),
+    'options_list': [
+        '13%',
+        '16%',
+        '15%',
+        '18%'
+    ],
+    'correct_answer': '16%',
+    'explanation': (
+        "Using Excel or a financial calculator, IRR for the Rainforest Canopy Tour project cash flows "
+        "($-800,000, $300,000, $320,000, $340,000, $260,000) is approximately **16%**."
     ),
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }

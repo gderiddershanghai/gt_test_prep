@@ -5,6 +5,11 @@ from .m1w3 import BFA_M1W3_MPC
 from .m1_extra import BFA_M1_EXTRA_MPC
 
 from .m2w1 import BFA_M2W1_MPC
+from .m2w2 import BFA_M2W2_MPC
+from .m2w3 import BFA_M2W3_MPC
+
+
+from .m2_extra import BFA_M2_EXTRA_MPC
 
 # Questions Dictionary
 questions_dictionary = {
