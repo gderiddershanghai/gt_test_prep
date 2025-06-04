@@ -4,6 +4,8 @@ from .m1w2 import BFA_M1W2_MPC
 from .m1w3 import BFA_M1W3_MPC
 from .m1_extra import BFA_M1_EXTRA_MPC
 
+from .m2w1 import BFA_M2W1_MPC
+
 # Questions Dictionary
 questions_dictionary = {
 
@@ -11,6 +13,8 @@ questions_dictionary = {
     'M1W2': BFA_M1W2_MPC, 
     'M1W3': BFA_M1W3_MPC, 
     "M1_EXTRA": BFA_M1_EXTRA_MPC,
+    
+    'M2W1': BFA_M2W1_MPC, 
 }
 
 # Updated Review Sets
@@ -20,6 +24,8 @@ REVIEW_SETS = {
     'M1W3': BFA_M1W3_MPC, 
     'M1_EXTRA': BFA_M1_EXTRA_MPC,
     "FINANCIAL ACCOUNTING": ['M1W1', 'M1W2', 'M1W3', "M1_EXTRA"],
+    
+    'M2W1': BFA_M2W1_MPC, 
 }
 
 
