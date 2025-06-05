@@ -458,6 +458,120 @@ finance_week2_q24 = {
 }
 
 
+finance_week2_q25 = {
+    'question': (
+        "A company just paid a dividend of \$1.50. Dividends are expected to grow at 10% for 2 years, then 4% forever. "
+        "If the discount rate is 9%, what is the current stock price?\n\n"
+        "Step-by-step:\n"
+        "$D_0 = 1.50$\n"
+        "$D_1 = 1.50 \\times 1.10 = 1.65$\n"
+        "$D_2 = 1.65 \\times 1.10 = 1.815$\n"
+        "$D_3 = 1.815 \\times 1.04 = 1.8876$\n"
+        "$P_2 = \\frac{1.8876}{0.09 - 0.04} = 37.752$\n"
+        "Discount to present: \n"
+        "$P_0 = \\frac{1.65}{1.09} + \\frac{1.815}{1.09^2} + \\frac{37.752}{1.09^2} = 1.514 + 1.527 + 31.300 = 34.34$"
+    ),
+    'options_list': [
+        '\$20.13',
+        '\$23.21',
+        '\$25.57',
+        '\$27.89',
+        '\$34.34'
+    ],
+    'correct_answer': '\$34.34',
+    'explanation': (
+        "Using a two-stage dividend discount model with growth of 10% for two years and then 4% thereafter, "
+        "the present value of all expected cash flows equals \$34.34."
+    ),
+    'chapter_information': 'Finance Module - Week 2 L5 - GPT generated'
+}
+
+finance_week2_q26 = {
+    'question': (
+        "A firm has **EPS = \$6**, required return **R = 12%**, and stock price **P = \$84**. What is the **NPVGO** (Net Present Value of Growth Opportunities)?\n\n"
+        "Cash cow value = $\\frac{6}{0.12} = 50$\n"
+        "NPVGO = \$84 − \$50 = **\$34**"
+    ),
+    'options_list': [
+        '\$6',
+        '\$0',
+        '\$36',
+        '\$84',
+        '\$34'
+    ],
+    'correct_answer': '\$34',
+    'explanation': (
+        "The stock value without growth is \$6 / 0.12 = \$50. Since the actual stock price is \$84, the NPVGO = \$84 – \$50 = **\$34**."
+    ),
+    'chapter_information': 'Finance Module - Week 2 L5 - GPT generated'
+}
+
+finance_week2_q27 = {
+    'question': (
+        "A firm has **ROE = 18%**, payout ratio = 25%. What is the expected growth rate $g$?"
+    ),
+    'options_list': [
+        '13.5%',
+        '25%',
+        '75%',
+        '18%'
+    ],
+    'correct_answer': '13.5%',
+    'explanation': (
+        "Retention ratio = 1 – 0.25 = 0.75. Growth rate = 0.75 × 18% = **13.5%**."
+    ),
+    'chapter_information': 'Finance Module - Week 2 L5 - GPT generated'
+}
+
+finance_week2_q28 = {
+    'question': (
+        "A firm is expected to pay a dividend of \$2 next year. Dividends grow at 6% forever. "
+        "Cost of equity is 11%. What is the stock price?\n\n"
+        "$P = \\frac{D_1}{R - g} = \\frac{2}{0.11 - 0.06} = 40$"
+    ),
+    'options_list': [
+        '\$40',
+        '\$36',
+        '\$20',
+        '\$30'
+    ],
+    'correct_answer': '\$40',
+    'explanation': (
+        "Using the constant growth dividend discount model: "
+        "$P = \\frac{2}{0.11 - 0.06} = \$40$."
+    ),
+    'chapter_information': 'Finance Module - Week 2 L5 - GPT generated'
+}
+
+finance_week2_q29 = {
+    'question': (
+        "You estimate that a firm’s current dividend of \$3 will grow at 12% for 4 years, and 4% thereafter. "
+        "Cost of equity is 10%. What is the value of the stock?\n\n"
+        "$D_1 = 3 \\times 1.12 = 3.36$\n"
+        "$D_2 = 3.36 \\times 1.12 = 3.7632$\n"
+        "$D_3 = 3.7632 \\times 1.12 = 4.2138$\n"
+        "$D_4 = 4.2138 \\times 1.12 = 4.7195$\n"
+        "$D_5 = 4.7195 \\times 1.04 = 4.9083$\n"
+        "$P_4 = \\frac{4.9083}{0.10 - 0.04} = 81.805$\n"
+        "Discount to present:\n"
+        "$P_0 = \\frac{3.36}{1.10} + \\frac{3.7632}{1.10^2} + \\frac{4.2138}{1.10^3} + \\frac{4.7195 + 81.805}{1.10^4}$\n"
+        "$P_0 \\approx 3.055 + 3.108 + 3.169 + 59.83 = 69.16$"
+    ),
+    'options_list': [
+        '\$61.44',
+        '\$65.88',
+        '\$70.22',
+        '\$74.09'
+    ],
+    'correct_answer': '\$70.22',
+    'explanation': (
+        "Using the two-stage dividend discount model, total present value = "
+        "sum of discounted dividends + discounted terminal value = approximately **\$70.22**."
+    ),
+    'chapter_information': 'Finance Module - Week 2 L5 - GPT generated'
+}
+
+
 
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
