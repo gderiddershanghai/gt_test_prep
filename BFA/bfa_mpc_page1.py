@@ -30,6 +30,8 @@ def review_questions():
         "Module 1 - Week 2": 'M1W2',
         "Module 1 - Week 3": 'M1W3',
         "Module 2 - Week 1": 'M2W1',
+         "Module 2 - Week 2": 'M2W2',
+        "Module 2 - NON GT CONTENT ":  "M2_EXTRA",
 
     }
 
@@ -55,7 +57,7 @@ def review_questions():
 
         for i, q in enumerate(questions):
             st.markdown('-------------------------------')
-            st.markdown(f"**{q['question']}**")
+            st.markdown(f"{q['question']}")
             options = q['options_list']
             correct_answer = q['correct_answer']
             explanation = q.get('explanation', " ")

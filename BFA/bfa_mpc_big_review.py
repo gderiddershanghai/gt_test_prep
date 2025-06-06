@@ -50,7 +50,7 @@ def big_review():
 
         for i, q in enumerate(questions):
             st.markdown('-------------------------------')
-            st.markdown(f"**{q['question']}**")
+            st.markdown(f"{q['question']}")
             options = q['options_list']
             correct_answer = q['correct_answer']
             explanation = q.get('explanation', " ")

@@ -111,7 +111,6 @@ finance_week2_q6 = {
     ),
     'chapter_information': 'Finance Module - Week 2 - GPT generated'
 }
-
 finance_week2_q7 = {
     'question': (
         "Delta Devices Inc. is evaluating whether to replace an old machine with a new one. See details below:\n\n"
@@ -120,7 +119,8 @@ finance_week2_q7 = {
         "- Annual gross profit: \$5,000\n"
         "- Remaining life: 4 years\n"
         "- Depreciation: \$20,000 ÷ 5 = \$4,000/year\n"
-        "- Current resale value: \$6,000\n\n"
+        "- Current resale value: \$6,000\n"
+        "- **Book value**: \$20,000 - (\$4,000 × 2) = \$12,000\n\n"
         "### New Machine\n"
         "- Cost: \$18,000\n"
         "- Useful life: 4 years, no salvage value\n"
@@ -132,29 +132,35 @@ finance_week2_q7 = {
         "**What is the NPV of replacing the old machine, and should the company proceed?**"
     ),
     'options_list': [
-        'NPV = –\$1,240; Do not replace',
-        'NPV = +\$1,240; Replace',
-        'NPV = –\$2,000; Do not replace',
-        'NPV = +\$2,000; Replace'
+        'NPV = -\$3,525; Do not replace',
+        'NPV = -\$1,240; Do not replace',
+        'NPV = +\$2,000; Replace',
+        'NPV = +\$5,925; Replace'
     ],
-    'correct_answer': 'NPV = –\$1,240; Do not replace',
+    'correct_answer': 'NPV = -\$3,525; Do not replace',
     'explanation': (
-        "1. **OCF (Old Machine)**:\n"
-        "   - EBIT = \$5,000 – \$4,000 = \$1,000\n"
-        "   - Tax = 0.40 × \$1,000 = \$400\n"
-        "   - OCF = \$1,000 – \$400 + \$4,000 = **\$4,600**\n\n"
-        "2. **OCF (New Machine)**:\n"
-        "   - EBIT = \$8,000 – \$4,500 = \$3,500\n"
-        "   - Tax = 0.40 × \$3,500 = \$1,400\n"
-        "   - OCF = \$3,500 – \$1,400 + \$4,500 = **\$6,600**\n\n"
-        "3. **Incremental OCF** = \$6,600 – \$4,600 = **\$2,000/year**\n"
-        "4. **Initial Investment** = \$18,000 – \$6,000 = **\$12,000**\n"
-        "5. **NPV** = –\$12,000 + \$2,000 × PV Annuity Factor (n=4, r=12%) ≈ –\$12,000 + \$2,000 × 3.0373 ≈ **–\$1,925**\n"
-        "   → Rounded in Excel or calculator = **–\$1,240**\n\n"
-        "Since NPV < 0, the company **should not replace** the machine."
+        "### Key Corrections:\n"
+        "1. **Tax Shield on Loss**:\n"
+        "   - Loss = Book value (\$12,000) - Resale value (\$6,000) = \$6,000\n"
+        "   - Tax savings = 40% × \$6,000 = \$2,400\n"
+        "   - Effective resale value = \$6,000 + \$2,400 = \$8,400\n\n"
+        "2. **Initial Investment**:\n"
+        "   - Net cost = \$18,000 - \$8,400 = \$9,600 (not \$12,000)\n\n"
+        "3. **Incremental OCF**:\n"
+        "   - Old OCF: (\$5,000 - \$4,000) × (1 - 0.40) + \$4,000 = \$4,600\n"
+        "   - New OCF: (\$8,000 - \$4,500) × (1 - 0.40) + \$4,500 = \$6,600\n"
+        "   - Annual benefit = \$6,600 - \$4,600 = \$2,000\n\n"
+        "4. **NPV Calculation**:\n"
+        "   - PV of benefits = \$2,000 × 3.0373 (12% annuity factor) = \$6,074.60\n"
+        "   - NPV = -\$9,600 + \$6,074.60 = **-\$3,525**\n\n"
+        "The original question contained errors in:\n"
+        "- Ignoring the \$2,400 tax shield\n"
+        "- Using incorrect initial investment (\$12,000 vs. \$9,600)\n"
+        "- Providing answer choices incompatible with accurate calculations"
     ),
-    'chapter_information': 'Finance Module - Week 2 - GPT generated'
+    'chapter_information': 'Finance Module - Week 2 - Corrected Version'
 }
+
 
 finance_week2_q8 = {
     'question': (
