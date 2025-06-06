@@ -571,6 +571,67 @@ finance_week2_q29 = {
     'chapter_information': 'Finance Module - Week 2 L5 - GPT generated'
 }
 
+finance_week2_q30 = {
+    'question': (
+        "A company reports the following:\n\n"
+        "| Item                         | Value        |\n"
+        "|------------------------------|--------------|\n"
+        "| Revenue                      | \$62 million |\n"
+        "| COGS + Operating Expenses    | \$18 million |\n"
+        "| Depreciation                 | \$4 million  |\n"
+        "| Interest Expense             | \$3 million  |\n"
+        "| Corporate Tax Rate           | 25%          |\n"
+        "| Industry EV/EBITDA multiple  | 7.2×         |\n"
+        "| Cash on balance sheet        | \$11 million |\n"
+        "| Short-term Investments       | \$2 million  |\n"
+        "| Debt (total)                 | \$47 million |\n\n"
+        "What is the firm’s **Enterprise Value (EV)**?\n\n"
+        "*Note: Ignore depreciation, interest, and taxes. Focus only on relevant metrics.*"
+    ),
+    'options_list': [
+        '\$316.8 M',
+        '\$317.6 M',
+        '\$331.2 M',
+        '\$448.2 M'
+    ],
+    'correct_answer': '\$316.8 M',
+    'explanation': (
+        "Relevant cash operating costs = \$18 M.\n"
+        "EBITDA = Revenue – Operating Costs = 62 – 18 = \$44 M.\n"
+        "Enterprise Value = EBITDA × EV/EBITDA = 44 × 7.2 = **\$316.8 M**.\n"
+        "Other data (depreciation, taxes, interest, cash) is irrelevant to this calculation."
+    ),
+    'chapter_information': 'Finance Module - Week 2 L6 - GPT generated'
+}
+
+finance_week2_q31 = {
+    'question': (
+        "Using the EV calculated in the previous question, consider the following additional data:\n\n"
+        "| Item                         | Value         |\n"
+        "|------------------------------|---------------|\n"
+        "| Enterprise Value             | \$316.8 M     |\n"
+        "| Total Debt                   | \$47 M        |\n"
+        "| Cash                         | \$11 M        |\n"
+        "| Preferred Stock              | \$0           |\n"
+        "| Minority Interest            | \$0           |\n"
+        "| Shares Outstanding           | 4.42 million  |\n"
+        "| Unused Tax-loss Carryforwards| \$6 M         |\n\n"
+        "What is the estimated **stock price per share**?"
+    ),
+    'options_list': [
+        '\$54.10',
+        '\$63.50',
+        '\$67.00',
+        '\$74.20'
+    ],
+    'correct_answer': '\$63.50',
+    'explanation': (
+        "Equity Value = Enterprise Value – Net Debt = 316.8 – (47 – 11) = 316.8 – 36 = \$280.8 M.\n"
+        "Shares Outstanding = 4.42 million\n"
+        "Stock Price = Equity Value / Shares = 280.8 / 4.42 = **\$63.50**"
+    ),
+    'chapter_information': 'Finance Module - Week 2 L6 - GPT generated'
+}
 
 
 KC_MPC_QUESTIONS = []
