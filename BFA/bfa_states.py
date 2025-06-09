@@ -42,11 +42,15 @@ class Token:
     def __init__(self, STATE="1"):
         self.STATE = STATE
         self.mpc_questions = []
-        self.num_questions = 50
+        self.num_questions = 66
         self.chapters_to_review = []
         # print('-----------------------------')
         # print('-----', sum([len(questions_dictionary[question_list]) for question_list in REVIEW_SETS["FINANCIAL ACCOUNTING"]]))
         # print('-----------------------------')
+        print('-----',len(questions_dictionary['M2W1'])) 
+        # print('---self.mpc_questions--',len(self.mpc_questions) )
+            #   sum([len(questions_dictionary[question_list]) for question_list in REVIEW_SETS["FINANCIAL ACCOUNTING"]]))
+
         # print('TOTAL QUESTIONS:', sum([len(v) for k,v in REVIEW_SETS["FINANCIAL ACCOUNTING"]]))
         
     def initialize_mpc_questions(self):
@@ -69,6 +73,7 @@ class Token:
                 size=min(self.num_questions, len(review_entry)),
                 replace=False
             ))
+            print('---self.mpc_questions CASE 1--',len(self.mpc_questions) )
             return
 
         # Case 2: List of chapter keys (multi-chapter review)
@@ -89,6 +94,7 @@ class Token:
             size=min(self.num_questions, len(question_pool)),
             replace=False
         ))
+        print('---self.mpc_questions--',len(self.mpc_questions) )
 
 
     # def initialize_mpc_questions(self):

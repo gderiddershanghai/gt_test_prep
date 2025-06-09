@@ -735,7 +735,7 @@ finance_wee32k1_q42 = {
 
 finance_we22ek1_q43 = {
     'question': (
-        "Carly deposits \$20,000 immediately into a savings account and plans to add \$6,000 annually for the next 15 years. "
+        "Carly deposits 20,000 USD immediately into a savings account and plans to add 6,000 USD annually for the next 15 years. "
         "The interest rate is assumed to be constant at **3.2%** annually.\n\n"
         "What is the total amount Carly can expect in the account after 15 years? (Round to nearest dollar)"
     ),
@@ -795,11 +795,11 @@ finance_1week1_q45 = {
     'correct_answer': '2.58 years',
     'explanation': (
         "Cumulative cash inflows for Mountain Zipline:\n"
-        "Year 1: \$200,000\n"
-        "Year 2: \$410,000\n"
-        "Year 3: \$650,000 (exceeds \$500,000)\n"
-        "Remaining amount to recover after Year 2: \$90,000\n"
-        "Fraction of Year 3 needed: \$90,000 / \$240,000 ≈ 0.375\n"
+        "Year 1: 200,000\n"
+        "Year 2: 410,000\n"
+        "Year 3: 650,000 (exceeds 500,000)\n"
+        "Remaining amount to recover after Year 2: 90,000\n"
+        "Fraction of Year 3 needed: 90,000 / 240,000 ≈ 0.375\n"
         "Payback Period ≈ 2 + 0.375 = **2.58 years**"
     ),
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
@@ -821,39 +821,43 @@ finance_week1f1_q46 = {
         'Mountain Zipline',
         'Rainforest Canopy Tour'
     ],
-    'correct_answer': 'Rainforest Canopy Tour',
+    'correct_answer': 'Mountain Zipline',
     'explanation': (
-        "Using IRR calculations, the Rainforest Canopy Tour generates a higher internal rate of return than the Mountain Zipline. "
-        "Under the IRR rule for mutually exclusive projects, it should be selected."
+        "The internal rate of return (IRR) for the Mountain Zipline project is approximately 22.54%, while the IRR for the Rainforest Canopy Tour is approximately 19.62%. "
+        "Since the IRR rule states that, for mutually exclusive projects, the project with the higher IRR should be selected (assuming the IRR exceeds the required rate of return), "
+        "Mountain Zipline is the correct choice. It delivers a greater return per dollar invested, despite having lower total cash inflows."
     ),
+
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
+
 
 finance_weef3k1_q47 = {
     'question': (
         "Using the same cash flows from **Southern Eco Adventures**, calculate the **Internal Rate of Return (IRR)** for the **Rainforest Canopy Tour** project. "
         "Which answer below is closest to your result? (Round to the nearest whole number)\n\n"
         "| Year | Rainforest Canopy Tour |\n"
-        "|------|-------------------------|\n"
-        "| 0    | (\$800,000)             |\n"
-        "| 1    | \$300,000               |\n"
-        "| 2    | \$320,000               |\n"
-        "| 3    | \$340,000               |\n"
-        "| 4    | \$260,000               |"
+        "|------|------------------------|\n"
+        "| 0    | ($800,000)             |\n"
+        "| 1    | $300,000               |\n"
+        "| 2    | $320,000               |\n"
+        "| 3    | $340,000               |\n"
+        "| 4    | $260,000               |"
     ),
     'options_list': [
-        '13%',
-        '16%',
-        '15%',
-        '18%'
+        '17%',
+        '19%',
+        '20%',
+        '22%'
     ],
-    'correct_answer': '16%',
+    'correct_answer': '20%',
     'explanation': (
-        "Using Excel or a financial calculator, IRR for the Rainforest Canopy Tour project cash flows "
-        "(\$-800,000, \$300,000, \$320,000, \$340,000, \$260,000) is approximately **16%**."
+        "IRR for the cash-flow vector **(−800,000, 300,000, 320,000, 340,000, 260,000)** is approximately **19.6%**. "
+        "Rounded to the nearest whole number, this is **20%**, which is the correct answer among the choices."
     ),
-    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
+    'chapter_information': 'Finance Module – Week 1 – SA inspired GPT generated'
 }
+
 
 
 finance_wef3ek1_q35 = {
@@ -1019,7 +1023,7 @@ financed_week1_q42 = {
     'correct_answer': 'Boeing Fleet',
     'explanation': (
         "Although both projects have IRRs above the 12% hurdle rate, for mutually exclusive decisions, we compare **NPV**. "
-        "Boeing Fleet yields a higher NPV based on its more back-loaded and larger cash flows, making it the better investment."
+        "Boeing Fleet yields a positive NPV based on its more back-loaded and larger cash flows, making it the better investment."
     ),
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
@@ -1131,8 +1135,11 @@ fin2ance_week1_q39 = {
 
 finance_week11_q40 = {
     'question': (
+        "Emily is getting married and has two options from her father:\n\n"
+        "- Take $105,000 now to pay for her share of the wedding.\n"
+        "- Wait 3 years and receive a condo expected to be worth $150,000 at that time (currently rented).\n\n"
         "Emily is considering her father's offer again. She asks her financial advisor: "
-        "what **annual rate of return** would she need to earn on $105,000 today to match the $150,000 condo value in 3 years?\n\n"
+        "what **annual rate of return** would she need to earn on 105,000 USD today to match the 150,000 USD condo value in 3 years?\n\n"
         "Choose the closest answer."
     ),
     'options_list': [
@@ -1144,7 +1151,7 @@ finance_week11_q40 = {
     ],
     'correct_answer': '12.62%',
     'explanation': (
-        "Use the future value formula: $150,000 = $105,000 × (1 + r)^3\n"
+        "Use the future value formula: \$150,000 = \$105,000 × (1 + r)^3\n"
         "Solving: (1 + r)^3 = 150,000 / 105,000 = 1.42857 → r ≈ 12.62%"
     ),
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
@@ -1152,8 +1159,8 @@ finance_week11_q40 = {
 
 finance_wee1k1_q41 = {
     'question': (
-        "Michael receives a 5-year contract at $7,000,000 per year.\n"
-        "Bert receives a 2-year contract at $16,000,000 per year.\n\n"
+        "Michael receives a 5-year contract at 7,000,000 per year.\n"
+        "Bert receives a 2-year contract at 16,000,000 per year.\n\n"
         "Assume these are ordinary annuities and the discount rate is **6%**.\n\n"
         "Who has the greater **present value**?"
     ),
@@ -1166,8 +1173,8 @@ finance_wee1k1_q41 = {
     'correct_answer': 'Michael = $29,486,547',
     'explanation': (
         "Using the present value of annuity formula:\n"
-        "Michael: =PV(0.06, 5, 7,000,000) = $29,486,547\n"
-        "Bert: =PV(0.06, 2, 16,000,000) = $29,334,283\n"
+        "Michael: =PV(0.06, 5, 7,000,000) = 29,486,547\n"
+        "Bert: =PV(0.06, 2, 16,000,000) = 29,334,283\n"
         "Michael's contract has a slightly higher present value."
     ),
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
@@ -1175,7 +1182,7 @@ finance_wee1k1_q41 = {
 
 finance_wee1k1_q42 = {
     'question': (
-        "You invest $50,000 into a 30-year CD with an annual compound interest rate of **2.7%**.\n\n"
+        "You invest 50,000 into a 30-year CD with an annual compound interest rate of **2.7%**.\n\n"
         "What is the future lump sum payment when the CD matures?"
     ),
     'options_list': [
@@ -1215,7 +1222,7 @@ financ2e_week1_q43 = {
 
 finance_1week1_q44 = {
     'question': (
-        "You win the lottery: total prize $2,350,500, paid in **15 annual installments of $156,700**.\n\n"
+        "You win the lottery: total prize 2,350,500, paid in **15 annual installments of 156,700**.\n\n"
         "If your cost of capital is **4%**, what is the **present value** of your winnings?\n\n"
         "Round to the nearest dollar."
     ),
@@ -1290,31 +1297,6 @@ finance_week12_q46 = {
     'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
 }
 
-finance_week21_q47 = {
-    'question': (
-        "Using the same cash flows from **Southern Eco Adventures**, calculate the **Internal Rate of Return (IRR)** for the **Rainforest Canopy Tour** project. "
-        "Which answer below is closest to your result? (Round to the nearest whole number)\n\n"
-        "| Year | Rainforest Canopy Tour |\n"
-        "|------|-------------------------|\n"
-        "| 0    | ($800,000)             |\n"
-        "| 1    | $300,000               |\n"
-        "| 2    | $320,000               |\n"
-        "| 3    | $340,000               |\n"
-        "| 4    | $260,000               |"
-    ),
-    'options_list': [
-        '13%',
-        '16%',
-        '15%',
-        '18%'
-    ],
-    'correct_answer': '16%',
-    'explanation': (
-        "Using Excel or a financial calculator, IRR for the Rainforest Canopy Tour project cash flows "
-        "($-800,000, $300,000, $320,000, $340,000, $260,000) is approximately **16%**."
-    ),
-    'chapter_information': 'Finance Module - Week 1 - SA inspired GPT generated'
-}
 
 
 
