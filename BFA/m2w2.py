@@ -640,6 +640,418 @@ finance_week2_q31 = {
 }
 
 
+a_wee23k2_q1 = {
+    'question': (
+        "The next dividend payment by Golden Lasso Buffets Inc. will be USD 3.15 per share. "
+        "Dividends are expected to grow at 2.2% forever. If the stock sells for USD 49.50 per share, "
+        "what is the required rate of return?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '8.56%',
+    'explanation': (
+        "Using the Gordon Growth Model:\n"
+        "$$R = \\frac{D_1}{P_0} + g = \\frac{3.15}{49.50} + 0.022 = 0.0856 \\Rightarrow 8.56\\%$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_we23ek2_q2 = {
+    'question': (
+        "The next dividend payment by Skippy Inc. will be USD 2.95 per share. "
+        "Dividends are expected to grow at 4.8% forever. If the stock sells for USD 53.10 per share, "
+        "what is the required rate of return?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '10.36%',
+    'explanation': (
+        "Using the constant growth DDM:\n"
+        "$$R = \\frac{2.95}{53.10} + 0.048 = 0.1036 \\Rightarrow 10.36\\%$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_we23ek2_q3 = {
+    'question': (
+        "Gruber Corp. pays a constant dividend of USD 8.50 for the next 11 years, "
+        "after which no dividends will be paid. If the required return is 9.5%, what is the current stock price?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': 'USD 56.50',
+    'explanation': (
+        "This is a finite annuity:\n"
+        "$$P_0 = 8.50 \\times PVIFA(9.5\\%,11) = 8.50 \\times 6.6471 = 56.50$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week22_q4 = {
+    'question': (
+        "Metallica Bearings Inc. will pay no dividends for 9 years. In year 10, it will pay USD 15.75 "
+        "and dividends will grow at 4.8% thereafter. If the required return is 12%, what is the stock price today?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': 'USD 78.88',
+    'explanation': (
+        "Use the two-stage dividend model.\n"
+        "First compute the price at year 9 using Gordon Growth:\n"
+        "$$P_9 = \\frac{15.75}{0.12 - 0.048} = 218.75$$\n"
+        "Discount that back to present:\n"
+        "$$P_0 = \\frac{218.75}{(1.12)^9} = 78.88$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week23_q5 = {
+    'question': (
+        "Stoneworks Inc. has paid a dividend of USD 15 and will increase dividends by USD 3 annually for 5 years. "
+        "Then it will pay nothing. If your required return is 11%, how much will you pay for a share today?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': 'USD 86.40',
+    'explanation': (
+        "This is a 5-year increasing cash flow problem:\n"
+        "Dividends: 18, 21, 24, 27, 30\n"
+        "$$P_0 = \\sum_{t=1}^5 \\frac{D_t}{(1.11)^t} = 86.40$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+
+a_week2_q6 = {
+    'question': (
+        "Merriweather Company is expected to grow at a constant rate of 6%. The company paid a dividend of USD 1.20 last year. "
+        "If the required rate of return is 14%, what is the current price of this stock?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '15.90',
+    'explanation': (
+        "Use the Gordon Growth Model:\n"
+        "$$D_1 = 1.20 \\times (1 + 0.06) = 1.272$$\n"
+        "$$P_0 = \\frac{D_1}{r - g} = \\frac{1.272}{0.14 - 0.06} = 15.90$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week2_q7 = {
+    'question': (
+        "Caffe Vita Coffee Roasting Co. is considering replacing its old roasters with new ones. "
+        "Old: purchased for USD 3.3M, current market value = USD 1.5M, 11-year life, gross profit = 600K/year, pre-tax income = 300K/year.\n"
+        "New: cost = USD 4.5M, life = 10 years, gross margin = USD 1.2M/year, pre-tax income = 750K/year. "
+        "Tax rate = 45%, cost of capital = 10%.\n"
+        "What is the NPV of the replacement decision?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '-0.56',
+    'explanation': (
+        "With/without approach:\n"
+        "- Incremental annual income = 750K - 300K = 450K taxable → net = 450K × (1 - 0.45) = 247.5K\n"
+        "- Annual depreciation cash shield and savings included\n"
+        "- Initial net investment = 4.5M - 1.5M = 3.0M\n"
+        "- NPV = –0.56M → do not replace"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week2_q8 = {
+    'question': (
+        "Based on the NPV of –0.56 million from the previous question, should Cafe Vita replace the roasters?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': 'No',
+    'explanation': (
+        "NPV of the replacement is negative (–0.56 million), so the project destroys value. "
+        "Management should retain the existing equipment."
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week2_q9 = {
+    'question': (
+        "Auger Biotech can spend USD 60M now on a promotional campaign. With it: cash flows = 700K/year for 5 years. "
+        "Without it: cash flows = –18M/year. Discount rate = 10%.\n"
+        "Is the campaign worthwhile? What is the NPV of the difference?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '10.89',
+    'explanation': (
+        "With/without cash flow delta = 700K - (–18M) = 18.7M/year for 5 years\n"
+        "$$NPV = -60 + 18.7M \\times PVIFA(10\\%,5) = -60 + 18.7M \\times 3.791 = 10.89M$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week2_q10 = {
+    'question': (
+        "McDonald's Chicken Purveyors is considering replacing an industrial fryer.\n"
+        "New fryer: cost = USD 440K, life = 7 years, EBITDA = USD 100K/year, straight-line depreciation.\n"
+        "Old fryer: market value = USD 269.5K, EBITDA = USD 49K/year, 7 years of depreciation remaining.\n"
+        "Tax rate = 21%, discount rate = 12%.\n"
+        "What is the NPV of the replacement?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '36717',
+    'explanation': (
+        "Incremental EBITDA = 100K – 49K = 51K\n"
+        "Incremental depreciation = (440K – 308K)/7 = 18.86K\n"
+        "Taxable income increase = 51K – 18.86K = 32.14K → tax = 6.75K\n"
+        "Net cash flow = EBITDA – tax = 100K – 6.75K = 93.25K\n"
+        "NPV = PV of incremental cash flows – (440K – 269.5K) ≈ 36,717 → replace the fryer"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week2_q11 = {
+    'question': (
+        "O'Reilly Company has USD 1.5 million to invest and considers three independent projects:\n"
+        "Alpha: –1,000,000 + [600K, 400K, 250K, 100K, 75K]\n"
+        "Omega: –267,000 + [200K, 200K, 50K, 0, 0]\n"
+        "Dogwood: –150,000 + [20K, 20K, 120K, 150K, 50K]\n"
+        "What is the IRR of the combined cash flows from all three projects?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '24.73%',
+    'explanation': (
+        "Combine all project cash flows year by year, total investment = –1.417M.\n"
+        "Use IRR function on the aggregated cash flows:\n"
+        "Total CFs = [–1.417M, 820K, 620K, 420K, 250K, 125K]\n"
+        "IRR = 24.73%"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week2_q12 = {
+    'question': (
+        "Which of the following are valid firm valuation methods? Select all that apply."
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': 'Discounted Cash Flows (DCF), Comparables',
+    'explanation': (
+        "DCF and Comparables are legitimate valuation methods.\n"
+        "- MVA is a performance metric, not a valuation method.\n"
+        "- Retained earnings and market cap are balance sheet figures or market stats, not valuation models."
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week2_q13 = {
+    'question': (
+        "Empty Space Industries is considering replacing a Sampson 1800 Lifter (original cost USD 650K, 6-year life, 1 year used, USD 475K market value)\n"
+        "with a SuperMax 1000 (USD 730K, 5-year life, USD 30K salvage, EBITDA = USD 460K/year).\n"
+        "Current machine EBITDA = USD 365K/year. Straight-line depreciation. Tax = 21%, discount rate = 14%.\n"
+        "What is the NPV of the replacement decision?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '21103',
+    'explanation': (
+        "Incremental EBITDA = 95K/year. Incremental depreciation lowers taxable income.\n"
+        "Tax-adjusted cash flow difference and initial net investment = 730K – 475K = 255K.\n"
+        "NPV = 21,103 → buy the SuperMax."
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week2_q14 = {
+    'question': (
+        "Adult Playtime Corp evaluates 5 mutually exclusive toy projects.\n"
+        "Discount rate = 14%. Use NPV and IRR for decision-making.\n"
+        "Cash flows (USD thousands) provided for each project over 5 years.\n"
+        "Which project has the highest NPV?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': 'Interactive DVD',
+    'explanation': (
+        "NPV for each project computed at 14%:\n"
+        "- 'Interactive DVD' has the highest NPV despite higher upfront cost.\n"
+        "Management uses both NPV and IRR, but NPV dominates for absolute value creation."
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week2_q15 = {
+    'question': (
+        "The next dividend payment by Barrelhouse Foods Inc. will be USD 2.85 per share. "
+        "Dividends are expected to grow at 1.9% forever. If the stock sells for USD 42.75 per share, what is the required rate of return?"
+    ),
+    'options_list': ['7.84%', '8.14%', '8.57%', '9.12%'],
+    'correct_answer': '8.57%',
+    'explanation': (
+        "Using the Gordon Growth Model:\n"
+        "$$R = \\frac{D_1}{P_0} + g = \\frac{2.85}{42.75} + 0.019 = 0.0857 = 8.57\\%$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment INSPIRED GPT GENERATED'
+}
+
+a_week2_q16 = {
+    'question': (
+        "Zenith Textiles Ltd. will pay a dividend of USD 3.25 next year. "
+        "Dividends are expected to grow at 4.5% annually. If the current stock price is USD 58.90, what is the required rate of return?"
+    ),
+    'options_list': ['9.65%', '9.84%', '10.02%', '10.21%'],
+    'correct_answer': '10.02%',
+    'explanation': (
+        "$$R = \\frac{3.25}{58.90} + 0.045 = 0.1002 = 10.02\\%$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment INSPIRED GPT GENERATED'
+}
+
+a_week2_q17 = {
+    'question': (
+        "Juno Extracts Corp. will pay a fixed dividend of USD 9.75 per year for the next 12 years. "
+        "If the required return is 10%, what is the stock’s value today?"
+    ),
+    'options_list': ['USD 62.75', 'USD 64.95', 'USD 66.43', 'USD 68.20'],
+    'correct_answer': 'USD 66.43',
+    'explanation': (
+        "Finite annuity formula:\n"
+        "$$P_0 = 9.75 \\times PVIFA(10\\%,12) = 9.75 \\times 6.811 = 66.43$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment INSPIRED GPT GENERATED'
+}
+
+a_week2_q18 = {
+    'question': (
+        "Atlas Mining Inc. will pay no dividends for 9 years. Starting in year 10, it will pay USD 13.40 "
+        "and grow dividends at 6% forever. If the required return is 11%, what is the current price of the stock?"
+    ),
+    'options_list': ['USD 91.10', 'USD 97.25', 'USD 104.77', 'USD 113.50'],
+    'correct_answer': 'USD 104.77',
+    'explanation': (
+        "First, calculate price at year 9 using Gordon Growth:\n"
+        "$$P_9 = \\frac{13.40}{0.11 - 0.06} = 268.00$$\n"
+        "Then discount back to present:\n"
+        "$$P_0 = \\frac{268.00}{(1.11)^9} = 104.77$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment INSPIRED GPT GENERATED'
+}
+
+a_week2_q19 = {
+    'question': (
+        "Union Pipeworks Co. paid a dividend of USD 12 and will increase dividends by USD 2.50 annually for the next 5 years, "
+        "after which it will cease all payouts. If your required return is 9%, what is the stock worth today?"
+    ),
+    'options_list': ['USD 70.55', 'USD 72.80', 'USD 74.18', 'USD 76.45'],
+    'correct_answer': 'USD 74.18',
+    'explanation': (
+        "Dividends over 5 years: [14.5, 17.0, 19.5, 22.0, 24.5]\n"
+        "$$P_0 = \\sum_{t=1}^5 \\frac{D_t}{(1.09)^t} = 74.18$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment INSPIRED GPT GENERATED'
+}
+
+a_week2_q2216 = {
+    'question': (
+        "Papyrus Logistics Inc. will pay a dividend of USD 2.85 next year. "
+        "Dividends are expected to grow at 2.5% forever. If the stock sells for USD 41.00, "
+        "what is the required rate of return?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '9.45%',
+    'explanation': (
+        "Using the Gordon Growth Model:\n"
+        "$$R = \\frac{D_1}{P_0} + g = \\frac{2.85}{41.00} + 0.025 = 0.0945 \\Rightarrow 9.45\\%$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week2_q11237 = {
+    'question': (
+        "Clover Medical Supplies will pay a constant dividend of USD 7.25 for the next 10 years, "
+        "after which no dividends will be paid. If the required return is 8.7%, what is the current stock price?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': 'USD 47.15',
+    'explanation': (
+        "This is a finite annuity:\n"
+        "$$P_0 = 7.25 \\times PVIFA(8.7\\%,10) = 7.25 \\times 6.5038 = 47.15$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_wee44k2_q18 = {
+    'question': (
+        "Quantum Sprockets Inc. will pay no dividends for 9 years. In year 10, it will pay USD 13.50, "
+        "and dividends will grow at 5.2% thereafter. If the required return is 11%, what is the stock price today?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': 'USD 90.99',
+    'explanation': (
+        "Use the two-stage dividend model:\n"
+        "$$P_9 = \\frac{13.50}{0.11 - 0.052} = 232.76$$\n"
+        "Discount to present:\n"
+        "$$P_0 = \\frac{232.76}{(1.11)^9} = 90.99$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_w12eek2_q19 = {
+    'question': (
+        "Flatiron Textiles Inc. pays a dividend of USD 16 and increases it by USD 3 per year for 5 years. "
+        "Then it stops paying dividends. If the required return is 9.5%, how much is the stock worth today?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': 'USD 82.39',
+    'explanation': (
+        "Calculate each year's dividend and discount:\n"
+        "Dividends: 19, 22, 25, 28, 31\n"
+        "$$P_0 = \\sum_{t=1}^5 \\frac{D_t}{(1.095)^t} = 82.39$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_w22eek2_q20 = {
+    'question': (
+        "Delorean Dynamics is expected to grow at a constant rate of 5.5%. The company paid a dividend of USD 1.50 last year. "
+        "If the required rate of return is 12.5%, what is the current price of this stock?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '22.61',
+    'explanation': (
+        "Use the Gordon Growth Model:\n"
+        "$$D_1 = 1.50 \\times (1 + 0.055) = 1.5825$$\n"
+        "$$P_0 = \\frac{D_1}{r - g} = \\frac{1.5825}{0.125 - 0.055} = 22.61$$"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_w11eek2_q21 = {
+    'question': (
+        "Holocron BioLabs can spend USD 72M now on a viral genomics campaign. "
+        "With campaign: expected cash flows = 1.1M/year for 5 years. "
+        "Without campaign: expected cash flows = –21M/year. "
+        "If the discount rate is 9%, is the campaign worthwhile? What is the NPV of the difference?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '13.96',
+    'explanation': (
+        "With/without difference = 1.1M - (–21M) = 22.1M per year\n"
+        "PVIFA(9%,5) = 3.88965\n"
+        "$$NPV = -72 + 22.1 \\times 3.88965 = 13.96M$$ → campaign is worthwhile"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+a_week2_q22 = {
+    'question': (
+        "BistroTech Foods is considering replacing its industrial fryer.\n"
+        "New fryer: cost = USD 520,000, life = 7 years, EBITDA = USD 120,000/year, straight-line depreciation.\n"
+        "Old fryer: market value = USD 295,000, EBITDA = USD 60,000/year, originally cost USD 330,000 (7 years of depreciation remaining).\n"
+        "Tax rate = 22%, cost of capital = 11%.\n"
+        "What is the NPV of the replacement decision?"
+    ),
+    'options_list': ['do the math'],
+    'correct_answer': '23669.33',
+    'explanation': (
+        "Incremental EBITDA = 120K – 60K = 60K\n"
+        "Incremental Depreciation = (520K – 330K)/7 = 27.14K\n"
+        "Taxable income increase = 60K – 27.14K = 32.86K → tax = 7.23K\n"
+        "Net annual cash flow = 120K – 7.23K = 112.77K\n"
+        "Initial investment = 520K – 295K = 225K\n"
+        "NPV = PV of annuity – investment ≈ 23669.33 → Replace the fryer"
+    ),
+    'chapter_information': 'Finance Module – Week 2 – Self Assessment'
+}
+
+
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
 # print(global_items)
