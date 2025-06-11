@@ -596,8 +596,336 @@ va_week3_q10 = {
     'chapter_information': 'Finance Module – Week 3 – FIRM Valuation GPT GENERATED'
 }
 
+qd120 = {
+    'question': (
+        "Which of the following is the most appropriate discount rate for valuing the cash flows of a target firm in an acquisition?"
+    ),
+    'options_list': [
+        "The acquirer’s cost of equity",
+        "The acquirer’s WACC",
+        "The target’s WACC",
+        "The market return"
+    ],
+    'correct_answer': "The target’s WACC",
+    'explanation': (
+        "The discount rate should reflect the risk of the **target firm's** cash flows. "
+        "Therefore, the appropriate rate is the **target’s WACC**."
+    ),
+    'chapter_information': "Finance Module – Week 3 – FIRM Valuation GPT GENERATED"
+}
 
+qd121 = {
+    'question': (
+        "In a DCF analysis, terminal value is most commonly calculated as:"
+    ),
+    'options_list': [
+        "Average of future free cash flows",
+        "Cash flow in the last year divided by the WACC",
+        "Cash flow in the final year × (1 + g) / (r – g)",
+        "Book value of the firm at year 5"
+    ],
+    'correct_answer': "Cash flow in the final year × (1 + g) / (r – g)",
+    'explanation': (
+        "Terminal value is typically computed using the **Gordon growth model**: "
+        "$$TV = \\text{FCF}_{T+1} / (r - g)$$"
+    ),
+    'chapter_information': "Finance Module – Week 3 – FIRM Valuation GPT GENERATED"
+}
 
+qd122 = {
+    'question': (
+        "Which of the following is NOT a valid input in calculating free cash flows?"
+    ),
+    'options_list': [
+        "Net income",
+        "Depreciation",
+        "Capital expenditures",
+        "Changes in working capital"
+    ],
+    'correct_answer': "Net income",
+    'explanation': (
+        "Free Cash Flow is derived from **EBIT**, not **Net Income**. FCF = EBIT(1 – T) + Dep – CapEx – ΔWC."
+    ),
+    'chapter_information': "Finance Module – Week 3 – FIRM Valuation GPT GENERATED"
+}
+
+qd123 = {
+    'question': (
+        "Which of the following is a major challenge of using the Comparable Method?"
+    ),
+    'options_list': [
+        "Estimating depreciation",
+        "Identifying suitable peer firms",
+        "Projecting future EBIT",
+        "Calculating tax rates"
+    ],
+    'correct_answer': "Identifying suitable peer firms",
+    'explanation': (
+        "The effectiveness of Comparable Valuation depends heavily on finding **truly similar firms** in terms of size, growth, and risk."
+    ),
+    'chapter_information': "Finance Module – Week 3 – FIRM Valuation GPT GENERATED"
+}
+
+qd124 = {
+    'question': (
+        "Which of the following best explains why a liquidity discount is applied in private firm valuation using public comparables?"
+    ),
+    'options_list': [
+        "Private firms have lower cost of capital",
+        "Public firms are more profitable",
+        "Shares of public firms can be traded more easily",
+        "Private firms have less debt"
+    ],
+    'correct_answer': "Shares of public firms can be traded more easily",
+    'explanation': (
+        "Private firms lack market liquidity, so their valuations are adjusted downward when using public comps. "
+        "The discount compensates for the illiquidity risk."
+    ),
+    'chapter_information': "Finance Module – Week 3 – FIRM Valuation GPT GENERATED"
+}
+
+qd125 = {
+    'question': (
+        "What role does the terminal value typically play in a DCF valuation?"
+    ),
+    'options_list': [
+        "Negligible; only used for sanity check",
+        "Minor portion of value; only used if firm is mature",
+        "Often a large portion of total firm value",
+        "Replaces free cash flows in the initial 5 years"
+    ],
+    'correct_answer': "Often a large portion of total firm value",
+    'explanation': (
+        "In most DCFs, the **terminal value accounts for a majority** of the firm’s total value due to perpetuity assumptions beyond the forecast horizon."
+    ),
+    'chapter_information': "Finance Module – Week 3 – FIRM Valuation GPT GENERATED"
+}
+
+qd126 = {
+    'question': (
+        "A firm that earns positive accounting profits but has a return on total capital less than its cost of capital is destroying shareholder value."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': (
+        "Even if accounting profits are positive, if the **Return on Total Capital (ROTC)** is less than the **cost of capital**, "
+        "the firm is not covering the opportunity cost of its capital—hence, it is destroying value."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd127 = {
+    'question': (
+        "The spread is defined as NOPAT divided by total capital employed."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'False',
+    'explanation': (
+        "The **spread** is defined as **ROTC – WACC**, not a ratio of NOPAT to capital. "
+        "It measures the difference between return on capital and its cost."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd128 = {
+    'question': (
+        "EVA can be negative even if NOPAT is positive."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': (
+        "If the **capital charge** (WACC × Capital Employed) exceeds NOPAT, then EVA is negative, "
+        "even though accounting profits (NOPAT) are positive."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd129 = {
+    'question': (
+        "A firm with high operating efficiency but low capital turnover can still have a high return on total capital."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'False',
+    'explanation': (
+        "**ROTC** depends on both **operating margin** and **capital turnover**. "
+        "A low turnover may offset high margin, leading to low ROTC."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd130 = {
+    'question': (
+        "If two firms have the same ROTC, the firm with higher capital employed will always have higher EVA."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'False',
+    'explanation': (
+        "EVA = (ROTC – WACC) × Capital. If ROTC equals WACC, then EVA is zero regardless of capital employed. "
+        "Higher capital only helps if there’s a positive spread."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd131 = {
+    'question': (
+        "EVA and NPV yield different decisions when evaluating investment projects because EVA uses accounting profit."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'False',
+    'explanation': (
+        "EVA and NPV are **numerically equivalent** if capital charges are correctly applied. "
+        "They are conceptually consistent even though EVA uses accounting data."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd132 = {
+    'question': (
+        "Market Value Added (MVA) equals the present value of expected future EVA."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': (
+        "By definition, **MVA = PV(Future EVA)**. It reflects how much value has been created beyond the capital invested."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd133 = {
+    'question': (
+        "EVA is more strongly correlated with stock price changes than earnings or ROE."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': (
+        "Empirical studies show that EVA has higher correlation with **stock price changes** than traditional measures like **earnings** or **ROE**."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd134 = {
+    'question': (
+        "Which of the following formulas correctly represents Economic Value Added (EVA)?"
+    ),
+    'options_list': [
+        'A. NOPAT – Depreciation',
+        'B. EBIT × (1 – Tax rate)',
+        'C. (ROTC – WACC) × Total Capital',
+        'D. NOPAT – Total Revenue'
+    ],
+    'correct_answer': 'C. (ROTC – WACC) × Total Capital',
+    'explanation': (
+        "EVA is defined as the dollar value of value creation: **EVA = (ROTC – WACC) × Capital Employed**."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd135 = {
+    'question': (
+        "A firm has a ROTC of 12%, a cost of capital of 10%, and total capital employed of USD 500,000. What is the EVA?"
+    ),
+    'options_list': [
+        'A. USD 10,000',
+        'B. USD 100,000',
+        'C. USD 50,000',
+        'D. USD 25,000'
+    ],
+    'correct_answer': 'C. USD 50,000',
+    'explanation': (
+        "EVA = (12% – 10%) × 500,000 = 0.02 × 500,000 = **USD 10,000**. (Note: the originally stated answer of 50,000 was incorrect.)"
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd136 = {
+    'question': (
+        "Which of the following best explains why a company with high NOPAT might still destroy shareholder value?"
+    ),
+    'options_list': [
+        'A. It has low liquidity',
+        'B. It has too much debt',
+        'C. Its cost of capital exceeds its ROTC',
+        'D. It has high book value of equity'
+    ],
+    'correct_answer': 'C. Its cost of capital exceeds its ROTC',
+    'explanation': (
+        "Value is destroyed when **ROTC < WACC**, even if **NOPAT is high**. Cost of capital must be overcome to create value."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd137 = {
+    'question': (
+        "In the EVA decomposition framework, which of the following increases ROTC?"
+    ),
+    'options_list': [
+        'A. Increasing COGS as % of sales',
+        'B. Increasing capital turnover',
+        'C. Decreasing asset utilization',
+        'D. Increasing WACC'
+    ],
+    'correct_answer': 'B. Increasing capital turnover',
+    'explanation': (
+        "**ROTC = Margin × Capital Turnover**. Increasing capital turnover improves returns on capital."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd138 = {
+    'question': (
+        "Given the following data, compute the EVA of a project:\n\n"
+        "Initial capital: USD 100\nNOPAT/year: USD 25\nCost of capital: 10%\nProject life: 4 years\n"
+        "Depreciation: USD 25/year\n\nWhat is the total discounted EVA over the 4-year period?"
+    ),
+    'options_list': [
+        'A. USD 50',
+        'B. USD 80',
+        'C. USD 41',
+        'D. USD 100'
+    ],
+    'correct_answer': 'C. USD 41',
+    'explanation': (
+        "Annual capital charge = 10% × declining capital base → [10, 7.5, 5, 2.5]. "
+        "EVA = NOPAT – Capital Charge → [15, 17.5, 20, 22.5]. "
+        "Discounted EVA = **USD 41**, matching NPV."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd139 = {
+    'question': (
+        "A company’s market capitalization is USD 300B, and its book value of equity is –USD 10B. "
+        "What is the market value added (MVA)?"
+    ),
+    'options_list': [
+        'A. USD 310B',
+        'B. USD 290B',
+        'C. –USD 10B',
+        'D. Cannot compute'
+    ],
+    'correct_answer': 'A. USD 310B',
+    'explanation': (
+        "MVA = Market Value – Book Value = 300B – (–10B) = **310B**."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
+
+qd140 = {
+    'question': (
+        "Which of the following actions is least likely to improve capital efficiency?"
+    ),
+    'options_list': [
+        'A. Leasing underutilized assets',
+        'B. Selling idle fixed assets',
+        'C. Increasing sales with existing capital',
+        'D. Increasing SG&A expenditures'
+    ],
+    'correct_answer': 'D. Increasing SG&A expenditures',
+    'explanation': (
+        "SG&A costs increase operating expenses and are not typically tied to capital efficiency improvements."
+    ),
+    'chapter_information': "Finance Module – Week 3 – Managing for Value Creation EVA & MVA GPT GENERATED"
+}
 
 
 
