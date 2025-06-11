@@ -475,6 +475,130 @@ a_week3_q32 = {
     'chapter_information': 'Finance Module – Week 3 L2 & 3 – GPT generated'
 }
 
+a_week3_qv01 = {
+    'question': (
+        "The DCF method estimates firm value by discounting expected dividends at the cost of equity."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'False',
+    'explanation': (
+        "DCF values the firm by discounting **free cash flows** at the **WACC**, not dividends at the cost of equity."
+    ),
+    'chapter_information': 'Finance Module – Week 3 – FIRM Valuation GPT GENERATED'
+}
+
+a_week3_qv02 = {
+    'question': (
+        "In firm valuation, terminal value is typically calculated using a constant growth assumption beyond a certain forecast horizon."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': (
+        "Standard practice: "
+        "$$TV = \\frac{FCF_{T+1}}{WACC - g}$$"
+    ),
+    'chapter_information': 'Finance Module – Week 3 – FIRM Valuation GPT GENERATED'
+}
+
+a_week3_vq03 = {
+    'question': (
+        "The cost of capital used in DCF should reflect the risk of the acquiring firm."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'False',
+    'explanation': (
+        "The discount rate should reflect the **target firm’s** risk—specifically, the WACC of the firm whose cash flows are being valued."
+    ),
+    'chapter_information': 'Finance Module – Week 3 – FIRM Valuation GPT GENERATED'
+}
+
+a_week3_q0v4 = {
+    'question': (
+        "Free Cash Flow is calculated as EBIT × (1 – tax rate) + Depreciation – CapEx – ΔWorking Capital."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': (
+        "This is the standard formula for unlevered Free Cash Flow (FCF) used in DCF valuation."
+    ),
+    'chapter_information': 'Finance Module – Week 3 – FIRM Valuation GPT GENERATED'
+}
+
+a_week3_vq05 = {
+    'question': (
+        "In Comparable Valuation, if the target firm is private, no liquidity discount is necessary."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'False',
+    'explanation': (
+        "When using public comps to value a private firm, a 20–25% liquidity discount is typically applied."
+    ),
+    'chapter_information': 'Finance Module – Week 3 – FIRM Valuation GPT GENERATED'
+}
+
+a_week3v_q06 = {
+    'question': (
+        "DCF gives a single-point estimate of value and is sensitive to assumptions about WACC and terminal growth."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': (
+        "This is a known limitation of DCF. Small changes in WACC or g can significantly alter valuation results."
+    ),
+    'chapter_information': 'Finance Module – Week 3 – FIRM Valuation GPT GENERATED'
+}
+
+a_wveek3_q07 = {
+    'question': (
+        "Comparable valuation relies on identifying similar firms with similar business risks, capital structures, and growth profiles."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': (
+        "Accurate comparable valuation depends on peer selection with aligned risk, size, capital structure, and growth."
+    ),
+    'chapter_information': 'Finance Module – Week 3 – FIRM Valuation GPT GENERATED'
+}
+
+a_weevk3_q08 = {
+    'question': (
+        "Enterprise value equals the sum of equity value and debt."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': (
+        "EV = Equity value + Net debt (ignoring cash for simplicity, as done in lecture)."
+    ),
+    'chapter_information': 'Finance Module – Week 3 – FIRM Valuation GPT GENERATED'
+}
+
+a_vweek3_q09 = {
+    'question': (
+        "The DCF method assumes WACC remains constant over time."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': (
+        "Holding WACC constant is a simplifying assumption of the standard DCF method, though not always realistic."
+    ),
+    'chapter_information': 'Finance Module – Week 3 – FIRM Valuation GPT GENERATED'
+}
+
+va_week3_q10 = {
+    'question': (
+        "When using the Comparable Method with public comps to value a private firm, a discount of 20–25% is typically applied for illiquidity."
+    ),
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': (
+        "This adjustment is standard practice to reflect the lower marketability of private company equity."
+    ),
+    'chapter_information': 'Finance Module – Week 3 – FIRM Valuation GPT GENERATED'
+}
+
+
+
+
 
 
 

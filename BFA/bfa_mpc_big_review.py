@@ -26,7 +26,8 @@ def big_review():
 
     review_mapping = {
         "Financial Accounting Exam": "FINANCIAL ACCOUNTING",
-        # "Finance Exam": "FINANCE",
+        "Finance Exam": "FINANCE",
+        "Non GT Finance Content": "NON GT FINANCE",
 
     }
 

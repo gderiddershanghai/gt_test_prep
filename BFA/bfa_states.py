@@ -21,6 +21,7 @@ questions_dictionary = {
     'M2_EXTRA':  BFA_M2_EXTRA_MPC,
     'M2W1': BFA_M2W1_MPC, 
     'M2W2': BFA_M2W2_MPC, 
+    'M2W3': BFA_M2W3_MPC, 
 }
 
 # Updated Review Sets
@@ -33,6 +34,9 @@ REVIEW_SETS = {
     'M2_EXTRA':  BFA_M2_EXTRA_MPC,
     'M2W1': BFA_M2W1_MPC, 
     'M2W2': BFA_M2W2_MPC, 
+    'M2W3': BFA_M2W3_MPC, 
+     "FINANCE": ['M2W1', 'M2W2', 'M2W3'],
+      "NON GT FINANCE": ['M2_EXTRA'],
 }
 
 
