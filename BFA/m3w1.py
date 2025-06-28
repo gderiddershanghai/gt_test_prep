@@ -174,6 +174,177 @@ operations_week1_q10 = {
     'chapter_information': 'Operations Module W1 GPT GENERATED'
 }
 
+operations_week1_q11 = {
+    'question': (
+        "Which of the following is the most commonly reported supply chain challenge according to the Forbes survey?"
+    ),
+    'options_list': [
+        'Poor customer service',
+        'Inflexibility to demand or product mix changes',
+        'Warehouse overcapacity',
+        'Labor union disputes'
+    ],
+    'correct_answer': 'Inflexibility to demand or product mix changes',
+    'explanation': (
+        "The top challenge identified was being flexible and responsive to changes in demand or product mix, as per the Forbes survey results."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q12 = {
+    'question': (
+        "Forecasting demand is a supply chain challenge because:"
+    ),
+    'options_list': [
+        "Most companies don't track past sales",
+        'New products lack historical data',
+        'Customers refuse to share preferences',
+        'Forecasting is no longer relevant'
+    ],
+    'correct_answer': 'New products lack historical data',
+    'explanation': (
+        "A major challenge in forecasting is the lack of historical data, especially when launching new products."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q13 = {
+    'question': (
+        "Which of the following is a **strategic** supply chain decision?"
+    ),
+    'options_list': [
+        "Choosing a supplier for next month's inventory",
+        'Setting weekly production targets',
+        'Deciding to offshore part of the production',
+        'Rescheduling a late shipment'
+    ],
+    'correct_answer': 'Deciding to offshore part of the production',
+    'explanation': (
+        "Strategic decisions involve long-term structural planning such as offshoring, facility location, and vertical integration."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q14 = {
+    'question': (
+        "What is the time horizon typically associated with **tactical** decisions?"
+    ),
+    'options_list': [
+        'Daily to weekly',
+        'Monthly to yearly',
+        '3 to 5 years',
+        'Real-time only'
+    ],
+    'correct_answer': 'Monthly to yearly',
+    'explanation': (
+        "Tactical decisions involve medium-term planning, typically spanning several months up to a year."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q15 = {
+    'question': (
+        "Scheduling delivery trucks for daily shipments is an example of what type of decision?"
+    ),
+    'options_list': [
+        'Strategic',
+        'Tactical',
+        'Operational',
+        'Structural'
+    ],
+    'correct_answer': 'Operational',
+    'explanation': (
+        "Operational decisions focus on daily execution tasks such as truck scheduling, order fulfillment, and workforce shifts."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+operations_week1_q16 = {
+    'question': (
+        "Which type of product is best served by a **responsive** supply chain?"
+    ),
+    'options_list': [
+        'Laundry detergent',
+        'Canned vegetables',
+        'Fashion apparel',
+        'Printer paper'
+    ],
+    'correct_answer': 'Fashion apparel',
+    'explanation': (
+        "Fashion apparel is an innovative product characterized by unpredictable demand and short product life cycles, "
+        "making it best suited for a responsive supply chain."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q17 = {
+    'question': (
+        "An **efficient** supply chain is most likely to prioritize which of the following?"
+    ),
+    'options_list': [
+        'Holding excess safety stock',
+        'Using air freight for speed',
+        'High asset utilization',
+        'Frequent product redesigns'
+    ],
+    'correct_answer': 'High asset utilization',
+    'explanation': (
+        "Efficient supply chains aim to minimize cost by maximizing asset utilization, reducing waste, and avoiding unnecessary inventory."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q18 = {
+    'question': (
+        "Which supply chain type is most likely to maintain high levels of **safety stock**?"
+    ),
+    'options_list': [
+        'Efficient',
+        'Lean',
+        'Responsive',
+        'Outsourced'
+    ],
+    'correct_answer': 'Responsive',
+    'explanation': (
+        "Responsive supply chains often carry extra inventory to quickly react to volatile or unpredictable demand."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q19 = {
+    'question': (
+        "What is the primary supply chain strategy for **functional** products?"
+    ),
+    'options_list': [
+        'Agile',
+        'Responsive',
+        'Flexible',
+        'Efficient'
+    ],
+    'correct_answer': 'Efficient',
+    'explanation': (
+        "Functional products—like detergent or canned food—have predictable demand and low margins, best matched with an efficient supply chain."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q20 = {
+    'question': (
+        "Which of the following practices aligns best with an **efficient** supply chain model?"
+    ),
+    'options_list': [
+        'Air shipping partial truckloads',
+        'Vendor managed inventory with full truckloads',
+        'Holding redundant capacity for responsiveness',
+        'Rapid design and test cycles for new products'
+    ],
+    'correct_answer': 'Vendor managed inventory with full truckloads',
+    'explanation': (
+        "Efficient supply chains reduce cost and improve utilization. Full truckloads and vendor-managed inventory minimize handling and stockouts."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+
 
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
