@@ -344,6 +344,90 @@ operations_week1_q20 = {
     'chapter_information': 'Operations Module W1 GPT GENERATED'
 }
 
+operations_week1_q21 = {
+    'question': (
+        "What is a key benefit of a **centralized** supply chain network?"
+    ),
+    'options_list': [
+        'Higher product availability in all regions',
+        'Lower total inventory due to pooling',
+        'Faster response to regional demand changes',
+        'Lower transportation distances'
+    ],
+    'correct_answer': 'Lower total inventory due to pooling',
+    'explanation': (
+        "Centralized networks reduce total inventory through the pooling effect, consolidating safety stock at fewer locations."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q22 = {
+    'question': (
+        "Which condition favors a **decentralized** network configuration?"
+    ),
+    'options_list': [
+        'Stable demand and few delivery points',
+        'High transportation costs per unit weight',
+        'Low product velocity',
+        'Centralized sourcing and production'
+    ],
+    'correct_answer': 'High transportation costs per unit weight',
+    'explanation': (
+        "When transport is expensive, placing inventory closer to the customer (decentralization) can lower overall costs."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q23 = {
+    'question': (
+        "Centralized supply chains typically align with which supply chain model?"
+    ),
+    'options_list': [
+        'Responsive',
+        'Agile',
+        'Efficient',
+        'Flexible'
+    ],
+    'correct_answer': 'Efficient',
+    'explanation': (
+        "Centralized networks are designed to minimize costs through scale and standardization—hallmarks of efficient supply chains."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q24 = {
+    'question': (
+        "A **decentralized** network is likely to result in:"
+    ),
+    'options_list': [
+        'Higher transportation efficiency',
+        'Lower overall complexity',
+        'Better regional responsiveness',
+        'Less inventory overall'
+    ],
+    'correct_answer': 'Better regional responsiveness',
+    'explanation': (
+        "Decentralization improves responsiveness due to proximity to regional demand centers, even if it raises inventory and complexity."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q25 = {
+    'question': (
+        "Which of the following is **least likely** to be true of a **centralized** network?"
+    ),
+    'options_list': [
+        'Requires fewer warehouses',
+        'Benefits from high shipping volume discounts',
+        'Highly responsive to local market fluctuations',
+        'Easier to standardize processes'
+    ],
+    'correct_answer': 'Highly responsive to local market fluctuations',
+    'explanation': (
+        "Centralized systems face longer lead times and slower reaction to local changes, making them less responsive to regional fluctuations."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
 
 
 KC_MPC_QUESTIONS = []
