@@ -429,6 +429,91 @@ operations_week1_q25 = {
     'chapter_information': 'Operations Module W1 GPT GENERATED'
 }
 
+operations_week1_q31 = {
+    'question': (
+        "What distinguishes **offshoring** from outsourcing?"
+    ),
+    'options_list': [
+        'Offshoring always involves third-party vendors',
+        'Offshoring involves moving operations across national borders',
+        'Outsourcing must be within the same company',
+        'Offshoring only applies to manufacturing'
+    ],
+    'correct_answer': 'Offshoring involves moving operations across national borders',
+    'explanation': (
+        "Offshoring refers to relocating business functions or processes to another country. "
+        "It can involve internal operations (captive) or external vendors."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q32 = {
+    'question': (
+        "Which of the following is an example of **captive offshoring**?"
+    ),
+    'options_list': [
+        'Apple hires Foxconn in China to build iPhones',
+        'Google opens its own R&D center in India',
+        'A US firm outsources payroll to a US vendor',
+        'Amazon uses UPS to deliver packages in the US'
+    ],
+    'correct_answer': 'Google opens its own R&D center in India',
+    'explanation': (
+        "Captive offshoring means a company opens and owns its operations in a foreign country, as Google does in this case."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q33 = {
+    'question': (
+        "Which of the following is a **hidden cost** that can reduce the benefit of offshoring?"
+    ),
+    'options_list': [
+        'High domestic salaries',
+        'Exchange rate volatility',
+        'Low-cost air freight',
+        'Domestic labor laws'
+    ],
+    'correct_answer': 'Exchange rate volatility',
+    'explanation': (
+        "Unpredictable currency changes can increase costs of offshore operations, creating financial uncertainty."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q34 = {
+    'question': (
+        "What is a major **risk** of offshoring **core competencies**?"
+    ),
+    'options_list': [
+        'Loss of branding',
+        'Lower logistics costs',
+        'Longer domestic work hours',
+        'Weakening the company’s strategic capabilities'
+    ],
+    'correct_answer': 'Weakening the company’s strategic capabilities',
+    'explanation': (
+        "Core competencies are foundational to competitive advantage. Offshoring them can reduce internal knowledge and long-term strategic strength."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
+
+operations_week1_q35 = {
+    'question': (
+        "Which of the following is **NOT** typically a driver for **offshoring**?"
+    ),
+    'options_list': [
+        'Cheaper labor',
+        'Proximity to emerging markets',
+        'Avoiding international trade',
+        'Access to global talent'
+    ],
+    'correct_answer': 'Avoiding international trade',
+    'explanation': (
+        "Firms offshore to participate in global trade, not to avoid it. The goal is to reduce costs, reach new markets, and gain capabilities."
+    ),
+    'chapter_information': 'Operations Module W1 GPT GENERATED'
+}
 
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
