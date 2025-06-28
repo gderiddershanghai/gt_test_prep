@@ -26,12 +26,14 @@ def review_questions():
     st.markdown("### Please select a Probability Module to proceed:")
 
     module_mapping = {
-        "Module 1 - Week 1": 'M1W1',
-        "Module 1 - Week 2": 'M1W2',
-        "Module 1 - Week 3": 'M1W3',
-        "Module 2 - Week 1": 'M2W1',
-         "Module 2 - Week 2": 'M2W2',
-        "Module 2 - NON GT CONTENT ":  "M2_EXTRA",
+        "Module 1 (Financial Accounting) - Week 1": 'M1W1',
+        "Module 1 (Financial Accounting) - Week 2": 'M1W2',
+        "Module 1 (Financial Accounting) - Week 3": 'M1W3',
+        "Module 2 (Finance) - Week 1": 'M2W1',
+        "Module 2 (Finance) - Week 2": 'M2W2',
+        "Module 2 (Finance) - Week 3": 'M2W3',
+        "Module 2 (Finance) - NON GT CONTENT ":  "M2_EXTRA",
+        "Module 3 (Operations) - Week 1": 'M3W1',
 
     }
 
