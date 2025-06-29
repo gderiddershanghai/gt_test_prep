@@ -977,7 +977,7 @@ operations_w2_tf_q12 = {
 }
 
 operations_w2_tf_q13 = {
-    'question': "If annual demand doubles, EOQwill also double.",
+    'question': "If annual demand doubles, EOQ will also double.",
     'options_list': ["True", "False"],
     'correct_answer': "False",
     'explanation': "EOQ increases with the square root of demand, not linearly.",
