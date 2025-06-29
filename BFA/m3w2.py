@@ -880,6 +880,118 @@ inventory_eoq_rop_q7 = {
     )
 }
 
+operations_w2_tf_q01 = {
+    'question': "The primary goal of Lean operations is to eliminate waste across the production process.",
+    'options_list': ["True", "False"],
+    'correct_answer': "True",
+    'explanation': "Lean focuses on eliminating all forms of waste including overproduction, inventory, defects, and motion.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q02 = {
+    'question': "In a pull system, production is triggered by actual demand rather than forecasts.",
+    'options_list': ["True", "False"],
+    'correct_answer': "True",
+    'explanation': "Pull systems are demand-driven and respond directly to downstream consumption.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q03 = {
+    'question': "A push system typically results in lower work-in-process inventory than a pull system.",
+    'options_list': ["True", "False"],
+    'correct_answer': "False",
+    'explanation': "Push systems are forecast-based and tend to result in higher WIP due to overproduction.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q04 = {
+    'question': "Kanban is a visual signaling system used to control flow in a pull production environment.",
+    'options_list': ["True", "False"],
+    'correct_answer': "True",
+    'explanation': "Kanban helps regulate production by authorizing work only when a visual signal is received.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q05 = {
+    'question': "Hiring temporary workers is an external strategy to manage demand fluctuations.",
+    'options_list': ["True", "False"],
+    'correct_answer': "False",
+    'explanation': "Temporary labor is an internal capacity strategy used to adjust supply to meet demand.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q06 = {
+    'question': "Changing product pricing is an external lever used to influence demand.",
+    'options_list': ["True", "False"],
+    'correct_answer': "True",
+    'explanation': "Pricing, promotions, and advertising are demand-side tactics used to shape customer behavior.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q07 = {
+    'question': "The EOQ model minimizes the sum of ordering and holding costs.",
+    'options_list': ["True", "False"],
+    'correct_answer': "True",
+    'explanation': "EOQ is derived by setting ordering cost = holding cost to minimize total inventory cost.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q08 = {
+    'question': "Increasing the ordering cost will result in a lower EOQ.",
+    'options_list': ["True", "False"],
+    'correct_answer': "False",
+    'explanation': "EOQ = $\\sqrt{\\frac{2DS}{H}}$ → As $S$ increases, EOQ increases.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q09 = {
+    'question': "Average inventory held under the EOQ model is equal to EOQ divided by 2.",
+    'options_list': ["True", "False"],
+    'correct_answer': "True",
+    'explanation': "Inventory is assumed to drop linearly from $Q$ to 0, so the average is $Q/2$.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q10 = {
+    'question': "Reorder point (ROP) increases if lead time or daily demand increases.",
+    'options_list': ["True", "False"],
+    'correct_answer': "True",
+    'explanation': "ROP = $d \\times L$ → ROP rises with either higher demand or longer lead time.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q11 = {
+    'question': "Safety stock increases with higher desired service levels.",
+    'options_list': ["True", "False"],
+    'correct_answer': "True",
+    'explanation': "Higher service levels correspond to higher $Z$ values in the safety stock formula.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q12 = {
+    'question': "To calculate safety stock, you multiply average demand by lead time.",
+    'options_list': ["True", "False"],
+    'correct_answer': "False",
+    'explanation': "That gives you base demand during lead time, not safety stock. Safety stock = $Z \\cdot \\sigma \\cdot \\sqrt{L}$.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q13 = {
+    'question': "If annual demand doubles, EOQ will also double.",
+    'options_list': ["True", "False"],
+    'correct_answer': "False",
+    'explanation': "EOQ increases with the square root of demand, not linearly.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
+operations_w2_tf_q14 = {
+    'question': "In calculating safety stock for variable demand, the standard deviation scales linearly with lead time.",
+    'options_list': ["True", "False"],
+    'correct_answer': "False",
+    'explanation': "Standard deviation scales with the square root of lead time: $\\sigma_L = \\sigma_d \\cdot \\sqrt{L}$.",
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
+}
+
 
 
 KC_MPC_QUESTIONS = []
