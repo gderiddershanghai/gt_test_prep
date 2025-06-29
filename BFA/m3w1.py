@@ -515,6 +515,181 @@ operations_week1_q35 = {
     'chapter_information': 'Operations Module W1 GPT GENERATED'
 }
 
+
+operatfdions_w1_q01 = {
+    'question': (
+        "Which of the following product characteristics are more conducive to a **Responsive Supply Chain**?\n"
+        "Select all that apply."
+    ),
+    'options_list': [
+        'predictable/stable demand',
+        'low demand uncertainty',
+        'high demand uncertainty',
+        'high profit margins',
+        'low profit margins'
+    ],
+    'correct_answer': [
+        'high demand uncertainty',
+        'high profit margins'
+    ],
+    'explanation': (
+        "Responsive supply chains are designed for products with **high demand uncertainty** and **high margins**, such as fashion or tech."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operatfdions_w1_q02 = {
+    'question': (
+        "Which of the following product characteristics are more conducive to an **Efficient Supply Chain**?\n"
+        "Select all that apply."
+    ),
+    'options_list': [
+        'predictable/stable demand',
+        'low demand uncertainty',
+        'high demand uncertainty',
+        'high profit margins',
+        'low profit margins'
+    ],
+    'correct_answer': [
+        'predictable/stable demand',
+        'low demand uncertainty',
+        'low profit margins'
+    ],
+    'explanation': (
+        "Efficient supply chains work best for **stable, low-margin** products with **predictable demand**, like laundry detergent."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+opefdrations_w1_q03 = {
+    'question': (
+        "When is a **Decentralized Supply Chain** more appropriate?"
+    ),
+    'options_list': [
+        'When there are many points of sale',
+        'When there is a low distribution cost per weight',
+        'When you need less customized delivery',
+        'When demand is more predictable',
+        'When you are not as worried about lead times'
+    ],
+    'correct_answer': 'When there are many points of sale',
+    'explanation': (
+        "Decentralized supply chains improve **regional responsiveness** when serving **many dispersed locations**."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operatidfons_w1_q04 = {
+    'question': (
+        "How do Efficient and Responsive supply chains relate to Centralized vs Decentralized strategies?\n"
+        "Select all that apply."
+    ),
+    'options_list': [
+        'A centralized strategy needs an efficient supply chain',
+        'A centralized strategy needs a responsive supply chain',
+        'A decentralized strategy needs an efficient supply chain',
+        'A decentralized strategy needs a responsive supply chain',
+        'There is no correct answer here'
+    ],
+    'correct_answer': [
+        'A centralized strategy needs an efficient supply chain',
+        'A decentralized strategy needs a responsive supply chain'
+    ],
+    'explanation': (
+        "**Centralized = Efficient** (scale, cost control)\n"
+        "**Decentralized = Responsive** (local service, speed to customer)"
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operfations_w1_q05 = {
+    'question': (
+        "Why would a company consider **Outsourcing**?\n"
+        "Select all that apply."
+    ),
+    'options_list': [
+        'lack of capacity in house',
+        'to increase lead time',
+        'supplier has better technical capabilities',
+        'to focus more on core capabilities'
+    ],
+    'correct_answer': [
+        'lack of capacity in house',
+        'supplier has better technical capabilities',
+        'to focus more on core capabilities'
+    ],
+    'explanation': (
+        "Companies outsource to address internal **capacity constraints**, leverage **external expertise**, and focus on **strategic priorities**."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operaftions_w1_q06 = {
+    'question': (
+        "Why would a company want to **Offshore**?\n"
+        "Select all that apply."
+    ),
+    'options_list': [
+        'To be closer to offshore customers',
+        'Offshore has better cost/price',
+        'Offshore has better technical capability',
+        'Faster response to offshore customers'
+    ],
+    'correct_answer': [
+        'To be closer to offshore customers',
+        'Offshore has better cost/price',
+        'Offshore has better technical capability',
+        'Faster response to offshore customers'
+    ],
+    'explanation': (
+        "Firms offshore to improve **cost**, **access talent**, and better serve **international demand**."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operatiofns_w1_q07 = {
+    'question': (
+        "Which of the following are **pitfalls to Offshoring**?\n"
+        "Select all that apply."
+    ),
+    'options_list': [
+        'You may lose the ability to do the task offshore',
+        'Exchange rates can be volatile',
+        'You give up some control over quality and cost',
+        'You may not get a very detailed understanding on your overall product cost'
+    ],
+    'correct_answer': [
+        'Exchange rates can be volatile',
+        'You give up some control over quality and cost',
+        'You may not get a very detailed understanding on your overall product cost'
+    ],
+    'explanation': (
+        "**Risks** of offshoring include **currency fluctuations**, **loss of control**, and **limited visibility** into true total cost."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operatfions_w1_q08 = {
+    'question': (
+        "Which one of the following is **NOT** a cost factor when considering **offshoring that is not captive**?"
+    ),
+    'options_list': [
+        'Export taxes',
+        'Exchange rate exposure',
+        'Real Estate costs',
+        'Damage in transit',
+        'Ocean transport costs'
+    ],
+    'correct_answer': 'Real Estate costs',
+    'explanation': (
+        "**Real estate** is not relevant for non-captive offshoring (third-party vendors). The other options impact logistics cost."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+
+
+
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())
 # print(global_items)
