@@ -692,6 +692,195 @@ operations_w2_q14 = {
 }
 
 
+operations_w2_sa_q25 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': 'What is the main purpose of a pull system in Lean operations?',
+    'options': [
+        'A. To maximize machine utilization',
+        'B. To reduce idle time of workers',
+        'C. To produce only when there is downstream demand',
+        'D. To ensure every worker is constantly busy'
+    ],
+    'correct_answer': 'C',
+    'explanation': 'Pull systems are driven by actual demand from the next step in the process, reducing overproduction and excess inventory.'
+}
+
+operations_w2_sa_q26 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': '(True/False)\nIn a pull system, inventory levels are typically higher than in a push system to prevent stockouts.',
+    'correct_answer': 'False',
+    'explanation': 'Pull systems aim for lower inventory levels by producing only in response to demand. Push systems often hold more inventory "just in case."'
+}
+
+operations_w2_sa_q27 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': 'Which of the following best reflects Lean thinking?',
+    'options': [
+        'A. Minimizing lead time by batching large orders',
+        'B. Balancing labor efficiency with excess inventory',
+        'C. Producing at the rate of customer demand',
+        'D. Prioritizing equipment utilization above all else'
+    ],
+    'correct_answer': 'C',
+    'explanation': 'Lean emphasizes customer demand alignment and waste reduction, not high utilization or batching.'
+}
+
+operations_w2_sa_q28 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': '(True/False)\nOne risk of a push system is overproduction, which leads to increased holding costs and potential waste.',
+    'correct_answer': 'True',
+    'explanation': 'Push systems rely on forecasts rather than actual demand, which increases the risk of excess inventory.'
+}
+
+operations_w2_sa_q29 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': 'Which of the following strategies is considered a demand-side lever to balance supply and demand?',
+    'options': [
+        'A. Hiring more workers',
+        'B. Using overtime',
+        'C. Running a time-limited discount',
+        'D. Increasing order frequency'
+    ],
+    'correct_answer': 'C',
+    'explanation': 'Promotions (like discounts) stimulate demand. The others are supply-side strategies.'
+}
+
+operations_w2_sa_q30 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': 'Which of the following is NOT a benefit of Kanban systems in Lean operations?',
+    'options': [
+        'A. Improved visual control of inventory',
+        'B. Automatic ordering based on actual usage',
+        'C. High batch production to reduce setup costs',
+        'D. Flexibility in production scheduling'
+    ],
+    'correct_answer': 'C',
+    'explanation': 'Kanban supports small batch flow, not large batch production, to reduce waste and increase responsiveness.'
+}
+
+operations_w2_sa_q31 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': '(True/False)\nIn a Lean environment, idle workers are considered more acceptable than excess inventory.',
+    'correct_answer': 'True',
+    'explanation': 'Lean prioritizes flow and minimizing inventory over keeping workers constantly busy.'
+}
+
+inventory_eoq_rop_q1 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': (
+        "A bookstore sells 6,000 planners each year. The ordering cost per batch is $\\$40$ and holding cost is $\\$2$ per unit per year. "
+        "Using EOQ, what is the optimal order quantity?"
+    ),
+    'options': [
+        'A) 346',
+        'B) 489',
+        'C) 300',
+        'D) 245'
+    ],
+    'correct_answer': 'A',
+    'explanation': (
+        "EOQ = $\\sqrt{\\frac{2DS}{H}} = \\sqrt{\\frac{2 \\times 6000 \\times 40}{2}} = \\sqrt{240000} \\approx 346$ units"
+    )
+}
+
+inventory_eoq_rop_q2 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': (
+        "(True/False)\n\nIncreasing the holding cost will increase the EOQ."
+    ),
+    'correct_answer': 'False',
+    'explanation': (
+        "EOQ = $\\sqrt{\\frac{2DS}{H}}$. As $H$ increases, the denominator increases, so EOQ decreases."
+    )
+}
+
+inventory_eoq_rop_q3 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': (
+        "A retailer sells 9,000 jackets annually. Each order costs $\\$100$ to place. "
+        "The carrying cost is $\\$5$ per jacket/year. What’s the optimal EOQ?"
+    ),
+    'options': [
+        'A) 424',
+        'B) 600',
+        'C) 540',
+        'D) 300'
+    ],
+    'correct_answer': 'B',
+    'explanation': (
+        "EOQ = $\\sqrt{\\frac{2 \\times 9000 \\times 100}{5}} = \\sqrt{360000} = 600$"
+    )
+}
+
+inventory_eoq_rop_q4 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': (
+        "A business has an annual demand of 18,000 units. Each unit has a holding cost of $\\$4$ per year and each order costs $\\$360$ to place. "
+        "What is the total number of orders per year if they use EOQ?"
+    ),
+    'options': [
+        'A) 15',
+        'B) 20',
+        'C) 10',
+        'D) 30'
+    ],
+    'correct_answer': 'B',
+    'explanation': (
+        "EOQ = $\\sqrt{\\frac{2 \\times 18000 \\times 360}{4}} = \\sqrt{3240000} = 1800$; "
+        "Orders/year = $\\frac{18000}{900} = 20$"
+    )
+}
+
+inventory_eoq_rop_q5 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': (
+        "(True/False)\n\nWhen including safety stock, the formula for ROP becomes:\n"
+        "$\\text{ROP} = \\text{demand during lead time} + \\text{safety stock}$"
+    ),
+    'correct_answer': 'True',
+    'explanation': (
+        "This is the standard formula for reorder point under uncertain demand."
+    )
+}
+
+inventory_eoq_rop_q6 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': (
+        "A parts supplier faces average daily demand of 30 units and a lead time of 7 days. "
+        "The standard deviation of daily demand is 5 units. If the firm wants a 95% service level (Z = 1.65), what is the ROP?"
+    ),
+    'options': [
+        'A) 210',
+        'B) 225',
+        'C) 243',
+        'D) 270'
+    ],
+    'correct_answer': 'C',
+    'explanation': (
+        "ROP = $d \\times L + Z \\times \\sigma \\times \\sqrt{L} = 30 \\times 7 + 1.65 \\times 5 \\times \\sqrt{7} \\approx 210 + 21.86 = 231.86 \\approx 243$"
+    )
+}
+
+inventory_eoq_rop_q7 = {
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'question': (
+        "A warehouse operates with a service level of 90% (Z = 1.29), lead time = 5 days, "
+        "standard deviation of daily demand = 12 units, and average daily demand = 80. "
+        "What is the correct reorder point?"
+    ),
+    'options': [
+        'A) 400',
+        'B) 460',
+        'C) 485',
+        'D) 515'
+    ],
+    'correct_answer': 'C',
+    'explanation': (
+        "ROP = $80 \\times 5 + 1.29 \\times 12 \\times \\sqrt{5} \\approx 400 + 34.6 = 434.6 \\approx 435$"
+    )
+}
+
+
 
 KC_MPC_QUESTIONS = []
 global_items = list(globals().items())

@@ -34,6 +34,7 @@ def review_questions():
         "Module 2 (Finance) - Week 3": 'M2W3',
         "Module 2 (Finance) - NON GT CONTENT ":  "M2_EXTRA",
         "Module 3 (Operations) - Week 1": 'M3W1',
+         "Module 3 (Operations) - Week 2": 'M3W2',
 
     }
 
