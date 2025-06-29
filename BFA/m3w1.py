@@ -669,7 +669,7 @@ operatiofns_w1_q07 = {
     'chapter_information': 'Operations Module W1 - Self Assessment'
 }
 
-operatfions_w1_q08 = {
+operatfiogfns_w1_q08 = {
     'question': (
         "Which one of the following is **NOT** a cost factor when considering **offshoring that is not captive**?"
     ),
@@ -687,6 +687,145 @@ operatfions_w1_q08 = {
     'chapter_information': 'Operations Module W1 - Self Assessment'
 }
 
+operatiogfns_w1_q09 = {
+    'question': (
+        "Which conditions are more conducive to a Centralized supply chain?\nSelect all that apply."
+    ),
+    'options_list': [
+        'Demand is stable',
+        'You need higher product availability',
+        'Many points of sale',
+        'Low distribution complexity'
+    ],
+    'correct_answer': ['Demand is stable', 'Low distribution complexity'],
+    'explanation': (
+        "Centralized supply chains are best when demand is stable and logistics are simple. "
+        "Higher product availability often calls for decentralization."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operationgfs_w1_q10 = {
+    'question': (
+        "A centralized network configuration lends itself to which type of supply chain model?"
+    ),
+    'options_list': [
+        'Short',
+        'Responsive',
+        'Efficient',
+        'People-conscience'
+    ],
+    'correct_answer': 'Efficient',
+    'explanation': (
+        "Centralized systems emphasize standardization, economies of scale, and low cost—core to an efficient supply chain model."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operatiogfns_w1_q11 = {
+    'question': (
+        "A functional product is likely to have? Choose the best answer."
+    ),
+    'options_list': [
+        'High demand uncertainty',
+        'High product variety and low volume',
+        'Short product life',
+        'Low inventory costs',
+        'Long lead times'
+    ],
+    'correct_answer': 'Low inventory costs',
+    'explanation': (
+        "Functional products are predictable and stable in demand, and they benefit from low inventory costs due to standardization."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operationsgf_w1_q12 = {
+    'question': (
+        "Which of the following is NOT a reason for outsourcing?"
+    ),
+    'options_list': [
+        'To decrease lead times',
+        'To reduce and control costs',
+        'To decrease flexibility and speed',
+        'To focus on core competencies'
+    ],
+    'correct_answer': 'To decrease flexibility and speed',
+    'explanation': (
+        "Outsourcing aims to increase operational flexibility and allow companies to focus on their strategic capabilities."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operatiogfns_w1_q13 = {
+    'question': (
+        "Which of the following is NOT among the drivers of offshoring?"
+    ),
+    'options_list': [
+        'Social drivers',
+        'Political drivers',
+        'Technology drivers',
+        'Market drivers'
+    ],
+    'correct_answer': 'Social drivers',
+    'explanation': (
+        "Offshoring is driven by economic, market, and technological reasons—not social ones."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operatiogfns_w1_q14 = {
+    'question': (
+        "Which of these is NOT a cost driver for offshoring?"
+    ),
+    'options_list': [
+        'Exchange rate fluctuations',
+        'Falling communication costs',
+        'Cost of risk in joint ventures',
+        'Labor costs'
+    ],
+    'correct_answer': 'Falling communication costs',
+    'explanation': (
+        "Falling communication costs reduce barriers to offshoring, making them an enabler, not a cost driver."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operatigfons_w1_q15 = {
+    'question': (
+        "Which of the following is NOT a pitfall of offshoring?"
+    ),
+    'options_list': [
+        'Inaccurate determination of overall product costs',
+        'Lack of control over costs and quality',
+        'Exchange rate volatility',
+        'Political uncertainty in the target market',
+        'Bogus Question: All of these statements are pitfalls of offshoring'
+    ],
+    'correct_answer': 'Political uncertainty in the target market',
+    'explanation': (
+        "Political uncertainty is considered a risk, not an operational pitfall. The other choices reflect execution challenges in offshoring."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
+
+operations_w1_qgf16 = {
+    'question': (
+        "Which of the following is NOT a characteristic of a PULL system?"
+    ),
+    'options_list': [
+        'Faster reaction to defects',
+        'Operators only work when there is a signal to produce',
+        'Focus on keeping individual operators and workstations busy',
+        'There is no slack in the system',
+        'None of these statements are correct'
+    ],
+    'correct_answer': 'Focus on keeping individual operators and workstations busy',
+    'explanation': (
+        "Pull systems prioritize responsiveness and flow, not maximum utilization of every resource. That focus reflects a push system mindset."
+    ),
+    'chapter_information': 'Operations Module W1 - Self Assessment'
+}
 
 
 
