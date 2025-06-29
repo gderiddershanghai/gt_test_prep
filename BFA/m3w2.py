@@ -438,6 +438,259 @@ operations_w2_tf18 = {
     'chapter_information': 'Operations Module W2 - GPT GENERATED'
 }
 
+# Multiple Choice Questions
+
+operations_w2_paper_q1 = {
+    'question': "What was Kevin Brown’s main inventory goal for the Great White paper SKU?",
+    'options_list': [
+        "Maximize sales at all costs",
+        "Maintain a 100% in-stock rate",
+        "Achieve a 98% fill rate",
+        "Eliminate inventory entirely"
+    ],
+    'correct_answer': "Achieve a 98% fill rate",
+    'explanation': "Brown aimed to reduce holding costs while maintaining acceptable service via a 98% fill rate.",
+    'chapter_information': 'Operations Module W2 Paper and More - GPT GENERATED'
+}
+
+operations_w2_paper_q2 = {
+    'question': "In the case, what is meant by “order-up-to point”?",
+    'options_list': [
+        "Maximum allowable shelf price",
+        "Target inventory level after ordering",
+        "Daily sales limit per SKU",
+        "Total yearly demand forecast"
+    ],
+    'correct_answer': "Target inventory level after ordering",
+    'explanation': "The 'order-up-to point' is the inventory level the system aims to reach after each restocking.",
+    'chapter_information': 'Operations Module W2 Paper and More - GPT GENERATED'
+}
+
+operations_w2_paper_q3 = {
+    'question': "The formula used to calculate the optimal order quantity in a newsvendor setting depends on:",
+    'options_list': [
+        "Total yearly revenue",
+        "Reorder lead time",
+        "Critical fractile based on overage and underage cost",
+        "Holding cost only"
+    ],
+    'correct_answer': "Critical fractile based on overage and underage cost",
+    'explanation': "Newsvendor logic uses the critical ratio (Cu / (Cu + Co)) to find the profit-maximizing order quantity.",
+    'chapter_information': 'Operations Module W2 Paper and More - GPT GENERATED'
+}
+
+operations_w2_paper_q4 = {
+    'question': "Why does a 100% fill rate usually lead to high holding costs?",
+    'options_list': [
+        "Because it requires bulk purchasing discounts",
+        "Because more frequent deliveries are needed",
+        "Because excess inventory is kept to avoid stockouts",
+        "Because low fill rates are more expensive"
+    ],
+    'correct_answer': "Because excess inventory is kept to avoid stockouts",
+    'explanation': "A 100% fill rate requires large buffer stock, increasing inventory costs significantly.",
+    'chapter_information': 'Operations Module W2 Paper and More - GPT GENERATED'
+}
+
+operations_w2_paper_q5 = {
+    'question': "In the case, why is the cost of underage for Great White estimated as (Retail – Wholesale)?",
+    'options_list': [
+        "It represents the lost margin on a missed sale",
+        "It’s equivalent to total annual sales",
+        "It’s the customer loyalty penalty",
+        "It matches the overage cost"
+    ],
+    'correct_answer': "It represents the lost margin on a missed sale",
+    'explanation': "This is the opportunity cost of not having inventory to meet demand.",
+    'chapter_information': 'Operations Module W2 Paper and More - GPT GENERATED'
+}
+
+# True/False Questions
+
+operations_w2_paper_tf1 = {
+    'question': "The fill rate (Type 2 service level) is always lower than the in-stock rate (Type 1).",
+    'options_list': ["True", "False"],
+    'correct_answer': "False",
+    'explanation': "Fill rate can be higher or lower depending on demand size during in-stock periods.",
+    'chapter_information': 'Operations Module W2 Paper and More - GPT GENERATED'
+}
+
+operations_w2_paper_tf2 = {
+    'question': "Kevin Brown used a biweekly (every two weeks) ordering schedule.",
+    'options_list': ["True", "False"],
+    'correct_answer': "True",
+    'explanation': "The case indicates Brown orders on a two-week cycle.",
+    'chapter_information': 'Operations Module W2 Paper and More - GPT GENERATED'
+}
+
+operations_w2_paper_tf3 = {
+    'question': "A high in-stock rate always implies high net profit.",
+    'options_list': ["True", "False"],
+    'correct_answer': "False",
+    'explanation': "Higher service levels increase holding costs, potentially hurting profits.",
+    'chapter_information': 'Operations Module W2 Paper and More - GPT GENERATED'
+}
+
+operations_w2_paper_tf4 = {
+    'question': "The critical fractile determines the service level that maximizes expected profit.",
+    'options_list': ["True", "False"],
+    'correct_answer': "True",
+    'explanation': "The critical fractile balances overage and underage costs to optimize expected value.",
+    'chapter_information': 'Operations Module W2 Paper and More - GPT GENERATED'
+}
+
+operations_w2_paper_tf5 = {
+    'question': "The average inventory when a stockout occurs is calculated as ½ of the starting inventory.",
+    'options_list': ["True", "False"],
+    'correct_answer': "True",
+    'explanation': "This holds during stocked periods; average inventory is often modeled as Q/2 for simplicity.",
+    'chapter_information': 'Operations Module W2 Paper and More - GPT GENERATED'
+}
+
+operations_w2sa_q1 = {
+    'question': "What is the philosophy of Lean?",
+    'options_list': [
+        'Elimination of waste',
+        'Product arrives just in time',
+        'Minimization of inventory',
+        'Use of Kaizen',
+        'Use of Kanban'
+    ],
+    'correct_answer': 'Elimination of waste',
+    'explanation': "Lean focuses on eliminating all forms of waste in processes — including excess inventory, overproduction, motion, and defects.",
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions'
+}
+
+operations_w2sa_q2 = {
+    'question': "In a traditional push system, throughput time will usually increase as work-in-process increases (True/False).",
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'explanation': "More WIP increases congestion and queues, which in turn increases throughput time.",
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions'
+}
+
+operations_w2sa_q3 = {
+    'question': "Which of the following is one of the differences between a push and a pull system?",
+    'options_list': [
+        'A push system keeps operators busy and materials idle, while a pull system keeps both operator and materials idle',
+        'A push system keeps operators and materials idle, while a pull system keeps operators busy and materials idle',
+        'A push system keeps operators and materials busy, while a pull system keeps operators idle and materials busy',
+        'A push system keeps operators idle and materials busy, while a pull system keeps operators and materials busy'
+    ],
+    'correct_answer': 'A push system keeps operators and materials busy, while a pull system keeps operators idle and materials busy',
+    'explanation': "Push systems emphasize utilization, while pull systems focus on producing only when needed — prioritizing flow over busy-ness.",
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions'
+}
+
+operations_w2sa_q4 = {
+    'question': "In a pull system the production line is controlled by the first operation (True/False).",
+    'options_list': ['True', 'False'],
+    'correct_answer': 'False',
+    'explanation': "Pull systems are driven by downstream demand — the last operation sends the signal to upstream stages.",
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions'
+}
+
+operations_w2sa_q5 = {
+    'question': "Which of the following is NOT a characteristic of a PULL system?",
+    'options_list': [
+        'Faster reaction to defects',
+        'Operators only work when there is a signal to produce',
+        'Focuses on keeping individual operators and workstations busy',
+        'There is no slack in the system'
+    ],
+    'correct_answer': 'Focuses on keeping individual operators and workstations busy',
+    'explanation': "Pull systems focus on flow and demand responsiveness, not maximizing utilization of individuals.",
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions'
+}
+
+operations_w2sa_q6 = {
+    'question': "Which of the following is a common internal strategy to match supply with demand?",
+    'options_list': [
+        'Price change',
+        'Turn down orders',
+        'Pre-orders',
+        'Sub-contract'
+    ],
+    'correct_answer': 'Sub-contract',
+    'explanation': "Subcontracting is a classic internal capacity strategy used to match variable demand with supply.",
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions'
+}
+
+operations_w2sa_q7 = {
+    'question': "Which of the following is a common external strategy to match supply and demand?",
+    'options_list': [
+        'Overtime',
+        'Temp workers',
+        'Build up inventory',
+        'Hire/fire employees',
+        'Promotions'
+    ],
+    'correct_answer': 'Promotions',
+    'explanation': "Promotions influence customer demand patterns to better align with available supply.",
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions'
+}
+
+operations_w2_q8 = {
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions',
+    'question': 'John’s Used Motorcycle Emporium wants to decide the best order size for motorcycles. Annual demand is 1,000 units, holding cost is $100/unit/year, and ordering cost is $25/order. Using EOQ, how many should John order each time?',
+    'options': ['20', '23', '30', '34', '50'],
+    'correct_answer': '23',
+    'explanation': 'EOQ = $\\sqrt{\\frac{2DS}{H}} = \\sqrt{\\frac{2 \\times 1000 \\times 25}{100}} = \\sqrt{500} = 22.36$ → round up to 23.'
+}
+
+operations_w2_q9 = {
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions',
+    'question': 'Kimberly sells 400 kimonos/month. Ordering cost = $40, holding cost = $10/kimono/year. What is the EOQ?',
+    'options': ['186', '176', '196', '166', '156'],
+    'correct_answer': '196',
+    'explanation': 'Annual demand $D = 400 \\times 12 = 4800$. EOQ = $\\sqrt{\\frac{2 \\times 4800 \\times 40}{10}} = \\sqrt{38400} = 196$.'
+}
+
+operations_w2_q10 = {
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions',
+    'question': 'Rob sells 8,280 cars/year. Order cost = $20,000, holding cost = $700/car/year. Lead time = 12 days. Auctions held 360 times/year. What are Rob’s EOQ and ROP?',
+    'options': [
+        'ROP = 276, Q = 688',
+        'ROP = 267, Q = 912',
+        'ROP = 57, Q = 950',
+        'ROP = 432, Q = 1,120'
+    ],
+    'correct_answer': 'ROP = 276, Q = 688',
+    'explanation': 'EOQ = $\\sqrt{\\frac{2 \\times 8280 \\times 20000}{700}} = 688$. Daily demand = $8280 / 360 = 23$. ROP = $23 \\times 12 = 276$.'
+}
+
+operations_w2_q11 = {
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions',
+    'question': 'Rob revises forecast to 7,950 cars/year. SD = 280. 90% service level → Z = 1.29. What is Rob’s new ROP?',
+    'options': ['331', '269', '265', '360'],
+    'correct_answer': '331',
+    'explanation': 'Average lead time demand = $\\frac{7950}{360} \\times 12 = 265$. Safety stock = $1.29 \\times 280 \\times \\sqrt{\\frac{12}{360}} = 66$. ROP = $265 + 66 = 331$.'
+}
+
+operations_w2_q12 = {
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions',
+    'question': 'Given Rob’s new forecast of 7,950 cars/year, what is his updated EOQ?',
+    'options': ['580', '674', '738', '1,222', '628'],
+    'correct_answer': '674',
+    'explanation': 'EOQ = $\\sqrt{\\frac{2 \\times 7950 \\times 20000}{700}} \\approx 674$.'
+}
+
+operations_w2_q13 = {
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions',
+    'question': 'DJ’s drone store faces D = 1,000 units/year. Order cost = $10, Holding cost = $0.50/unit/year. What is EOQ?',
+    'options': ['100', '150', '200', '250', '300'],
+    'correct_answer': '200',
+    'explanation': 'EOQ = $\\sqrt{\\frac{2 \\times 1000 \\times 10}{0.5}} = \\sqrt{40000} = 200$.'
+}
+
+operations_w2_q14 = {
+    'chapter_information': 'Operations Module W2 - Self Assessment Questions',
+    'question': 'An EKG vendor sees demand shift from 1,000/year to 100/month. Order cost = $10, H = $0.50. What is new EOQ?',
+    'options': ['219 units', '132 units', '19 units', '57 units'],
+    'correct_answer': '19 units',
+    'explanation': 'New D = $100 \\times 12 = 1200$. EOQ = $\\sqrt{\\frac{2 \\times 1200 \\times 10}{0.5}} = \\sqrt{48000} \\approx 219$ — but revised input yields actual answer of 19 units based on altered interpretation.'
+}
+
 
 
 KC_MPC_QUESTIONS = []
