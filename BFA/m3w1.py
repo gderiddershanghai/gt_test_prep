@@ -827,6 +827,294 @@ operations_w1_qgf16 = {
     'chapter_information': 'Operations Module W1 - Self Assessment'
 }
 
+w1sainspired_q17 = {
+    'question': (
+        "In which scenario would a centralized supply chain be most effective?"
+    ),
+    'options_list': [
+        'Product demand is unpredictable across regions',
+        'The firm has hundreds of local retail outlets',
+        'Distribution channels are simple and few',
+        'Customers expect same-day delivery'
+    ],
+    'correct_answer': 'Distribution channels are simple and few',
+    'explanation': (
+        "Centralized supply chains work best when distribution is logistically simple and demand is relatively uniform. "
+        "They are less suited for highly variable or decentralized environments."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+w1sainspired_q18 = {
+    'question': (
+        "A firm pursuing cost leadership through economies of scale is most likely to adopt which type of network configuration?"
+    ),
+    'options_list': [
+        'Fully decentralized',
+        'Centralized with high-volume shipping',
+        'Regional distribution hubs',
+        'Dual sourcing in each market'
+    ],
+    'correct_answer': 'Centralized with high-volume shipping',
+    'explanation': (
+        "Centralized networks help achieve scale economies through bulk processing, fewer facilities, and higher asset utilization—key in cost leadership."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+w1sainspired_q19 = {
+    'question': (
+        "Which trait is most characteristic of a functional product?"
+    ),
+    'options_list': [
+        'Unstable demand',
+        'High margin and short product life',
+        'Low margin and predictable volume',
+        'Customization for local markets'
+    ],
+    'correct_answer': 'Low margin and predictable volume',
+    'explanation': (
+        "Functional products are typically low margin and have stable, predictable demand—ideal for efficient supply chains."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+w1sainspired_q20 = {
+    'question': (
+        "A key strategic benefit of outsourcing is:"
+    ),
+    'options_list': [
+        'Gaining access to specialized capabilities',
+        'Increasing internal fixed costs',
+        'Creating product differentiation',
+        'Eliminating vendor risk entirely'
+    ],
+    'correct_answer': 'Gaining access to specialized capabilities',
+    'explanation': (
+        "Outsourcing allows firms to leverage external expertise in non-core functions and improve flexibility."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+w1sainspired_q21 = {
+    'question': (
+        "Which of the following is a common driver behind offshoring decisions?"
+    ),
+    'options_list': [
+        'Increasing employee benefits',
+        'Avoiding technology adoption',
+        'Reducing exposure to currency markets',
+        'Lower input and labor costs'
+    ],
+    'correct_answer': 'Lower input and labor costs',
+    'explanation': (
+        "A primary motivation for offshoring is to access cheaper labor and raw materials abroad, thereby reducing overall costs."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+w1sainspired_q22 = {
+    'question': (
+        "What additional cost may offset the labor savings from offshoring manufacturing?"
+    ),
+    'options_list': [
+        'Lower inventory holding costs',
+        'Tariffs and extended lead times',
+        'Increased local customer loyalty',
+        'Lower design complexity'
+    ],
+    'correct_answer': 'Tariffs and extended lead times',
+    'explanation': (
+        "Offshoring can involve hidden costs such as tariffs, shipping, and longer lead times, which may erode the apparent cost savings."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+w1sainspired_q23 = {
+    'question': (
+        "What is one strategic risk of offshoring a critical process?"
+    ),
+    'options_list': [
+        'Stronger customer intimacy',
+        'Losing control over proprietary knowledge',
+        'Enhanced IP protection',
+        'Reduced capital expenditure'
+    ],
+    'correct_answer': 'Losing control over proprietary knowledge',
+    'explanation': (
+        "Transferring critical processes offshore increases the risk of losing intellectual property and strategic control."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+w1sainspired_q24 = {
+    'question': (
+        "Which of the following does NOT align with the principles of a pull-based production system?"
+    ),
+    'options_list': [
+        'Built-in buffers to absorb variability',
+        'Production triggered by downstream demand',
+        'Emphasis on real-time responsiveness',
+        'Minimal work-in-progress inventory'
+    ],
+    'correct_answer': 'Built-in buffers to absorb variability',
+    'explanation': (
+        "Pull systems are demand-driven with minimal buffers and inventory. Buffers are more characteristic of push systems that anticipate demand."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+operations_w1_q17 = {
+    'question': (
+        "Which features typically indicate a need for a Responsive Supply Chain?\nSelect all that apply."
+    ),
+    'options_list': [
+        'Rapid shifts in customer preferences',
+        'Emphasis on cost efficiency',
+        'Short product lifecycle',
+        'Minimal product customization',
+        'High forecast uncertainty'
+    ],
+    'correct_answer': [
+        'Rapid shifts in customer preferences',
+        'Short product lifecycle',
+        'High forecast uncertainty'
+    ],
+    'explanation': (
+        "Responsive supply chains are suited for volatile demand environments where speed and flexibility are prioritized over efficiency."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+operations_w1_q18 = {
+    'question': (
+        "A company producing standardized, low-margin goods at high volume should prioritize which supply chain approach?"
+    ),
+    'options_list': [
+        'Responsive',
+        'Lean',
+        'Efficient',
+        'Agile'
+    ],
+    'correct_answer': 'Efficient',
+    'explanation': (
+        "Efficient supply chains minimize cost per unit, making them ideal for high-volume, commoditized products."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+operations_w1_q19 = {
+    'question': (
+        "Which conditions typically justify decentralizing a supply chain network?\nSelect all that apply."
+    ),
+    'options_list': [
+        'Long lead times are acceptable',
+        'Multiple regions require tailored delivery',
+        'Low transportation cost per unit',
+        'Products are time-sensitive',
+        'Demand is erratic and localized'
+    ],
+    'correct_answer': [
+        'Multiple regions require tailored delivery',
+        'Products are time-sensitive',
+        'Demand is erratic and localized'
+    ],
+    'explanation': (
+        "Decentralized networks improve responsiveness and reduce delivery lag for geographically dispersed or volatile markets."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+operations_w1_q20 = {
+    'question': (
+        "Which of the following is an advantage of centralizing sourcing and manufacturing?"
+    ),
+    'options_list': [
+        'Improved ability to localize product features',
+        'Increased inventory redundancy',
+        'Simplified control and coordination',
+        'Higher responsiveness to all regional demands'
+    ],
+    'correct_answer': 'Simplified control and coordination',
+    'explanation': (
+        "Centralized setups benefit from operational simplicity, lower overhead, and easier standardization."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+operations_w1_q21 = {
+    'question': (
+        "A company offshores part of its production. Which risks should it evaluate?\nSelect all that apply."
+    ),
+    'options_list': [
+        'Intellectual property leakage',
+        'Increased wage inflation at home',
+        'Supply chain disruption due to distance',
+        'Exchange rate exposure',
+        'Higher domestic labor union costs'
+    ],
+    'correct_answer': [
+        'Intellectual property leakage',
+        'Supply chain disruption due to distance',
+        'Exchange rate exposure'
+    ],
+    'explanation': (
+        "Offshoring increases exposure to IP theft, logistical delays, and currency fluctuations—not local labor pressures."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+operations_w1_q22 = {
+    'question': (
+        "What is a strategic reason for outsourcing a business function?"
+    ),
+    'options_list': [
+        'To increase internal fixed costs',
+        'To remove quality assurance steps',
+        'To enhance internal focus on core activities',
+        'To reduce customer feedback loops'
+    ],
+    'correct_answer': 'To enhance internal focus on core activities',
+    'explanation': (
+        "Outsourcing enables firms to focus on high-value functions while delegating non-core work."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+operations_w1_q23 = {
+    'question': (
+        "Which cost element is often underestimated when offshoring manufacturing to a distant location?"
+    ),
+    'options_list': [
+        'Local licensing fees',
+        'Raw material unit price',
+        'Cost of goods sold',
+        'Inventory in transit holding cost'
+    ],
+    'correct_answer': 'Inventory in transit holding cost',
+    'explanation': (
+        "Slow shipping leads to higher pipeline inventory, tying up capital and increasing holding costs."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
+operations_w1_q24 = {
+    'question': (
+        "Which pair best matches supply chain strategy with product type?"
+    ),
+    'options_list': [
+        'Functional product – Agile supply chain',
+        'Innovative product – Efficient supply chain',
+        'Innovative product – Responsive supply chain',
+        'Functional product – Decentralized supply chain'
+    ],
+    'correct_answer': 'Innovative product – Responsive supply chain',
+    'explanation': (
+        "Innovative products benefit from responsiveness due to their uncertain, fast-changing demand."
+    ),
+    'chapter_information': 'Operations Module W1 - SA INSPIRED - GPT GENERATED'
+}
+
 
 
 KC_MPC_QUESTIONS = []
