@@ -49,7 +49,7 @@ class Token:
     def __init__(self, STATE="1"):
         self.STATE = STATE
         self.mpc_questions = []
-        self.num_questions = 66
+        self.num_questions = 15
         self.chapters_to_review = []
         # print('-----------------------------')
         # print('-----', sum([len(questions_dictionary[question_list]) for question_list in REVIEW_SETS["FINANCIAL ACCOUNTING"]]))

@@ -647,27 +647,27 @@ operaftions_w1_q06 = {
     'chapter_information': 'Operations Module W1 - Self Assessment'
 }
 
-operatiofns_w1_q07 = {
-    'question': (
-        "Which of the following are **pitfalls to Offshoring**?\n"
-        "Select all that apply."
-    ),
-    'options_list': [
-        'You may lose the ability to do the task offshore',
-        'Exchange rates can be volatile',
-        'You give up some control over quality and cost',
-        'You may not get a very detailed understanding on your overall product cost'
-    ],
-    'correct_answer': [
-        'Exchange rates can be volatile',
-        'You give up some control over quality and cost',
-        'You may not get a very detailed understanding on your overall product cost'
-    ],
-    'explanation': (
-        "**Risks** of offshoring include **currency fluctuations**, **loss of control**, and **limited visibility** into true total cost."
-    ),
-    'chapter_information': 'Operations Module W1 - Self Assessment'
-}
+# operatiofns_w1_q07 = {
+#     'question': (
+#         "Which of the following are **pitfalls to Offshoring**?\n"
+#         "Select all that apply."
+#     ),
+#     'options_list': [
+#         'You may lose the ability to do the task offshore',
+#         'Exchange rates can be volatile',
+#         'You give up some control over quality and cost',
+#         'You may not get a very detailed understanding on your overall product cost'
+#     ],
+#     'correct_answer': [
+#         'Exchange rates can be volatile',
+#         'You give up some control over quality and cost',
+#         'You may not get a very detailed understanding on your overall product cost'
+#     ],
+#     'explanation': (
+#         "**Risks** of offshoring include **currency fluctuations**, **loss of control**, and **limited visibility** into true total cost."
+#     ),
+#     'chapter_information': 'Operations Module W1 - Self Assessment'
+# }
 
 operatfiogfns_w1_q08 = {
     'question': (
