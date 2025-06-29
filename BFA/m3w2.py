@@ -989,7 +989,7 @@ operations_w2_tf_q14 = {
     'options_list': ["True", "False"],
     'correct_answer': "False",
     'explanation': "Standard deviation scales with the square root of lead time: $\\sigma_L = \\sigma_d \\cdot \\sqrt{L}$.",
-    'chapter_information': 'Operations Module W2 - SA  inspired - GPT GENERATED'
+    'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED'
 }
 
 
