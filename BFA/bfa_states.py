@@ -10,6 +10,7 @@ from .m2w3 import BFA_M2W3_MPC
 
 from .m3w1 import BFA_M3W1_MPC
 from .m3w2 import BFA_M3W2_MPC
+from .m3w3 import BFA_M3W3_MPC
 from .m2_extra import BFA_M2_EXTRA_MPC
 
 
@@ -26,6 +27,7 @@ questions_dictionary = {
     'M2W3': BFA_M2W3_MPC, 
     'M3W1': BFA_M3W1_MPC, 
      'M3W2': BFA_M3W2_MPC, 
+     'M3W3': BFA_M3W3_MPC, 
 }
 
 # Updated Review Sets
@@ -43,6 +45,7 @@ REVIEW_SETS = {
       "NON GT FINANCE": ['M2_EXTRA'],
       'M3W1': BFA_M3W1_MPC, 
        'M3W2': BFA_M3W2_MPC, 
+       'M3W3': BFA_M3W3_MPC, 
 }
 
 
