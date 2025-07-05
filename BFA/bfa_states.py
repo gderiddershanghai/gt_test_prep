@@ -60,7 +60,7 @@ class Token:
         # print('-----------------------------')
         # print('-----', sum([len(questions_dictionary[question_list]) for question_list in REVIEW_SETS["FINANCIAL ACCOUNTING"]]))
         # print('-----------------------------')
-        print('-----',len(questions_dictionary['M2W1'])) 
+        # print('-----',len(questions_dictionary['M2W1'])) 
         # print('---self.mpc_questions--',len(self.mpc_questions) )
             #   sum([len(questions_dictionary[question_list]) for question_list in REVIEW_SETS["FINANCIAL ACCOUNTING"]]))
 
