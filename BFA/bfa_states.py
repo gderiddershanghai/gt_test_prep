@@ -26,8 +26,8 @@ questions_dictionary = {
     'M2W2': BFA_M2W2_MPC, 
     'M2W3': BFA_M2W3_MPC, 
     'M3W1': BFA_M3W1_MPC, 
-     'M3W2': BFA_M3W2_MPC, 
-     'M3W3': BFA_M3W3_MPC, 
+    'M3W2': BFA_M3W2_MPC, 
+    'M3W3': BFA_M3W3_MPC, 
 }
 
 # Updated Review Sets
@@ -41,11 +41,11 @@ REVIEW_SETS = {
     'M2W1': BFA_M2W1_MPC, 
     'M2W2': BFA_M2W2_MPC, 
     'M2W3': BFA_M2W3_MPC, 
-     "FINANCE": ['M2W1', 'M2W2', 'M2W3'],
-      "NON GT FINANCE": ['M2_EXTRA'],
-      'M3W1': BFA_M3W1_MPC, 
-       'M3W2': BFA_M3W2_MPC, 
-       'M3W3': BFA_M3W3_MPC, 
+    "FINANCE": ['M2W1', 'M2W2', 'M2W3'],
+    "NON GT FINANCE": ['M2_EXTRA'],
+    'M3W1': BFA_M3W1_MPC, 
+    'M3W2': BFA_M3W2_MPC, 
+    'M3W3': BFA_M3W3_MPC, 
 }
 
 
