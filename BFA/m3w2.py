@@ -727,6 +727,7 @@ operations_w2_sa_q27 = {
 
 operations_w2_sa_q28 = {
     'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
+    'options_list': ["True", "False"],
     'question': '(True/False)\nOne risk of a push system is overproduction, which leads to increased holding costs and potential waste.',
     'correct_answer': 'True',
     'explanation': 'Push systems rely on forecasts rather than actual demand, which increases the risk of excess inventory.'
@@ -761,6 +762,7 @@ operations_w2_sa_q30 = {
 operations_w2_sa_q31 = {
     'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
     'question': '(True/False)\nIn a Lean environment, idle workers are considered more acceptable than excess inventory.',
+    'options_list': ["True", "False"],
     'correct_answer': 'True',
     'explanation': 'Lean prioritizes flow and minimizing inventory over keeping workers constantly busy.'
 }
@@ -788,6 +790,7 @@ inventory_eoq_rop_q2 = {
     'question': (
         "(True/False)\n\nIncreasing the holding cost will increase the EOQ."
     ),
+    'options_list': ["True", "False"],
     'correct_answer': 'False',
     'explanation': (
         "EOQ = $\\sqrt{\\frac{2DS}{H}}$. As $H$ increases, the denominator increases, so EOQ decreases."
