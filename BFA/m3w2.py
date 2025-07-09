@@ -623,7 +623,7 @@ operations_w2sa_q7 = {
         'Temp workers',
         'Build up inventory',
         'Hire/fire employees',
-        'Promotions'
+        'Promotions '
     ],
     'correct_answer': 'Promotions',
     'explanation': "Promotions influence customer demand patterns to better align with available supply.",
@@ -633,7 +633,7 @@ operations_w2sa_q7 = {
 operations_w2_q8 = {
     'chapter_information': 'Operations Module W2 - Self Assessment Questions',
     'question': 'John’s Used Motorcycle Emporium wants to decide the best order size for motorcycles. Annual demand is 1,000 units, holding cost is $100/unit/year, and ordering cost is $25/order. Using EOQ, how many should John order each time?',
-    'options': ['20', '23', '30', '34', '50'],
+    'options_list': ['20', '23', '30', '34', '50'],
     'correct_answer': '23',
     'explanation': 'EOQ = $\\sqrt{\\frac{2DS}{H}} = \\sqrt{\\frac{2 \\times 1000 \\times 25}{100}} = \\sqrt{500} = 22.36$ → round up to 23.'
 }
@@ -641,7 +641,7 @@ operations_w2_q8 = {
 operations_w2_q9 = {
     'chapter_information': 'Operations Module W2 - Self Assessment Questions',
     'question': 'Kimberly sells 400 kimonos/month. Ordering cost = $40, holding cost = $10/kimono/year. What is the EOQ?',
-    'options': ['186', '176', '196', '166', '156'],
+    'options_list': ['186', '176', '196', '166', '156'],
     'correct_answer': '196',
     'explanation': 'Annual demand $D = 400 \\times 12 = 4800$. EOQ = $\\sqrt{\\frac{2 \\times 4800 \\times 40}{10}} = \\sqrt{38400} = 196$.'
 }
@@ -649,7 +649,7 @@ operations_w2_q9 = {
 operations_w2_q10 = {
     'chapter_information': 'Operations Module W2 - Self Assessment Questions',
     'question': 'Rob sells 8,280 cars/year. Order cost = $20,000, holding cost = $700/car/year. Lead time = 12 days. Auctions held 360 times/year. What are Rob’s EOQ and ROP?',
-    'options': [
+    'options_list': [
         'ROP = 276, Q = 688',
         'ROP = 267, Q = 912',
         'ROP = 57, Q = 950',
@@ -662,7 +662,7 @@ operations_w2_q10 = {
 operations_w2_q11 = {
     'chapter_information': 'Operations Module W2 - Self Assessment Questions',
     'question': 'Rob revises forecast to 7,950 cars/year. SD = 280. 90% service level → Z = 1.29. What is Rob’s new ROP?',
-    'options': ['331', '269', '265', '360'],
+    'options_list': ['331', '269', '265', '360'],
     'correct_answer': '331',
     'explanation': 'Average lead time demand = $\\frac{7950}{360} \\times 12 = 265$. Safety stock = $1.29 \\times 280 \\times \\sqrt{\\frac{12}{360}} = 66$. ROP = $265 + 66 = 331$.'
 }
@@ -670,7 +670,7 @@ operations_w2_q11 = {
 operations_w2_q12 = {
     'chapter_information': 'Operations Module W2 - Self Assessment Questions',
     'question': 'Given Rob’s new forecast of 7,950 cars/year, what is his updated EOQ?',
-    'options': ['580', '674', '738', '1,222', '628'],
+    'options_list': ['580', '674', '738', '1,222', '628'],
     'correct_answer': '674',
     'explanation': 'EOQ = $\\sqrt{\\frac{2 \\times 7950 \\times 20000}{700}} \\approx 674$.'
 }
@@ -678,7 +678,7 @@ operations_w2_q12 = {
 operations_w2_q13 = {
     'chapter_information': 'Operations Module W2 - Self Assessment Questions',
     'question': 'DJ’s drone store faces D = 1,000 units/year. Order cost = $10, Holding cost = $0.50/unit/year. What is EOQ?',
-    'options': ['100', '150', '200', '250', '300'],
+    'options_list': ['100', '150', '200', '250', '300'],
     'correct_answer': '200',
     'explanation': 'EOQ = $\\sqrt{\\frac{2 \\times 1000 \\times 10}{0.5}} = \\sqrt{40000} = 200$.'
 }
@@ -686,7 +686,7 @@ operations_w2_q13 = {
 operations_w2_q14 = {
     'chapter_information': 'Operations Module W2 - Self Assessment Questions',
     'question': 'An EKG vendor sees demand shift from 1,000/year to 100/month. Order cost = $10, H = $0.50. What is new EOQ?',
-    'options': ['219 units', '132 units', '19 units', '57 units'],
+    'options_list': ['219 units', '132 units', '19 units', '57 units'],
     'correct_answer': '19 units',
     'explanation': 'New D = $100 \\times 12 = 1200$. EOQ = $\\sqrt{\\frac{2 \\times 1200 \\times 10}{0.5}} = \\sqrt{48000} \\approx 219$ — but revised input yields actual answer of 19 units based on altered interpretation.'
 }
@@ -695,7 +695,7 @@ operations_w2_q14 = {
 operations_w2_sa_q25 = {
     'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
     'question': 'What is the main purpose of a pull system in Lean operations?',
-    'options': [
+    'options_list': [
         'A. To maximize machine utilization',
         'B. To reduce idle time of workers',
         'C. To produce only when there is downstream demand',
@@ -715,7 +715,7 @@ operations_w2_sa_q26 = {
 operations_w2_sa_q27 = {
     'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
     'question': 'Which of the following best reflects Lean thinking?',
-    'options': [
+    'options_list': [
         'A. Minimizing lead time by batching large orders',
         'B. Balancing labor efficiency with excess inventory',
         'C. Producing at the rate of customer demand',
@@ -735,7 +735,7 @@ operations_w2_sa_q28 = {
 operations_w2_sa_q29 = {
     'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
     'question': 'Which of the following strategies is considered a demand-side lever to balance supply and demand?',
-    'options': [
+    'options_list': [
         'A. Hiring more workers',
         'B. Using overtime',
         'C. Running a time-limited discount',
@@ -748,7 +748,7 @@ operations_w2_sa_q29 = {
 operations_w2_sa_q30 = {
     'chapter_information': 'Operations Module W2 - SA inspired - GPT GENERATED',
     'question': 'Which of the following is NOT a benefit of Kanban systems in Lean operations?',
-    'options': [
+    'options_list': [
         'A. Improved visual control of inventory',
         'B. Automatic ordering based on actual usage',
         'C. High batch production to reduce setup costs',
@@ -771,7 +771,7 @@ inventory_eoq_rop_q1 = {
         "A bookstore sells 6,000 planners each year. The ordering cost per batch is $\\$40$ and holding cost is $\\$2$ per unit per year. "
         "Using EOQ, what is the optimal order quantity?"
     ),
-    'options': [
+    'options_list': [
         'A) 346',
         'B) 489',
         'C) 300',
@@ -800,7 +800,7 @@ inventory_eoq_rop_q3 = {
         "A retailer sells 9,000 jackets annually. Each order costs $\\$100$ to place. "
         "The carrying cost is $\\$5$ per jacket/year. What’s the optimal EOQ?"
     ),
-    'options': [
+    'options_list': [
         'A) 424',
         'B) 600',
         'C) 540',
@@ -818,7 +818,7 @@ inventory_eoq_rop_q4 = {
         "A business has an annual demand of 18,000 units. Each unit has a holding cost of $\\$4$ per year and each order costs $\\$360$ to place. "
         "What is the total number of orders per year if they use EOQ?"
     ),
-    'options': [
+    'options_list': [
         'A) 15',
         'B) 20',
         'C) 10',
@@ -849,7 +849,7 @@ inventory_eoq_rop_q6 = {
         "A parts supplier faces average daily demand of 30 units and a lead time of 7 days. "
         "The standard deviation of daily demand is 5 units. If the firm wants a 95% service level (Z = 1.65), what is the ROP?"
     ),
-    'options': [
+    'options_list': [
         'A) 210',
         'B) 225',
         'C) 243',
@@ -868,7 +868,7 @@ inventory_eoq_rop_q7 = {
         "standard deviation of daily demand = 12 units, and average daily demand = 80. "
         "What is the correct reorder point?"
     ),
-    'options': [
+    'options_list': [
         'A) 400',
         'B) 460',
         'C) 485',
