@@ -28,6 +28,7 @@ questions_dictionary = {
     'M3W1': BFA_M3W1_MPC, 
     'M3W2': BFA_M3W2_MPC, 
     'M3W3': BFA_M3W3_MPC, 
+    "OPERATIONS": ['M3W1', 'M3W2', 'M3W3'],
 }
 
 # Updated Review Sets
@@ -46,6 +47,7 @@ REVIEW_SETS = {
     'M3W1': BFA_M3W1_MPC, 
     'M3W2': BFA_M3W2_MPC, 
     'M3W3': BFA_M3W3_MPC, 
+    "OPERATIONS": ['M3W1', 'M3W2', 'M3W3'],
 }
 
 

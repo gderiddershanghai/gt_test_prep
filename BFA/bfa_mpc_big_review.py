@@ -28,6 +28,7 @@ def big_review():
         "Financial Accounting Exam": "FINANCIAL ACCOUNTING",
         "Finance Exam": "FINANCE",
         "Non GT Finance Content": "NON GT FINANCE",
+        "Operations (Supply Chain) Exam": "OPERATIONS",
 
     }
 
