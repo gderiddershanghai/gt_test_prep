@@ -13,6 +13,10 @@ from .m3w2 import BFA_M3W2_MPC
 from .m3w3 import BFA_M3W3_MPC
 from .m2_extra import BFA_M2_EXTRA_MPC
 
+from .m4w1 import BFA_M4W1_MPC
+from .m4w2 import BFA_M4W2_MPC
+from .m4w3 import BFA_M4W3_MPC
+
 
 # Questions Dictionary
 questions_dictionary = {
@@ -28,6 +32,9 @@ questions_dictionary = {
     'M3W1': BFA_M3W1_MPC, 
     'M3W2': BFA_M3W2_MPC, 
     'M3W3': BFA_M3W3_MPC, 
+    'M4W1': BFA_M4W1_MPC, 
+    'M4W2': BFA_M4W2_MPC, 
+    'M4W3': BFA_M4W3_MPC, 
     "OPERATIONS": ['M3W1', 'M3W2', 'M3W3'],
 }
 
@@ -48,6 +55,9 @@ REVIEW_SETS = {
     'M3W2': BFA_M3W2_MPC, 
     'M3W3': BFA_M3W3_MPC, 
     "OPERATIONS": ['M3W1', 'M3W2', 'M3W3'],
+    'M4W1': BFA_M4W1_MPC, 
+    'M4W2': BFA_M4W2_MPC, 
+    'M4W3': BFA_M4W3_MPC, 
 }
 
 
