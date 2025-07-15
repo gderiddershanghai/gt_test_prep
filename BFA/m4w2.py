@@ -521,6 +521,85 @@ marketing_w2_sa_q420 = {
     'explanation': 'Publicity is unpaid, earned media coverage used to promote products or ideas.',
     'chapter_information': 'Marketing Module W2 - SA'
 }
+marketing_w2_sa_gpt_q421 = {
+    'question': 'In which product life-cycle stage do industry profits typically reach their highest point before competitive pressures drive them down?',
+    'options': ['Market introduction', 'Market growth', 'Market maturity', 'Sales decline'],
+    'correct_answer': 'Market growth',
+    'explanation': 'Profits peak late in the growth stage as sales climb rapidly; they erode later as rivals intensify price and promotion competition.',
+    'chapter_information': 'Marketing Module W2 - SA INSPIRED BUT GPT GENERATED'
+}
+
+marketing_w2_sa_gpt_q422 = {
+    'question': 'During the idea evaluation stage of new-product development, which research technique is most often used to gauge customer fit before prototypes are built?',
+    'options': ['Concept testing surveys', 'Test marketing in select cities', 'Beta-site product trials', 'Focused JIT delivery studies'],
+    'correct_answer': 'Concept testing surveys',
+    'explanation': 'Concept testing uses descriptions or visuals to elicit customer reactions early, avoiding costly prototype development.',
+    'chapter_information': 'Marketing Module W2 - SA INSPIRED BUT GPT GENERATED'
+}
+
+marketing_w2_sa_gpt_q423 = {
+    'question': 'Selective exposure in consumer perception refers to a tendency to:',
+    'options': ['Remember only information that agrees with attitudes', 'Screen out messages that conflict with existing beliefs', 'Seek and notice only information of personal interest', 'Attribute product qualities to cultural norms'],
+    'correct_answer': 'Seek and notice only information of personal interest',
+    'explanation': 'Consumers voluntarily expose themselves to messages they find relevant, ignoring the rest.',
+    'chapter_information': 'Marketing Module W2 - SA INSPIRED BUT GPT GENERATED'
+}
+
+marketing_w2_sa_gpt_q424 = {
+    'question': 'Within a buying center, the individual who drafts technical specifications and evaluates alternatives on performance criteria is typically called the:',
+    'options': ['Buyer', 'Influencer', 'Gatekeeper', 'User'],
+    'correct_answer': 'Influencer',
+    'explanation': 'Influencers—often engineers or specialists—shape requirements by providing technical knowledge.',
+    'chapter_information': 'Marketing Module W2 - SA INSPIRED BUT GPT GENERATED'
+}
+
+marketing_w2_sa_gpt_q425 = {
+    'question': 'Toothpaste brands that customers view as nearly identical—leading them to choose the lowest-priced option—are classified as:',
+    'options': ['Specialty products', 'Heterogeneous shopping products', 'Homogeneous shopping products', 'Convenience staples'],
+    'correct_answer': 'Homogeneous shopping products',
+    'explanation': 'Homogeneous shopping products compete mainly on price because consumers perceive little meaningful difference.',
+    'chapter_information': 'Marketing Module W2 - SA INSPIRED BUT GPT GENERATED'
+}
+
+marketing_w2_sa_gpt_q426 = {
+    'question': 'Providing 24/7 live technical support differentiates a software firm primarily through:',
+    'options': ['Product design innovation', 'User experience & service quality', 'Cost leadership', 'Social-cause branding'],
+    'correct_answer': 'User experience & service quality',
+    'explanation': 'Around-the-clock assistance enhances the customer’s experience and perceived service quality.',
+    'chapter_information': 'Marketing Module W2 - SA INSPIRED BUT GPT GENERATED'
+}
+
+marketing_w2_sa_gpt_q427 = {
+    'question': 'A company advertises its gadget as “new” ten months after launch. According to FTC guidelines, this claim is:',
+    'options': ['Acceptable if at least one feature changed', 'Acceptable only with a trademark symbol', 'Potentially deceptive because “new” may be used only for six months', 'Always acceptable for durable goods'],
+    'correct_answer': 'Potentially deceptive because “new” may be used only for six months',
+    'explanation': 'The FTC limits “new” claims to six months after a functionally significant introduction.',
+    'chapter_information': 'Marketing Module W2 - SA INSPIRED BUT GPT GENERATED'
+}
+
+marketing_w2_sa_gpt_q428 = {
+    'question': 'During SWOT screening of a product idea, inadequate manufacturing capacity is classified as a(n):',
+    'options': ['External opportunity', 'Internal strength', 'Internal weakness', 'External threat'],
+    'correct_answer': 'Internal weakness',
+    'explanation': 'Capacity limits are an internal condition that may hinder successful launch, thus a weakness.',
+    'chapter_information': 'Marketing Module W2 - SA INSPIRED BUT GPT GENERATED'
+}
+
+marketing_w2_sa_gpt_q429 = {
+    'question': 'Adding a sugar-free version to an existing soft-drink line aimed at current markets exemplifies which Ansoff growth strategy?',
+    'options': ['Market penetration', 'Market development', 'Product development', 'Diversification'],
+    'correct_answer': 'Product development',
+    'explanation': 'The firm offers a new product variant to its existing customer base.',
+    'chapter_information': 'Marketing Module W2 - SA INSPIRED BUT GPT GENERATED'
+}
+
+marketing_w2_sa_gpt_q430 = {
+    'question': 'When a product enters maturity and price competition intensifies, a common strategic response is to:',
+    'options': ['Slash distribution channels to cut costs', 'Shift promotion from persuasion to pure information', 'Enhance differentiation through added services or repositioning', 'Halt advertising to preserve profit margins'],
+    'correct_answer': 'Enhance differentiation through added services or repositioning',
+    'explanation': 'Differentiation or repositioning can sustain preference and margins when basic features become commodities.',
+    'chapter_information': 'Marketing Module W2 - SA INSPIRED BUT GPT GENERATED'
+}
 
 
 
