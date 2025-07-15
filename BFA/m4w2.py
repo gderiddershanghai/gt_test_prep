@@ -370,6 +370,157 @@ marketing_w3_q420 = {
     'chapter_information': 'Marketing Module W3 - GPT generated'
 }
 
+marketing_w2_sa_q402 = {
+    'question': 'The new product development process is an organized approach for bringing new products to market and consists of 5 stages. Place the 5 stages in order:',
+    'options': ['Idea Generation', 'Screening', 'Idea Evaluation', 'Development', 'Commercialization'],
+    'correct_answer': ['Idea Generation', 'Screening', 'Idea Evaluation', 'Development', 'Commercialization'],
+    'explanation': 'This sequence reflects the structured process for evaluating, developing, and launching new products.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q403 = {
+    'question': 'Match the stage of the adoption process with the correct order:',
+    'options': ['Awareness', 'Interest', 'Evaluation', 'Trial', 'Decision', 'Confirmation'],
+    'correct_answer': ['Awareness', 'Interest', 'Evaluation', 'Trial', 'Decision', 'Confirmation'],
+    'explanation': 'The adoption process describes the consumer\'s mental and behavioral journey from becoming aware to adopting a product.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q404 = {
+    'question': 'Which one of these is NOT an issue concerning Product Life Cycle Length?',
+    'options': ['Greater Product Complexity', 'Product Life Cycles are Getting Shorter', 'Fashion and Fads', 'First Mover Advantage'],
+    'correct_answer': 'Greater Product Complexity',
+    'explanation': 'Product complexity affects development time, but it’s not a key issue in PLC length compared to rapid innovation, fads, and timing advantages.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q405 = {
+    'question': 'Utilizing the marketing mix in a distinct way such that customers see it as different from the competition is known as:',
+    'options': ['Segmenting', 'Positioning', 'Differentiation', 'Aligning', 'Targeting'],
+    'correct_answer': 'Differentiation',
+    'explanation': 'Differentiation focuses on making an offering stand out through unique value in the marketing mix.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q406 = {
+    'question': 'Which of the following does not represent a differentiation strategy?',
+    'options': ['Having the lowest price', 'Being perceived as an innovator', 'Being the first to enter a market', 'Owning a product attribute in the mind of the customer', 'Offering an assortment of commodity/me-too products'],
+    'correct_answer': 'Offering an assortment of commodity/me-too products',
+    'explanation': 'Me-too products lack uniqueness and fail to differentiate meaningfully.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q407 = {
+    'question': 'Tension caused by uncertainty about the rightness of a decision is known as:',
+    'options': ['Interest', 'Consideration', 'Evaluation', 'Confirmation', 'Dissonance'],
+    'correct_answer': 'Dissonance',
+    'explanation': 'Post-purchase dissonance reflects buyer regret or doubt.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q408 = {
+    'question': 'When a consumer tends to resort to habit when solving a buying problem and making a purchase decision, this is known as:',
+    'options': ['Extensive solving behavior', 'Irrational behavior', 'Limited solving behavior', 'Routinized response behavior'],
+    'correct_answer': 'Routinized response behavior',
+    'explanation': 'Routinized responses are habitual and require minimal involvement.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q409 = {
+    'question': 'Stimuli created by a marketer in the environment that trigger a drive or response are:',
+    'options': ['Thoughts', 'Interests', 'Drives', 'Cues'],
+    'correct_answer': 'Cues',
+    'explanation': 'Cues are external signals marketers use to prompt consumer behavior.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q410 = {
+    'question': 'Customers remembering messages that are consistent with their beliefs and attitudes, but not remembering those messages that conflict, is known as:',
+    'options': ['Selecting perception', 'Selective exposure', 'Selective bias', 'Selective retention'],
+    'correct_answer': 'Selective retention',
+    'explanation': 'Consumers retain messages aligning with their existing views.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q411 = {
+    'question': 'Sarah is considered part of an active, outdoor-loving, customer segment that is into sports, music, and fashion. This relates to:',
+    'options': ['Demographics', 'Buying Behavior', 'Product Benefits', 'Socio-economic factors', 'Psychographics'],
+    'correct_answer': 'Psychographics',
+    'explanation': 'Psychographics segment markets by activities, interests, and opinions (AIOs).',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q412 = {
+    'question': 'In marketing to businesses and organizations, several people are usually involved in the purchase decision. This collection of roles is referred to as the:',
+    'options': ['Gatekeepers', 'Users', 'Influencers', 'Buying Center'],
+    'correct_answer': 'Buying Center',
+    'explanation': 'The buying center includes all stakeholders involved in a purchase decision.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q413 = {
+    'question': 'Sweets Galore used a detailed purchase process for truffles and molds. This is an example of a:',
+    'options': ['Straight buy', 'Modified rebuy', 'Straight rebuy', 'Simplified rebuy', 'New-task buy'],
+    'correct_answer': 'New-task buy',
+    'explanation': 'New-task buying involves high involvement and detailed evaluation for first-time purchases.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q414 = {
+    'question': 'What term is used to describe when a customer purchases a product with no planning or forethought?',
+    'options': ['Spontaneous buying', 'Bargain buying', 'Irrational buying', 'Unplanned buying', 'Impulse buying'],
+    'correct_answer': 'Impulse buying',
+    'explanation': 'Impulse buying is driven by sudden need and occurs without planning.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q415 = {
+    'question': '_____________ products are ones that the customer really wants because there are no acceptable substitutes.',
+    'options': ['Convenience', 'Emergency', 'Unsought', 'Shopping', 'Specialty'],
+    'correct_answer': 'Specialty',
+    'explanation': 'Specialty products involve strong brand preference and willingness to search.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q416 = {
+    'question': 'E-Z-Go promoted golf carts as transport in malls and factories. This is an example of:',
+    'options': ['Market penetration', 'Differentiation', 'Product development', 'Diversification', 'Market development'],
+    'correct_answer': 'Market development',
+    'explanation': 'Market development means selling current products to new user groups or markets.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q417 = {
+    'question': 'Measuring how many customers bought a product after receiving a promotional mailing is an example of:',
+    'options': ['A hypothesis', 'Cross-tabulation', 'Personal interviews', 'An experimental method', 'Quantitative research'],
+    'correct_answer': 'Quantitative research',
+    'explanation': 'Quantitative research involves collecting numerical data, such as purchase rates.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q418 = {
+    'question': 'Lipton encouraged tea over coffee during breaks. This is an example of:',
+    'options': ['Diversification', 'Product development', 'Mass marketing', 'Market development', 'Market penetration'],
+    'correct_answer': 'Market penetration',
+    'explanation': 'Market penetration focuses on getting current customers to use more of the same product.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q419 = {
+    'question': 'A family life cycle dimension is _____________ and a reliability preference is _____________.',
+    'options': ['Geographic; demographic', 'Geographic; behavioral', 'Demographic; geographic', 'Behavioral; demographic', 'Demographic; behavioral'],
+    'correct_answer': 'Demographic; behavioral',
+    'explanation': 'Demographics include age and family stage; behavioral includes benefits sought like reliability.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
+
+marketing_w2_sa_q420 = {
+    'question': '"Publicity" is best defined as:',
+    'options': ['Is generally less useful than advertising', 'Is any paid form of non-personal presentation', 'Is more expensive than all other methods', 'None of these alternatives', 'Is mass selling that avoids paying media costs'],
+    'correct_answer': 'Is mass selling that avoids paying media costs',
+    'explanation': 'Publicity is unpaid, earned media coverage used to promote products or ideas.',
+    'chapter_information': 'Marketing Module W2 - SA'
+}
 
 
 
