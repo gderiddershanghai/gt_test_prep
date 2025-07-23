@@ -51,25 +51,50 @@ def big_review():
 
         questions = st.session_state.questions
 
-        for i, q in enumerate(questions):
+        for i, q in enumerate(st.session_state.questions):
             st.markdown('-------------------------------')
-            st.markdown(f"{q['question']}")
-            options = q['options_list']
-            correct_answer = q['correct_answer']
-            explanation = q.get('explanation', " ")
-            question_key = f"question_{i}"
 
-            selected_answer = question_generator(q['question'], options, question_key)
+            # ---- Guard against malformed records ----
+            opts = q.get('options_list') or q.get('options')
+            if not opts:
+                st.error(f"Question {i} is missing an options list:\n{q}")
+                continue
+            correct = q.get('correct_answer')
+            if correct is None:
+                st.error(f"Question {i} is missing 'correct_answer':\n{q}")
+                continue
+            # -----------------------------------------
 
-            if st.button('Submit', key=f"submit_{i}") and selected_answer:
-                if selected_answer == correct_answer:
+            st.markdown(q['question'])
+            chosen = question_generator(q['question'], opts, f"question_{i}")
+
+            if st.button('Submit', key=f"submit_{i}"):
+                if chosen == correct:
                     st.success('Great work!')
-                    st.info(f'Explanation: \n\n{explanation}')
                 else:
-                    st.error(f"The correct answer was {correct_answer}")
-                    st.info(f'Explanation: \n\n{explanation}')
+                    st.error(f"The correct answer was {correct}")
+                st.info(f"Explanation:\n\n{q.get('explanation','')}")
                 if 'chapter_information' in q:
                     st.write(f"You can review {q['chapter_information']}")
+        # for i, q in enumerate(questions):
+        #     st.markdown('-------------------------------')
+        #     st.markdown(f"{q['question']}")
+        #     options = q['options_list']
+        #     correct_answer = q['correct_answer']
+        #     explanation = q.get('explanation', " ")
+        #     question_key = f"question_{i}"
+
+        #     selected_answer = question_generator(q['question'], options, question_key)
+
+        #     if st.button('Submit', key=f"submit_{i}") and selected_answer:
+        #         if selected_answer == correct_answer:
+        #             st.success('Great work!')
+        #             st.info(f'Explanation: \n\n{explanation}')
+        #         else:
+        #             st.error(f"The correct answer was {correct_answer}")
+        #             st.info(f'Explanation: \n\n{explanation}')
+        #         if 'chapter_information' in q:
+        #             st.write(f"You can review {q['chapter_information']}")
 
 if __name__ == "__main__":
     big_review()
