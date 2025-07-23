@@ -36,6 +36,9 @@ def review_questions():
         "Module 3 (Operations) - Week 1": 'M3W1',
         "Module 3 (Operations) - Week 2": 'M3W2',
         "Module 3 (Operations) - Week 3": 'M3W3',
+        "Module 4 (Marketing) - Week 1": 'M4W1',
+        "Module 4 (Marketing) - Week 2": 'M4W2',
+        "Module 4 (Marketing) - Week 3": 'M4W3',
 }
 
     # Module Selection

@@ -29,6 +29,7 @@ def big_review():
         "Finance Exam": "FINANCE",
         "Non GT Finance Content": "NON GT FINANCE",
         "Operations (Supply Chain) Exam": "OPERATIONS",
+         "Marketing Exam": "MARKETING",
 
     }
 
