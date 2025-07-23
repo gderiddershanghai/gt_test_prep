@@ -1,6 +1,6 @@
 marketing_w1_q1 = {
     'question': 'Which of the following best defines "marketing" as presented in the module?',
-    'options': [
+    'options_list': [
         'Selling products through advertising',
         'Promoting offerings via social media',
         'Creating and satisfying demand for a product or service',
@@ -13,7 +13,7 @@ marketing_w1_q1 = {
 
 marketing_w1_q2 = {
     'question': 'In Peter Drucker\'s view, what are the two primary functions of a business?',
-    'options': [
+    'options_list': [
         'Finance and marketing',
         'Marketing and innovation',
         'Sales and operations',
@@ -26,7 +26,7 @@ marketing_w1_q2 = {
 
 marketing_w1_q3 = {
     'question': 'What is the purpose of the 5 C’s framework in marketing strategy?',
-    'options': [
+    'options_list': [
         'Identify product pricing strategies',
         'Create marketing campaign schedules',
         'Guide comprehensive strategic analysis',
@@ -39,7 +39,7 @@ marketing_w1_q3 = {
 
 marketing_w1_q4 = {
     'question': 'Which of the following is NOT one of the universal marketing functions?',
-    'options': [
+    'options_list': [
         'Financing',
         'Innovating',
         'Storing',
@@ -52,7 +52,7 @@ marketing_w1_q4 = {
 
 marketing_w1_q5 = {
     'question': 'What does the “R” in RFM stand for?',
-    'options': [
+    'options_list': [
         'Revenue',
         'Recency',
         'Reach',
@@ -65,7 +65,7 @@ marketing_w1_q5 = {
 
 marketing_w1_q6 = {
     'question': 'In the customer marketing model, what stage follows “Interest and Engagement”?',
-    'options': [
+    'options_list': [
         'Retention',
         'Awareness',
         'Acquisition',
@@ -78,7 +78,7 @@ marketing_w1_q6 = {
 
 marketing_w1_q7 = {
     'question': 'In the 5 C’s, “Collaborators” refers to:',
-    'options': [
+    'options_list': [
         'Departmental cross-functional teams',
         'External partners who help deliver customer value',
         'Direct competitors in the same market',
@@ -91,7 +91,7 @@ marketing_w1_q7 = {
 
 marketing_w1_q8 = {
     'question': 'Customer personas are useful because they:',
-    'options': [
+    'options_list': [
         'Predict pricing behavior across geographies',
         'Represent fictional competitors',
         'Help tailor the marketing mix to target segments',
@@ -104,7 +104,7 @@ marketing_w1_q8 = {
 
 marketing_w1_q9 = {
     'question': 'What is the goal of creating “superior customer value” in a marketing strategy?',
-    'options': [
+    'options_list': [
         'Reduce inventory storage costs',
         'Maximize short-term revenue',
         'Attract and retain customers',
@@ -117,7 +117,7 @@ marketing_w1_q9 = {
 
 marketing_w1_q10 = {
     'question': 'Which of the following stages is part of the buyer journey?',
-    'options': [
+    'options_list': [
         'Consideration',
         'Loyalty',
         'Segmentation',
@@ -130,7 +130,7 @@ marketing_w1_q10 = {
 
 marketing_w1_q11 = {
     'question': 'Advertising and marketing are synonymous terms.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'Advertising is one component of marketing; marketing includes product, price, place, and promotion.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -138,7 +138,7 @@ marketing_w1_q11 = {
 
 marketing_w1_q12 = {
     'question': 'The customer should be at the center of all strategic marketing decisions.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Modern marketing is customer-centric, prioritizing customer needs and value.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -146,7 +146,7 @@ marketing_w1_q12 = {
 
 marketing_w1_q13 = {
     'question': 'The marketing mix consists of uncontrollable environmental factors.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'The marketing mix (4 Ps) includes variables the firm can control.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -154,7 +154,7 @@ marketing_w1_q13 = {
 
 marketing_w1_q14 = {
     'question': 'One key purpose of market information is to reduce uncertainty in decision-making.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Better data helps firms make more accurate and confident decisions.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -162,7 +162,7 @@ marketing_w1_q14 = {
 
 marketing_w1_q15 = {
     'question': 'A customer may not always consciously evaluate value before making a purchase.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Many purchase decisions are intuitive or emotional rather than analytical.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -170,7 +170,7 @@ marketing_w1_q15 = {
 
 marketing_w1_q16 = {
     'question': 'Customer retention is more important for durable goods than non-durable goods.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'Retention is more critical for non-durables due to frequent repurchase cycles.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -178,7 +178,7 @@ marketing_w1_q16 = {
 
 marketing_w1_q17 = {
     'question': 'Personas include behavioral and psychographic traits, as well as RFM data.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Effective personas combine quantitative and qualitative customer characteristics.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -186,7 +186,7 @@ marketing_w1_q17 = {
 
 marketing_w1_q18 = {
     'question': 'A company’s internal capabilities are evaluated under the “context” element of the 5 C’s.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'Company analysis captures internal capabilities; context refers to external environment.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -194,7 +194,7 @@ marketing_w1_q18 = {
 
 marketing_w1_q19 = {
     'question': 'Porter\'s Five Forces is a tool used for analyzing collaborators in the 5 C’s model.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'Porter’s Five Forces analyze competitive pressures, not partners or collaborators.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -202,7 +202,7 @@ marketing_w1_q19 = {
 
 marketing_w1_q20 = {
     'question': 'Product features are only useful in marketing if they translate into meaningful value for the customer.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Customers care about benefits, not technical specs—features must offer perceived value.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -211,7 +211,7 @@ marketing_w1_q20 = {
 
 marketing_w1_q50 = {
     'question': 'What distinguishes a marketing strategy from a marketing plan?',
-    'options': [
+    'options_list': [
         'The plan defines the target market and mix',
         'The strategy includes only advertising components',
         'The strategy includes budget and timeline',
@@ -224,7 +224,7 @@ marketing_w1_q50 = {
 
 marketing_w1_q51 = {
     'question': 'What is the main purpose of the marketing strategy planning process?',
-    'options': [
+    'options_list': [
         'To standardize pricing across regions',
         'To find opportunities and develop profitable strategies',
         'To reduce advertising costs',
@@ -237,7 +237,7 @@ marketing_w1_q51 = {
 
 marketing_w1_q52 = {
     'question': 'Which of the following best defines target marketing?',
-    'options': [
+    'options_list': [
         'Tailoring a marketing mix for a specific group of similar customers',
         'Avoiding market segmentation to reduce cost',
         'Developing one marketing mix for all markets',
@@ -250,7 +250,7 @@ marketing_w1_q52 = {
 
 marketing_w1_q53 = {
     'question': 'What is the primary advantage of a competitive advantage?',
-    'options': [
+    'options_list': [
         'Maximizes internal efficiency',
         'Customers perceive the firm\'s mix as superior',
         'Reduces need for innovation',
@@ -263,7 +263,7 @@ marketing_w1_q53 = {
 
 marketing_w1_q54 = {
     'question': 'Which example best illustrates a breakthrough opportunity?',
-    'options': [
+    'options_list': [
         'Launching a discounted version of a product',
         'Outsourcing customer service',
         'A hard-to-copy innovation with long-term profitability',
@@ -276,7 +276,7 @@ marketing_w1_q54 = {
 
 marketing_w1_q55 = {
     'question': 'What does the control phase of marketing management focus on?',
-    'options': [
+    'options_list': [
         'Evaluating performance and taking corrective action',
         'Hiring external consultants',
         'Designing product packaging',
@@ -289,7 +289,7 @@ marketing_w1_q55 = {
 
 marketing_w1_q56 = {
     'question': 'In the Old Spice example, who was identified as the actual buyer?',
-    'options': [
+    'options_list': [
         'Female household shoppers',
         'Influencers',
         'Male consumers',
@@ -302,7 +302,7 @@ marketing_w1_q56 = {
 
 marketing_w1_q57 = {
     'question': 'Which of the following describes market penetration?',
-    'options': [
+    'options_list': [
         'Offering current products to new market segments',
         'Increasing sales of existing products in existing markets',
         'Selling new products to new markets',
@@ -315,7 +315,7 @@ marketing_w1_q57 = {
 
 marketing_w1_q58 = {
     'question': 'What is the best definition of Customer Lifetime Value (LTV)?',
-    'options': [
+    'options_list': [
         'Revenue from a single purchase',
         'Profit margin per unit sold',
         'Total stream of purchases over the relationship duration',
@@ -328,7 +328,7 @@ marketing_w1_q58 = {
 
 marketing_w1_q59 = {
     'question': 'Why might a firm pursue international expansion?',
-    'options': [
+    'options_list': [
         'To eliminate the need for market segmentation',
         'To simplify regulatory obligations',
         'To avoid price-based competition',
@@ -341,7 +341,7 @@ marketing_w1_q59 = {
 
 marketing_w1_q60 = {
     'question': 'A marketing program consists of multiple marketing strategies.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'A program is a composite of coordinated strategies.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -349,7 +349,7 @@ marketing_w1_q60 = {
 
 marketing_w1_q61 = {
     'question': 'Implementation is the first step in the marketing management process.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'The process begins with planning, followed by implementation, then control.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -357,7 +357,7 @@ marketing_w1_q61 = {
 
 marketing_w1_q62 = {
     'question': 'Competitive advantage is measured from the company\'s perspective.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'It must be judged by the customer’s perception of superior value.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -365,7 +365,7 @@ marketing_w1_q62 = {
 
 marketing_w1_q63 = {
     'question': 'Target marketing assumes all customers are alike.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'It assumes customers differ and requires tailoring the mix accordingly.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -373,7 +373,7 @@ marketing_w1_q63 = {
 
 marketing_w1_q64 = {
     'question': 'Breakthrough opportunities should be difficult for competitors to copy.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Sustainability and defensibility are core attributes of breakthrough opportunities.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -381,7 +381,7 @@ marketing_w1_q64 = {
 
 marketing_w1_q65 = {
     'question': 'Mass marketing uses one undifferentiated mix for all potential customers.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'It treats the market as homogeneous, unlike segmentation-based strategies.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -389,7 +389,7 @@ marketing_w1_q65 = {
 
 marketing_w1_q66 = {
     'question': 'Starbucks gift cards are an example of product development strategy.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'Gift cards aim to increase usage of existing products—market penetration, not development.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -397,7 +397,7 @@ marketing_w1_q66 = {
 
 marketing_w1_q67 = {
     'question': 'The Dodge Caravan was developed based on customer behavior insights.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Chrysler designed minivans after observing consumer use patterns and accessibility needs.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -405,7 +405,7 @@ marketing_w1_q67 = {
 
 marketing_w1_q68 = {
     'question': 'Customer Lifetime Value includes future, not just past, transactions.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'LTV is a projection over the duration of a relationship.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -413,7 +413,7 @@ marketing_w1_q68 = {
 
 marketing_w1_q69 = {
     'question': 'Control mechanisms in a marketing plan help determine if adjustments are needed.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Control tracks performance vs. goals to enable timely corrective action.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -422,7 +422,7 @@ marketing_w1_q69 = {
 
 marketing_w1_q100 = {
     'question': 'What is the primary function of the Price component in the marketing mix?',
-    'options': [
+    'options_list': [
         'Increase product accessibility',
         'Manage distribution channels',
         'Generate revenue and influence customer perception',
@@ -435,7 +435,7 @@ marketing_w1_q100 = {
 
 marketing_w1_q101 = {
     'question': 'What is the main goal of the Place component of the 4 P’s?',
-    'options': [
+    'options_list': [
         'Communicate brand positioning',
         'Deliver the product to the customer at the right time and place',
         'Set price relative to competitors',
@@ -448,7 +448,7 @@ marketing_w1_q101 = {
 
 marketing_w1_q102 = {
     'question': 'Which of the following best illustrates earned media?',
-    'options': [
+    'options_list': [
         'Paid banner ads on Google',
         'A sales discount email campaign',
         'A blogger voluntarily reviewing a product',
@@ -461,7 +461,7 @@ marketing_w1_q102 = {
 
 marketing_w1_q103 = {
     'question': 'What is the role of promotion in the marketing mix?',
-    'options': [
+    'options_list': [
         'Manage supply chains',
         'Inform and persuade the target market',
         'Set dynamic pricing',
@@ -474,7 +474,7 @@ marketing_w1_q103 = {
 
 marketing_w1_q104 = {
     'question': 'Which of the following is part of the external marketing environment?',
-    'options': [
+    'options_list': [
         'Company’s financial strength',
         'Customer lifetime value',
         'Cultural and social factors',
@@ -487,20 +487,20 @@ marketing_w1_q104 = {
 
 marketing_w1_q105 = {
     'question': 'What does opportunity screening help a marketing manager do?',
-    'options': [
+    'options_list': [
         'Set price ceilings for product categories',
         'Determine staffing requirements',
-        'Evaluate and prioritize strategic options',
+        'Evaluate and prioritize strategic options_list',
         'Draft legal disclaimers for product launches'
     ],
-    'correct_answer': 'Evaluate and prioritize strategic options',
+    'correct_answer': 'Evaluate and prioritize strategic options_list',
     'explanation': 'Screening criteria help managers compare opportunities and choose the best to pursue.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
 }
 
 marketing_w1_q106 = {
     'question': 'In which market structure do many firms compete with similar but differentiated products?',
-    'options': [
+    'options_list': [
         'Monopoly',
         'Pure competition',
         'Monopolistic competition',
@@ -513,7 +513,7 @@ marketing_w1_q106 = {
 
 marketing_w1_q107 = {
     'question': 'What should guide the development of each element in the marketing mix?',
-    'options': [
+    'options_list': [
         'The cost of production',
         'The company’s logistics constraints',
         'The marketing objectives',
@@ -526,7 +526,7 @@ marketing_w1_q107 = {
 
 marketing_w1_q108 = {
     'question': 'Which of the following would be considered a marketing strength?',
-    'options': [
+    'options_list': [
         'Flexible production line',
         'Familiar brand name',
         'Favorable legal environment',
@@ -539,7 +539,7 @@ marketing_w1_q108 = {
 
 marketing_w1_q109 = {
     'question': 'What is the role of a mission statement in company strategy?',
-    'options': [
+    'options_list': [
         'Identify competitive pricing trends',
         'Define technical product features',
         'Set the organization’s core purpose and direction',
@@ -552,7 +552,7 @@ marketing_w1_q109 = {
 
 marketing_w1_q110 = {
     'question': 'Mass selling refers to personalized promotional efforts directed at a single customer.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'Mass selling is non-personal communication to large audiences (e.g., advertising).',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -560,7 +560,7 @@ marketing_w1_q110 = {
 
 marketing_w1_q111 = {
     'question': 'A product warranty would be considered part of the product component of the marketing mix.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Warranties are an attribute of the product itself—affecting consumer confidence and satisfaction.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -568,7 +568,7 @@ marketing_w1_q111 = {
 
 marketing_w1_q112 = {
     'question': 'Monopolistic competition is the most common competitive market structure.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Many firms, similar but not identical products, with active brand positioning (e.g., shampoos, clothing).',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -576,7 +576,7 @@ marketing_w1_q112 = {
 
 marketing_w1_q113 = {
     'question': 'Pricing strategies can signal brand positioning to customers.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Premium pricing often implies higher quality (e.g., luxury brands); discount pricing can suggest value.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -584,7 +584,7 @@ marketing_w1_q113 = {
 
 marketing_w1_q114 = {
     'question': 'Earned media includes free publicity generated by satisfied customers.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Includes shares, mentions, reviews—not paid by the brand.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -592,7 +592,7 @@ marketing_w1_q114 = {
 
 marketing_w1_q115 = {
     'question': 'A mission statement defines pricing flexibility for international markets.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'Mission statements define purpose, not tactical pricing or operations.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -600,7 +600,7 @@ marketing_w1_q115 = {
 
 marketing_w1_q116 = {
     'question': 'Cultural norms are part of the direct marketing environment.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'Cultural norms are external factors, not direct/internal ones.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -608,7 +608,7 @@ marketing_w1_q116 = {
 
 marketing_w1_q117 = {
     'question': 'Marketing objectives must align with company-wide strategic goals.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Objectives cascade from the mission; alignment is required across functions.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -616,7 +616,7 @@ marketing_w1_q117 = {
 
 marketing_w1_q118 = {
     'question': 'Sales promotion activities include coupons and free samples.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'These are temporary promotional tools meant to trigger interest or trial.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -624,7 +624,7 @@ marketing_w1_q118 = {
 
 marketing_w1_q200 = {
     'question': 'Which of the following is not part of the external marketing environment?',
-    'options': [
+    'options_list': [
         'Legal factors',
         'Company mission',
         'Sociocultural factors',
@@ -637,7 +637,7 @@ marketing_w1_q200 = {
 
 marketing_w1_q201 = {
     'question': 'During high inflation, what generally happens to consumer purchasing power?',
-    'options': [
+    'options_list': [
         'It increases',
         'It stays the same',
         'It declines',
@@ -650,7 +650,7 @@ marketing_w1_q201 = {
 
 marketing_w1_q202 = {
     'question': 'Which of the following is regulated by the FDA?',
-    'options': [
+    'options_list': [
         'Advertising standards',
         'Interest rates',
         'Product labeling and safety',
@@ -663,7 +663,7 @@ marketing_w1_q202 = {
 
 marketing_w1_q203 = {
     'question': 'What tool compares industry attractiveness with business strengths?',
-    'options': [
+    'options_list': [
         'Value chain analysis',
         'BCG Matrix',
         'Strategic planning grid',
@@ -676,7 +676,7 @@ marketing_w1_q203 = {
 
 marketing_w1_q204 = {
     'question': 'In a strategic planning grid, low opportunity zones are colored:',
-    'options': [
+    'options_list': [
         'Blue',
         'Yellow',
         'Red',
@@ -689,7 +689,7 @@ marketing_w1_q204 = {
 
 marketing_w1_q205 = {
     'question': 'Which of the following evaluates long-term profitability despite delayed early profits?',
-    'options': [
+    'options_list': [
         'ROI ratio',
         'SWOT model',
         'Total profit approach',
@@ -702,7 +702,7 @@ marketing_w1_q205 = {
 
 marketing_w1_q206 = {
     'question': 'Which of these is an example of a sociocultural factor?',
-    'options': [
+    'options_list': [
         'Trade regulations',
         'Inflation rate',
         'Health consciousness',
@@ -715,7 +715,7 @@ marketing_w1_q206 = {
 
 marketing_w1_q207 = {
     'question': 'Which of the following is true about global legal environments?',
-    'options': [
+    'options_list': [
         'Product safety laws are identical',
         'Laws and enforcement vary by country',
         'Consumer rights are standardized globally',
@@ -728,7 +728,7 @@ marketing_w1_q207 = {
 
 marketing_w1_q208 = {
     'question': 'What does a yellow area in a strategic planning grid generally indicate?',
-    'options': [
+    'options_list': [
         'High risk, low return',
         'Guaranteed growth opportunity',
         'High-growth industry but unclear internal fit',
@@ -741,7 +741,7 @@ marketing_w1_q208 = {
 
 marketing_w1_q209 = {
     'question': 'Which of these would most likely be included in the "industry attractiveness" dimension of a planning grid?',
-    'options': [
+    'options_list': [
         'Brand strength',
         'Financial resources',
         'Market growth rate',
@@ -754,7 +754,7 @@ marketing_w1_q209 = {
 
 marketing_w1_q210 = {
     'question': 'The Consumer Product Safety Commission oversees product labeling in the U.S.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'The CPSC regulates product safety; labeling may also involve the FDA depending on the product.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -762,7 +762,7 @@ marketing_w1_q210 = {
 
 marketing_w1_q211 = {
     'question': 'Sociocultural factors are rarely relevant to marketing strategy.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'These factors deeply influence buying behavior and message effectiveness.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -770,7 +770,7 @@ marketing_w1_q211 = {
 
 marketing_w1_q212 = {
     'question': 'Competitors and collaborators are part of the external environment.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'They are part of the direct environment; external includes macro factors.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -778,7 +778,7 @@ marketing_w1_q212 = {
 
 marketing_w1_q213 = {
     'question': 'Interest rates influence consumer purchasing behavior.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Higher interest rates increase borrowing costs and suppress spending.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -786,7 +786,7 @@ marketing_w1_q213 = {
 
 marketing_w1_q214 = {
     'question': 'Exchange rates have no real impact on international marketing strategy.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'They significantly affect pricing, cost, and competitiveness abroad.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -794,7 +794,7 @@ marketing_w1_q214 = {
 
 marketing_w1_q215 = {
     'question': 'The total profit approach considers both short-term and long-term profits.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'It weighs the full profit potential over the product life span.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -802,7 +802,7 @@ marketing_w1_q215 = {
 
 marketing_w1_q216 = {
     'question': 'Legal environments are mostly consistent across international markets.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'They vary widely, affecting risk and required compliance measures.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -810,7 +810,7 @@ marketing_w1_q216 = {
 
 marketing_w1_q217 = {
     'question': 'Industry attractiveness includes market size and growth rate.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'These are core dimensions used to evaluate opportunity potential.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -818,7 +818,7 @@ marketing_w1_q217 = {
 
 marketing_w1_q218 = {
     'question': 'Political instability can increase business risk in a target market.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Unstable regimes may affect regulations, investment safety, and operational continuity.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -826,7 +826,7 @@ marketing_w1_q218 = {
 
 marketing_w1_q200 = {
     'question': 'Which of the following is not part of the external marketing environment?',
-    'options': [
+    'options_list': [
         'Legal factors',
         'Company mission',
         'Sociocultural factors',
@@ -839,7 +839,7 @@ marketing_w1_q200 = {
 
 marketing_w1_q201 = {
     'question': 'During high inflation, what generally happens to consumer purchasing power?',
-    'options': [
+    'options_list': [
         'It increases',
         'It stays the same',
         'It declines',
@@ -852,7 +852,7 @@ marketing_w1_q201 = {
 
 marketing_w1_q202 = {
     'question': 'Which of the following is regulated by the FDA?',
-    'options': [
+    'options_list': [
         'Advertising standards',
         'Interest rates',
         'Product labeling and safety',
@@ -865,7 +865,7 @@ marketing_w1_q202 = {
 
 marketing_w1_q203 = {
     'question': 'What tool compares industry attractiveness with business strengths?',
-    'options': [
+    'options_list': [
         'Value chain analysis',
         'BCG Matrix',
         'Strategic planning grid',
@@ -878,7 +878,7 @@ marketing_w1_q203 = {
 
 marketing_w1_q204 = {
     'question': 'In a strategic planning grid, low opportunity zones are colored:',
-    'options': [
+    'options_list': [
         'Blue',
         'Yellow',
         'Red',
@@ -891,7 +891,7 @@ marketing_w1_q204 = {
 
 marketing_w1_q205 = {
     'question': 'Which of the following evaluates long-term profitability despite delayed early profits?',
-    'options': [
+    'options_list': [
         'ROI ratio',
         'SWOT model',
         'Total profit approach',
@@ -904,7 +904,7 @@ marketing_w1_q205 = {
 
 marketing_w1_q206 = {
     'question': 'Which of these is an example of a sociocultural factor?',
-    'options': [
+    'options_list': [
         'Trade regulations',
         'Inflation rate',
         'Health consciousness',
@@ -917,7 +917,7 @@ marketing_w1_q206 = {
 
 marketing_w1_q207 = {
     'question': 'Which of the following is true about global legal environments?',
-    'options': [
+    'options_list': [
         'Product safety laws are identical',
         'Laws and enforcement vary by country',
         'Consumer rights are standardized globally',
@@ -930,7 +930,7 @@ marketing_w1_q207 = {
 
 marketing_w1_q208 = {
     'question': 'What does a yellow area in a strategic planning grid generally indicate?',
-    'options': [
+    'options_list': [
         'High risk, low return',
         'Guaranteed growth opportunity',
         'High-growth industry but unclear internal fit',
@@ -943,7 +943,7 @@ marketing_w1_q208 = {
 
 marketing_w1_q209 = {
     'question': 'Which of these would most likely be included in the "industry attractiveness" dimension of a planning grid?',
-    'options': [
+    'options_list': [
         'Brand strength',
         'Financial resources',
         'Market growth rate',
@@ -956,7 +956,7 @@ marketing_w1_q209 = {
 
 marketing_w1_q210 = {
     'question': 'The Consumer Product Safety Commission oversees product labeling in the U.S.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'The CPSC regulates product safety; labeling may also involve the FDA depending on the product.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -964,7 +964,7 @@ marketing_w1_q210 = {
 
 marketing_w1_q211 = {
     'question': 'Sociocultural factors are rarely relevant to marketing strategy.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'These factors deeply influence buying behavior and message effectiveness.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -972,7 +972,7 @@ marketing_w1_q211 = {
 
 marketing_w1_q212 = {
     'question': 'Competitors and collaborators are part of the external environment.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'They are part of the direct environment; external includes macro factors.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -980,7 +980,7 @@ marketing_w1_q212 = {
 
 marketing_w1_q213 = {
     'question': 'Interest rates influence consumer purchasing behavior.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Higher interest rates increase borrowing costs and suppress spending.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -988,7 +988,7 @@ marketing_w1_q213 = {
 
 marketing_w1_q214 = {
     'question': 'Exchange rates have no real impact on international marketing strategy.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'They significantly affect pricing, cost, and competitiveness abroad.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -996,7 +996,7 @@ marketing_w1_q214 = {
 
 marketing_w1_q215 = {
     'question': 'The total profit approach considers both short-term and long-term profits.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'It weighs the full profit potential over the product life span.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -1004,7 +1004,7 @@ marketing_w1_q215 = {
 
 marketing_w1_q216 = {
     'question': 'Legal environments are mostly consistent across international markets.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'They vary widely, affecting risk and required compliance measures.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -1012,7 +1012,7 @@ marketing_w1_q216 = {
 
 marketing_w1_q217 = {
     'question': 'Industry attractiveness includes market size and growth rate.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'These are core dimensions used to evaluate opportunity potential.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -1020,7 +1020,7 @@ marketing_w1_q217 = {
 
 marketing_w1_q218 = {
     'question': 'Political instability can increase business risk in a target market.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Unstable regimes may affect regulations, investment safety, and operational continuity.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -1028,7 +1028,7 @@ marketing_w1_q218 = {
 
 marketing_w1_q250 = {
     'question': 'What is the first action in a segmentation process?',
-    'options': [
+    'options_list': [
         'Run clustering software',
         'Identify determining dimensions',
         'Name the broad product-market',
@@ -1041,7 +1041,7 @@ marketing_w1_q250 = {
 
 marketing_w1_q251 = {
     'question': 'What best defines a generic market?',
-    'options': [
+    'options_list': [
         'Single dominant product',
         'Narrow, specialized needs',
         'Broadly similar needs with diverse solutions',
@@ -1054,7 +1054,7 @@ marketing_w1_q251 = {
 
 marketing_w1_q252 = {
     'question': 'Which of the following is a behavioral segmentation variable?',
-    'options': [
+    'options_list': [
         'Household income',
         'Region of country',
         'Benefits sought',
@@ -1067,7 +1067,7 @@ marketing_w1_q252 = {
 
 marketing_w1_q253 = {
     'question': 'What defines a single-target-market approach?',
-    'options': [
+    'options_list': [
         'Combine segments in one mix',
         'Select one segment and tailor one mix',
         'Use one mix for whole market',
@@ -1080,7 +1080,7 @@ marketing_w1_q253 = {
 
 marketing_w1_q254 = {
     'question': 'What is the role of qualifying dimensions in segmentation?',
-    'options': [
+    'options_list': [
         'Screen customers for basic category fit',
         'Rank products by quality',
         'Set promotion budgets',
@@ -1093,7 +1093,7 @@ marketing_w1_q254 = {
 
 marketing_w1_q255 = {
     'question': 'What is the value of computer-aided clustering in segmentation?',
-    'options': [
+    'options_list': [
         'Guarantees large segment size',
         'Groups customers with similar data patterns',
         'Eliminates determining dimensions',
@@ -1106,7 +1106,7 @@ marketing_w1_q255 = {
 
 marketing_w1_q256 = {
     'question': 'What is a risk of defining a product-market too narrowly?',
-    'options': [
+    'options_list': [
         'Ignores substitute solutions',
         'Dilutes resources',
         'Encourages competition',
@@ -1119,7 +1119,7 @@ marketing_w1_q256 = {
 
 marketing_w1_q257 = {
     'question': '“Rate of use” is an example of what kind of segmentation?',
-    'options': [
+    'options_list': [
         'Geographic segmentation',
         'Demographic segmentation',
         'Behavioral segmentation',
@@ -1132,7 +1132,7 @@ marketing_w1_q257 = {
 
 marketing_w1_q258 = {
     'question': 'Which is the least helpful dimension for B2B segmentation?',
-    'options': [
+    'options_list': [
         'Buying-process complexity',
         'Company size',
         'Brand lifestyle imagery',
@@ -1145,7 +1145,7 @@ marketing_w1_q258 = {
 
 marketing_w1_q259 = {
     'question': 'What is an essential test when selecting segments?',
-    'options': [
+    'options_list': [
         'Identical geographic needs',
         'Large enough to be profitable',
         'Defined only by demographics',
@@ -1158,7 +1158,7 @@ marketing_w1_q259 = {
 
 marketing_w1_q260 = {
     'question': 'A combined-target strategy uses one marketing mix for two or more sub-markets.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'The firm merges segments and serves them with a single mix.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -1166,15 +1166,15 @@ marketing_w1_q260 = {
 
 marketing_w1_q261 = {
     'question': 'Geographic variables are rarely useful when segmenting international markets.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
-    'explanation': 'Country, region, and city characteristics often drive distinct needs and media options.',
+    'explanation': 'Country, region, and city characteristics often drive distinct needs and media options_list.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
 }
 
 marketing_w1_q262 = {
     'question': 'Determining dimensions influence a buyer’s choice among competing brands.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'These factors differentiate alternatives inside a given product market.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -1182,7 +1182,7 @@ marketing_w1_q262 = {
 
 marketing_w1_q263 = {
     'question': '“Family life-cycle stage” (e.g., empty nester) is a demographic variable.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'It relates to age, marital status, and children—core demographic data.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -1190,7 +1190,7 @@ marketing_w1_q263 = {
 
 marketing_w1_q264 = {
     'question': 'CRM databases can support segmentation by predicting individual customer preferences.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Data-driven CRM models anticipate needs and enable micro-targeting.',
     'chapter_information': 'Marketing Module W1 - GPT GENERATED'
@@ -1198,7 +1198,7 @@ marketing_w1_q264 = {
 
 marketing_w1_q265 = {
     'question': 'Which of the following are the core components of marketing strategy?',
-    'options': [
+    'options_list': [
         'market segmentation, targeting',
         'differentiation, positioning',
         'target market, marketing mix',
@@ -1211,7 +1211,7 @@ marketing_w1_q265 = {
 
 marketing_w1_q266 = {
     'question': 'Which of the following is not considered a component of customer profiles/personas?',
-    'options': [
+    'options_list': [
         'Demographic attributes (age, gender, education, etc.)',
         'Assumption attributes (speculation data, company opinions, guesstimates, etc.)',
         'Psychographic attributes (attitudes, values, personality, etc.)',
@@ -1225,7 +1225,7 @@ marketing_w1_q266 = {
 
 marketing_w1_q267 = {
     'question': 'Lipton has increased sales by developing ads that encourage its current customers to drink Lipton tea instead of coffee at morning "coffee breaks." This effort focuses on:',
-    'options': [
+    'options_list': [
         'diversification',
         'market penetration',
         'product development',
@@ -1239,7 +1239,7 @@ marketing_w1_q267 = {
 
 marketing_w1_q268 = {
     'question': 'The "four Ps" of a marketing mix are:',
-    'options': [
+    'options_list': [
         'Production, Personnel, Price, and Physical Distribution',
         'Promotion, Production, Price, and People',
         'Potential customers, Product, Price, and Personal Selling',
@@ -1253,7 +1253,7 @@ marketing_w1_q268 = {
 
 marketing_w1_q269 = {
     'question': 'Which of the following is not part of the external marketing environment?',
-    'options': [
+    'options_list': [
         'economic environment',
         'competitive environment',
         'technological environment',
@@ -1267,7 +1267,7 @@ marketing_w1_q269 = {
 
 marketing_w1_q270 = {
     'question': 'Jazzy Tile Co. segmented its broad product-market and decided to aim at two different segments, offering each segment a different marketing mix. Jazzy Tile Co. is following the ______________ approach.',
-    'options': [
+    'options_list': [
         'mass marketing',
         'multiple target market',
         'combined target market',
@@ -1281,7 +1281,7 @@ marketing_w1_q270 = {
 
 marketing_w1_q271 = {
     'question': 'Which of the following is NOT a factor that can affect the choice of segmenting or combining:',
-    'options': [
+    'options_list': [
         'Too much combining can be risky',
         'Combining implies more marketing costs',
         'Segmentation can lead to increased sales',
@@ -1295,7 +1295,7 @@ marketing_w1_q271 = {
 
 marketing_w1_q272 = {
     'question': 'Which of the following is not a criteria for determining segments?',
-    'options': [
+    'options_list': [
         'People in the segment are roughly alike, along some important consumer dimension(s).',
         'The segment is large enough to be profitable.',
         'The segmenting dimensions should be useful for identifying customers and designing the marketing mix.',
@@ -1309,7 +1309,7 @@ marketing_w1_q272 = {
 
 marketing_w1_q273 = {
     'question': 'Torpedo Brands is a newly emerging shoe manufacturing company. After extensive market research the firm has divided its market into professional athletes, amateur players, and non-athlete casual. Each category has its own needs, traits, and marketing goals. In this scenario, Torpedo Brands has engaged in market _______',
-    'options': [
+    'options_list': [
         'positioning',
         'diversification',
         'segmentation',
@@ -1323,7 +1323,7 @@ marketing_w1_q273 = {
 
 marketing_w1_q274 = {
     'question': 'Which of the following activities are not considered marketing:',
-    'options': [
+    'options_list': [
         'advertising the grand opening of a new furniture store.',
         'researching which furniture designs are popular with consumers.',
         'determining how many pieces of furniture can be sold at different price points.',
@@ -1337,7 +1337,7 @@ marketing_w1_q274 = {
 
 marketing_w1_q275 = {
     'question': 'Part of the criteria for determining a viable market segment is that the segment needs to be large enough to be profitable.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'True',
     'explanation': 'Profit potential is a key requirement for segment viability in strategic marketing.',
     'chapter_information': 'Marketing Module W1 - self assessment questions'

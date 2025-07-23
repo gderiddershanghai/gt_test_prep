@@ -1,6 +1,6 @@
 marketing_w3_q1 = {
     'question': 'Which is NOT a reason to use a direct distribution channel?',
-    'options': [
+    'options_list': [
         'Greater control',
         'Direct contact with the customer',
         'Lower costs',
@@ -14,7 +14,7 @@ marketing_w3_q1 = {
 
 marketing_w3_q2 = {
     'question': 'Place in the 4 "P"s means the same as:',
-    'options': [
+    'options_list': [
         'Promotion',
         'Distribution',
         'People',
@@ -28,7 +28,7 @@ marketing_w3_q2 = {
 
 marketing_w3_q3 = {
     'question': 'In which of the following cases will profit be maximized?',
-    'options': [
+    'options_list': [
         'When marginal revenue is equal to marginal cost',
         'When total cost is nearly equal to total fixed cost',
         'When total revenue is nearly equal to total cost',
@@ -42,7 +42,7 @@ marketing_w3_q3 = {
 
 marketing_w3_q4 = {
     'question': 'This pricing approach involves adding a dollar amount to the cost of products to set the selling price:',
-    'options': [
+    'options_list': [
         'markup',
         'marginal analysis',
         'value-in-use pricing',
@@ -56,7 +56,7 @@ marketing_w3_q4 = {
 
 marketing_w3_q5 = {
     'question': 'Consumers tend to be relatively less price sensitive:',
-    'options': [
+    'options_list': [
         'when there are many substitute ways of meeting a need',
         'when total expenditure on the good is higher',
         'when there are very high switching costs',
@@ -70,7 +70,7 @@ marketing_w3_q5 = {
 
 marketing_w3_q6 = {
     'question': 'Average-cost pricing:',
-    'options': [
+    'options_list': [
         'always results in a profit that is less than what was expected',
         'takes the demand for a product into account',
         'will lead to losses if actual sales are much lower than expected',
@@ -84,7 +84,7 @@ marketing_w3_q6 = {
 
 marketing_w3_q7 = {
     'question': 'Which of the following is not considered a typical pricing objective used by companies?',
-    'options': [
+    'options_list': [
         'Sales Oriented',
         'Status Quo Oriented',
         'Profit Oriented',
@@ -97,7 +97,7 @@ marketing_w3_q7 = {
 
 marketing_w3_q8 = {
     'question': 'When Ford asked social trendsetters to write about their Fiesta experiences on social media, it emphasized which "P"?',
-    'options': [
+    'options_list': [
         'Product',
         'Place',
         'Price',
@@ -110,7 +110,7 @@ marketing_w3_q8 = {
 
 marketing_w3_q9 = {
     'question': 'The AIDA model consists of four promotion jobs:',
-    'options': [
+    'options_list': [
         'getting Attention, building Intrigue, arousing Desire, and obtaining Action',
         'becoming Aware, holding Interest, arousing Desire, and providing Assistance',
         'getting Attention, holding Interest, creating Demand, and obtaining Action',
@@ -124,7 +124,7 @@ marketing_w3_q9 = {
 
 marketing_w3_q10 = {
     'question': 'The adoption curve concept implies:',
-    'options': [
+    'options_list': [
         "the firm's promotion target should always be the innovators.",
         "the laggards are cautious, but will adopt if advertising gets their attention.",
         "using different promotional mixes for different adopter groups.",
@@ -137,7 +137,7 @@ marketing_w3_q10 = {
 
 marketing_w3_q11 = {
     'question': 'Hershey’s ad for Kisses in SPORTS ILLUSTRATED with no words is an example of a:',
-    'options': [
+    'options_list': [
         'Persuading',
         'Reminding',
         'Informing',
@@ -150,7 +150,7 @@ marketing_w3_q11 = {
 
 marketing_w3_q12 = {
     'question': 'American Tourister sends sales reps to talk to retailers. This is an example of:',
-    'options': [
+    'options_list': [
         'a "pulling" policy',
         'intensive distribution',
         'selective distribution',
@@ -164,7 +164,7 @@ marketing_w3_q12 = {
 
 marketing_w3_q13 = {
     'question': 'Which of the following is an objective indicating a Profit Oriented Strategy?',
-    'options': [
+    'options_list': [
         'Meeting Competition',
         'Growth in Market',
         'Growth in Market Share',
@@ -177,7 +177,7 @@ marketing_w3_q13 = {
 
 marketing_w3_q14 = {
     'question': 'Which one of the following is NOT a form of advertising?',
-    'options': [
+    'options_list': [
         'Institutional',
         'Competitive',
         'Reminder',
@@ -191,7 +191,7 @@ marketing_w3_q14 = {
 
 marketing_w3_q15 = {
     'question': 'Which traditional advertising channel reaches the widest market at the lowest cost?',
-    'options': [
+    'options_list': [
         'Radio',
         'Direct Mail',
         'Television & Cable',
@@ -204,7 +204,7 @@ marketing_w3_q15 = {
 
 marketing_w3_q16 = {
     'question': 'Which of these is a type of unpaid, non-personal presentation of ideas, goods, and services?',
-    'options': [
+    'options_list': [
         'Personal selling',
         'Advertising',
         'Sales promotion',
@@ -218,7 +218,7 @@ marketing_w3_q16 = {
 
 marketing_w3_q17 = {
     'question': 'Which of the following best reflects the meaning of product quality?',
-    'options': [
+    'options_list': [
         'The Bass shoes have the lowest quality.',
         'The Allen-Edmonds shoes have the highest quality.',
         'The Rockport shoes have mid-level quality.',
@@ -232,7 +232,7 @@ marketing_w3_q17 = {
 
 marketing_w3_q18 = {
     'question': '(True/False) Direct channels are rarely used in business-to-business marketing.',
-    'options': ['True', 'False'],
+    'options_list': ['True', 'False'],
     'correct_answer': 'False',
     'explanation': 'Direct channels are commonly used in B2B to maintain control and manage customer relationships.',
     'chapter_information': 'Marketing Module W3 - SA Questions'
@@ -240,7 +240,7 @@ marketing_w3_q18 = {
 
 marketing_w3_q19 = {
     'question': 'For specialty products with relatively high demand, which market exposure strategy is more likely?',
-    'options': [
+    'options_list': [
         'Selective',
         'Inclusive',
         'Exclusive',
@@ -255,7 +255,7 @@ marketing_w3_q19 = {
 
 marketing_w3_q20 = {
     'question': 'What is the pricing policy that sets a high initial price to skim demand?',
-    'options': [
+    'options_list': [
         'Penetration pricing',
         'Price skimming',
         'Value-based pricing',
@@ -269,7 +269,7 @@ marketing_w3_q20 = {
 
 marketing_w3_q21 = {
     'question': 'Which of the following could increase a customer’s price sensitivity?',
-    'options': [
+    'options_list': [
         'ease of price comparison',
         'availability of substitutes',
         'no substantial end benefit received',
