@@ -72,7 +72,14 @@ class Token():
                             print('chapter missing:', chapter)
                             continue
                         mpc_idx = np.random.choice(range(list_length), size=1, replace=False)
-                        self.mpc_questions.append(review_questions[int(mpc_idx)])
+                        # print(mpc_idx, type(mpc_idx), '------------------')
+                        if isinstance(mpc_idx, np.ndarray):
+                            # print('THIS WAS AN ARRAY')
+                            mpc_idx = mpc_idx[0]
+                        # print(mpc_idx, type(mpc_idx), '------------------', mpc_idx)
+                        # print('review questions', type(review_questions))
+                        # print('testing append question', review_questions[mpc_idx])
+                        self.mpc_questions.append(review_questions[mpc_idx])
                     except KeyError:
                         print(f"Chapter {chapter} not found in questions dictionary")
         else:
